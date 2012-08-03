@@ -1,0 +1,42 @@
+{extends file="layout.html"}
+{block name=title}Sitemap{/block}
+{block name=head}
+  <link href="/css/mypage.css" rel="stylesheet" type="text/css"/>
+  <script src="/js/mypage.js"></script>
+  <style>
+  *{
+    padding:0;
+    margin:0;
+    font-family:Arial;
+  }
+  div{
+    width:200px;
+    min-height:500px;
+    background:#dddddd;
+  }
+  div a{
+    display:block;
+    text-decoration:none;
+    padding:1px 10px;
+    color:#434343;
+    font-family:Verdana;
+  }
+  div a:hover{
+    background:#cccccc;
+  }
+  h3{
+    padding:5px 10px;
+    
+  }
+  </style>
+{/block}
+{block name=body}
+<body>
+<div>
+<h3>List01</h3>
+<a href="index.php?url=index.html">calendar</a>
+<a href="index.php?url=content.html">content</a>
+</div>
+</body>
+{/block}
+

@@ -1,0 +1,407 @@
+.clearfix:after {
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    content: '';
+    display: block;
+}
+/* CSS RESET */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol {
+	list-style-position: inside;
+	list-style:none;
+}
+ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+input{
+	vertical-align: middle;
+}
+body {
+	background: url(/image/body-bg.jpg) no-repeat center top #73ACD9;
+    /*font: 16px/130% Arial,Helvetica,sans-serif;*/
+    font: 12px/20px Arial,Helvetica,sans-serif;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Trebuchet MS", Arial, Georgia,"Times New Roman",Times,serif;
+    color: #ff7400;
+}
+h1{
+	font-size: 19px;
+	font-weight: bold;
+	margin: 0 0 5px;
+}
+a {
+    color: #1E8BC9;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+img {
+    border: medium none;
+}
+p {
+    margin-top: 0;
+}
+
+#wrap{
+	width: 980px;
+	min-height: 400px;
+	margin: 0 auto;
+/*	outline: 1px solid red;
+*/	
+}
+
+#header{
+	width: 980px;
+	height: 125px;
+}
+
+#logo{
+	background: url(/image/logo.png) no-repeat 0 0;
+	display: block;
+	float: left;
+	width: 247px;
+	height: 90px;
+	margin:20px 0 0;
+}
+
+#hright {
+	float: right;
+}
+
+
+
+#menu {
+	width: 980px;
+	height: 37px;
+	border-bottom: 4px solid #f3bd67;
+    background: url("/image/nav-bg.png") repeat-x scroll left -37px transparent; 
+    border-radius: 5px 5px 0 0 ;
+    overflow: hidden;
+}
+
+#menu li {
+    list-style: none;
+    display: block;
+    float: left;
+    line-height: 37px;
+}
+#menu li:hover{
+    background: url("/image/nav-bg.png") repeat-x scroll 0 0 transparent;
+	border-radius: 3px 3px 0 0;
+	height: 34px;
+	margin: 3px 0 0;
+}
+#menu li.active{
+	background: #f3bd67;
+	height: 34px;
+	border-radius: 3px 3px 0 0;
+	margin: 3px 0 0;
+}
+#menu a {
+	color: #FFFFFF;
+	display: block;
+	text-decoration: none;
+	float: left;
+	padding: 0 25px;
+}
+
+#mainbody{
+	width: 960px;
+	padding: 10px;
+	background: url(/image/bottom.png) no-repeat center bottom #fff;
+}
+.breadcrum{
+	margin: 0 0 10px;
+}
+.tabnav{
+	width: 960px;
+}
+#can-nav{
+	height: 95px;
+	width: 960px;
+}
+.tabunit{
+	position: relative;
+	min-height: 300px;
+}
+.loading{
+	position: fixed;
+}
+
+.tabnav li{
+	cursor: pointer;
+	width: 126px;
+	height: 46px;
+	line-height: 46px;
+	float: left;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	margin: 0 10px 0 0;
+	background: url(/image/tabnav.jpg) no-repeat right center;
+}
+.tabnav li.active{
+	color: #fff;
+	background: url(/image/tabnav.jpg) no-repeat left center;
+}
+.tabmonth{
+	background: url(/image/tabbg.png) repeat-x ;
+	width: 960px;
+}
+.tabmonth li{
+	float: left;	
+	margin: 15px 0 10px 27px;
+}
+
+.tabmonth li{
+	cursor: pointer;
+	display: block;
+	width: 45px;
+	height: 24px;
+	text-decoration: none;
+	background: url(/image/tab-a.png) no-repeat;
+	line-height: 24px;
+	text-align: center;
+	color: #fff;
+}
+.tabmonth li.active{
+	font-weight: bold;
+	color: #333;
+	background: url(/image/tab-a-active.png) no-repeat;
+}
+
+
+.tabunit table{
+	width: 960px;
+}
+.thead th img{
+	vertical-align: middle;
+}
+.thead th span{
+	font-size: 12px;
+	font-weight: normal;
+}
+.tabunit table th{
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+	padding: 10px;
+	font-size: 14px;
+	width: 247px;
+	border: 1px dashed #ddd;
+	border-bottom: 2px solid #ddd;
+	background: #fff;
+}
+.tabunit table th.thdate{
+	width: 134px;
+}
+.tabunit table td{
+	padding: 10px;
+	border: 1px dashed #ddd;
+	vertical-align: middle;
+	text-align: left;
+	width: 247px;
+	color: #333333;
+}
+.tabunit table td.date{
+	width: 135px;
+}
+.tabunit table td p i{
+	color: red;
+	font-style: normal;
+}
+.tabunit td.date div{
+	background: url(/image/table-date.png) no-repeat;
+	width: 57px;
+	height: 22px;
+	line-height: 12px;
+	font-weight: bold;
+	margin: 0 0 0 26px;
+	padding: 10px;
+}
+.tabunit td.date i{
+	color: #666666;
+	font-size: 11px;
+	font-style: normal;
+}
+
+
+
+/*内容页面*/
+.sidebar{
+	width: 205px;
+	min-height: 400px;
+	/*outline:1px solid red;*/
+	float: left;
+	margin: 0 0 0 -10px;
+}
+.aside{
+	width: 153px;
+	min-height: 300px;
+	/*outline:1px solid red;*/
+	margin: 24px 0 0;
+	float: left;
+}
+.content{
+	margin: 0 17px;
+	width: 578px;
+	min-height: 500px;
+	/*outline:1px solid red;*/
+	float: left;
+}
+
+
+/*左侧sidebar*/
+.besttour{
+	margin: -13px 0 0;
+}
+
+.besttour dt{
+	height: 65px;
+	background: url(/image/dt-bg.png) no-repeat center center;
+	padding: 10px 0 0 10px;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	color: #fff;
+	top: 12px
+
+}
+.besttour dd{
+	padding: 5px 10px;
+	background: url(/image/dd-bg.png) repeat-y center center;
+	border-bottom: 1px solid #ccd9e5;
+}
+.besttour dd.last{
+	border-bottom: 3px solid #4891dc;
+}
+
+
+/*中间content*/
+.slide{
+	position: relative;
+	width: 578px;
+	height: 183px;
+	overflow: hidden;
+}
+.slide ul{
+	width: 1156px;
+}
+.slide li{
+	display: block;
+	float: left;
+}
+.slide li img{
+	display: block;
+	width: 578px;
+	height: 183px;
+}
+.slide .caption{
+	background: url(/image/caption-bg.png) repeat;
+	color: #fff;
+	width: 568px;
+	padding: 5px;
+	position: absolute;
+	bottom:0px;
+}
+.slide .caption img{
+	float: right;
+	margin: 3px ;
+	cursor: pointer;
+}
+.visit{
+	margin: 10px 0;
+}
+.visit img{
+	float: right;
+	margin: 10px 0 10px 10px;
+}
+
+.route li{
+	background: url(/image/route-bg.png) repeat-x left top;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*右侧aside*/
+.tips{
+	background: #dedee2;
+}
+.tips dt{
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+	background: #3B89D4;
+	padding: 10px 2px 7px;
+	color: #fff;
+}
+.tips dt a{
+	color: #fff;	
+	text-decoration: underline;
+	font-size: 12px;
+	margin: 0 0 0 85px;
+	font-weight: normal;
+}
+.tips dd{
+	padding: 3px 3px;
+}
+.tips dd p{
+	font-size: 11px;	
+}
+.tips dd h4{
+	color: #333;
+	font-size: 15px;
+}
+.btn{
+	background: url(/image/btn.png) repeat-x left center;
+	padding: 5px ;
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #fea242;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.btn:hover{
+	text-decoration: none;
+	
+}
+
+.tips dd .btn{
+	margin: 10px 34px;
+	display: block;
+}

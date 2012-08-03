@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+
+<!-- Free Sitemap Generator http://www.sitemapx.com -->
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+
+<loc>http://www.utotrip.com/</loc>
+
+<priority>1.0</priority>
+
+<lastmod>2012-08-02T15:38:39+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/aboutus/</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:40+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/companytour/</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:40+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/customize/</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:40+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/termtour/</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:40+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/themetour/</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:40+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/tourdetail/?tid=24</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:41+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/tourdetail/?tid=25</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:41+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/tourdetail/?tid=26</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:42+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/tourdetail/?tid=27</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:42+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/tourdetail/?tid=28</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:42+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/tourdetail/?tid=29</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:41+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/tourdetail/?tid=30</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:41+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/tourdetail/?tid=32</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:43+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/tourdetail/?tid=33</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:41+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/tourdetail/?tid=34</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:42+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/tourdetail/?tid=35</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:42+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/tourdetail/?tid=36</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:44+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/tourdetail/?tid=37</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:43+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/tourdetail/?tid=38</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:43+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/tourdetail/?tid=39</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:43+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/tourdetail/?tid=41</loc>
+
+<priority>0.6</priority>
+
+<lastmod>2012-08-02T15:38:43+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+
+
+<url>
+	<loc>http://www.utotrip.com/index/tour/siguniangshan </loc>
+	<priority>0.6</priority>
+	<lastmod>2012-08-02T15:38:44+00:00</lastmod>
+	<changefreq>Always</changefreq>
+</url>           
+<url>
+	<loc>http://www.utotrip.com/index/tour/gongga</loc>
+	<priority>0.6</priority>
+	<lastmod>2012-08-02T15:38:44+00:00</lastmod>
+	<changefreq>Always</changefreq>
+</url>              
+<url>
+	<loc>http://www.utotrip.com/index/tour/jiuzhai </loc>
+	<priority>0.6</priority>
+	<lastmod>2012-08-02T15:38:44+00:00</lastmod>
+	<changefreq>Always</changefreq>
+</url>             
+<url>
+	<loc>http://www.utotrip.com/index/tour/qingcheng </loc>
+	<priority>0.6</priority>
+	<lastmod>2012-08-02T15:38:44+00:00</lastmod>
+	<changefreq>Always</changefreq>
+</url>             
+<url>
+	<loc>http://www.utotrip.com/index/tour/yading</loc>
+	<priority>0.6</priority>
+	<lastmod>2012-08-02T15:38:44+00:00</lastmod>
+	<changefreq>Always</changefreq>
+</url>             
+<url>
+	<loc>http://www.utotrip.com/index/tour/xinduqiao</loc>
+	<priority>0.6</priority>
+	<lastmod>2012-08-02T15:38:44+00:00</lastmod>
+	<changefreq>Always</changefreq>
+</url>              
+<url>
+	<loc>http://www.utotrip.com/index/tour/danba</loc>
+	<priority>0.6</priority>
+	<lastmod>2012-08-02T15:38:44+00:00</lastmod>
+	<changefreq>Always</changefreq>
+</url>              
+<url>
+	<loc>http://www.utotrip.com/index/tour/xichang </loc>
+	<priority>0.6</priority>
+	<lastmod>2012-08-02T15:38:44+00:00</lastmod>
+	<changefreq>Always</changefreq>
+</url>             
+
+<url>
+	<loc>http://www.utotrip.com/index/themetour/vacation</loc>
+	<priority>0.6</priority>
+	<lastmod>2012-08-02T15:38:44+00:00</lastmod>
+	<changefreq>Always</changefreq>
+</url>
+<url>
+	<loc>http://www.utotrip.com/index/themetour/photograph</loc>
+	<priority>0.6</priority>
+	<lastmod>2012-08-02T15:38:44+00:00</lastmod>
+	<changefreq>Always</changefreq>
+</url>
+<url>
+	<loc>http://www.utotrip.com/index/themetour/food</loc>
+	<priority>0.6</priority>
+	<lastmod>2012-08-02T15:38:44+00:00</lastmod>
+	<changefreq>Always</changefreq>
+</url>
+<url>
+	<loc>http://www.utotrip.com/index/themetour/hiking</loc>
+	<priority>0.6</priority>
+	<lastmod>2012-08-02T15:38:44+00:00</lastmod>
+	<changefreq>Always</changefreq>
+</url>
+<url>
+	<loc>http://www.utotrip.com/index/themetour/meditation</loc>
+	<priority>0.6</priority>
+	<lastmod>2012-08-02T15:38:44+00:00</lastmod>
+	<changefreq>Always</changefreq>
+</url>
+
+
+
+
+
+
+
+
+
+
+
+
+<url>
+
+<loc>http://www.utotrip.com/aboutus/contactus/</loc>
+
+<priority>0.4</priority>
+
+<lastmod>2012-08-02T15:38:46+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/aboutus/join/</loc>
+
+<priority>0.4</priority>
+
+<lastmod>2012-08-02T15:38:46+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/aboutus/leader/</loc>
+
+<priority>0.4</priority>
+
+<lastmod>2012-08-02T15:38:45+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/aboutus/mission/</loc>
+
+<priority>0.4</priority>
+
+<lastmod>2012-08-02T15:38:46+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/aboutus/note/?id=10</loc>
+
+<priority>0.4</priority>
+
+<lastmod>2012-08-02T15:38:45+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/aboutus/note/?id=11</loc>
+
+<priority>0.4</priority>
+
+<lastmod>2012-08-02T15:38:45+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/aboutus/note/?id=12</loc>
+
+<priority>0.4</priority>
+
+<lastmod>2012-08-02T15:38:45+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/aboutus/note/?id=8</loc>
+
+<priority>0.4</priority>
+
+<lastmod>2012-08-02T15:38:45+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/aboutus/note/?id=9</loc>
+
+<priority>0.4</priority>
+
+<lastmod>2012-08-02T15:38:45+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/companytour/</loc>
+
+<priority>0.4</priority>
+
+<lastmod>2012-08-02T15:38:51+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/customize/</loc>
+
+<priority>0.4</priority>
+
+<lastmod>2012-08-02T15:38:50+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/expandtour/expand/?id=1</loc>
+
+<priority>0.4</priority>
+
+<lastmod>2012-08-02T15:38:44+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/expandtour/expand/?id=2</loc>
+
+<priority>0.4</priority>
+
+<lastmod>2012-08-02T15:38:44+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/expandtour/expand/?id=3</loc>
+
+<priority>0.4</priority>
+
+<lastmod>2012-08-02T15:38:44+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/expandtour/expand/?id=4</loc>
+
+<priority>0.4</priority>
+
+<lastmod>2012-08-02T15:38:44+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/expandtour/expand/?id=5</loc>
+
+<priority>0.4</priority>
+
+<lastmod>2012-08-02T15:38:44+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+<url>
+
+<loc>http://www.utotrip.com/expandtour/expand/?id=6</loc>
+
+<priority>0.4</priority>
+
+<lastmod>2012-08-02T15:38:44+00:00</lastmod>
+
+<changefreq>Always</changefreq>
+
+</url>
+
+
+
+</urlset>
+

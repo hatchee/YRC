@@ -1,0 +1,277 @@
+/*线路内页样式*/
+
+.content{
+	/*background:rgba(255, 255, 255, 0.7);*/
+	margin:30px auto 50px;
+	border-radius:5px;
+	/*border:1px solid #f5f5f5;*/
+	overflow:hidden;
+}
+.article{
+	width:720px;
+	min-height:500px;
+	float:left;
+	padding-bottom:10px;
+	background:#ffffff;
+	border-radius:5px;
+}
+.aside{
+	width:250px;
+	min-height:500px;
+	float:right;
+	font-size:13px;
+	padding:10px;
+	border-radius:5px;
+	background:url("/images/whitebg.png"); 
+}
+.article h1{
+	text-align:center;
+	margin:20px 0 20px 0;
+	/*padding-left:100px;*/
+	/*text-indent:-300px;*/
+}
+.article .black{
+	color:#434343;
+}
+.article .red{
+	color:#c00000;
+}
+.article h2{
+	padding:5px 0;
+}
+.article h3{
+	margin:0 0 10px;
+}
+h1 span{
+	font-weight:normal;
+	font-size:14px;
+}
+h1 span em{
+	color:#434343;
+	font-style:normal;
+}
+.headinfo {
+	padding:0 20px;
+}
+.headinfo dt{
+	font-weight:bold;	
+	color:#c00000;
+	float:left;
+	font-family:Arial, "微软雅黑";
+}
+.headinfo dd{
+	float:left;	
+}
+.headinfo .time{
+	margin-left:100px;
+}
+.headinfo .note{
+	clear:left;
+	font-size:12px;
+	color:#434343;
+	margin-top:10px;
+}
+.headinfo .gua{
+	margin-top:10px;
+	font-size:12px;
+	color:#434343;
+	margin-left:60px;
+}
+.headinfo .sec{
+	margin-top:10px;
+	font-size:12px;
+	color:#434343;
+	width:220px;
+
+}
+
+ul.caption{
+	margin:10px 10px 20px;
+	background:#999999;
+	padding:4px 0 0 0;
+	border-radius:5px;
+	float:left;
+	/*min-width:600px;*/
+	width:680px;
+}
+
+ul.caption li{
+	padding:7px 15px 4px;
+	background:#CCCCCC;
+	float:left;
+	font-weight:bold;
+	border:1ps solid red;
+	border-radius:5px 5px 0 0 ;
+	color:#222222;
+	font-size:15px;
+	margin:0 5px;
+	/*behavior: url(PIE.php);*/
+}
+.caption li:hover, .caption li.active{
+	background:#FF6400;
+	cursor:pointer;
+	color:#ffffff;
+}
+.caption .join{
+	border-radius:5px;
+	float:right;
+	background:#970200;
+	margin-top:-2px;
+	color:#ffffff;
+}
+ul.section > li{
+	display:none;
+	width:680px;
+	min-height:200px;
+	margin:0px 20px 0 20px;
+	font-size:13px;
+	line-height:1.5;
+	padding:0 0 20px 0;
+}
+.article .section{
+	float:left;
+}
+
+.about p a{
+	float:right;
+	border:1px solid #dddddd;
+	padding:1px;
+	background:#fff;
+	margin-left:15px;
+}
+.about .nicepic a{
+	margin:0 15px 0 0;
+	display:inline-block;
+}
+
+.spot dl dd{
+	width:210px;
+	min-height:200px;
+	float:left;
+	margin:0 15px 0 0;
+	display:block;
+}
+.spot dl dd img{
+	width:210px;
+}
+
+.route dl{
+	float:left;
+	width:100%;
+	padding:10px 0 0 0 ;
+	background:#f5f5f5;
+}
+.route dl.odd{
+	background:#dddddd;
+}
+.route dt{
+	width:15%;
+	float:left;
+	margin-right:5%;
+	text-align:center;
+}
+.route dd{
+	width:80%;
+	float:left;
+}
+
+.fee dt{
+	color:#c00000;
+	margin:10px 0 4px 0;
+	font-weight:bold;
+	font-family:"微软雅黑";
+	font-size:15px;
+}
+.fee hr{
+	border-top:1px dashed #cccccc;
+	border-bottom:none;
+	height:0px;
+}
+
+.zoomLay{
+	display:block;
+	position:absolute;
+	right:0;
+	bottom:0;
+	width:100%;
+	height:100%;
+	background:url("/images/zoom.png") right bottom no-repeat;
+	/*opacity:0.2;*/
+}
+
+
+/*------------------右侧边栏样式-----------------*/
+
+.aside .about img{
+	margin-bottom:5px;
+}
+.aside .share{
+	padding:0 0 5px 0; 
+	float:right;
+}
+.aside h1{
+	color:#C00000;
+	font-size:16px;
+	margin:10px 0 0 0;
+	padding:5px 0;
+	border-bottom:1px dashed #666;
+}
+.aside p{
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-radius: 8px 8px 8px 8px;
+	margin: 10px 0;
+	overflow: hidden;
+	padding: 0px 0 10px;
+}
+.aside p b{
+  	text-indent:10px;
+	display:block;
+	font-size:14px;
+	line-height:24px;
+	font-family:"微软雅黑";
+	color:#c00000;
+}
+
+/*----------------马上报名applyForm样式----------------*/
+#applyForm h3{
+	background:#B0D1FA;
+	border-radius:5px;
+	text-indent:10px;
+	color:#ffffff;
+	padding:3px 0;
+}
+#applyForm label{
+	display:inline-block;
+	width:200px;
+	text-align:right;
+	vertical-align:top;
+}
+p.submit{
+	padding-left:203px;
+}
+
+
+
+/*--------------------招聘页面-----------------------*/
+.hire{
+	width:680px;
+	padding:20px;
+
+}
+.hire .doyou{
+	font-family:"微软雅黑";
+	font-size:14px;
+	line-height:30px;
+	/*color:#f8f8f8;*/
+}
+.hire dl{
+	margin:0 0 20px 0;
+}
+.hire h3{
+	text-indent:-7px;
+}
+.hire dt{
+	font-weight:bold;
+	font-size:13px;
+	margin:10px 0 5px 0;
+}

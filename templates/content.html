@@ -1,0 +1,180 @@
+{extends file="layout.html"}
+{block name=title}扬子江2.0{/block}
+{block name=head}
+{/block}
+{block name=body}
+<body>
+
+<script type="text/javascript">
+$(function(){
+
+	if($('.tips').length) { 
+		var offset = $(".tips").offset(); 
+		var topPadding = 15; 
+		$(window).scroll(function() { 
+			if ($(window).scrollTop() > offset.top){ 
+
+				$(".tips").stop().animate({ 
+					marginTop: $(window).scrollTop() - offset.top + topPadding 
+				}); 
+
+			} else { 
+
+				$(".tips").stop().animate({ 
+					marginTop: 0 
+				}); 
+
+			}; 
+		}); 
+	}; 
+
+})
+
+</script>
+
+<div id="wrap">
+	{include file="header.tpl"}
+	
+	<div id="menu">
+		<ul class="clearfix">
+			<li class="active">
+				<a href="/" class="home">Home</a>
+			</li>
+			<li>
+				<a href="tour.html">China Yangtze Tours</a>
+			</li>
+			<li>
+				<a href="ships.html" class="menucurr">Ships</a>
+			</li>
+			<li class="active">
+				<a href="http://www.yangtze-river-cruises.com/calendar/calendar2012-7.html" class="menucalendar">Calendar 2012</a>
+				<div class="new"></div>
+			</li>
+			<li>
+				<a href="yangtze-river-guide.html">Cruise Guide</a>
+			</li>
+			<li>
+				<a href="experience.html">Onboard</a>
+			</li>
+			<li>
+				<a href="about-us.html">About Us</a>
+			</li>
+		</ul>
+	</div>
+	<div id="mainbody" class="clearfix">
+		<div class="breadcrum">
+			You are here:
+			<span class="B_crumbBox">
+				<span class="B_firstCrumb">
+					<a class="B_homeCrumb" href="/index.html" title="Yangtze River Cruise Home Page">Home</a>
+				</span>
+				&gt;
+				<a class="B_crumb" href="/ships.html" title="Yangtze River Cruise Ships">Yangtze Cruise Ships</a>
+				&gt;
+				<span class="B_lastCrumb">
+					<span class="B_currentCrumb">Victoria Jenna Cruise</span>
+				</span>
+			</span>
+		</div>
+
+		<div class="sidebar">
+			<dl class="besttour">
+				<dt>Ready-made Itineraries for inspiration</dt>
+				<dd>
+					<h3>Top 10 Best China Tour</h3>
+					<span>( Top 10 Best China Tour -from Beijing to shanghai )</span>
+				</dd>
+				<dd>
+					<h3>Top 10 Best China Tour</h3>
+					<span>( Top 10 Best China Tour -from Beijing to shanghai )</span>
+				</dd>
+				<dd>
+					<h3>Top 10 Best China Tour</h3>
+					<span>( Top 10 Best China Tour -from Beijing to shanghai )</span>
+				</dd>
+				<dd>
+					<h3>Top 10 Best China Tour</h3>
+					<span>( Top 10 Best China Tour -from Beijing to shanghai )</span>
+				</dd>
+				<dd class="last">
+					<h3>Top 10 Best China Tour</h3>
+					<span>( Top 10 Best China Tour -from Beijing to shanghai )</span>
+				</dd>
+				
+			</dl>
+		</div>
+		<div class="content">
+			<h1>8 Days Beijing Yangtze Cruise Tour</h1>
+			<div class="slide">
+				<ul class="clearfix">
+					<li><img src="image/slide.jpg" alt=""></li>
+					<li><img src="image/slide.jpg" alt=""></li>
+				</ul>
+				<div class="caption">
+					The Forum    <img src="image/slide-right-arrow.png"><img src="image/slide-left-arrow.png">
+				</div>
+			</div>
+			<div class="visit clearfix">
+				<p>
+					<img src="image/slide.jpg" alt="" width="170" height="100">
+				<b>You’ll visit: </b><br>
+				
+					Beijing, Xian, Shanghai, Yangtze River Cruise Shanghai,
+					Beijing, Xian, Shanghai, Yangtze River Cruise, 
+				</p>
+			</div>
+			<div class="route">
+				<h2>Itinerary Details - day by day</h2>	
+				<ul>
+					<li>
+						<span class='day'>Day 1</span>
+						<h3>Bangkok to Chiang Mai >></h3>
+						<p>
+							First stop this morning is Bangkok’s increble RoyalPalace..........................
+						</p>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+
+		<div class="aside">
+			<dl class="tips">
+				<dt>
+					Price from $6,500<br>
+					<a href=""> Condition? </a>
+				</dt>
+				<dd>
+					<b>Tour Code:</b> YRC-BJ-03
+				</dd>
+				<dd>
+					<b>Travel Style: </b>private<img class="why" src="">
+				</dd>
+				<dd>
+					<b>Departure: </b>you choose<img class="why" src="">
+				</dd>
+				<dd>
+					<a class="btn" href="">Get a Quote</a>
+				</dd>
+				<dd>
+					<h4>What's Included? </h4>
+					<p>
+						• All sights entrance; <br>
+						• Meals specified in itinerary; <br>
+						• Private guide, driver <br>
+						• Domestic flight/train; <br>
+						• Cruise ticket & transfer; 
+					</p>	
+				</dd>
+				<dd class="share">
+					SHARE
+				</dd>
+			</dl>
+		</div>
+		
+	</div>
+
+	{include file="footer.tpl"}
+</div>
+</body>
+{/block}
