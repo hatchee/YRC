@@ -1,53 +1,52 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-06 02:23:51
-         compiled from "./templates\content.html" */ ?>
-<?php /*%%SmartyHeaderCode:69665018f107a2b9a2-76501401%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-07 07:26:21
+         compiled from "./templates\route.html" */ ?>
+<?php /*%%SmartyHeaderCode:295585020c23b271510-51251565%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '6f6b02720da15c44ffce9e66ccaab847196c9172' => 
+    'e84fa4e5635a6280c4a2a66fe5153dc5017e1f26' => 
     array (
-      0 => './templates\\content.html',
-      1 => 1344219829,
+      0 => './templates\\route.html',
+      1 => 1344324201,
       2 => 'file',
     ),
     '577cb3b5f2047bc4eeb0585f5d7acabd05cd2fcd' => 
     array (
       0 => './templates\\layout.html',
-      1 => 1337852250,
+      1 => 1344324379,
       2 => 'file',
     ),
-    'e83a1f498144167217acd8695de63ca7939774db' => 
+    'd360287b5561fbd7b01fa73e1a1771ff0fcfdad9' => 
     array (
-      0 => './templates\\header.tpl',
-      1 => 1343871967,
+      0 => './templates\\chunk\\header.tpl',
+      1 => 1344324343,
       2 => 'file',
     ),
-    '1f1e9edc8553ba14e1b0d4fcf318d777601b0013' => 
+    'd04f62d5ea29f5a4ffc2ac5ebd832681b3488bc7' => 
     array (
-      0 => './templates\\footer.tpl',
+      0 => './templates\\chunk\\footer.tpl',
       1 => 1343638772,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '69665018f107a2b9a2-76501401',
+  'nocache_hash' => '295585020c23b271510-51251565',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_5018f107ab4125_63463947',
+  'unifunc' => 'content_5020c23b2ff2d4_25572430',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5018f107ab4125_63463947')) {function content_5018f107ab4125_63463947($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if ($_valid && !is_callable('content_5020c23b2ff2d4_25572430')) {function content_5020c23b2ff2d4_25572430($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>扬子江2.0</title>
 	<meta charset="utf-8" />
-	<link href="/style/global.css" rel="stylesheet" type="text/css"/>
-	<link href="/style/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css"  media="screen" />
-	<script src="/script/jquery-1.7.1.min.js" type="text/javascript"></script>
-	<script src="/script/jquery.lightbox-0.5.pack.js" type="text/javascript" ></script>
-	<script src="/script/global.js" type="text/javascript"></script>
+	<link href="style/global.css" rel="stylesheet" type="text/css"/>
+	<script src="script/jquery-1.7.1.min.js" type="text/javascript"></script>
+	<script src="script/global.js" type="text/javascript"></script>
 	
+<link rel="stylesheet" type="text/css" href="style/route.css">
 
 </head>
 	
@@ -77,42 +76,15 @@ $(function(){
 	}; 
 
 })
-
 </script>
 
 <div id="wrap">
-	<?php /*  Call merged included template "header.tpl" */
+	<?php /*  Call merged included template "chunk/header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '69665018f107a2b9a2-76501401');
-content_501f2ab7aa9a86_70099355($_smarty_tpl);
-$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "header.tpl" */?>
-	
-	<div id="menu">
-		<ul class="clearfix">
-			<li>
-				<a href="/" class="home">Home</a>
-			</li>
-			<li>
-				<a href="tour.html">China Yangtze Tours</a>
-			</li>
-			<li>
-				<a href="ships.html" class="menucurr">Ships</a>
-			</li>
-			<li class="active">
-				<a href="http://www.yangtze-river-cruises.com/calendar/calendar2012-7.html" class="menucalendar">Calendar 2012</a>
-				<div class="new"></div>
-			</li>
-			<li>
-				<a href="yangtze-river-guide.html">Cruise Guide</a>
-			</li>
-			<li>
-				<a href="experience.html">Onboard</a>
-			</li>
-			<li>
-				<a href="about-us.html">About Us</a>
-			</li>
-		</ul>
-	</div>
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '295585020c23b271510-51251565');
+content_5020c31d666f33_92140542($_smarty_tpl);
+$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/header.tpl" */?>
+		
 	<div id="mainbody" class="clearfix">
 		<div class="breadcrum">
 			You are here:
@@ -226,20 +198,46 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "header.tpl"
 		
 	</div>
 
-	<?php /*  Call merged included template "footer.tpl" */
+	<?php /*  Call merged included template "chunk/footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '69665018f107a2b9a2-76501401');
-content_501f2ab7ab86c3_03231262($_smarty_tpl);
-$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "footer.tpl" */?>
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '295585020c23b271510-51251565');
+content_5020c31d674af1_85384306($_smarty_tpl);
+$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/footer.tpl" */?>
 </div>
 </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-06 02:23:51
-         compiled from "./templates\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_501f2ab7aa9a86_70099355')) {function content_501f2ab7aa9a86_70099355($_smarty_tpl) {?> <div id="header">
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-07 07:26:21
+         compiled from "./templates\chunk\header.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_5020c31d666f33_92140542')) {function content_5020c31d666f33_92140542($_smarty_tpl) {?> <div id="header">
  	<a id="logo" href="/" title="Home"></a>
- </div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-06 02:23:51
-         compiled from "./templates\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_501f2ab7ab86c3_03231262')) {function content_501f2ab7ab86c3_03231262($_smarty_tpl) {?><div id="footer">
+ </div>
+ <div id="menu">
+	<ul class="clearfix">
+		<li class="active">
+			<a href="/" class="home">Home</a>
+		</li>
+		<li>
+			<a href="tour.html">China Yangtze Tours</a>
+		</li>
+		<li>
+			<a href="ships.html" class="menucurr">Ships</a>
+		</li>
+		<li class="active">
+			<a href="" class="menucalendar">Calendar 2012</a>
+			<div class="new"></div>
+		</li>
+		<li>
+			<a href="yangtze-river-guide.html">Cruise Guide</a>
+		</li>
+		<li>
+			<a href="experience.html">Onboard</a>
+		</li>
+		<li>
+			<a href="about-us.html">About Us</a>
+		</li>
+	</ul>
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-07 07:26:21
+         compiled from "./templates\chunk\footer.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_5020c31d674af1_85384306')) {function content_5020c31d674af1_85384306($_smarty_tpl) {?><div id="footer">
 	footer
 </div><?php }} ?>

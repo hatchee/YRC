@@ -1,0 +1,133 @@
+{extends file="layout.html"}
+{block name=title}YRC calendar page{/block}
+{block name=head}
+<link rel="stylesheet" type="text/css" href="/style/calendar.css">
+<script type="text/javascript" src="script/calendar.js"></script>
+{/block}
+{block name=body}
+<body>
+<div id="wrap">
+
+{include file="chunk/header.tpl"}
+
+	<div id="mainbody" class="clearfix">
+		<div class="breadcrum">
+			You are here:
+			<span class="B_crumbBox">
+				<span class="B_firstCrumb">
+					<a class="B_homeCrumb" href="/index.html" title="Yangtze River Cruise Home Page">Home</a>
+				</span>
+				&gt;
+				<a class="B_crumb" href="/ships.html" title="Yangtze River Cruise Ships">Yangtze Cruise Ships</a>
+				&gt;
+				<span class="B_lastCrumb">
+					<span class="B_currentCrumb">Victoria Jenna Cruise</span>
+				</span>
+			</span>
+
+		</div>
+
+		<h1>Yangtze River Cruise Calendar in July, 2012</h1>
+		<p>
+			To help you find the ideal Yangtze cruise ship more easily, we classify the following chart more clearly, so please be patinet, and follow your travel date to find a perfect ship. If you don't find anyone, please feel free to contact our cruise experts online or drop us a line, and we'll try our best to contact you within 0.5 hour.
+		</p>
+		<div id="can-nav">
+			<ul class="tabnav clearfix">
+				<li>2012</li>
+				<li>2013</li>
+			</ul>
+			<ul class="tabmonth clearfix">
+				<li ref="1">Jan.</li>
+				<li ref="2">Feb.</li>
+				<li ref="3">Mar.</li>
+				<li ref="4">Apr.</li>
+				<li ref="5">May.</li>
+				<li ref="6">June.</li>
+				<li ref="7">July.</li>
+				<li ref="8">Aug.</li>
+				<li ref="9">Sept.</li>
+				<li ref="10">Oct.</li>
+				<li ref="11">Nov.</li>
+				<li ref="12">Dec.</li>
+			</ul>
+			<table>
+				<tr class="thead">
+					<th class="thdate">Cruise Date</th>
+					<th>
+						Chongqing
+						<img src="image/right-arrow.png">	
+						Yichang
+						<br>	
+						<span>(downstream 4days)</span>
+					</th>
+					<th>
+						Yichang
+						<img src="image/right-arrow.png">	
+						Chongqing
+						<br>	
+						<span>(upstream 5days)</span>
+					</th>
+					<th>
+						Chongqing
+						<img src="image/double-arrow.png">	
+						Shanghai
+						<span  class="explain">
+							<img src="img/ico_question.png">	
+							<p class="prompt">
+								There is only one ship cruing between Chongqing and Shanghai - Victoria Sophia, which sails every Monday from Chongqing, and back on next Sunday from Shanghai.
+							</p>
+						</span>
+						<br>	
+						<span>(downstream 8days/upstream 9days)</span>
+
+					</th>
+				</tr>
+			</table>
+
+		</div>
+		<div class="tabunit">
+
+			<table>
+				<tr>
+					<td class="date">
+						<div>
+							July.&nbsp;1
+							<br> <i>Mon.</i>
+						</div>
+					</td>
+					<td>
+						<p>
+							*
+							<a href="/ships/victoria-queen.html">Victoria Lianna</a>
+							&nbsp; <i>$408 - $732</i>
+							&nbsp;
+							<img src="img/5star.gif" class="star"></p>
+					</td>
+					<td>
+						<p>
+							*
+							<a href="/ships/viking-century-sun.html">Viking Century Sun</a>
+							&nbsp;
+							<i>$495 - $646</i>
+							&nbsp;
+							<img src="img/5star.gif" class="star"></p>
+						<p>
+							*
+							<a href="/ships/victoria-grace.html">Victoria Grace</a>
+							&nbsp;
+							<i>$408 - $732</i>
+							&nbsp;
+							<img src="img/5star.gif" class="star"></p>
+					</td>
+					<td>
+						<img title="No available ship today" alt="No available ship today" src="image/icon-unavailable.png" class="unva"></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	{include file="chunk/footer.tpl"}
+
+</div>
+</body>
+{/block}

@@ -1,0 +1,145 @@
+.tabnav{
+	width: 960px;
+}
+#can-nav{
+	width: 960px;
+	background: #fff;
+}
+.tabunit{
+	position: relative;
+	min-height: 300px;
+}
+.loading{
+	position: fixed;
+}
+
+.tabnav li{
+	cursor: pointer;
+	width: 126px;
+	height: 46px;
+	line-height: 46px;
+	float: left;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	margin: 0 10px 0 0;
+	background: url(/image/tabnav.jpg) no-repeat right center;
+}
+.tabnav li.active{
+	color: #fff;
+	background: url(/image/tabnav.jpg) no-repeat left center;
+}
+.tabmonth{
+	background: url(/image/tabbg.png) repeat-x ;
+	width: 960px;
+}
+.tabmonth li{
+	float: left;	
+	margin: 15px 0 10px 32px;
+}
+
+.tabmonth li{
+	cursor: pointer;
+	display: block;
+	width: 45px;
+	height: 24px;
+	text-decoration: none;
+	background: url(/image/tab-a.png) no-repeat;
+	line-height: 24px;
+	text-align: center;
+	color: #fff;
+}
+.tabmonth li.active{
+	font-weight: bold;
+	color: #333;
+	background: url(/image/tab-a-active.png) no-repeat;
+}
+
+#can-nav table{
+	width: 960px;
+}
+#can-nav table th{
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+	padding: 10px;
+	font-size: 14px;
+	width: 247px;
+	border: 1px dashed #ddd;
+	border-bottom: 2px solid #ddd;
+	background: #fff;
+}
+#can-nav th.thdate{
+	width: 134px;
+}
+#can-nav .explain{
+	position: relative;
+}
+#can-nav .prompt{
+	color: #434343;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-radius: 5px 5px 5px 5px;
+	font-size: 11px;
+	padding: 5px;
+	position: absolute;
+	text-align: left;
+	width: 250px;
+	z-index: 20;
+	right: -34px;
+	top: 15px;
+	display: none;
+}
+
+.tabunit table{
+	width: 960px;
+}
+.thead th img{
+	vertical-align: middle;
+}
+.thead th span{
+	font-size: 12px;
+	font-weight: normal;
+}
+.unva{
+	margin: 0 0 0 115px;
+}
+
+
+.tabunit table td{
+	padding: 10px;
+	border: 1px dashed #ddd;
+	vertical-align: middle;
+	text-align: left;
+	width: 247px;
+	color: #333333;
+}
+.tabunit table td.date{
+	width: 135px;
+}
+.tabunit .star{
+	width: 59px;
+	float: right;
+	margin: 4px 0 0 0;
+}
+
+
+.tabunit table td p i{
+	color: red;
+	font-style: normal;
+}
+.tabunit td.date div{
+	background: url(/image/table-date.png) no-repeat;
+	width: 57px;
+	height: 22px;
+	line-height: 12px;
+	font-weight: bold;
+	margin: 0 0 0 26px;
+	padding: 10px;
+}
+.tabunit td.date i{
+	color: #666666;
+	font-size: 11px;
+	font-style: normal;
+}

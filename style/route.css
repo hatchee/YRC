@@ -1,0 +1,159 @@
+/*内容页面*/
+.sidebar{
+	width: 205px;
+	min-height: 400px;
+	/*outline:1px solid red;*/
+	float: left;
+	margin: 0 0 0 -10px;
+}
+.aside{
+	width: 153px;
+	min-height: 300px;
+	/*outline:1px solid red;*/
+	margin: 24px 0 0;
+	float: left;
+}
+.content{
+	margin: 0 17px;
+	width: 578px;
+	min-height: 500px;
+	/*outline:1px solid red;*/
+	float: left;
+}
+
+
+/*左侧sidebar*/
+.besttour{
+	margin: -13px 0 0;
+}
+
+.besttour dt{
+	height: 65px;
+	background: url(/image/dt-bg.png) no-repeat center center;
+	padding: 10px 0 0 10px;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	color: #fff;
+	top: 12px
+
+}
+.besttour dd{
+	padding: 10px 10px 5px;
+	background: url(/image/dd-bg.png) repeat-y center center;
+	border-bottom: 1px solid #ccd9e5;
+}
+.besttour dd.last{
+	border-bottom: 3px solid #4891dc;
+}
+.besttour dd h3{
+	color: #333333;
+	background: url(/image/arrow-rt.png) no-repeat right center;
+}
+.besttour dd span{
+	color: #a0a0a0;
+}
+
+
+/*中间content*/
+.slide{
+	position: relative;
+	width: 578px;
+	height: 183px;
+	overflow: hidden;
+}
+.slide ul{
+	width: 1156px;
+}
+.slide li{
+	display: block;
+	float: left;
+}
+.slide li img{
+	display: block;
+	width: 578px;
+	height: 183px;
+}
+.slide .caption{
+	background: url(/image/caption-bg.png) repeat;
+	color: #fff;
+	width: 568px;
+	padding: 5px;
+	position: absolute;
+	bottom:0px;
+}
+.slide .caption img{
+	float: right;
+	margin: 3px ;
+	cursor: pointer;
+}
+.visit{
+	margin: 10px 0;
+}
+.visit img{
+	float: right;
+	margin: 10px 0 10px 10px;
+}
+
+.route li{
+	background: url(/image/route-bg.png) repeat-x left top;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*右侧aside*/
+.tips{
+	background: #dedee2;
+}
+.tips dt{
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+	background: #3B89D4;
+	padding: 10px 2px 7px;
+	color: #fff;
+}
+.tips dt a{
+	color: #fff;	
+	text-decoration: underline;
+	font-size: 12px;
+	margin: 0 0 0 85px;
+	font-weight: normal;
+}
+.tips dd{
+	padding: 3px 3px;
+}
+.tips dd p{
+	font-size: 11px;	
+}
+.tips dd h4{
+	color: #333;
+	font-size: 15px;
+}
+.btn{
+	background: url(/image/btn.png) repeat-x left center;
+	padding: 5px ;
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #fea242;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.btn:hover{
+	text-decoration: none;
+	
+}
+
+.tips dd .btn{
+	margin: 10px 34px;
+	display: block;
+}

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-03 01:06:58
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-06 03:12:45
          compiled from "./templates\index.html" */ ?>
 <?php /*%%SmartyHeaderCode:70224fb3773fcd1457-48889978%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'fc1c3ef5cc9c08dc853f6b428d15c38ce0aa533a' => 
     array (
       0 => './templates\\index.html',
-      1 => 1343898647,
+      1 => 1344221321,
       2 => 'file',
     ),
     '577cb3b5f2047bc4eeb0585f5d7acabd05cd2fcd' => 
@@ -56,7 +56,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	<?php /*  Call merged included template "header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '70224fb3773fcd1457-48889978');
-content_501b24322c26b3_56044309($_smarty_tpl);
+content_501f362da3b250_84522370($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "header.tpl" */?>
 	
 	<div id="menu">
@@ -182,13 +182,6 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "header.tpl"
 					<li ref="11">Nov.</li>
 					<li ref="12">Dec.</li>
 			</ul>
-			<!-- <ul class="place">
-				<li>Cruise Date</li>
-				<li>Chongqing - Yichang<br>(downstream 4days)</li>
-				<li>Yichang - Chongqing (downstream 4days)</li>
-				<li>Chongqing - Shanghai (downstream 4days)</li>
-				<li>Shanghai - Chongqing (downstream 4days)</li>
-			</ul> -->
 			<table>
 				<tr>
 					<th>Date</th>
@@ -264,17 +257,17 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "header.tpl"
 	<?php /*  Call merged included template "footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '70224fb3773fcd1457-48889978');
-content_501b24322f6f98_15558954($_smarty_tpl);
+content_501f362da54943_17913897($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "footer.tpl" */?>
 </div>
 </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-03 01:06:58
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-06 03:12:45
          compiled from "./templates\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_501b24322c26b3_56044309')) {function content_501b24322c26b3_56044309($_smarty_tpl) {?> <div id="header">
+<?php if ($_valid && !is_callable('content_501f362da3b250_84522370')) {function content_501f362da3b250_84522370($_smarty_tpl) {?> <div id="header">
  	<a id="logo" href="/" title="Home"></a>
- </div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-03 01:06:58
+ </div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-06 03:12:45
          compiled from "./templates\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_501b24322f6f98_15558954')) {function content_501b24322f6f98_15558954($_smarty_tpl) {?><div id="footer">
+<?php if ($_valid && !is_callable('content_501f362da54943_17913897')) {function content_501f362da54943_17913897($_smarty_tpl) {?><div id="footer">
 	footer
 </div><?php }} ?>

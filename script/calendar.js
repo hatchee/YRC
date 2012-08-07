@@ -52,9 +52,6 @@ $(function(){
 			success: function( result ){
 				$('.loading').remove();
 				$(".tabunit table").replaceWith(result);
-				th = $(".thead");
-				$(window).trigger('scroll');
-
 
 				if($(".tabnav li").eq(0).attr("class") == "active" ){
 				    var now = new Date();
@@ -64,12 +61,6 @@ $(function(){
 					$('.tabmonth li').css({"text-decoration":"none","cursor":"pointer"});
 				}
 
-
-
-
-
-
-
 			}
 		});
 
@@ -77,25 +68,86 @@ $(function(){
 
 	//TAB fiexd
 	$( window ).unbind( 'scroll' );
-	var t = $( '.tabmonth' );
-	
+	var t = $( '#can-nav' );
+	var tabunit = $('.tabunit');
 	t_top = t.offset().top;
 	$( window ).bind( 'scroll',function(){
 
 		var s_top = $(this).scrollTop();
 		if( s_top > t_top ){
 			t.css({'position':'fixed','top':0, 'z-index':10,});
-
-			th.css({'position':'fixed','top':49, 'z-index':10,});
-			$(".tabunit table").css({'border-top':'69px solid #fff'});
+			tabunit.css({'margin-top':'158px'});	
 		}else{
 			t.css({'position':'static'});
-			th.css({'position':'static','top':'0'});	
-			$(".tabunit table").css({'border-top':'0'});
+			tabunit.css({'margin-top':'0px'});	
 		}
 	}); 
 
 
+
+	// 根据hash值来对li进行active操作
+	window.onload = initialize;
+	function initialize(){
+
+		var url = window.location.toString();
+
+		if(window.location.hash){
+				
+				// 改变li当前项样式
+				$(".tabnav li").each(function(){
+
+					var year_var = window.location.hash.slice(2,6);
+					if($(this).text() == year_var){
+						$(this).addClass('active').siblings().removeClass("active");
+					}
+				});
+
+				$(".tabmonth li").each(function(){
+
+					var month_var = window.location.hash.slice(6);
+					if($(this).attr("ref") == month_var){
+						$(this).addClass('active').siblings().removeClass("active");
+					}
+				});
+
+
+			$(window).trigger("hashchange");
+
+		}else{
+			// 定位到当前年月
+			var now = new Date();
+			var year_var = now.getFullYear();
+			var month_var = now.getMonth() + 1;
+
+			// hash改变 会自动促发hashchange事件
+			window.location.hash = "#!"+year_var+month_var; 
+
+			// 改变li当前项样式
+			$(".tabnav li").each(function(){
+
+					var year_var = window.location.hash.slice(2,6);
+					if($(this).text() == year_var){
+						$(this).addClass('active').siblings().removeClass("active");
+					}
+				});
+
+				$(".tabmonth li").each(function(){
+
+					var month_var = window.location.hash.slice(6);
+					if($(this).attr("ref") == month_var){
+						$(this).addClass('active').siblings().removeClass("active");
+					}
+				});
+
+		}
+	};
+
+	// the explain prompt
+	$('.explain img').hover(function(){
+		$('.explain .prompt').show();
+	},function(){
+		$('.explain .prompt').hide();
+	})
 
 
 })
