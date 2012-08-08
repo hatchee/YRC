@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-07 07:26:21
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-08 04:26:53
          compiled from "./templates\route.html" */ ?>
 <?php /*%%SmartyHeaderCode:295585020c23b271510-51251565%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e84fa4e5635a6280c4a2a66fe5153dc5017e1f26' => 
     array (
       0 => './templates\\route.html',
-      1 => 1344324201,
+      1 => 1344400012,
       2 => 'file',
     ),
     '577cb3b5f2047bc4eeb0585f5d7acabd05cd2fcd' => 
@@ -19,7 +19,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd360287b5561fbd7b01fa73e1a1771ff0fcfdad9' => 
     array (
       0 => './templates\\chunk\\header.tpl',
-      1 => 1344324343,
+      1 => 1344392604,
       2 => 'file',
     ),
     'd04f62d5ea29f5a4ffc2ac5ebd832681b3488bc7' => 
@@ -47,6 +47,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	<script src="script/global.js" type="text/javascript"></script>
 	
 <link rel="stylesheet" type="text/css" href="style/route.css">
+<script type="text/javascript" src="plugin/slides.min.jquery.js"></script>
 
 </head>
 	
@@ -82,7 +83,7 @@ $(function(){
 	<?php /*  Call merged included template "chunk/header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '295585020c23b271510-51251565');
-content_5020c31d666f33_92140542($_smarty_tpl);
+content_5021ea8e04cdb6_48025642($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/header.tpl" */?>
 		
 	<div id="mainbody" class="clearfix">
@@ -129,18 +130,13 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 		</div>
 		<div class="content">
 			<h1>8 Days Beijing Yangtze Cruise Tour</h1>
-			<div class="slide">
-				<ul class="clearfix">
-					<li><img src="image/slide.jpg" alt=""></li>
-					<li><img src="image/slide.jpg" alt=""></li>
-				</ul>
-				<div class="caption">
-					The Forum    <img src="image/slide-right-arrow.png"><img src="image/slide-left-arrow.png">
-				</div>
+			<div class="overview">
+				<img src="http://placehold.it/320x200">
+				
 			</div>
 			<div class="visit clearfix">
 				<p>
-					<img src="image/slide.jpg" alt="" width="170" height="100">
+					<img src="http://placehold.it/170x100">
 				<b>You’ll visit: </b><br>
 				
 					Beijing, Xian, Shanghai, Yangtze River Cruise Shanghai,
@@ -201,19 +197,19 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 	<?php /*  Call merged included template "chunk/footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '295585020c23b271510-51251565');
-content_5020c31d674af1_85384306($_smarty_tpl);
+content_5021ea8e056236_09242320($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/footer.tpl" */?>
 </div>
 </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-07 07:26:21
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-08 04:26:54
          compiled from "./templates\chunk\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5020c31d666f33_92140542')) {function content_5020c31d666f33_92140542($_smarty_tpl) {?> <div id="header">
+<?php if ($_valid && !is_callable('content_5021ea8e04cdb6_48025642')) {function content_5021ea8e04cdb6_48025642($_smarty_tpl) {?> <div id="header">
  	<a id="logo" href="/" title="Home"></a>
  </div>
  <div id="menu">
 	<ul class="clearfix">
-		<li class="active">
+		<li class="">
 			<a href="/" class="home">Home</a>
 		</li>
 		<li>
@@ -236,8 +232,8 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 			<a href="about-us.html">About Us</a>
 		</li>
 	</ul>
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-07 07:26:21
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-08 04:26:54
          compiled from "./templates\chunk\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5020c31d674af1_85384306')) {function content_5020c31d674af1_85384306($_smarty_tpl) {?><div id="footer">
+<?php if ($_valid && !is_callable('content_5021ea8e056236_09242320')) {function content_5021ea8e056236_09242320($_smarty_tpl) {?><div id="footer">
 	footer
 </div><?php }} ?>

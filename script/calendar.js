@@ -76,13 +76,12 @@ $(function(){
 		var s_top = $(this).scrollTop();
 		if( s_top > t_top ){
 			t.css({'position':'fixed','top':0, 'z-index':10,});
-			tabunit.css({'margin-top':'158px'});	
+			tabunit.css({'margin-top':'159px'});	
 		}else{
 			t.css({'position':'static'});
 			tabunit.css({'margin-top':'0px'});	
 		}
 	}); 
-
 
 
 	// 根据hash值来对li进行active操作

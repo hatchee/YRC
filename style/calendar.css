@@ -4,6 +4,7 @@
 #can-nav{
 	width: 960px;
 	background: #fff;
+	margin: 30px 0 0;
 }
 .tabunit{
 	position: relative;
@@ -103,20 +104,24 @@
 	font-weight: normal;
 }
 .unva{
-	margin: 0 0 0 115px;
+
 }
 
 
 .tabunit table td{
 	padding: 10px;
 	border: 1px dashed #ddd;
-	vertical-align: middle;
 	text-align: left;
 	width: 247px;
 	color: #333333;
 }
 .tabunit table td.date{
+	vertical-align: middle;
 	width: 135px;
+}
+.tabunit table td.untd{
+	vertical-align: middle;
+	text-align: center;
 }
 .tabunit .star{
 	width: 59px;

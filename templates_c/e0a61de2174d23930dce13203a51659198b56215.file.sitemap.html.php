@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-07 07:22:33
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-07 09:13:59
          compiled from "./templates\sitemap.html" */ ?>
 <?php /*%%SmartyHeaderCode:180994fb21d9f9c7298-51486397%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e0a61de2174d23930dce13203a51659198b56215' => 
     array (
       0 => './templates\\sitemap.html',
-      1 => 1344324150,
+      1 => 1344324323,
       2 => 'file',
     ),
     '577cb3b5f2047bc4eeb0585f5d7acabd05cd2fcd' => 
     array (
       0 => './templates\\layout.html',
-      1 => 1337852250,
+      1 => 1344324379,
       2 => 'file',
     ),
   ),
@@ -30,11 +30,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <head>
 	<title>Sitemap</title>
 	<meta charset="utf-8" />
-	<link href="/style/global.css" rel="stylesheet" type="text/css"/>
-	<link href="/style/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css"  media="screen" />
-	<script src="/script/jquery-1.7.1.min.js" type="text/javascript"></script>
-	<script src="/script/jquery.lightbox-0.5.pack.js" type="text/javascript" ></script>
-	<script src="/script/global.js" type="text/javascript"></script>
+	<link href="style/global.css" rel="stylesheet" type="text/css"/>
+	<script src="script/jquery-1.7.1.min.js" type="text/javascript"></script>
+	<script src="script/global.js" type="text/javascript"></script>
 	
   <link href="/css/mypage.css" rel="stylesheet" type="text/css"/>
   <script src="/js/mypage.js"></script>

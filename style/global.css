@@ -67,7 +67,7 @@ h5{
 
 
 p{
-	margin: 0 0 8px;
+	margin: 0 0 16px;
 }
 a {
     color: #1E8BC9;
@@ -113,16 +113,17 @@ img {
 #menu {
 	width: 980px;
 	height: 41px;
-    border-radius: 5px 5px 0 0 ;
     overflow: hidden;
-    background: url("/image/nav-bg.png") repeat-x scroll 0 -41px transparent;
+    background: url("/image/nav-bg.png") no-repeat scroll right 0 transparent;
+}
+#menu ul{
+	margin: 0 0 0 -2px;
 }
 #menu li{
     list-style: none;
     display: block;
     float: left;
     line-height: 41px;
-    background: url("/image/navline.png") no-repeat scroll left center transparent;
 }
 
 #menu a {
@@ -130,23 +131,29 @@ img {
 	display: block;
 	text-decoration: none;
 	float: left;
-	padding: 0 25px;
-    font-family: "Trebuchet MS", Arial, Georgia,"Times New Roman",Times,serif;
-	font-size: 16px;	
-	font-weight: bold;
+	padding: 0 29px;
+    font-family: "Vani", "Trebuchet MS", Arial, Georgia,"Times New Roman",Times,serif;
+	font-size: 15px;	
+	line-height: 46px;
+    background: url("/image/nav-bg.png") no-repeat scroll 0 0 transparent;
 }
-#menu li.active a, 
+#menu li.active a{
+    background: url("/image/nav-bg.png") no-repeat scroll -1px -41px transparent;
+}
 #menu li a:hover{
-    background: url("/image/nav-bg.png") repeat-x scroll 0 0 transparent; 
-    color: #ff7400;
+    background: url("/image/nav-bg.png") no-repeat scroll -1px -41px transparent;
+    /*background: url("/image/nav-bg.png") repeat-x scroll 0 0 transparent; */
+    /*color: #ff7400;*/
 }
+
+
 #mainbody{
 	width: 960px;
 	padding: 10px;
 	background: url(/image/bottom.png) no-repeat center bottom #fff;
 }
 .breadcrum{
-	margin: 0 0 10px;
+	margin: 0 0 20px;
 }
 
 

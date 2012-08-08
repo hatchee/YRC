@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-07 07:30:25
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-08 04:33:03
          compiled from "./templates\calendar.html" */ ?>
 <?php /*%%SmartyHeaderCode:321995020c049c32825-85511503%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9ebf8690c641f0ea8f64c54d0ec28c80b0632e55' => 
     array (
       0 => './templates\\calendar.html',
-      1 => 1344324620,
+      1 => 1344400361,
       2 => 'file',
     ),
     '577cb3b5f2047bc4eeb0585f5d7acabd05cd2fcd' => 
@@ -19,7 +19,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd360287b5561fbd7b01fa73e1a1771ff0fcfdad9' => 
     array (
       0 => './templates\\chunk\\header.tpl',
-      1 => 1344324343,
+      1 => 1344392604,
       2 => 'file',
     ),
     'd04f62d5ea29f5a4ffc2ac5ebd832681b3488bc7' => 
@@ -57,7 +57,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php /*  Call merged included template "chunk/header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '321995020c049c32825-85511503');
-content_5020c4113103f1_74693437($_smarty_tpl);
+content_5021ebffe0a1a0_69675443($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/header.tpl" */?>
 
 	<div id="mainbody" class="clearfix">
@@ -78,7 +78,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 		</div>
 
 		<h1>Yangtze River Cruise Calendar in July, 2012</h1>
-		<p>
+		<p sytle="width: 657px;">
 			To help you find the ideal Yangtze cruise ship more easily, we classify the following chart more clearly, so please be patinet, and follow your travel date to find a perfect ship. If you don't find anyone, please feel free to contact our cruise experts online or drop us a line, and we'll try our best to contact you within 0.5 hour.
 		</p>
 		<div id="can-nav">
@@ -179,20 +179,20 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 	<?php /*  Call merged included template "chunk/footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '321995020c049c32825-85511503');
-content_5020c41131b915_36913363($_smarty_tpl);
+content_5021ebffe12f82_41471460($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/footer.tpl" */?>
 
 </div>
 </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-07 07:30:25
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-08 04:33:03
          compiled from "./templates\chunk\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5020c4113103f1_74693437')) {function content_5020c4113103f1_74693437($_smarty_tpl) {?> <div id="header">
+<?php if ($_valid && !is_callable('content_5021ebffe0a1a0_69675443')) {function content_5021ebffe0a1a0_69675443($_smarty_tpl) {?> <div id="header">
  	<a id="logo" href="/" title="Home"></a>
  </div>
  <div id="menu">
 	<ul class="clearfix">
-		<li class="active">
+		<li class="">
 			<a href="/" class="home">Home</a>
 		</li>
 		<li>
@@ -215,8 +215,8 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 			<a href="about-us.html">About Us</a>
 		</li>
 	</ul>
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-07 07:30:25
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-08 04:33:03
          compiled from "./templates\chunk\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5020c41131b915_36913363')) {function content_5020c41131b915_36913363($_smarty_tpl) {?><div id="footer">
+<?php if ($_valid && !is_callable('content_5021ebffe12f82_41471460')) {function content_5021ebffe12f82_41471460($_smarty_tpl) {?><div id="footer">
 	footer
 </div><?php }} ?>

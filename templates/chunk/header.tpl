@@ -3,7 +3,7 @@
  </div>
  <div id="menu">
 	<ul class="clearfix">
-		<li class="active">
+		<li class="">
 			<a href="/" class="home">Home</a>
 		</li>
 		<li>

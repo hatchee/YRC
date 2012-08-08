@@ -56,37 +56,12 @@
 
 
 /*中间content*/
-.slide{
+.overview{
 	position: relative;
 	width: 578px;
-	height: 183px;
 	overflow: hidden;
 }
-.slide ul{
-	width: 1156px;
-}
-.slide li{
-	display: block;
-	float: left;
-}
-.slide li img{
-	display: block;
-	width: 578px;
-	height: 183px;
-}
-.slide .caption{
-	background: url(/image/caption-bg.png) repeat;
-	color: #fff;
-	width: 568px;
-	padding: 5px;
-	position: absolute;
-	bottom:0px;
-}
-.slide .caption img{
-	float: right;
-	margin: 3px ;
-	cursor: pointer;
-}
+
 .visit{
 	margin: 10px 0;
 }
