@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-07 09:13:59
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-13 01:14:00
          compiled from "./templates\sitemap.html" */ ?>
 <?php /*%%SmartyHeaderCode:180994fb21d9f9c7298-51486397%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e0a61de2174d23930dce13203a51659198b56215' => 
     array (
       0 => './templates\\sitemap.html',
-      1 => 1344324323,
+      1 => 1344567323,
       2 => 'file',
     ),
     '577cb3b5f2047bc4eeb0585f5d7acabd05cd2fcd' => 
@@ -70,6 +70,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <h3>List01</h3>
 <a href="index.php?url=calendar.html">calendar</a>
 <a href="index.php?url=route.html">route</a>
+<a href="index.php?url=ship.html">ship</a>
 </div>
 </body>
 

@@ -32,7 +32,7 @@ input{
 	vertical-align: middle;
 }
 body {
-	background: url(/image/body-bg.jpg) no-repeat center top #73ACD9;
+	background: url(/image/body-bg.jpg) no-repeat center top #c4ddf1;
     /*font: 16px/130% Arial,Helvetica,sans-serif;*/
     font: 12px/20px Arial,Helvetica,sans-serif;
     margin: 0;
@@ -95,17 +95,23 @@ img {
 	min-height: 400px;
 	margin: 0 auto;
 }
+.headtop{
+	width: 980px;
+	height: 40px;
+}
 #header{
 	width: 980px;
-	height: 125px;
+	height: 258px;
+	background: url(/image/banner.jpg) no-repeat center center #fff;
+	/*background: url(http://placehold.it/972x250) no-repeat center center #fff;*/
 }
 #logo{
 	background: url(/image/logo.png) no-repeat 0 0;
 	display: block;
 	float: left;
-	width: 247px;
-	height: 90px;
-	margin:20px 0 0;
+	width: 194px;
+	height: 89px;
+	margin:-1px 0 0;
 }
 #hright {
 	float: right;
@@ -114,6 +120,7 @@ img {
 	width: 980px;
 	height: 41px;
     overflow: hidden;
+    border-radius: 0 0 5px 5px;
     background: url("/image/nav-bg.png") no-repeat scroll right 0 transparent;
 }
 #menu ul{
@@ -131,9 +138,9 @@ img {
 	display: block;
 	text-decoration: none;
 	float: left;
-	padding: 0 29px;
+	padding: 0 20px;
     font-family: "Vani", "Trebuchet MS", Arial, Georgia,"Times New Roman",Times,serif;
-	font-size: 15px;	
+	font-size: 14px;	
 	line-height: 46px;
     background: url("/image/nav-bg.png") no-repeat scroll 0 0 transparent;
 }
@@ -142,19 +149,28 @@ img {
 }
 #menu li a:hover{
     background: url("/image/nav-bg.png") no-repeat scroll -1px -41px transparent;
-    /*background: url("/image/nav-bg.png") repeat-x scroll 0 0 transparent; */
-    /*color: #ff7400;*/
 }
-
-
-#mainbody{
+.mainbody{
 	width: 960px;
 	padding: 10px;
-	background: url(/image/bottom.png) no-repeat center bottom #fff;
+	background: #fff;
 }
 .breadcrum{
-	margin: 0 0 20px;
+	padding: 12px 0 22px;
+	background: url("/image/ragged-top.png") repeat-x scroll -232px 43px transparent;
+	/*background: url(/image/content-bg.png) no-repeat center bottom;*/
 }
 
 
 
+
+
+
+/**********公共组件**********/
+.share{
+
+}
+
+.btn{
+	text-align: center;
+}

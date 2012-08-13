@@ -1,10 +1,14 @@
+.calendar{
+	background: #fff;
+}
+
 .tabnav{
 	width: 960px;
 }
 #can-nav{
 	width: 960px;
 	background: #fff;
-	margin: 30px 0 0;
+	/*margin: 30px 0 0;*/
 }
 .tabunit{
 	position: relative;

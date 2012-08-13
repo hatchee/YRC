@@ -1,3 +1,8 @@
+<div class="headtop">
+    0845 287 6177
+    Contact us Mon - Fri 9am - 7pm
+</div>
+
  <div id="header">
  	<a id="logo" href="/" title="Home"></a>
  </div>
@@ -6,24 +11,23 @@
 		<li class="">
 			<a href="/" class="home">Home</a>
 		</li>
-		<li>
-			<a href="tour.html">China Yangtze Tours</a>
+		<li class="">
+			<a href="">Find a Cruise</a>
 		</li>
 		<li>
-			<a href="ships.html" class="menucurr">Ships</a>
+			<a href="">China Yangtze Tour</a>
+		</li>
+		<li>
+			<a href="">Travel Guide</a>
 		</li>
 		<li class="active">
-			<a href="" class="menucalendar">Calendar 2012</a>
-			<div class="new"></div>
+			<a href=""> Cruise FAQs </a>
 		</li>
 		<li>
-			<a href="yangtze-river-guide.html">Cruise Guide</a>
+			<a href="">About Us</a>
 		</li>
 		<li>
-			<a href="experience.html">Onboard</a>
-		</li>
-		<li>
-			<a href="about-us.html">About Us</a>
+			<a href="">Travel Agent</a>
 		</li>
 	</ul>
 </div>

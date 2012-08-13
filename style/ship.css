@@ -1,0 +1,149 @@
+.shiptop{
+	border: 3px solid #ffba00;
+	border-radius: 3px;
+	padding: 10px;
+	width: 934px;
+	background: #faf8f1;
+	float: left;
+}
+
+.shiptop .price b{
+	color: #e60012;
+	font-size: 18px;
+	font-weight: bold;
+}
+.shiptop .enquiry{
+	line-height: 14px;
+	color: #5f5f5f;
+	width: 360px;
+	padding: 0 0 20px 0;
+	border-bottom: 1px dashed #ddd;
+}
+.shiptop .enquiry a{
+	display: block;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+
+
+.shiprt{
+	width: 560px;
+	min-height: 400px;
+	margin: 0 0 0 10px;
+	float: right;
+
+}
+.shopprice{
+	border: 1px solid #8cc9fc;
+	border-radius: 3px;
+	background: #dbeefe;
+	margin: 10px 0 0 0;
+	padding: 10px;
+}
+.shopprice h3{
+	color:#004b93;
+	font-size: 18px;
+}
+.pricezone{
+	border: 1px solid #8cc9fc;
+	width: 540px;
+	background: #fff;
+}
+.pricezone td, .pricezone th{
+	border: 1px solid #ddd;
+}
+
+
+
+.shipdetail{
+	width: 958px;
+	float: left;
+	border: 1px solid #9FBFE3;
+	margin: -1px 0 0 0;
+	z-index: 1;
+	position: relative;
+}
+.row-top{
+	z-index: 2;
+	margin: 10px 0 0 0;
+	position: relative;
+	width: 960px;
+	float: left;
+}
+.row-top li{
+	background: url("/image/submenu.png") repeat-x scroll 0 0 transparent;
+	border: 1px solid #9FBFE3;
+	border-bottom: none;
+	font-size: 15px;
+	border-radius: 5px 5px 0 0;
+	padding: 0 8px;
+	display: block;
+	float: left;
+	height: 31px;
+	line-height: 31px;
+	color: #004b93;
+	margin: 0 5px 0 0;
+	cursor: pointer;
+}
+.row-top li.active{
+	background: url(/image/submenu.png) repeat-x 0 -31px;
+
+}
+.col-lt{
+	width: 680px;
+	float: left;
+	margin: 15px;
+}
+
+.unit table td{
+	vertical-align: middle;
+}
+
+
+
+
+.col-rt{
+	width: 223px;
+	padding: 10px ;
+	float: right;
+	background: #f1f1f1;
+	margin: 2px ;
+}
+.col-rt .box{
+	border-bottom: 2px solid #fff;
+	margin: 0 0 10px;
+}
+.box h3{
+	font-size: 16px;
+}
+
+
+.row-bot{
+	width: 945px;
+	float: left;
+	padding:10px 0 10px 15px;
+	background: #585858;
+	margin: 10px 0 0 0;
+}
+
+.row-bot ul a{
+	margin:10px 15px 0 0 ;
+	display: block;	
+	float: left;
+	width: 170px;
+	height: 125px;
+	position: relative;
+}
+.row-bot ul a p{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin:0;
+	background: #585858;
+	opacity: 0.6;
+	color: #fff;
+	padding: 3px 10px;
+	width: 150px;
+
+}

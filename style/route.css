@@ -1,73 +1,100 @@
 /*内容页面*/
 .sidebar{
-	width: 205px;
+	width: 200px;
 	min-height: 400px;
+	background: #DFEDFB;
 	/*outline:1px solid red;*/
 	float: left;
+	border-radius: 5px 5px 0 0;
 	margin: 0 0 0 -10px;
 }
 .aside{
-	width: 153px;
+	float: right;
+	margin: 7px 7px 0 0;
 	min-height: 300px;
-	/*outline:1px solid red;*/
-	margin: 24px 0 0;
-	float: left;
+	width: 138px;
 }
 .content{
-	margin: 0 17px;
-	width: 578px;
-	min-height: 500px;
-	/*outline:1px solid red;*/
+	background: url("/image/content-line.jpg") repeat-y scroll right center transparent;
 	float: left;
+	min-height: 500px;
+	padding: 5px 10px 5px 7px;
+	width: 606px;
 }
 
 
 /*左侧sidebar*/
 .besttour{
-	margin: -13px 0 0;
 }
 
 .besttour dt{
-	height: 65px;
-	background: url(/image/dt-bg.png) no-repeat center center;
-	padding: 10px 0 0 10px;
 	font-size: 14px;
 	font-weight: bold;
-	position: relative;
-	color: #fff;
-	top: 12px
-
+	color: #333;
+	padding: 10px;
 }
 .besttour dd{
 	padding: 10px 10px 5px;
-	background: url(/image/dd-bg.png) repeat-y center center;
+	/*background: url(/image/dd-bg.png) repeat-y center center;*/
+	background: #c9e1f8;
 	border-bottom: 1px solid #ccd9e5;
 }
 .besttour dd.last{
 	border-bottom: 3px solid #4891dc;
 }
 .besttour dd h3{
-	color: #333333;
+	color: #ff7400;
 	background: url(/image/arrow-rt.png) no-repeat right center;
 }
 .besttour dd span{
-	color: #a0a0a0;
+	color: #333;
 }
 
-
+/*右侧article*/
+.article{
+	width: 770px;
+	float: right;
+	margin: 0 -10px 0 0; 
+	background: #f1f1f1;
+	border-radius: 5px;
+}
+.toptitle{
+	padding: 10px;
+	margin: 0;
+}
+.share{
+	width: 770px;	
+	min-height: 28px;
+	float: left;
+}
+.share img{
+	float: right;
+}
 /*中间content*/
 .overview{
 	position: relative;
 	width: 578px;
 	overflow: hidden;
 }
+.overview img{
+	float: left;
+	margin: 0 10px 8px 0;
+}
 
 .visit{
-	margin: 10px 0;
+	background: #fff;
+	margin: 0px -3px 10px -7px;
+}
+.visit h3{
+	background: #535353;
+	padding: 4px 5px;
 }
 .visit img{
 	float: right;
-	margin: 10px 0 10px 10px;
+	margin: 0 5px 5px;
+}
+.visit p{
+	padding: 0 0 0 5px;
 }
 
 .route li{
@@ -87,15 +114,20 @@
 
 /*右侧aside*/
 .tips{
-	background: #dedee2;
+	background: #ededed;
+	border: 1px solid #c2c2c2;
 }
 .tips dt{
-	font-size: 15px;
-	font-style: italic;
+	font-size: 14px;
 	font-weight: bold;
-	background: #3B89D4;
+	background: #fff;
+	border-bottom: 1px solid #c2c2c2;
 	padding: 10px 2px 7px;
-	color: #fff;
+}
+.tips dt i{
+	color: #FF7400; 
+	font-weight: bold;
+	font-size: 16px;
 }
 .tips dt a{
 	color: #fff;	
@@ -129,6 +161,6 @@
 }
 
 .tips dd .btn{
-	margin: 10px 34px;
+	margin: 10px 25px 0;
 	display: block;
 }

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-08 04:33:03
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-10 03:34:09
          compiled from "./templates\calendar.html" */ ?>
 <?php /*%%SmartyHeaderCode:321995020c049c32825-85511503%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9ebf8690c641f0ea8f64c54d0ec28c80b0632e55' => 
     array (
       0 => './templates\\calendar.html',
-      1 => 1344400361,
+      1 => 1344566659,
       2 => 'file',
     ),
     '577cb3b5f2047bc4eeb0585f5d7acabd05cd2fcd' => 
@@ -19,7 +19,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd360287b5561fbd7b01fa73e1a1771ff0fcfdad9' => 
     array (
       0 => './templates\\chunk\\header.tpl',
-      1 => 1344392604,
+      1 => 1344566169,
       2 => 'file',
     ),
     'd04f62d5ea29f5a4ffc2ac5ebd832681b3488bc7' => 
@@ -57,26 +57,28 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php /*  Call merged included template "chunk/header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '321995020c049c32825-85511503');
-content_5021ebffe0a1a0_69675443($_smarty_tpl);
+content_50248131af2c25_46460092($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/header.tpl" */?>
 
-	<div id="mainbody" class="clearfix">
-		<div class="breadcrum">
-			You are here:
-			<span class="B_crumbBox">
-				<span class="B_firstCrumb">
-					<a class="B_homeCrumb" href="/index.html" title="Yangtze River Cruise Home Page">Home</a>
-				</span>
-				&gt;
-				<a class="B_crumb" href="/ships.html" title="Yangtze River Cruise Ships">Yangtze Cruise Ships</a>
-				&gt;
-				<span class="B_lastCrumb">
-					<span class="B_currentCrumb">Victoria Jenna Cruise</span>
-				</span>
+
+	<div class="breadcrum">
+		You are here:
+		<span class="B_crumbBox">
+			<span class="B_firstCrumb">
+				<a class="B_homeCrumb" href="/index.html" title="Yangtze River Cruise Home Page">Home</a>
 			</span>
+			&gt;
+			<a class="B_crumb" href="/ships.html" title="Yangtze River Cruise Ships">Yangtze Cruise Ships</a>
+			&gt;
+			<span class="B_lastCrumb">
+				<span class="B_currentCrumb">Victoria Jenna Cruise</span>
+			</span>
+		</span>
 
-		</div>
+	</div>
 
+	<div class="mainbody calendar clearfix">
+		
 		<h1>Yangtze River Cruise Calendar in July, 2012</h1>
 		<p sytle="width: 657px;">
 			To help you find the ideal Yangtze cruise ship more easily, we classify the following chart more clearly, so please be patinet, and follow your travel date to find a perfect ship. If you don't find anyone, please feel free to contact our cruise experts online or drop us a line, and we'll try our best to contact you within 0.5 hour.
@@ -174,20 +176,24 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 				</tr>
 			</table>
 		</div>
-	</div>
+	</div><!-- END OF #mainbody -->
 
 	<?php /*  Call merged included template "chunk/footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '321995020c049c32825-85511503');
-content_5021ebffe12f82_41471460($_smarty_tpl);
+content_50248131afcdd2_70934378($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/footer.tpl" */?>
-
-</div>
+</div><!-- END OF #wrap -->
 </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-08 04:33:03
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-10 03:34:09
          compiled from "./templates\chunk\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5021ebffe0a1a0_69675443')) {function content_5021ebffe0a1a0_69675443($_smarty_tpl) {?> <div id="header">
+<?php if ($_valid && !is_callable('content_50248131af2c25_46460092')) {function content_50248131af2c25_46460092($_smarty_tpl) {?><div class="headtop">
+    0845 287 6177
+    Contact us Mon - Fri 9am - 7pm
+</div>
+
+ <div id="header">
  	<a id="logo" href="/" title="Home"></a>
  </div>
  <div id="menu">
@@ -195,28 +201,27 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 		<li class="">
 			<a href="/" class="home">Home</a>
 		</li>
-		<li>
-			<a href="tour.html">China Yangtze Tours</a>
+		<li class="">
+			<a href="">Find a Cruise</a>
 		</li>
 		<li>
-			<a href="ships.html" class="menucurr">Ships</a>
+			<a href="">China Yangtze Tour</a>
+		</li>
+		<li>
+			<a href="">Travel Guide</a>
 		</li>
 		<li class="active">
-			<a href="" class="menucalendar">Calendar 2012</a>
-			<div class="new"></div>
+			<a href=""> Cruise FAQs </a>
 		</li>
 		<li>
-			<a href="yangtze-river-guide.html">Cruise Guide</a>
+			<a href="">About Us</a>
 		</li>
 		<li>
-			<a href="experience.html">Onboard</a>
-		</li>
-		<li>
-			<a href="about-us.html">About Us</a>
+			<a href="">Travel Agent</a>
 		</li>
 	</ul>
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-08 04:33:03
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-10 03:34:09
          compiled from "./templates\chunk\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5021ebffe12f82_41471460')) {function content_5021ebffe12f82_41471460($_smarty_tpl) {?><div id="footer">
+<?php if ($_valid && !is_callable('content_50248131afcdd2_70934378')) {function content_50248131afcdd2_70934378($_smarty_tpl) {?><div id="footer">
 	footer
 </div><?php }} ?>

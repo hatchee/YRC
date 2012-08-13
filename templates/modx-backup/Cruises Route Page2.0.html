@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		{{header}} 
+		<link rel="stylesheet" type="text/css" href="style/route.css">
+	</head>
+	<body>
+
+	<script type="text/javascript">
+	$(function(){
+
+		if($('.tips').length) { 
+			var offset = $(".tips").offset(); 
+			var topPadding = 15; 
+			$(window).scroll(function() { 
+				if ($(window).scrollTop() > offset.top){ 
+
+					$(".tips").stop().animate({ 
+						marginTop: $(window).scrollTop() - offset.top + topPadding 
+					}); 
+
+				} else { 
+
+					$(".tips").stop().animate({ 
+						marginTop: 0 
+					}); 
+
+				}; 
+			}); 
+		}; 
+
+	})
+	</script>
+		{{onlineservice}}
+		<div id="warp">
+			 <div id="header">
+			 	<a id="logo" href="/" title="Home"></a>
+			 </div>
+			 <div id="menu">
+			 	<ul class="clearfix">
+			 		<li class="">
+			 			<a href="/" class="home">Home</a>
+			 		</li>
+			 		<li class="">
+			 			<a href="">Find a Cruise</a>
+			 		</li>
+			 		<li>
+			 			<a href="">China Yangtze Tour</a>
+			 		</li>
+			 		<li>
+			 			<a href="">Travel Guide</a>
+			 		</li>
+			 		<li class="active">
+			 			<a href="">Cruise FAQs</a>
+			 		</li>
+			 		<li>
+			 			<a href="">About Us</a>
+			 		</li>
+			 		<li>
+			 			<a href="">Travel Agent</a>
+			 		</li>
+			 	</ul>
+			 </div>
+			<div class="mainbody clearfix">
+				<div class="breadcrum">
+					You are here:
+					<span class="B_crumbBox">
+						<span class="B_firstCrumb">
+							<a class="B_homeCrumb" href="/index.html" title="Yangtze River Cruise Home Page">Home</a>
+						</span>
+						&gt;
+						<a class="B_crumb" href="/ships.html" title="Yangtze River Cruise Ships">Yangtze Cruise Ships</a>
+						&gt;
+						<span class="B_lastCrumb">
+							<span class="B_currentCrumb">Victoria Jenna Cruise</span>
+						</span>
+					</span>
+				</div>
+
+				<div class="sidebar">
+					<dl class="besttour">
+						<dt>
+							China Tours & 
+					Experience the Real China with us
+						</dt>
+						<dd>
+							<h3>Top 10 Best China Tour</h3>
+							<span>( Top 10 Best China Tour -from Beijing to shanghai )</span>
+						</dd>
+						<dd>
+							<h3>Top 10 Best China Tour</h3>
+							<span>( Top 10 Best China Tour -from Beijing to shanghai )</span>
+						</dd>
+						<dd>
+							<h3>Top 10 Best China Tour</h3>
+							<span>( Top 10 Best China Tour -from Beijing to shanghai )</span>
+						</dd>
+						<dd>
+							<h3>Top 10 Best China Tour</h3>
+							<span>( Top 10 Best China Tour -from Beijing to shanghai )</span>
+						</dd>
+						<dd class="last">
+							<h3>Top 10 Best China Tour</h3>
+							<span>( Top 10 Best China Tour -from Beijing to shanghai )</span>
+						</dd>
+
+					</dl>
+				</div>
+
+				<div class="article clearfix">
+					<h1 class="toptitle">8 Days Beijing Yangtze Cruise Tour</h1>
+					<div class="share">
+						<img src="/image/social.jpg"></div>
+					<div class="content">
+						<div class="overview">
+							<img src="http://placehold.it/320x200">		
+							<h3>Overview:</h3>
+							<p>
+								Beijing, Xian, Shanghai, Yangtze River 
+						Cruise Shanghai, Beijing, Xian, 
+						Shanghai, Yangtze River Cruise, 
+						Beijing, Xian, Shanghai, Yangtze 
+						River Cruise,
+							</p>
+						</div>
+						<div class="visit clearfix">
+							<h3>You’ll visit:</h3>
+							<img src="http://placehold.it/170x100">		
+							<p>
+								Beijing, Xian, Shanghai, Yangtze River Cruise Shanghai,
+						Beijing, Xian, Shanghai, Yangtze River Cruise,
+							</p>
+						</div>
+						<div class="route">
+							<h2>Itinerary Details - day by day</h2>
+							<ul>
+								<li>
+									<span class='day'>Day 1</span>
+									<h3>Bangkok to Chiang Mai >></h3>
+									<p>
+										First stop this morning is Bangkok’s increble RoyalPalace..........................
+									</p>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+
+					<div class="aside">
+						<dl class="tips">
+							<dt>
+								Total Price from
+								<br> <i>$6,500</i>
+								<br>Per person</dt>
+							<dd> <b>Tour Code:</b>
+								YRC-BJ-03
+							</dd>
+							<dd> <b>Travel Style:</b>
+								private
+								<img class="why" src=""></dd>
+							<dd>
+								<b>Departure:</b>
+								you choose
+								<img class="why" src=""></dd>
+							<dd>
+								<a class="btn" href="">Get a Quote</a> <i>Or chat with our travel experts online in the right</i>
+							</dd>
+							<dd>
+								<h4>What's Included?</h4>
+								<p>
+									• All sights entrance;
+									<br>		
+									• Meals specified in itinerary;
+									<br>		
+									• Private guide, driver
+									<br>		
+									• Domestic flight/train;
+									<br>• Cruise ticket & transfer;</p>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<!-- END OF .article -->		
+
+			</div>
+			<!-- END OF #mainbody -->		
+		</div>
+	</body>
+</html>
