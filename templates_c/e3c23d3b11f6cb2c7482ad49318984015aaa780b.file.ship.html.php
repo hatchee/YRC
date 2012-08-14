@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-13 03:23:21
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-14 08:56:12
          compiled from "./templates\ship.html" */ ?>
 <?php /*%%SmartyHeaderCode:26021502477dbb78669-37926010%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e3c23d3b11f6cb2c7482ad49318984015aaa780b' => 
     array (
       0 => './templates\\ship.html',
-      1 => 1344828198,
+      1 => 1344934547,
       2 => 'file',
     ),
     '577cb3b5f2047bc4eeb0585f5d7acabd05cd2fcd' => 
@@ -47,7 +47,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	<script src="script/global.js" type="text/javascript"></script>
 	
 <link rel="stylesheet" type="text/css" href="/style/ship.css">
-<script type="text/javascript" src="script/calendar.js"></script>
+<script type="text/javascript" src="/script/ship.js"></script>
 
 </head>
 	
@@ -57,7 +57,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php /*  Call merged included template "chunk/header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '26021502477dbb78669-37926010');
-content_5028732909fd22_76767393($_smarty_tpl);
+content_502a12ac846820_71543985($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/header.tpl" */?>
 
 
@@ -79,7 +79,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 
 	<div class="mainbody ship clearfix">
 		<div class="shiptop">
-			<h1>Century Star Cruise        <img src="star"></h1>
+			<h1>Century Star Cruise <i class="star5"></i><img src="image/5star.gif"></h1>
 			<p>
 				The luxurious 5-star Century Star has been one of the most popular ships on <br>the Yangtze River since her maiden voyage in 2003. 
 			</p>
@@ -87,11 +87,27 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 			<div class="shiprt">
 				<img src="http://placehold.it/560x250">
 				<div class="shopprice">
-					<h3>Set price</h3>
-					(Click the price reservation)
+					<dl>
+						<dt>
+							<h3>Set price</h3>
+							(Click the price reservation)
+						</dt>
+						<dd>
+							<span style="background:#ff9501;"></span>Chongqing - Yichang
+						</dd>
+						<dd>
+							<span style="background:#4093e3;"></span>Yichang - Chongqing 
+						</dd>
+					</dl>
 					<table class="pricezone" border="1">
 						<tr>
-							<th></th>
+							<th rowspan="7">
+								<div>
+									<span class="prevMon"></span>
+									<span>July,<br>2012</span>
+									<span class="nextMon"></span>
+								</div>
+							</th>
 							<th>Sun</th>
 							<th>Mon</th>
 							<th>Tue</th>
@@ -101,13 +117,16 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 							<th>Sat</th>
 						</tr>
 						<tr>
-							<th rowspan="5">
-								July,2012
-							</th>
-							<td><span>1</span><i>$888</i></td>
+							<td class="us">
+								<span>1</span>
+								<i>$888</i>
+							</td>
 							<td>2</td>
 							<td>3</td>
-							<td>4</td>
+							<td class="ds">
+								<span>1</span>
+								<i>$888</i>
+							</td>
 							<td>5</td>
 							<td>6</td>
 							<td>7</td>
@@ -136,7 +155,12 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 
 
 			<p class="price">
-				<b>$477-$888</b><span class="why"></span>
+				<b>$477-$888</b>
+				<span class="why">
+					<img src="image/icon-why.png">
+					<i>explaination to the price</i>
+				</span>
+				
 			</p>
 			<p class="enquiry">
 				<a href=""><img src="/image/enquiry.gif"></a>
@@ -163,84 +187,146 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 				<li>Deckplan</li>
 				<li>Itineraries</li>
 				<li>Life onboard</li>
+				<li>Why Book with Us</li>
 			</ul>
+			<a href=""><img src="image/enquiry-small.gif"></a>
 		</div>
-		<div class="shipdetail clearfix">
+			<div class="shipdetail clearfix">
 
-			<div class="col-rt">
-				<div class="box">
-					<h3>Featured Video</h3>
-					<img src="http://placehold.it/213x123">
-					<p>
-						See for yourself what Yangtze-River is all about!
-					</p>
-				</div>	
-				<div class="box">
-					<h3>Why Book with Uu</h3>
-					<ul>
-						<li>Ding and Cuisine</li>
-						<li>Ding and Cuisine</li>
-						<li>Ding and Cuisine</li>
-						<li>Ding and Cuisine</li>
-					</ul>
+				<div class="col-lt">
+					<div class="unit cabin">
+						<h3>Cabin Info on Century Star</h3>
+						<table>
+							<tr>
+								<td><img src="http://placehold.it/225x170"></td>
+								<td><img src="image/arrows.gif"></td>
+								<td><img src="image/room/room1.jpg"></td>
+								<td>
+									Room Size: 22 m<sup>2</sup><br>
+									Bed Size: 2.0m*0.9m<br>
+									Balcony:  2 m<sup>2</sup><br>
+									Bathroom:  Shower
+								</td>
+							</tr>
+
+							<tr>
+								<td><img src="http://placehold.it/225x170"></td>
+								<td><img src="image/arrows.gif"></td>
+								<td><img src="image/room/room1.jpg"></td>
+								<td>
+									Room Size: 22 m<sup>2</sup><br>
+									Bed Size: 2.0m*0.9m<br>
+									Balcony:  2 m<sup>2</sup><br>
+									Bathroom:  Shower
+								</td>
+							</tr>
+
+							<tr>
+								<td><img src="http://placehold.it/225x170"></td>
+								<td><img src="image/arrows.gif"></td>
+								<td><img src="image/room/room1.jpg"></td>
+								<td>
+									Room Size: 22 m<sup>2</sup><br>
+									Bed Size: 2.0m*0.9m<br>
+									Balcony:  2 m<sup>2</sup><br>
+									Bathroom:  Shower
+								</td>
+							</tr>
+						</table>
+					</div>
+
+					<div class="unit deckplan">
+						<h3>Deckplan on Century Star</h3>
+						<table>
+							<tr>
+								<td>Sightseeing Deck <br>(Sun Deck, Bar)</td>
+								<td>
+									<img src="image/deckplan/d1.gif">
+								</td>
+							</tr>
+							<tr>
+								<td>Sightseeing Deck <br>(Sun Deck, Bar)</td>
+								<td>
+									<img src="image/deckplan/d1.gif">
+								</td>
+							</tr>
+						</table>
+					</div>
+
+					<div class="unit iti">
+						<h3>Itinerary</h3>
+						<p class="map">
+							<img src="http://placehold.it/680x230">
+							<span>Map of Century Star's Itinerary</span>
+						</p>
+							<table>
+								<tr>
+									<th>Day</th>
+									<th>Time</th>
+									<th>Event & Activities</th>
+								</tr>
+								<tr>
+									<td>Day 1</td>
+									<td>
+										19:30-21:00<br>
+										21:30
+									</td>
+									<td>
+										Embarkation<br>     
+										Departure in Chongqing
+									</td>
+								</tr>
+							</table>
+
+					</div>
+
+					<div class="unit">
+						<h3>life on board...</h3>
+					</div>
+
+					<div class="unit">
+						<h3>Why book with us...</h3>
+					</div>
+
 				</div>
-				<div class="box">
-					<h3>Why Book with Uu</h3>
-					<ul>
-						<li>Ding and Cuisine</li>
-						<li>Ding and Cuisine</li>
-						<li>Ding and Cuisine</li>
-						<li>Ding and Cuisine</li>
-					</ul>
+
+				<div class="col-rt">
+					<div class="box">
+						<h3>Featured Video</h3>
+						<img src="http://placehold.it/213x123">		
+						<p>See for yourself what Yangtze-River is all about!</p>
+					</div>
+					<div class="box">
+						<h3>Why Book with Us</h3>
+						<ul>
+							<li>Ding and Cuisine</li>
+							<li>Ding and Cuisine</li>
+							<li>Ding and Cuisine</li>
+							<li>Ding and Cuisine</li>
+						</ul>
+					</div>
+					<div class="box">
+						<h3>Recent inquiry</h3>
+						<ul>
+							<li>Ding and Cuisine</li>
+							<li>Ding and Cuisine</li>
+							<li>Ding and Cuisine</li>
+							<li>Ding and Cuisine</li>
+						</ul>
+					</div>
 				</div>
+
 			</div>
-
-
-			<div class="col-lt">
-				<div class="unit">
-					<h3>Cabin Info on Century Star</h3>
-				</div>
-
-				<div class="unit">
-					<h3>Deckplan on Century Star</h3>
-					<table>
-						<tr>
-							<td>
-								Sightseeing Deck (Sun Deck, Bar)
-							</td>
-							<td>
-								<img src="http://placehold.it/448x87">
-							</td>
-						</tr>
-						<tr>
-							<td>
-								Sightseeing Deck (Sun Deck, Bar)
-							</td>
-							<td>
-								<img src="http://placehold.it/448x87">
-							</td>
-						</tr>
-					</table>
-				</div>
-
-				<div class="unit">
-					<h3>Itinerary</h3>
-				</div>
-			</div>
-
-			
-
-		</div>
-
+		
 		<div class="row-bot">
 			<h3>
 				Century Other Cruises
-				<a href="">View all »</a>
+				<a href="">View all</a>
 			</h3>
 			<ul>
 				<li>
 					<a href="">
-						<img src="http://placehold.it/170x125">		
+						<img src="http://placehold.it/174x125">		
 						<p>
 							Century Sky
 							<img src=""></p>
@@ -248,7 +334,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 				</li>
 				<li>
 					<a href="">
-						<img src="http://placehold.it/170x125">		
+						<img src="http://placehold.it/174x125">		
 						<p>
 							Century Sky
 							<img src=""></p>
@@ -256,7 +342,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 				</li>
 				<li>
 					<a href="">
-						<img src="http://placehold.it/170x125">		
+						<img src="http://placehold.it/174x125">		
 						<p>
 							Century Sky
 							<img src=""></p>
@@ -264,7 +350,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 				</li>
 				<li>
 					<a href="">
-						<img src="http://placehold.it/170x125">		
+						<img src="image/room/room1.jpg" width="174" height="125">		
 						<p>
 							Century Sky
 							<img src=""></p>
@@ -272,10 +358,10 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 				</li>
 				<li>
 					<a href="">
-						<img src="http://placehold.it/170x125">		
+						<img src="image/room/room1.jpg" width="174" height="125">		
 						<p>
 							Century Sky
-							<img src=""></p>
+							<img src="image/5star.gif"></p>
 					</a>
 				</li>
 			</ul>
@@ -286,14 +372,14 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 	<?php /*  Call merged included template "chunk/footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '26021502477dbb78669-37926010');
-content_502873290aa023_10142777($_smarty_tpl);
+content_502a12ac851469_15553661($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/footer.tpl" */?>
 </div><!-- END OF #wrap -->
 </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-13 03:23:21
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-14 08:56:12
          compiled from "./templates\chunk\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5028732909fd22_76767393')) {function content_5028732909fd22_76767393($_smarty_tpl) {?><div class="headtop">
+<?php if ($_valid && !is_callable('content_502a12ac846820_71543985')) {function content_502a12ac846820_71543985($_smarty_tpl) {?><div class="headtop">
     0845 287 6177
     Contact us Mon - Fri 9am - 7pm
 </div>
@@ -325,8 +411,8 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 			<a href="">Travel Agent</a>
 		</li>
 	</ul>
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-13 03:23:21
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-14 08:56:12
          compiled from "./templates\chunk\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502873290aa023_10142777')) {function content_502873290aa023_10142777($_smarty_tpl) {?><div id="footer">
+<?php if ($_valid && !is_callable('content_502a12ac851469_15553661')) {function content_502a12ac851469_15553661($_smarty_tpl) {?><div id="footer">
 	footer
 </div><?php }} ?>

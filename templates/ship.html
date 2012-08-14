@@ -2,7 +2,7 @@
 {block name=title}YRC ship page{/block}
 {block name=head}
 <link rel="stylesheet" type="text/css" href="/style/ship.css">
-<script type="text/javascript" src="script/calendar.js"></script>
+<script type="text/javascript" src="/script/ship.js"></script>
 {/block}
 {block name=body}
 <body>
@@ -29,7 +29,7 @@
 
 	<div class="mainbody ship clearfix">
 		<div class="shiptop">
-			<h1>Century Star Cruise        <img src="star"></h1>
+			<h1>Century Star Cruise <i class="star5"></i><img src="image/5star.gif"></h1>
 			<p>
 				The luxurious 5-star Century Star has been one of the most popular ships on <br>the Yangtze River since her maiden voyage in 2003. 
 			</p>
@@ -37,11 +37,27 @@
 			<div class="shiprt">
 				<img src="http://placehold.it/560x250">
 				<div class="shopprice">
-					<h3>Set price</h3>
-					(Click the price reservation)
+					<dl>
+						<dt>
+							<h3>Set price</h3>
+							(Click the price reservation)
+						</dt>
+						<dd>
+							<span style="background:#ff9501;"></span>Chongqing - Yichang
+						</dd>
+						<dd>
+							<span style="background:#4093e3;"></span>Yichang - Chongqing 
+						</dd>
+					</dl>
 					<table class="pricezone" border="1">
 						<tr>
-							<th></th>
+							<th rowspan="7">
+								<div>
+									<span class="prevMon"></span>
+									<span>July,<br>2012</span>
+									<span class="nextMon"></span>
+								</div>
+							</th>
 							<th>Sun</th>
 							<th>Mon</th>
 							<th>Tue</th>
@@ -51,13 +67,16 @@
 							<th>Sat</th>
 						</tr>
 						<tr>
-							<th rowspan="5">
-								July,2012
-							</th>
-							<td><span>1</span><i>$888</i></td>
+							<td class="us">
+								<span>1</span>
+								<i>$888</i>
+							</td>
 							<td>2</td>
 							<td>3</td>
-							<td>4</td>
+							<td class="ds">
+								<span>1</span>
+								<i>$888</i>
+							</td>
 							<td>5</td>
 							<td>6</td>
 							<td>7</td>
@@ -86,7 +105,12 @@
 
 
 			<p class="price">
-				<b>$477-$888</b><span class="why"></span>
+				<b>$477-$888</b>
+				<span class="why">
+					<img src="image/icon-why.png">
+					<i>explaination to the price</i>
+				</span>
+				
 			</p>
 			<p class="enquiry">
 				<a href=""><img src="/image/enquiry.gif"></a>
@@ -113,84 +137,146 @@
 				<li>Deckplan</li>
 				<li>Itineraries</li>
 				<li>Life onboard</li>
+				<li>Why Book with Us</li>
 			</ul>
+			<a href=""><img src="image/enquiry-small.gif"></a>
 		</div>
-		<div class="shipdetail clearfix">
+			<div class="shipdetail clearfix">
 
-			<div class="col-rt">
-				<div class="box">
-					<h3>Featured Video</h3>
-					<img src="http://placehold.it/213x123">
-					<p>
-						See for yourself what Yangtze-River is all about!
-					</p>
-				</div>	
-				<div class="box">
-					<h3>Why Book with Uu</h3>
-					<ul>
-						<li>Ding and Cuisine</li>
-						<li>Ding and Cuisine</li>
-						<li>Ding and Cuisine</li>
-						<li>Ding and Cuisine</li>
-					</ul>
+				<div class="col-lt">
+					<div class="unit cabin">
+						<h3>Cabin Info on Century Star</h3>
+						<table>
+							<tr>
+								<td><img src="http://placehold.it/225x170"></td>
+								<td><img src="image/arrows.gif"></td>
+								<td><img src="image/room/room1.jpg"></td>
+								<td>
+									Room Size: 22 m<sup>2</sup><br>
+									Bed Size: 2.0m*0.9m<br>
+									Balcony:  2 m<sup>2</sup><br>
+									Bathroom:  Shower
+								</td>
+							</tr>
+
+							<tr>
+								<td><img src="http://placehold.it/225x170"></td>
+								<td><img src="image/arrows.gif"></td>
+								<td><img src="image/room/room1.jpg"></td>
+								<td>
+									Room Size: 22 m<sup>2</sup><br>
+									Bed Size: 2.0m*0.9m<br>
+									Balcony:  2 m<sup>2</sup><br>
+									Bathroom:  Shower
+								</td>
+							</tr>
+
+							<tr>
+								<td><img src="http://placehold.it/225x170"></td>
+								<td><img src="image/arrows.gif"></td>
+								<td><img src="image/room/room1.jpg"></td>
+								<td>
+									Room Size: 22 m<sup>2</sup><br>
+									Bed Size: 2.0m*0.9m<br>
+									Balcony:  2 m<sup>2</sup><br>
+									Bathroom:  Shower
+								</td>
+							</tr>
+						</table>
+					</div>
+
+					<div class="unit deckplan">
+						<h3>Deckplan on Century Star</h3>
+						<table>
+							<tr>
+								<td>Sightseeing Deck <br>(Sun Deck, Bar)</td>
+								<td>
+									<img src="image/deckplan/d1.gif">
+								</td>
+							</tr>
+							<tr>
+								<td>Sightseeing Deck <br>(Sun Deck, Bar)</td>
+								<td>
+									<img src="image/deckplan/d1.gif">
+								</td>
+							</tr>
+						</table>
+					</div>
+
+					<div class="unit iti">
+						<h3>Itinerary</h3>
+						<p class="map">
+							<img src="http://placehold.it/680x230">
+							<span>Map of Century Star's Itinerary</span>
+						</p>
+							<table>
+								<tr>
+									<th>Day</th>
+									<th>Time</th>
+									<th>Event & Activities</th>
+								</tr>
+								<tr>
+									<td>Day 1</td>
+									<td>
+										19:30-21:00<br>
+										21:30
+									</td>
+									<td>
+										Embarkation<br>     
+										Departure in Chongqing
+									</td>
+								</tr>
+							</table>
+
+					</div>
+
+					<div class="unit">
+						<h3>life on board...</h3>
+					</div>
+
+					<div class="unit">
+						<h3>Why book with us...</h3>
+					</div>
+
 				</div>
-				<div class="box">
-					<h3>Why Book with Uu</h3>
-					<ul>
-						<li>Ding and Cuisine</li>
-						<li>Ding and Cuisine</li>
-						<li>Ding and Cuisine</li>
-						<li>Ding and Cuisine</li>
-					</ul>
+
+				<div class="col-rt">
+					<div class="box">
+						<h3>Featured Video</h3>
+						<img src="http://placehold.it/213x123">		
+						<p>See for yourself what Yangtze-River is all about!</p>
+					</div>
+					<div class="box">
+						<h3>Why Book with Us</h3>
+						<ul>
+							<li>Ding and Cuisine</li>
+							<li>Ding and Cuisine</li>
+							<li>Ding and Cuisine</li>
+							<li>Ding and Cuisine</li>
+						</ul>
+					</div>
+					<div class="box">
+						<h3>Recent inquiry</h3>
+						<ul>
+							<li>Ding and Cuisine</li>
+							<li>Ding and Cuisine</li>
+							<li>Ding and Cuisine</li>
+							<li>Ding and Cuisine</li>
+						</ul>
+					</div>
 				</div>
+
 			</div>
-
-
-			<div class="col-lt">
-				<div class="unit">
-					<h3>Cabin Info on Century Star</h3>
-				</div>
-
-				<div class="unit">
-					<h3>Deckplan on Century Star</h3>
-					<table>
-						<tr>
-							<td>
-								Sightseeing Deck (Sun Deck, Bar)
-							</td>
-							<td>
-								<img src="http://placehold.it/448x87">
-							</td>
-						</tr>
-						<tr>
-							<td>
-								Sightseeing Deck (Sun Deck, Bar)
-							</td>
-							<td>
-								<img src="http://placehold.it/448x87">
-							</td>
-						</tr>
-					</table>
-				</div>
-
-				<div class="unit">
-					<h3>Itinerary</h3>
-				</div>
-			</div>
-
-			
-
-		</div>
-
+		
 		<div class="row-bot">
 			<h3>
 				Century Other Cruises
-				<a href="">View all »</a>
+				<a href="">View all</a>
 			</h3>
 			<ul>
 				<li>
 					<a href="">
-						<img src="http://placehold.it/170x125">		
+						<img src="http://placehold.it/174x125">		
 						<p>
 							Century Sky
 							<img src=""></p>
@@ -198,7 +284,7 @@
 				</li>
 				<li>
 					<a href="">
-						<img src="http://placehold.it/170x125">		
+						<img src="http://placehold.it/174x125">		
 						<p>
 							Century Sky
 							<img src=""></p>
@@ -206,7 +292,7 @@
 				</li>
 				<li>
 					<a href="">
-						<img src="http://placehold.it/170x125">		
+						<img src="http://placehold.it/174x125">		
 						<p>
 							Century Sky
 							<img src=""></p>
@@ -214,7 +300,7 @@
 				</li>
 				<li>
 					<a href="">
-						<img src="http://placehold.it/170x125">		
+						<img src="image/room/room1.jpg" width="174" height="125">		
 						<p>
 							Century Sky
 							<img src=""></p>
@@ -222,10 +308,10 @@
 				</li>
 				<li>
 					<a href="">
-						<img src="http://placehold.it/170x125">		
+						<img src="image/room/room1.jpg" width="174" height="125">		
 						<p>
 							Century Sky
-							<img src=""></p>
+							<img src="image/5star.gif"></p>
 					</a>
 				</li>
 			</ul>
