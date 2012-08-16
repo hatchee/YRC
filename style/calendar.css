@@ -1,7 +1,9 @@
 .calendar{
 	background: #fff;
 }
-
+.calendar .conbody{
+	padding: 10px;
+}
 .tabnav{
 	width: 960px;
 }

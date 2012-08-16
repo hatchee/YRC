@@ -6,29 +6,13 @@
 {/block}
 {block name=body}
 <body>
-<div id="wrap">
+<div class="wrap">
 
 {include file="chunk/header.tpl"}
 
 
-	<div class="breadcrum">
-		You are here:
-		<span class="B_crumbBox">
-			<span class="B_firstCrumb">
-				<a class="B_homeCrumb" href="/index.html" title="Yangtze River Cruise Home Page">Home</a>
-			</span>
-			&gt;
-			<a class="B_crumb" href="/ships.html" title="Yangtze River Cruise Ships">Yangtze Cruise Ships</a>
-			&gt;
-			<span class="B_lastCrumb">
-				<span class="B_currentCrumb">Victoria Jenna Cruise</span>
-			</span>
-		</span>
-
-	</div>
-
 	<div class="mainbody calendar clearfix">
-		
+		<div class="conbody">
 		<h1>Yangtze River Cruise Calendar in July, 2012</h1>
 		<p sytle="width: 657px;">
 			To help you find the ideal Yangtze cruise ship more easily, we classify the following chart more clearly, so please be patinet, and follow your travel date to find a perfect ship. If you don't find anyone, please feel free to contact our cruise experts online or drop us a line, and we'll try our best to contact you within 0.5 hour.
@@ -126,9 +110,10 @@
 				</tr>
 			</table>
 		</div>
-	</div><!-- END OF #mainbody -->
+		</div>
+	</div><!-- END OF .mainbody -->
 
 	{include file="chunk/footer.tpl"}
-</div><!-- END OF #wrap -->
+</div><!-- END OF .wrap -->
 </body>
 {/block}

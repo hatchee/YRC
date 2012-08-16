@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-10 03:34:09
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-15 09:47:41
          compiled from "./templates\calendar.html" */ ?>
 <?php /*%%SmartyHeaderCode:321995020c049c32825-85511503%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9ebf8690c641f0ea8f64c54d0ec28c80b0632e55' => 
     array (
       0 => './templates\\calendar.html',
-      1 => 1344566659,
+      1 => 1345016363,
       2 => 'file',
     ),
     '577cb3b5f2047bc4eeb0585f5d7acabd05cd2fcd' => 
@@ -19,13 +19,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd360287b5561fbd7b01fa73e1a1771ff0fcfdad9' => 
     array (
       0 => './templates\\chunk\\header.tpl',
-      1 => 1344566169,
+      1 => 1345022761,
       2 => 'file',
     ),
     'd04f62d5ea29f5a4ffc2ac5ebd832681b3488bc7' => 
     array (
       0 => './templates\\chunk\\footer.tpl',
-      1 => 1343638772,
+      1 => 1345013085,
       2 => 'file',
     ),
   ),
@@ -52,33 +52,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </head>
 	
 <body>
-<div id="wrap">
+<div class="wrap">
 
 <?php /*  Call merged included template "chunk/header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '321995020c049c32825-85511503');
-content_50248131af2c25_46460092($_smarty_tpl);
+content_502b703d0d26a8_15654664($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/header.tpl" */?>
 
 
-	<div class="breadcrum">
-		You are here:
-		<span class="B_crumbBox">
-			<span class="B_firstCrumb">
-				<a class="B_homeCrumb" href="/index.html" title="Yangtze River Cruise Home Page">Home</a>
-			</span>
-			&gt;
-			<a class="B_crumb" href="/ships.html" title="Yangtze River Cruise Ships">Yangtze Cruise Ships</a>
-			&gt;
-			<span class="B_lastCrumb">
-				<span class="B_currentCrumb">Victoria Jenna Cruise</span>
-			</span>
-		</span>
-
-	</div>
-
 	<div class="mainbody calendar clearfix">
-		
+		<div class="conbody">
 		<h1>Yangtze River Cruise Calendar in July, 2012</h1>
 		<p sytle="width: 657px;">
 			To help you find the ideal Yangtze cruise ship more easily, we classify the following chart more clearly, so please be patinet, and follow your travel date to find a perfect ship. If you don't find anyone, please feel free to contact our cruise experts online or drop us a line, and we'll try our best to contact you within 0.5 hour.
@@ -176,31 +160,40 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 				</tr>
 			</table>
 		</div>
-	</div><!-- END OF #mainbody -->
+		</div>
+	</div><!-- END OF .mainbody -->
 
 	<?php /*  Call merged included template "chunk/footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '321995020c049c32825-85511503');
-content_50248131afcdd2_70934378($_smarty_tpl);
+content_502b703d0e7c97_61444850($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/footer.tpl" */?>
-</div><!-- END OF #wrap -->
+</div><!-- END OF .wrap -->
 </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-10 03:34:09
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-15 09:47:41
          compiled from "./templates\chunk\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_50248131af2c25_46460092')) {function content_50248131af2c25_46460092($_smarty_tpl) {?><div class="headtop">
-    0845 287 6177
-    Contact us Mon - Fri 9am - 7pm
+<?php if ($_valid && !is_callable('content_502b703d0d26a8_15654664')) {function content_502b703d0d26a8_15654664($_smarty_tpl) {?><div class="headtop clearfix">
+	<div class="ht-left">
+		<a href="#">Home</a> |
+		<a href="#">Customize a Tour</a>|
+		<a href="#">Travel Agent</a>
+	</div> 
+	<div class="ht-mid">
+		Specialized in Yangtze Cruise since 1999 !
+	</div> 
+	<div class="ht-right">
+		Call us: <b>86-23-89009012 </b>
+		<br>
+		Email us: <b>info@yangtze-river-cruises.com </b>
+	</div> 
 </div>
 
- <div id="header">
+ <div class="header">
  	<a id="logo" href="/" title="Home"></a>
  </div>
- <div id="menu">
-	<ul class="clearfix">
-		<li class="">
-			<a href="/" class="home">Home</a>
-		</li>
+ <div class="menu clearfix">
+	<ul class="navleft">
 		<li class="">
 			<a href="">Find a Cruise</a>
 		</li>
@@ -216,12 +209,107 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 		<li>
 			<a href="">About Us</a>
 		</li>
+	</ul>
+
+	<ul class="navright">
 		<li>
-			<a href="">Travel Agent</a>
+			<a href="">Victoria Cruise</a>
+		</li>
+		<li>
+			<a href="">Century Cruise</a>
+		</li>
+		<li>
+			<a href="">President Cruise</a>
 		</li>
 	</ul>
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-10 03:34:09
+</div>
+<div class="breadcrum">
+	You are here:
+	<span class="B_crumbBox">
+		<span class="B_firstCrumb">
+			<a class="B_homeCrumb" href="/index.html" title="Yangtze River Cruise Home Page">Home</a>
+		</span>
+		&gt;
+		<a class="B_crumb" href="/ships.html" title="Yangtze River Cruise Ships">Yangtze Cruise Ships</a>
+		&gt;
+		<span class="B_lastCrumb">
+			<span class="B_currentCrumb">Victoria Jenna Cruise</span>
+		</span>
+	</span>
+
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-15 09:47:41
          compiled from "./templates\chunk\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_50248131afcdd2_70934378')) {function content_50248131afcdd2_70934378($_smarty_tpl) {?><div id="footer">
-	footer
+<?php if ($_valid && !is_callable('content_502b703d0e7c97_61444850')) {function content_502b703d0e7c97_61444850($_smarty_tpl) {?><div class="footer">
+	<div class="footnav clearfix">
+		<dl>
+			<dt>Yangtze Cruise</dt>
+			<dd><a href=""> Cruise Boats </a></dd>
+			<dd><a href="">Cruise Calendar 2012 & 2013 </a></dd>
+			<dd><a href=""> Cruise Boats </a></dd>
+			<dd><a href=""> Cruise Boats </a></dd>
+			<dd><a href=""> Cruise Boats </a></dd>
+			<dd><a href=""> Cruise Boats </a></dd>
+			<dd><a href=""> Cruise Boats </a></dd>
+			<dd><a href=""> Cruise Boats </a></dd>
+			<dd><a href=""> Cruise Boats </a></dd>
+		</dl>
+
+		<dl>
+			<dt>Extended Tour</dt>
+			<dd><a href=""> China & Yangtze </a></dd>
+			<dd><a href=""> Beijing & Yangtze </a></dd>
+			<dd><a href="">Shanghai & Yangtze </a></dd>
+			<dd><a href="">Hong Kong & Yangtz</a></dd>
+		</dl>
+
+		<dl>
+			<dt>Extended Tour</dt>
+			<dd><a href=""> Cruise Boats </a></dd>
+			<dd><a href="">Cruise Calendar 2012 & 2013 </a></dd>
+			<dd><a href="">  Cruise Guide  </a></dd>
+			<dd><a href=""> Cruise Onboard </a></dd>
+			<dd><a href=""> Cruise Boats </a></dd>
+			<dd><a href=""> Cruise Calendar 2012 & 2013 </a></dd>
+			<dd><a href=""> Cruise Boats </a></dd>
+		</dl>
+
+		<dl class="lastdl">
+			<dt>Boot with a tour</dt>
+			<dd>Receive special offers and</dd>
+			<dd>Receive special offers and</dd>
+			<dt>Boot with a tour</dt>
+			<dd>Receive special offers and</dd>
+			<dd>Receive special offers and</dd>
+			<dt>Boot with a tour</dt>
+			<dd>Receive special offers and</dd>
+			<dd>Receive special offers and</dd>
+		</dl>
+	</div>
+
+	<div class="social">
+		Follow Us 
+		<a href=""> <img src="/image/twitter.jpg"></a>
+		<a href=""> <img src="/image/twitter.jpg"></a>
+		<a href=""> <img src="/image/twitter.jpg"></a>
+	</div>
+
+	<div class="footinfo">
+		<p>
+		<a class="footlogo" href=""><img src="/image/footlogo.png"></a>	
+			Any questions, please contact: info yangtze-river-cruises.com or Call us: +86-23-89009012 
+		<br>
+			<span style="font-size:12px;">Our office address : Room 1802, New Chongqing Apartment, No.18 Minzu Road,Yuzhong District, Chongqing, P.R.China 400010
+Copyright © 2001 - 2012. YangtzeRiverCruises, professional Chongqing local travel agency and China tour operator . All rights reserved</span>
+		</p>
+
+		<p>
+			Yangtze-river-cruises.com is a proud member of the Chengdu Bamboo International Tours Co., Ltd, the China leader in delievering outstanding discovery travel experiences. Registered Office: 1#23, No.288, Wuyang Avenue 1st Section, Wuhou District, Chengdu, China. The other members are: China Discovery Tours; Tibet Discovery Tours; and Beijing Holiday Tours.
+		</p>
+
+		<p>
+			If you have any suggestions or comments about our websites, please <a href="">e-mail our webmaster</a>. 
+		</p>
+	</div>
+
+
 </div><?php }} ?>

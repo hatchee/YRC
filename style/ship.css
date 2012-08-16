@@ -1,15 +1,20 @@
+.ship .conbody{
+	padding: 10px;
+}
 .shiptop{
-	border: 3px solid #ffba00;
+	border: 3px solid #9FBFE3;
 	border-radius: 3px;
 	padding: 10px;
 	width: 934px;
-	background: #faf8f1;
+	background: #F3FAFF;
 	float: left;
 }
-
+.shiptop .price{
+	font-size: 16px;
+}
 .shiptop .price b{
-	color: #e60012;
-	font-size: 18px;
+	color: #000;
+	font-size: 20px;
 	font-weight: bold;
 }
 .price .why i{
@@ -20,13 +25,22 @@
 	line-height: 14px;
 	color: #5f5f5f;
 	width: 360px;
-	padding: 0 0 20px 0;
+	padding: 0 0 58px 0;
 	border-bottom: 1px dashed #ddd;
 }
 .shiptop .enquiry a{
 	display: block;
+	width: 159px;
+	height: 36px;
+	background: url(/image/enquirynew.gif) no-repeat 0 0;
 	float: left;
 	margin: 0 10px 0 0;
+}
+.shiptop .enquiry a:hover{
+	background: url(/image/enquirynew.gif) no-repeat 0 -36px;
+}
+.shiptop .small{
+	font-size: 11px;
 }
 
 
@@ -64,6 +78,10 @@
 	color:#004b93;
 	font-size: 18px;
 }
+#shipcalendar{
+	float: left;
+	clear: both;
+}
 .pricezone{
 	border: 1px solid #8cc9fc;
 	width: 540px;
@@ -80,11 +98,18 @@
 	width: 35px;
 	color: #bbbbbb;
 }
+.pricezone td.blank{
+	background: #fff;
+}
 .pricezone td.us,
 .pricezone td.ds {
 	width: 70px;
 }
+.pricezone td a{
+	text-decoration: none;
+}
 .pricezone td span{
+	color: #fff;
 	display: block;
 	width: 70px;
 	height: 15px;
@@ -96,6 +121,7 @@
 	font-style: normal;
 	font-weight: bold;
 	width: 70px;
+	color: #fff;
 	height: 15px;
 	text-align: right;
 }
@@ -141,8 +167,16 @@
 .row-top ul{
 	float: left;
 }
-.row-top a{
+.row-top a.enquiry{
 	float: right;
+	width: 93px;
+	height: 28px;
+	display: block;
+	background: url("/image/enquiry-small2.gif") no-repeat;
+}
+.row-top a.enquiry:hover{
+	
+	background: url("/image/enquiry-small2.gif") no-repeat center -28px;
 }
 .row-top li{
 	background: url("/image/submenu.png") repeat-x scroll 0 0 transparent;
@@ -159,10 +193,13 @@
 	margin: 0 5px 0 0;
 	cursor: pointer;
 }
+.row-top li:hover{
+	background: url(/image/submenu.png) repeat-x 0 -62px;
+}
 .row-top li.active{
 	background: url(/image/submenu.png) repeat-x 0 -31px;
-
 }
+
 .col-lt{
 	width: 680px;
 	float: left;
@@ -173,6 +210,8 @@
 	width: 680px;
 }
 .unit table td{
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
 	vertical-align: middle;
 }
 
@@ -180,6 +219,12 @@
 .cabin td,
 .deckplan td{
 	padding: 10px 0;
+}
+.cabin .c1{
+	width: 200px;
+}
+.cabin .c2{
+	width: 34px
 }
 
 .iti td,
@@ -217,8 +262,29 @@
 .box h3{
 	font-size: 16px;
 }
+.review-con{
+	background:#fff;
+	border-radius: 5px;
+	position: relative;
+	padding: 5px;
+}
+.author{
+	background: url("/image/navdown.png") no-repeat 30px 0 transparent
+
+}
+.author img{
+	margin: 10px 10px 0 0;
+}
 
 
+.Recent-Inquiry{
+	height: 200px;
+	overflow: hidden;
+}
+.Recent-Inquiry li{
+	list-style-type: disc;
+	list-style-position: inside;
+}
 .row-bot{
 	width: 945px;
 	float: left;
@@ -226,11 +292,18 @@
 	background: #585858;
 	margin: 10px 0 0 0;
 }
+.row-bot h3{
+	color: #fff;
+}
 .row-bot h3 a{
-	color: #1E8BC9;
+	color: #fff;
+	font-size: 12px;
 	float: right;
 	margin: 0 20px 0 0;
 	text-decoration: none;
+}
+.row-bot h3 a:hover{
+	color: #004B93;
 }
 .row-bot ul a{
 	margin:10px 15px 0 0 ;
@@ -249,5 +322,7 @@
 	padding: 3px 10px;
 	background: url("/image/caption-bg.png") repeat-x;
 	width: 154px;
-
+}
+.row-bot ul p img{
+	vertical-align: middle;
 }

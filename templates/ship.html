@@ -6,32 +6,16 @@
 {/block}
 {block name=body}
 <body>
-<div id="wrap">
+<div class="wrap">
 
 {include file="chunk/header.tpl"}
 
-
-	<div class="breadcrum">
-		You are here:
-		<span class="B_crumbBox">
-			<span class="B_firstCrumb">
-				<a class="B_homeCrumb" href="/index.html" title="Yangtze River Cruise Home Page">Home</a>
-			</span>
-			&gt;
-			<a class="B_crumb" href="/ships.html" title="Yangtze River Cruise Ships">Yangtze Cruise Ships</a>
-			&gt;
-			<span class="B_lastCrumb">
-				<span class="B_currentCrumb">Victoria Jenna Cruise</span>
-			</span>
-		</span>
-
-	</div>
-
 	<div class="mainbody ship clearfix">
+		<div class="conbody clearfix">
 		<div class="shiptop">
 			<h1>Century Star Cruise <i class="star5"></i><img src="image/5star.gif"></h1>
 			<p>
-				The luxurious 5-star Century Star has been one of the most popular ships on <br>the Yangtze River since her maiden voyage in 2003. 
+				The luxurious 5-star Century Star has been one of the most popular ships on the Yangtze River since her maiden voyage in 2003. 
 			</p>
 
 			<div class="shiprt">
@@ -39,8 +23,8 @@
 				<div class="shopprice">
 					<dl>
 						<dt>
-							<h3>Set price</h3>
-							(Click the price reservation)
+							<h3>Sailing dates & price</h3>
+							(Book earlier, and save more)
 						</dt>
 						<dd>
 							<span style="background:#ff9501;"></span>Chongqing - Yichang
@@ -105,16 +89,16 @@
 
 
 			<p class="price">
+				Price:
 				<b>$477-$888</b>
 				<span class="why">
 					<img src="image/icon-why.png">
-					<i>explaination to the price</i>
+					<i>explain to the price</i>
 				</span>
 				
 			</p>
 			<p class="enquiry">
-				<a href=""><img src="/image/enquiry.gif"></a>
-				Or chat with our experts online on the right !
+				<a href=""></a>
 			</p>
 			<h3>Ship Overview </h3>
 			<p>
@@ -122,7 +106,7 @@
 				<br><br>
 				Every corner on Century Star is designed just for you. The magnificent Atrium Lobby is known as a typical creation in modern flavor. The spacious, all-outside cabins, each with a private balcony, a phone, a color TV, a mini bar, and Western bathrooms make guests 
 			</p>
-			<p>
+			<p class="small">
 				<b>Itinerary:</b>Chongqing - Yichang <br>
 				<b>Itinerary:</b>Chongqing - Yichang <br>
 				<b>Itinerary:</b>Chongqing - Yichang <br>
@@ -139,7 +123,7 @@
 				<li>Life onboard</li>
 				<li>Why Book with Us</li>
 			</ul>
-			<a href=""><img src="image/enquiry-small.gif"></a>
+			<a class="enquiry" href=""></a>
 		</div>
 			<div class="shipdetail clearfix">
 
@@ -247,16 +231,30 @@
 						<p>See for yourself what Yangtze-River is all about!</p>
 					</div>
 					<div class="box">
-						<h3>Why Book with Us</h3>
+						<h3>Reviews from Our Travelers</h3>
 						<ul>
-							<li>Ding and Cuisine</li>
-							<li>Ding and Cuisine</li>
-							<li>Ding and Cuisine</li>
-							<li>Ding and Cuisine</li>
+							<li>
+								<div class="review-con">
+									See for yourself what Yangtze-River is all about!See for yourself what Yangtze-River is all about!
+								</div>
+								<div class="author">
+									<img src="http://placehold.it/50x50/ff0000">
+									By xxx
+								</div>
+							</li>
+							<li>
+								<div class="review-con">
+									See for yourself what Yangtze-River is all about!See for yourself what Yangtze-River is all about!
+								</div>
+								<div class="author">
+									<img src="http://placehold.it/50x50/ff0000">
+									By xxx
+								</div>
+							</li>
 						</ul>
 					</div>
 					<div class="box">
-						<h3>Recent inquiry</h3>
+						<h3>Recent inquiries</h3>
 						<ul>
 							<li>Ding and Cuisine</li>
 							<li>Ding and Cuisine</li>
@@ -271,7 +269,7 @@
 		<div class="row-bot">
 			<h3>
 				Century Other Cruises
-				<a href="">View all</a>
+				<a href="">>>View all</a>
 			</h3>
 			<ul>
 				<li>
@@ -311,15 +309,15 @@
 						<img src="image/room/room1.jpg" width="174" height="125">		
 						<p>
 							Century Sky
-							<img src="image/5star.gif"></p>
+							<img width="80" src="image/5star.gif"></p>
 					</a>
 				</li>
 			</ul>
 		</div>
-
-	</div><!-- END OF #mainbody -->
+	</div><!-- END OF .conbody -->
+	</div><!-- END OF .mainbody -->
 
 	{include file="chunk/footer.tpl"}
-</div><!-- END OF #wrap -->
+</div><!-- END OF .wrap -->
 </body>
 {/block}

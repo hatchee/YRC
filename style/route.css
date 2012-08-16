@@ -1,12 +1,10 @@
 /*内容页面*/
 .sidebar{
+	background:url("/image/ragged-top.png") repeat-x scroll -232px 0px transparent;
 	width: 200px;
 	min-height: 400px;
-	background: #DFEDFB;
-	/*outline:1px solid red;*/
 	float: left;
 	border-radius: 5px 5px 0 0;
-	margin: 0 0 0 -10px;
 }
 .aside{
 	float: right;
@@ -54,8 +52,8 @@
 .article{
 	width: 770px;
 	float: right;
-	margin: 0 -10px 0 0; 
 	background: #f1f1f1;
+	background:url("/image/ragged-top.png") repeat-x scroll -232px 0px transparent;
 	border-radius: 5px;
 }
 .toptitle{
@@ -87,6 +85,7 @@
 }
 .visit h3{
 	background: #535353;
+	color: #fff;
 	padding: 4px 5px;
 }
 .visit img{
