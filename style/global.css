@@ -59,6 +59,7 @@ h3{
 h4{
 	font-size: 14px;
 	line-height: 1;
+	color: #333333;
 }
 h5{
 	font-size: 12px;
@@ -230,8 +231,12 @@ img {
 	height:15px;
 }
 .conbody{
+	padding: 0 0 1px 0;
 	background: #fff;
 }
+.guide .conbody{
+	padding: 10px;
+} 
 .confoot{
 	background: url("/image/confoot.png") repeat-x scroll -232px 0 transparent;
 	height:15px;

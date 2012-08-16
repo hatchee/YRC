@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-16 07:09:48
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-16 09:11:49
          compiled from "./templates\guide.html" */ ?>
 <?php /*%%SmartyHeaderCode:31222502c9baeb52948-01944212%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e88e6244b79e683dc3d8c7266918f486533af4d0' => 
     array (
       0 => './templates\\guide.html',
-      1 => 1345100987,
+      1 => 1345108308,
       2 => 'file',
     ),
     '577cb3b5f2047bc4eeb0585f5d7acabd05cd2fcd' => 
@@ -56,7 +56,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	<?php /*  Call merged included template "chunk/header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '31222502c9baeb52948-01944212');
-content_502c9cbcc95852_55707598($_smarty_tpl);
+content_502cb955a15a11_49376787($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/header.tpl" */?>
 	
 	<div class="mainbody clearfix">
@@ -136,31 +136,68 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 				</div>
 				<div class="confoot"></div>
 			</div>
-
-
-
-
-
 		</div> 
 
-
-
-		<div class="article clearfix">
+		<div class="article guide clearfix">
 			<div class="conhead"></div>
 			<div class="conbody clearfix">
-				<h1 class="toptitle">8 Days Beijing Yangtze Cruise Tour</h1>
-				<p>
-				Make your cruise extra fun with our Yangtze shore excursions, to get a unique insight into the history of the region, the culture of the people and the beauty of the natural landscape.
-				</p>
-				<p>
-				Different cruisers may arrange different shore excurions, normally, including: the one day excursion to the Fengdu Ghost City, or Snow Jade Cave; one day to Lesser Three Gorges or Shennong Stream; One day to the Three Gorges Dam.
-				</p>
-				<img src="http://placehold.it/555x300">
-				<h5>Three Gorges Dam</h5>
+				<div class="maintext">
+					<h1>8 Days Beijing Yangtze Cruise Tour</h1>
+					<p>
+					Make your cruise extra fun with our Yangtze shore excursions, to get a unique insight into the history of the region, the culture of the people and the beauty of the natural landscape.
+					</p>
+					<p>
+					Different cruisers may arrange different shore excurions, normally, including: the one day excursion to the Fengdu Ghost City, or Snow Jade Cave; one day to Lesser Three Gorges or Shennong Stream; One day to the Three Gorges Dam.
+					</p>
+					<p class="oneimg">
+						<img src="http://placehold.it/555x300">
+						<br>
+						<span>Three Gorges Dam</span>
+					</p>
+
+					<p>
+						Take a week trip to sample China's vibrancy and ancient noted destina two most noted destinations China's vibrancy 
+					</p>
+
+					<table class="twoimg">
+						<tr>
+							<td><img src="http://placehold.it/310x250"><br>fafkjadskfjkdasf</td>
+							<td><img src="http://placehold.it/310x250"><br>fdjsfljdslfkjdf</td>
+						</tr>
+						<tr>
+							<td><img src="http://placehold.it/310x250"><br>fafkjadskfjkdasf</td>
+							<td><img src="http://placehold.it/310x250"><br>fdjsfljdslfkjdf</td>
+						</tr>
+					</table>
+				</div><!-- END OF .maintext -->
+
+				<div class="keepread">
+					<h2>Keep Reading</h2>
+					<ul>
+						<li>
+							<img src="http://placehold.it/110x80">
+							<h3><a href="">1.Three Gorges Dam on Yangtze River</a></h3>
+							<p>
+								Take a week trip to sample China's vibrancy and ancient China's vibrancy and ancient noted destina two most noted noted destina two most noted destinations China's vibra noted destina two most noted destinations China's vibrancy
+							</p>
+						</li>
+
+						<li>
+							<img src="http://placehold.it/110x80">
+							<h3><a href="">1.Three Gorges Dam on Yangtze River</a></h3>
+							<p>
+								Take a week trip to sample China's vibrancy and ancient China's vibrancy and ancient noted destina two most noted noted destina two most noted destinations China's vibra noted destina two most noted destinations China's vibrancy
+							</p>
+						</li>
+
+					</ul>
+				</div>
 
 
-	
-				
+
+
+
+
 
 			</div><!-- EDN OF .conbody -->
 			<div class="confoot"></div>
@@ -171,14 +208,14 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 	<?php /*  Call merged included template "chunk/footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '31222502c9baeb52948-01944212');
-content_502c9cbcca1854_69407360($_smarty_tpl);
+content_502cb955a207b6_91545066($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/footer.tpl" */?>
 </div>	<!-- EDN OF .mainwrap -->
 </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-16 07:09:48
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-16 09:11:49
          compiled from "./templates\chunk\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502c9cbcc95852_55707598')) {function content_502c9cbcc95852_55707598($_smarty_tpl) {?><div class="headtop clearfix">
+<?php if ($_valid && !is_callable('content_502cb955a15a11_49376787')) {function content_502cb955a15a11_49376787($_smarty_tpl) {?><div class="headtop clearfix">
 	<div class="ht-left">
 		<a href="#">Home</a> |
 		<a href="#">Customize a Tour</a>|
@@ -245,9 +282,9 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 		</span>
 	</span>
 
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-16 07:09:48
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-16 09:11:49
          compiled from "./templates\chunk\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502c9cbcca1854_69407360')) {function content_502c9cbcca1854_69407360($_smarty_tpl) {?><div class="footer">
+<?php if ($_valid && !is_callable('content_502cb955a207b6_91545066')) {function content_502cb955a207b6_91545066($_smarty_tpl) {?><div class="footer">
 	<div class="footnav clearfix">
 		<dl>
 			<dt>Yangtze Cruise</dt>

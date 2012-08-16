@@ -25,7 +25,22 @@
 .sidebox .conbody{
 	padding: 7px;
 }
-
+p.oneimg{
+	text-align: center;
+}
+.twoimg{
+	text-align: center;
+	width: 620px;
+	margin: 0 auto 10px;
+}
+.twoimg td{
+	background: #dadada;
+	border-bottom: 10px solid #fff;
+	text-align: center;
+}
+.twoimg td:first-child{
+	border-right: 10px solid #fff;
+}
 .besttour dt{
 	font-size: 14px;
 	font-weight: bold;
@@ -56,8 +71,8 @@
 	border-radius: 5px;
 }
 .toptitle{
-	padding: 10px;
 	margin: 0;
+	padding: 10px;
 }
 .share{
 	width: 770px;	
@@ -161,4 +176,30 @@
 .tips dd .btn{
 	margin: 10px 25px 0;
 	display: block;
+}
+
+
+
+
+/*guide*/
+.keepread h2{
+	background: url(/image/keepread.jpg) repeat-x;
+	padding: 19px 0 9px;
+	margin: 0 0 1px;
+}
+.keepread ul{
+	border-top: 1px dashed #ddd;
+}
+
+.keepread li{
+	border-bottom: 1px dashed #ddd;
+	padding: 10px 0 0 0;
+}
+.keepread li p{
+	margin: 0 0 9px 20px;
+}
+
+.keepread li img{
+	float: right;
+	margin: 0 0 0 10px;
 }
