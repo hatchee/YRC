@@ -1,13 +1,13 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-16 06:44:52
-         compiled from "./templates\route.html" */ ?>
-<?php /*%%SmartyHeaderCode:295585020c23b271510-51251565%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-16 07:09:48
+         compiled from "./templates\guide.html" */ ?>
+<?php /*%%SmartyHeaderCode:31222502c9baeb52948-01944212%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    'e84fa4e5635a6280c4a2a66fe5153dc5017e1f26' => 
+    'e88e6244b79e683dc3d8c7266918f486533af4d0' => 
     array (
-      0 => './templates\\route.html',
-      1 => 1345099487,
+      0 => './templates\\guide.html',
+      1 => 1345100987,
       2 => 'file',
     ),
     '577cb3b5f2047bc4eeb0585f5d7acabd05cd2fcd' => 
@@ -29,15 +29,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '295585020c23b271510-51251565',
+  'nocache_hash' => '31222502c9baeb52948-01944212',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_5020c23b2ff2d4_25572430',
+  'unifunc' => 'content_502c9baebf9f72_51519246',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5020c23b2ff2d4_25572430')) {function content_5020c23b2ff2d4_25572430($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if ($_valid && !is_callable('content_502c9baebf9f72_51519246')) {function content_502c9baebf9f72_51519246($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>扬子江2.0</title>
@@ -52,37 +52,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	
 <body>
 
-<script type="text/javascript">
-$(function(){
-
-	if($('.tips').length) { 
-		var offset = $(".tips").offset(); 
-		var topPadding = 15; 
-		$(window).scroll(function() { 
-			if ($(window).scrollTop() > offset.top){ 
-
-				$(".tips").stop().animate({ 
-					marginTop: $(window).scrollTop() - offset.top + topPadding 
-				}); 
-
-			} else { 
-
-				$(".tips").stop().animate({ 
-					marginTop: 0 
-				}); 
-
-			}; 
-		}); 
-	}; 
-
-})
-</script>
-
 <div class="wrap">
 	<?php /*  Call merged included template "chunk/header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '295585020c23b271510-51251565');
-content_502c96e4bfbc83_32042371($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '31222502c9baeb52948-01944212');
+content_502c9cbcc95852_55707598($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/header.tpl" */?>
 	
 	<div class="mainbody clearfix">
@@ -175,66 +149,20 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 			<div class="conhead"></div>
 			<div class="conbody clearfix">
 				<h1 class="toptitle">8 Days Beijing Yangtze Cruise Tour</h1>
-				<div class="share">
-					<img src="/image/social.jpg">
-				</div>
-			<div class="content">
-				<div class="overview">
-					<img src="http://placehold.it/320x200">
-					<h3>Overview:</h3>
-					<p>
-						Beijing, Xian, Shanghai, Yangtze River 
-						Cruise Shanghai, Beijing, Xian, 
-						Shanghai, Yangtze River Cruise, 
-						Beijing, Xian, Shanghai, Yangtze 
-						River Cruise, 
-					</p>
-				</div>
-				<div class="visit clearfix">
-					<h3>You’ll visit: </h3>
-					<img src="http://placehold.it/170x100">
-					<p>
-					
-						Beijing, Xian, Shanghai, Yangtze River Cruise Shanghai,
-						Beijing, Xian, Shanghai, Yangtze River Cruise, 
-					</p>
-				</div>
-				<div class="route">
-					<h2>Itinerary Details - day by day</h2>	
-					<ul>
-						<li>
-							<span class='day'>Day 1</span>
-							<h3>Bangkok to Chiang Mai >></h3>
-							<p>
-								First stop this morning is Bangkok’s increble RoyalPalace..........................
-							</p>
-						</li>
-						
-					</ul>
-				</div>
-			</div>
+				<p>
+				Make your cruise extra fun with our Yangtze shore excursions, to get a unique insight into the history of the region, the culture of the people and the beauty of the natural landscape.
+				</p>
+				<p>
+				Different cruisers may arrange different shore excurions, normally, including: the one day excursion to the Fengdu Ghost City, or Snow Jade Cave; one day to Lesser Three Gorges or Shennong Stream; One day to the Three Gorges Dam.
+				</p>
+				<img src="http://placehold.it/555x300">
+				<h5>Three Gorges Dam</h5>
 
-			<div class="aside">
-				<dl class="tips">
-					<dt>
-						Price from <i>$6,500</i> 
-						<br>
-						*Per person 
-					</dt>
-					<dd>
-						<a href="">What's included?</a>
-						<a href="">What's not included?</a>
-					</dd>
-					<dd>
-						<a class="btn" href="">Get a Quote</a>
-					</dd>
-					<dd>
-						Chat with expert online<br>
-						Call us: 86-028-82956496
-					</dd>
-				</dl>
-			</div>
-			</div>
+
+	
+				
+
+			</div><!-- EDN OF .conbody -->
 			<div class="confoot"></div>
 		</div><!-- END OF .article -->
 
@@ -242,15 +170,15 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 	</div><!-- END OF .mainbody -->
 	<?php /*  Call merged included template "chunk/footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '295585020c23b271510-51251565');
-content_502c96e4c08cf7_87160272($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '31222502c9baeb52948-01944212');
+content_502c9cbcca1854_69407360($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/footer.tpl" */?>
 </div>	<!-- EDN OF .mainwrap -->
 </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-16 06:44:52
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-16 07:09:48
          compiled from "./templates\chunk\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502c96e4bfbc83_32042371')) {function content_502c96e4bfbc83_32042371($_smarty_tpl) {?><div class="headtop clearfix">
+<?php if ($_valid && !is_callable('content_502c9cbcc95852_55707598')) {function content_502c9cbcc95852_55707598($_smarty_tpl) {?><div class="headtop clearfix">
 	<div class="ht-left">
 		<a href="#">Home</a> |
 		<a href="#">Customize a Tour</a>|
@@ -317,9 +245,9 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 		</span>
 	</span>
 
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-16 06:44:52
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-16 07:09:48
          compiled from "./templates\chunk\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502c96e4c08cf7_87160272')) {function content_502c96e4c08cf7_87160272($_smarty_tpl) {?><div class="footer">
+<?php if ($_valid && !is_callable('content_502c9cbcca1854_69407360')) {function content_502c9cbcca1854_69407360($_smarty_tpl) {?><div class="footer">
 	<div class="footnav clearfix">
 		<dl>
 			<dt>Yangtze Cruise</dt>

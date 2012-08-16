@@ -22,7 +22,8 @@
 
 
 /*左侧sidebar*/
-.besttour{
+.sidebox .conbody{
+	padding: 7px;
 }
 
 .besttour dt{
@@ -33,9 +34,7 @@
 }
 .besttour dd{
 	padding: 10px 10px 5px;
-	/*background: url(/image/dd-bg.png) repeat-y center center;*/
-	background: #c9e1f8;
-	border-bottom: 1px solid #ccd9e5;
+	background: #fef9ea;
 }
 .besttour dd.last{
 	border-bottom: 3px solid #4891dc;

@@ -128,13 +128,24 @@ img {
 }
 .ht-right{
 	text-align: right;
-	color: #003565;
+	color: #fff;
+	font-family: "Trebuchet MS",Arial,Georgia,"Times New Roman",Times,serif;
 	margin: 6px 0 0;
+}
+.ht-right p{
+	margin: 0;
 }
 .ht-right b{
 	font-size: 14px;
 }
-
+.icon-call{
+	padding: 3px 10px;	
+	background: url(/image/icon-contact.png) no-repeat 0 -25px;
+}
+.icon-email{
+	padding: 0px 13px;	
+	background: url(/image/icon-contact.png) no-repeat 0 0;
+}
 
 .header{
 	width: 980px;

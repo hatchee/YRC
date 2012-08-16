@@ -8,9 +8,12 @@
 		Specialized in Yangtze Cruise since 1999 !
 	</div> 
 	<div class="ht-right">
-		Call us: <b>86-23-89009012 </b>
-		<br>
-		Email us: <b>info@yangtze-river-cruises.com </b>
+		<p>
+			<span class="icon-call"></span> <b>86-23-89009012 </b>
+		</p>
+		<p>
+			<span class="icon-email"></span> <b>info@yangtze-river-cruises.com </b>
+		</p>
 	</div> 
 </div>
 
