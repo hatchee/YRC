@@ -34,14 +34,15 @@ $(function(){
 
 	$('.enquiry').click(function(e){
 		e.preventDefault();
-		var price=$('price').children("b").text();
-		var str='<h3 class="">Price: '++' per person</h3>';
+		var price=$('.price b').text();
+		alert(price);
+		/*var str='<h3 class="">Price: '+price+' per person</h3>';
 		$(".formrightinfo").html(str);
 		$('.dateinfo').show();
 		$(".cruiseform").fadeIn("fast");
 		 var docheight = $(document).height();
 		 $("body").append("<div id='greybackground'></div>");
-		 $("#greybackground").css({"opacity":"0.5","height":docheight});
+		 $("#greybackground").css({"opacity":"0.5","height":docheight});*/
 
 	});
 

@@ -30,36 +30,34 @@ left:0;
 	display: none;
 	color: #5F5F5F;
 }
-.shiptop .enquiry{
+.shiptop .enp{
 	line-height: 14px;
 	color: #5f5f5f;
 	width: 360px;
 	padding: 0 0 58px 0;
 	border-bottom: 1px dashed #ddd;
 }
-.shiptop .enquiry a{
+.shiptop .enp a{
 	display: block;
 	width: 159px;
+	cursor: pointer;
 	height: 36px;
 	background: url(../image/enquirynew.gif) no-repeat 0 0;
 	float: left;
 	margin: 0 10px 0 0;
 }
-.shiptop .enquiry a:hover{
+.shiptop .enp a:hover{
 	background: url(/image/enquirynew.gif) no-repeat 0 -36px;
 }
 .shiptop .small{
 	font-size: 11px;
 }
 
-
-
 .shiprt{
 	width: 560px;
 	min-height: 400px;
 	margin: 0 0 0 10px;
 	float: right;
-
 }
 .shopprice{
 	border: 1px solid #8cc9fc;
@@ -116,6 +114,7 @@ left:0;
 }
 .pricezone td a{
 	text-decoration: none;
+	cursor:pointer;
 }
 .pricezone td span{
 	color: #fff;
@@ -139,15 +138,22 @@ left:0;
 .pricezone .nextMon {
 	margin: 20px auto;
 	cursor: pointer;
-	width: 34px;
-	height: 16px;
+	width: 38px;
+	height: 21px;
 	display: block;
+	background-image: url("/image/updown.png");	
 }
 .pricezone .prevMon{
-	background: url("/image/prevMon.png") no-repeat;	
+	background-position: 0 0; 
+}
+.pricezone .prevMon:hover{
+	background-position: 0 -42px; 
 }
 .pricezone .nextMon {
-	background: url("/image/nextMon.png") no-repeat;
+	background-position: 0 -21px; 
+}
+.pricezone .nextMon:hover{
+	background-position: 0 -63px; 
 }
 .pricezone .ds{
 	background: #ff9501;	
@@ -157,8 +163,6 @@ left:0;
 	background: #4093e3;
 	color: #fff;
 }
-
-
 .shipdetail{
 	width: 958px;
 	float: left;
@@ -185,8 +189,7 @@ left:0;
 	background: url("../image/enquiry-small2.gif") no-repeat;
 }
 .row-top a.enquiry:hover{
-	
-	background: url("../image/enquiry-small2.gif") no-repeat center -28px;
+	background: url("/image/enquiry-small2.gif") no-repeat center -28px;
 }
 .row-top li{
 	background: url("../image/submenu.png") repeat-x scroll 0 0 transparent;
@@ -216,6 +219,9 @@ left:0;
 	margin: 15px;
 }
 
+.unit h3{
+	margin: 0 0 15px 0;
+}
 .unit table{
 	width: 680px;
 }
@@ -223,6 +229,12 @@ left:0;
 	border-bottom: 1px solid #ddd;
 	border-top: 1px solid #ddd;
 	vertical-align: middle;
+}
+
+.unit.onboard img{
+	float: right;
+	margin: 10px 10px 10px 20px;
+	clear: both;
 }
 
 
@@ -270,7 +282,8 @@ left:0;
 	margin: 0 0 10px;
 }
 .box h3{
-	font-size: 16px;
+	color: #333;
+	font-size: 14px;
 }
 .review-con{
 	background:#fff;
@@ -279,8 +292,7 @@ left:0;
 	padding: 5px;
 }
 .author{
-	background: url("/image/navdown.png") no-repeat 30px 0 transparent
-
+	background: url("/image/reviewdown.png") no-repeat 14px -4px transparent
 }
 .author img{
 	margin: 10px 10px 0 0;
@@ -405,7 +417,7 @@ left:0;
 .self-right ul li
 {
 	list-style:none;
-	font-size:14px;
+	font-size:12px;
 	line-height:20px;
 }
 .cruiseform fieldset

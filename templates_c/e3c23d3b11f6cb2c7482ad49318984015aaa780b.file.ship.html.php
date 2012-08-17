@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:03:06
 =======
 <<<<<<< HEAD
@@ -7,14 +8,18 @@
 <?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 06:58:09
 >>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
 >>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
+=======
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 09:38:27
+>>>>>>> c17c6b7e53d96e621298eb85105319434224c925
          compiled from "./templates\ship.html" */ ?>
-<?php /*%%SmartyHeaderCode:26021502477dbb78669-37926010%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:5046502e09f058a937-56130513%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e3c23d3b11f6cb2c7482ad49318984015aaa780b' => 
     array (
       0 => './templates\\ship.html',
+<<<<<<< HEAD
 <<<<<<< HEAD
       1 => 1345187716,
 =======
@@ -24,36 +29,39 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       1 => 1345186660,
 >>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
 >>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
+=======
+      1 => 1345196299,
+>>>>>>> c17c6b7e53d96e621298eb85105319434224c925
       2 => 'file',
     ),
     '577cb3b5f2047bc4eeb0585f5d7acabd05cd2fcd' => 
     array (
       0 => './templates\\layout.html',
-      1 => 1345174146,
+      1 => 1344324379,
       2 => 'file',
     ),
     'd360287b5561fbd7b01fa73e1a1771ff0fcfdad9' => 
     array (
       0 => './templates\\chunk\\header.tpl',
-      1 => 1345174146,
+      1 => 1345098361,
       2 => 'file',
     ),
     'd04f62d5ea29f5a4ffc2ac5ebd832681b3488bc7' => 
     array (
       0 => './templates\\chunk\\footer.tpl',
-      1 => 1345174146,
+      1 => 1345013085,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '26021502477dbb78669-37926010',
+  'nocache_hash' => '5046502e09f058a937-56130513',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_502477dbbfb5d2_99227908',
+  'unifunc' => 'content_502e09f064edd7_19426217',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_502477dbbfb5d2_99227908')) {function content_502477dbbfb5d2_99227908($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if ($_valid && !is_callable('content_502e09f064edd7_19426217')) {function content_502e09f064edd7_19426217($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>YRC ship page</title>
@@ -72,6 +80,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <?php /*  Call merged included template "chunk/header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
+<<<<<<< HEAD
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '26021502477dbb78669-37926010');
 <<<<<<< HEAD
 content_502dfaba5d7bd7_54508035($_smarty_tpl);
@@ -82,6 +91,10 @@ content_502dfe3a7ca534_08431415($_smarty_tpl);
 content_502deb81bf1230_33379593($_smarty_tpl);
 >>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
 >>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
+=======
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '5046502e09f058a937-56130513');
+content_502e1113544cd2_69294035($_smarty_tpl);
+>>>>>>> c17c6b7e53d96e621298eb85105319434224c925
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/header.tpl" */?>
 
 	<div class="mainbody ship clearfix">
@@ -171,8 +184,8 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 				</span>
 				
 			</p>
-			<p class="enquiry">
-				<a></a>
+			<p class="enp">
+				<a class="enquiry"></a>
 			</p>
 			<h3>Ship Overview </h3>
 			<p>
@@ -196,8 +209,9 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 				<li>Itineraries</li>
 				<li>Life onboard</li>
 				<li>Practical Info</li>
+				<li>Price Guide</li>
 			</ul>
-			<a class="enquiry" href=""></a>
+			<a class="enquiry"></a>
 		</div>
 			<div class="shipdetail clearfix">
 
@@ -241,7 +255,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 								</td>
 							</tr>
 						</table>
-					</div>
+					</div><!-- end of .unit .cabin -->
 
 					<div class="unit deckplan">
 						<h3>Deckplan on Century Star</h3>
@@ -259,7 +273,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 								</td>
 							</tr>
 						</table>
-					</div>
+					</div><!-- end of .unit .deckplan -->
 
 					<div class="unit iti">
 						<h3>Itinerary</h3>
@@ -286,58 +300,214 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 								</tr>
 							</table>
 
-					</div>
+					</div><!-- end of .unit .iti -->
 
-					<div class="unit">
-						<h3>life on board...</h3>
-					</div>
+					<div class="unit onboard">
+						<h3>Life onborad</h3>
+						<h4>Cuisine</h4>
+						<p>
+							Cuisine on Victoria Cruises is specially designed for Western customers, with both western buffet and Chinese cuisine experiences. Breakfast, lunch and dinner are all <strong>western and Chinese buffets</strong>
+							, served in a single-seating Dynasty Dining Room. In addition, there is also a separate a la carte dining room on Victoria Anna, Victoria Jenna, Victoria Katarina, Victoria Lianna and Victoria Selina. An additional charge need to be paid in the a la carte dining room, except for passengers pre-booking Suites and upgraded Superior Cabins on Executive Decks.
+						</p>
+						<img src="http://placehold.it/230x170">
+						<ol>
+						<p>Note:</p>
+						<li>
+							Special dietary requirements are accepted on board, but need to be advised in advance at time of booking with us.
+						</li>
+						<li>
+							Meal time will be posted in a daily events schedule distributed to each cabin.
+						</li>
+						<li>
+							The legal drinking age on Victoria Cruises ships is 18 years old.
+						</li>
+						</ol>
+						<p>&nbsp;</p>
+						<img src="http://placehold.it/230x170">
+						<h4>Entertainment Programs</h4>
+						<p>
+							Entertainments on board include <strong>Chinese culture and history lectures</strong>
+							,
+							<strong>fashion shows</strong>
+							or
+							<strong>cabaret shows</strong>
+							performed by cruise staff, and Captain&rsquo;s party. You will not only learn Chinese painting, Chinese mahjong and Taichi Quan, but also have a fun time with other customers on board, making new friends and sharing your happy travel time with each other.
+						</p>
+						<img src="http://placehold.it/230x170">
+						<h4>Relaxing Yourself</h4>
+						<p>
+							Victoria Cruises offers
+							<strong>Massage rooms</strong>
+							,
+							<strong>Reading Room,</strong>
+							and
+							<strong>Beauty Salon</strong>
+							on each ship, where you can totally relax yourself after a shore excursion or kill your time at afternoon.
+							<strong>Lounges</strong>
+							,
+							<strong>bars</strong>
+							and the
+							<strong>club</strong>
+							on board are good choices to meet new friends.
+						</p>
+						<h4>Health Care</h4>
+						<p>
+							There is a
+							<strong>doctor</strong>
+							and
+							<strong>health clinic</strong>
+							on each Victoria Cruises ship. Customary charges are in effect for medical care. You can do some excursuses in the
+							<strong>Fitness room</strong>
+							on board, or join to play Taichi on the sundeck every morning.
+						</p>
+						<h4>Phone Calls, Faxes and Internet Access</h4>
+						<p>
+							<strong>International / local phone calls</strong>
+							and
+							<strong>faxes</strong>
+							are available at the reception desk and the Business Center on all Victoria Cruises ships. Each ship is also equipped with
+							<strong>Internet access</strong>
+							. All of these services are fee-based and you can sign these charges to your account and settle them at the end of the voyage.
+						</p>
+						<h4>Staff on Board</h4>
+						<p>
+							Since Victoria Cruises is the ONLY cruise line that
+							<strong>managed by American company</strong>
+							, there is
+							<strong>western cruise director</strong>
+							and
+							<strong>English-speaking river guides</strong>
+							on each ship, providing interesting lectures about China and the Yangtze for you. And it is the
+							<strong>outstanding services</strong>
+							, offered by those well-trained staff, makes Victoria Cruises so different from others.
+						</p>
+					</div><!-- end of .unit .onboard -->
 
-					<div class="unit">
+					<div class="unit practical">
 						<h3>Practical Info</h3>
-<h4>Check Emails Before Cruise</h4>
-<p>Please kindly check your mailbox again 3-1 days before you take the cruise, because if there is any update or slight change from the ship company, we will inform you by email, so checking it again is better. And it will be more convenient if you can provide a cellphone number for emergent calls.</p>
-<h4>Private Transfer/ Taxi-taking/ Porter</h4>
-<p><strong>Private transfer</strong>: From Chongqing Airport/ Chongqing Railway to Chongqing Pier, from Yichang Airport/ Yichang Airport to Yichang Pier and from Shanghai Downtown to Wusongkou Port, you could use private transfer. Usually, there are two ways, cost with guide and cost without guide. As for the fee, please kindly inquiry your travel consutant. </p>
-<p><strong>Note:</strong> Different vehicles will be used if you have a group larger than 4 adults, the transfer cost then will be different, please kindly inquire your travel consultant if you need any of our transfer service.</p>
-<p><strong>Taxi-taking:</strong> If you choose taxi, the transfer cost will be cheaper. When the booking is done, we will send you the confirmation letter which includes the detailed information for taxi taking. Please note that the taxi especially in Yichang is not always safe to use. Some taxi drivers drive much longer than usual distance then ask for more money. If you prefer to take a taxi, please remember to show our confirmation letter to the taxi driver, there will be the taxi cost and your destination in both English and Chinese. It is better to use taxi service only after the taxi driver confirms the price listed in our confirmation letter; it is useful to avoid traps. And if there is any problem, you can contact us.</p>
-<p><strong>Note:</strong> We do recommend our private transfer service especially in Yichang so as to avoid any inconvenience might cause.</p>
-<p><strong>Porter:</strong> Please kindly note that if you do not book private transfer with us and need to hire the local porters to carry your luggage in either Chongqing or Yichang, the price is RMB10/per person, please confirm the price with the porters before using their service, some porters might ask for much more than RMB10/per person if not checking price beforehand.</p>
-<h4>Boarding Documents/ Boarding Time &amp; Boarding Pier</h4>
-<p><strong>Boarding Documents:</strong> The booking system of the cruise is just like the electronic flight tickets, you do not need any ticket, just showing your valid passport at the ship front desk would be fine. After all booking is done, we will send you the confirmation letter, you can print it out and bring it with you along the tour.</p>
-<p><strong>Boarding Time and Boarding Pier:</strong></p>
-<ol>
-<li><strong>4-day downstream cruise from Chongqing to Yichang</strong></li>
-<p>Boarding time is 17:00&mdash;20:30, the ship sails around 21:00&mdash;22:00 from Chongqing</p>
-<li><strong>5-day upstream cruise from Yichang to Chongqing</strong></li>
-<p>Boarding time is 17:00&mdash;00:00, the ship does not sail until next day morning from Yichang </p>
-<li><strong>7-day downstream cruise from Chongqing to Shanghai</strong></li>
-<p>Boarding time is 08:00&mdash;09:30AM, the ship sails around 10:00 AM</p>
-<li><strong>9-day upstream cruise from Shanghai to Chongqnig</strong></li>
-</ol>
-<p>Boarding time is 15:00&mdash;16:30, the ship sails around 17:00 from Wusongkou Port of Shanghai.</p>
-<h4>Cabin Arrangement</h4>
-<p>For many cruise lines (not all) that the cabins could not be designated beforehand, it is arranged by the ship company, and the ship company will charge floor upgrading fee if you want to upgrade your cabins to higher floors, the price is different according to the different cruise companies, if necessary please inquiry your travel consultant for the details of this. And after check in the ship, if there is any problem with your cabin, please let the ship reception know ASAP so that adjustment can be made accordingly. If you need any urgent assistance from our company, please contact your travel consultant immediately.</p>
-<p><strong>Extra Bed: </strong>Not all ships are spacious enough to hold an extra bed, so if you need a cabin with one extra bed, please kindly inquire your travel consultant for the recommendation of specific ships.</p>
-<h4>Service Onboard</h4>
-<p><strong>Drinks:</strong> Wines are not a part of the free drinks, only beer and some soft drinks are provided for free on ship. Drinks on the ship can be expensive; if necessary you can prepare some drinks or snacks before boarding the ship. </p>
-<p><strong>Foods:</strong> Some ships provide mostly buffet meals but some provide mostly table meals, it depends on which ship you are taking. If you have any diet habit, please kindly let us know or let the ship receptionist know, so that the according arrangement can be made.</p>
-<p><strong>Elevator:</strong> Not every ship has elevator, if you need to know this, please kindly inquire your travel consultant or check the ship company official website. </p>
-<p><strong>Medical Service: </strong>There will be a clinic on the ship, but their service can be very expensive, please kindly note it. </p>
-<p><strong>Internet Service: </strong>The ship does not have wifi, but the business center has internet service available and it is pay-for, the price will be different according to different ships.</p>
-<p><strong>Hair-dryer:</strong> The ships do not have hari dryer in each room, only some hairdryers avialble at the fronk desk which you can borrow for free.</p>
-<p><strong>Adaptor:</strong> If you want to charge some electornic products and without bringing the adaptor, you may check with the ship front desk to see they have the right adaptor on ship, but bring the right adaptor from home is convenient for your China or Yangtze tour.</p>
-<h4>Ship Tips</h4>
-<p>Almost all the 4 to 5-star ships require a compulsory ship tip which is required to be paid when checking in at the reception counter; it is the regulation of the ship companies which passengers are supposed to follow. The tip amount differs from different cruise lines and will be specified in our confirmation letter, please kindly note this so that inconvenience can be avoided.</p>
-<p><strong>Note: </strong>Century Cruise line pre-charges the tips, so the tips is actually included in your Century Cruise cost, there is no need to pay again on board.</p>
-<h4>Optional Excursions</h4>
-<p>Besides the listed shore excursions listed in your itinerary, there usually will be 2 optional shore excursions in each cruise term and it is not part of the cruise itinerary, the cost is around RMB260=USD42/per person per optional shore excursion, and the optional shore excursions differ from different cruise lines, and it is not compulsory.</p>
-<p><strong>Physical-Challenge: </strong>Some shore excursions like &ldquo;Fudu Ghost City&rdquo; needs some steps climbing; it might a bit challenging to some visitors who have problems with steps, in this case visitors can stay on the ship without join in the shore excursion (no refund). And booking a ship with elevator will be more convenient actually. Please kindly note it.</p>
-<h4>Weather</h4>
-<p>Yangtze River will be a kind of foggy from the latter half of October to next March or so, and sometimes it might be foggy in summer time.  And the rainy season of Yangtze will be July to August or so.</p>
-<p><strong>Note: </strong>if you book flights by yourselves, please kindly consider these weather factors and book the suitable timing fight, or we can assist you to book the flights, more details please inquire your travel consultant.</p>
+						<h4>Check Emails Before Cruise</h4>
+						<p>
+							Please kindly check your mailbox again 3-1 days before you take the cruise, because if there is any update or slight change from the ship company, we will inform you by email, so checking it again is better. And it will be more convenient if you can provide a cellphone number for emergent calls.
+						</p>
+						<h4>Private Transfer/ Taxi-taking/ Porter</h4>
+						<p> <strong>Private transfer</strong>
+							: From Chongqing Airport/ Chongqing Railway to Chongqing Pier, from Yichang Airport/ Yichang Airport to Yichang Pier and from Shanghai Downtown to Wusongkou Port, you could use private transfer. Usually, there are two ways, cost with guide and cost without guide. As for the fee, please kindly inquiry your travel consutant.
+						</p>
+						<p> <strong>Note:</strong>
+							Different vehicles will be used if you have a group larger than 4 adults, the transfer cost then will be different, please kindly inquire your travel consultant if you need any of our transfer service.
+						</p>
+						<p>
+							<strong>Taxi-taking:</strong>
+							If you choose taxi, the transfer cost will be cheaper. When the booking is done, we will send you the confirmation letter which includes the detailed information for taxi taking. Please note that the taxi especially in Yichang is not always safe to use. Some taxi drivers drive much longer than usual distance then ask for more money. If you prefer to take a taxi, please remember to show our confirmation letter to the taxi driver, there will be the taxi cost and your destination in both English and Chinese. It is better to use taxi service only after the taxi driver confirms the price listed in our confirmation letter; it is useful to avoid traps. And if there is any problem, you can contact us.
+						</p>
+						<p>
+							<strong>Note:</strong>
+							We do recommend our private transfer service especially in Yichang so as to avoid any inconvenience might cause.
+						</p>
+						<p>
+							<strong>Porter:</strong>
+							Please kindly note that if you do not book private transfer with us and need to hire the local porters to carry your luggage in either Chongqing or Yichang, the price is RMB10/per person, please confirm the price with the porters before using their service, some porters might ask for much more than RMB10/per person if not checking price beforehand.
+						</p>
+						<h4>Boarding Documents/ Boarding Time &amp; Boarding Pier</h4>
+						<p>
+							<strong>Boarding Documents:</strong>
+							The booking system of the cruise is just like the electronic flight tickets, you do not need any ticket, just showing your valid passport at the ship front desk would be fine. After all booking is done, we will send you the confirmation letter, you can print it out and bring it with you along the tour.
+						</p>
+						<p>
+							<strong>Boarding Time and Boarding Pier:</strong>
+						</p>
+						<ol>
+							<li>
+								<strong>4-day downstream cruise from Chongqing to Yichang</strong>
+							</li>
+							<p>
+								Boarding time is 17:00&mdash;20:30, the ship sails around 21:00&mdash;22:00 from Chongqing
+							</p>
+							<li>
+								<strong>5-day upstream cruise from Yichang to Chongqing</strong>
+							</li>
+							<p>
+								Boarding time is 17:00&mdash;00:00, the ship does not sail until next day morning from Yichang
+							</p>
+							<li>
+								<strong>7-day downstream cruise from Chongqing to Shanghai</strong>
+							</li>
+							<p>
+								Boarding time is 08:00&mdash;09:30AM, the ship sails around 10:00 AM
+							</p>
+							<li>
+								<strong>9-day upstream cruise from Shanghai to Chongqnig</strong>
+							</li>
+						</ol>
+						<p>
+							Boarding time is 15:00&mdash;16:30, the ship sails around 17:00 from Wusongkou Port of Shanghai.
+						</p>
+						<h4>Cabin Arrangement</h4>
+						<p>
+							For many cruise lines (not all) that the cabins could not be designated beforehand, it is arranged by the ship company, and the ship company will charge floor upgrading fee if you want to upgrade your cabins to higher floors, the price is different according to the different cruise companies, if necessary please inquiry your travel consultant for the details of this. And after check in the ship, if there is any problem with your cabin, please let the ship reception know ASAP so that adjustment can be made accordingly. If you need any urgent assistance from our company, please contact your travel consultant immediately.
+						</p>
+						<p>
+							<strong>Extra Bed:</strong>
+							Not all ships are spacious enough to hold an extra bed, so if you need a cabin with one extra bed, please kindly inquire your travel consultant for the recommendation of specific ships.
+						</p>
+						<h4>Service Onboard</h4>
+						<p>
+							<strong>Drinks:</strong>
+							Wines are not a part of the free drinks, only beer and some soft drinks are provided for free on ship. Drinks on the ship can be expensive; if necessary you can prepare some drinks or snacks before boarding the ship.
+						</p>
+						<p>
+							<strong>Foods:</strong>
+							Some ships provide mostly buffet meals but some provide mostly table meals, it depends on which ship you are taking. If you have any diet habit, please kindly let us know or let the ship receptionist know, so that the according arrangement can be made.
+						</p>
+						<p>
+							<strong>Elevator:</strong>
+							Not every ship has elevator, if you need to know this, please kindly inquire your travel consultant or check the ship company official website.
+						</p>
+						<p>
+							<strong>Medical Service:</strong>
+							There will be a clinic on the ship, but their service can be very expensive, please kindly note it.
+						</p>
+						<p>
+							<strong>Internet Service:</strong>
+							The ship does not have wifi, but the business center has internet service available and it is pay-for, the price will be different according to different ships.
+						</p>
+						<p>
+							<strong>Hair-dryer:</strong>
+							The ships do not have hari dryer in each room, only some hairdryers avialble at the fronk desk which you can borrow for free.
+						</p>
+						<p>
+							<strong>Adaptor:</strong>
+							If you want to charge some electornic products and without bringing the adaptor, you may check with the ship front desk to see they have the right adaptor on ship, but bring the right adaptor from home is convenient for your China or Yangtze tour.
+						</p>
+						<h4>Ship Tips</h4>
+						<p>
+							Almost all the 4 to 5-star ships require a compulsory ship tip which is required to be paid when checking in at the reception counter; it is the regulation of the ship companies which passengers are supposed to follow. The tip amount differs from different cruise lines and will be specified in our confirmation letter, please kindly note this so that inconvenience can be avoided.
+						</p>
+						<p>
+							<strong>Note:</strong>
+							Century Cruise line pre-charges the tips, so the tips is actually included in your Century Cruise cost, there is no need to pay again on board.
+						</p>
+						<h4>Optional Excursions</h4>
+						<p>
+							Besides the listed shore excursions listed in your itinerary, there usually will be 2 optional shore excursions in each cruise term and it is not part of the cruise itinerary, the cost is around RMB260=USD42/per person per optional shore excursion, and the optional shore excursions differ from different cruise lines, and it is not compulsory.
+						</p>
+						<p>
+							<strong>Physical-Challenge:</strong>
+							Some shore excursions like &ldquo;Fudu Ghost City&rdquo; needs some steps climbing; it might a bit challenging to some visitors who have problems with steps, in this case visitors can stay on the ship without join in the shore excursion (no refund). And booking a ship with elevator will be more convenient actually. Please kindly note it.
+						</p>
+						<h4>Weather</h4>
+						<p>
+							Yangtze River will be a kind of foggy from the latter half of October to next March or so, and sometimes it might be foggy in summer time.  And the rainy season of Yangtze will be July to August or so.
+						</p>
+						<p>
+							<strong>Note:</strong>
+							if you book flights by yourselves, please kindly consider these weather factors and book the suitable timing fight, or we can assist you to book the flights, more details please inquire your travel consultant.
+						</p>
+					</div><!-- end of .unit .practical -->
 
-					</div>
-
+					<div class="unit priceguide">
+						<h3>Price Guide</h3>
+					</div><!-- end of .unit .priceguide -->
 				</div>
 
 				<div class="col-rt">
@@ -419,6 +589,13 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 			<div class="formrightinfo">
 				<h3 class="">Price: [*shipprice*] per person</h3>
 			</div>
+			<ul>
+				<li><h3>Your Booking Summary</h3></li>
+				<li><strong>Cruise ship:</strong> Century Diamond</li>
+				<li><strong>Price:</strong> $3621 - $425 per person</li>
+				<li><strong>Cruise date:</strong> Aug.8.2012 - Aug.12.2012</li>
+				<li><strong>Itinerary:</strong> Chongqing - Yichang</li>
+			</ul>
 			<h3>Book with us:</h3>
 			<ul>
 				<li>Absolutly no hidden fees;</li>
@@ -613,6 +790,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 
 	<?php /*  Call merged included template "chunk/footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
+<<<<<<< HEAD
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '26021502477dbb78669-37926010');
 <<<<<<< HEAD
 content_502dfaba5e6d52_72179671($_smarty_tpl);
@@ -623,10 +801,15 @@ content_502dfe3a7d9878_35132400($_smarty_tpl);
 content_502deb81c00b28_44909822($_smarty_tpl);
 >>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
 >>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
+=======
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '5046502e09f058a937-56130513');
+content_502e1113558162_62972355($_smarty_tpl);
+>>>>>>> c17c6b7e53d96e621298eb85105319434224c925
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/footer.tpl" */?>
 </div><!-- END OF .wrap -->
 </body>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 </html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:03:06
          compiled from "./templates\chunk\header.tpl" */ ?>
@@ -642,6 +825,11 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 <?php if ($_valid && !is_callable('content_502deb81bf1230_33379593')) {function content_502deb81bf1230_33379593($_smarty_tpl) {?><div class="headtop clearfix">
 >>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
 >>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
+=======
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 09:38:27
+         compiled from "./templates\chunk\header.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_502e1113544cd2_69294035')) {function content_502e1113544cd2_69294035($_smarty_tpl) {?><div class="headtop clearfix">
+>>>>>>> c17c6b7e53d96e621298eb85105319434224c925
 	<div class="ht-left">
 		<a href="#">Home</a> |
 		<a href="#">Customize a Tour</a>|
@@ -709,6 +897,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 	</span>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 </div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:03:06
          compiled from "./templates\chunk\footer.tpl" */ ?>
 <?php if ($_valid && !is_callable('content_502dfaba5e6d52_72179671')) {function content_502dfaba5e6d52_72179671($_smarty_tpl) {?><div class="footer">
@@ -723,6 +912,11 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 <?php if ($_valid && !is_callable('content_502deb81c00b28_44909822')) {function content_502deb81c00b28_44909822($_smarty_tpl) {?><div class="footer">
 >>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
 >>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
+=======
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 09:38:27
+         compiled from "./templates\chunk\footer.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_502e1113558162_62972355')) {function content_502e1113558162_62972355($_smarty_tpl) {?><div class="footer">
+>>>>>>> c17c6b7e53d96e621298eb85105319434224c925
 	<div class="footnav clearfix">
 		<dl>
 			<dt>Yangtze Cruise</dt>

@@ -34,7 +34,7 @@ $(function(){
 
 	$('.enquiry').click(function(e){
 		e.preventDefault();
-		var price=$('price').children("b").text();
+		var price=$('.price b').text();
 		var str='<h3 class="">Price: '+price+' per person</h3>';
 		$(".formrightinfo").html(str);
 		$('.dateinfo').show();
