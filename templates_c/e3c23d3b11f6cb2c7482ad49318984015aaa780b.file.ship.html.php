@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:18:02
+=======
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 06:58:09
+>>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
          compiled from "./templates\ship.html" */ ?>
 <?php /*%%SmartyHeaderCode:26021502477dbb78669-37926010%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,25 +11,29 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e3c23d3b11f6cb2c7482ad49318984015aaa780b' => 
     array (
       0 => './templates\\ship.html',
+<<<<<<< HEAD
       1 => 1345191480,
+=======
+      1 => 1345186660,
+>>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
       2 => 'file',
     ),
     '577cb3b5f2047bc4eeb0585f5d7acabd05cd2fcd' => 
     array (
       0 => './templates\\layout.html',
-      1 => 1344324379,
+      1 => 1345174146,
       2 => 'file',
     ),
     'd360287b5561fbd7b01fa73e1a1771ff0fcfdad9' => 
     array (
       0 => './templates\\chunk\\header.tpl',
-      1 => 1345098361,
+      1 => 1345174146,
       2 => 'file',
     ),
     'd04f62d5ea29f5a4ffc2ac5ebd832681b3488bc7' => 
     array (
       0 => './templates\\chunk\\footer.tpl',
-      1 => 1345013085,
+      1 => 1345174146,
       2 => 'file',
     ),
   ),
@@ -46,8 +54,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	<script src="script/jquery-1.7.1.min.js" type="text/javascript"></script>
 	<script src="script/global.js" type="text/javascript"></script>
 	
-<link rel="stylesheet" type="text/css" href="/style/ship.css">
-<script type="text/javascript" src="/script/ship.js"></script>
+<link rel="stylesheet" type="text/css" href="style/ship.css">
+<script type="text/javascript" src="script/ship.js"></script>
 
 </head>
 	
@@ -57,7 +65,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php /*  Call merged included template "chunk/header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '26021502477dbb78669-37926010');
+<<<<<<< HEAD
 content_502dfe3a7ca534_08431415($_smarty_tpl);
+=======
+content_502deb81bf1230_33379593($_smarty_tpl);
+>>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/header.tpl" */?>
 
 	<div class="mainbody ship clearfix">
@@ -148,7 +160,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 				
 			</p>
 			<p class="enquiry">
-				<a href=""></a>
+				<a></a>
 			</p>
 			<h3>Ship Overview </h3>
 			<p>
@@ -350,7 +362,192 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 				</div>
 
 			</div>
+		<div class="cruiseform">
+<div class="formwarp">
+<span class="exit_ico"></span>
+	<h2></h2>
+	<form>
+		<input type="hidden" value="FullName, EmailAdress" name="required">
+		<input id="inqtype" type="hidden" value="7" name="inqtype">
+		<script type="text/javascript" language="javascript">
+		document.write("<input name=\"PageTitle\" value=\""+document.title+"\" type=\"hidden\" />");
+		document.write("<input name=\"PageLink\" value=\""+document.href+"\" type=\"hidden\" />");
+		document.write("<input type=\"hidden\" name=\"Ref_Page\" value=\""+document.referrer+"\" />");
+		</script>
+		<input type="hidden" value="159" name="pfid">
+		<input id="subject" type="hidden" value="Inquiry:Yangtze Cruise [*h1title*] Book" name="subject">
+	<div class="self">
+		<div class="self-left">
+			<p> Please tell us more about your travel plans within just a few simple steps. We'll get back to you with a quotation in 0.5~23.5hrs. </p>
+			<fieldset>
+			<legend> Tell us about yourself </legend>
+			<label>Title:</label>
+			<select class="required" name="Title">
+			<option value="mr" selected="selected">Mr.</option>
+			<option value="mrs">Mrs.</option>
+			<option value="ms">Ms.</option>
+			</select>
+			<label>
+			<img src="image/required.gif" alt="Required">
+			Your Full Name:
+			</label>
+			<input class="required" type="text" name="FullName">
+			<label>Nationality:</label>
+			<input type="text" name="Nationality">
+			<label>
+			<img src="image/required.gif" alt="Required">
+			Your Email
+			</label>
+			<input class="required email" type="text" name="EmailAdress">
+			<label>Contact Phone Number:</label>
+			<input type="text" name="phone-num">
+			</fieldset>
+		</div>
+		<div class="self-right">
+			<div class="formrightinfo">
+				<h3 class="">Price: [*shipprice*] per person</h3>
+			</div>
+			<h3>Book with us:</h3>
+			<ul>
+				<li>Absolutly no hidden fees;</li>
+				<li>Guarantee you the lowest cruise price;</li>
+				<li>One-on-one travel consultant service;</li>
+				<li>Ensure you a worry-free vacation in China;</li>
+			</ul>
+		</div>
+		<div style="clear:both;"></div>
+	</div>
+	<div class="status">
+		<label>Age:</label>
+			<input type="radio" value="<25" name="Age">
+			<span>under 25</span>
+			<input class="rdo" type="radio" value="25-34" name="Age">
+			<span>25-34</span>
+			<input class="rdo" type="radio" value="35-54" name="Age">
+			<span>35-54</span>
+			<input class="rdo" type="radio" value="55-75" name="Age">
+			<span>55-75</span>
+			<input class="rdo" type="radio" value=">75" name="Age">
+			<span>75 above</span>
+			<br>
+			<label>Booking Status:</label>
+			<input type="radio" value="Ready to Book" name="booking">
+			<span>Ready to Book</span>
+			<input class="rdo" type="radio" value="Urgent" name="booking">
+			<span>Urgent</span>
+			<input class="rdo" type="radio" value="Planning" name="booking">
+			<span>Seriously Planning</span>
+			<input class="rdo" type="radio" value="Better Quote" name="booking">
+			<span>Looking for a Better Quote</span>
+		</div>
+		<fieldset>
+			<legend> Tell us more about your cruise </legend>
+			<div class="dateinfo">
+				<label>Your cruise date:</label>
+				<select name="ddate">
+				<option id="c7" value="">--date</option>
+				<option id="c1" value="1">1</option><option id="c2" value="2">2</option><option id="c3" value="3">3</option>
+				<option id="c4" value="4">4</option><option id="c5" value="5">5</option><option id="c6" value="6">6</option>
+				<option id="c7" value="7">7</option><option id="c5" value="8">8</option><option id="c6" value="9">9</option>
+				<option id="c1" value="10">10</option><option id="c2" value="11">11</option><option id="c3" value="12">12</option>
+				<option id="c4" value="13">13</option><option id="c5" value="14">14</option><option id="c6" value="15">15</option>
+				<option id="c7" value="16">16</option><option id="c5" value="17">17</option><option id="c6" value="18">18</option>
+				<option id="c1" value="19">19</option><option id="c20" value="2">20</option><option id="c3" value="21">21</option>
+				<option id="c4" value="22">22</option><option id="c5" value="23">23</option><option id="c6" value="24">24</option>
+				<option id="c7" value="25">25</option><option id="c5" value="26">26</option><option id="c6" value="27">27</option>
+				<option id="c7" value="28">28</option><option id="c5" value="29">29</option><option id="c6" value="30">30</option>
+				<option id="c7" value="31">31</option>
+				</select>
+				<select name="month">
+					<option value="">--Month</option>
+					<option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option>
+					<option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option>
+					<option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option>
+				</select>
+				<select name="year">
+					<option value="">--Year</option>
+					<option value="2012">2012</option><option value="2013">2013</option>
+				</select></br>
+				<label>Your preferred cruises intinerary:</label>
+				<select name="route">
+					<option value="Chongqing - Yichang">Chongqing - Yichang (4 days;downstream)</option>
+				</select>
+			</div>
+			<label>No .of Cabins:</label>
+			<select name="Cabin">
+			<option id="c1" value="0.5 Cabin">0.5 Cabin</option>
+			<option id="c2" value="1 Cabin">1 Cabin</option>
+			<option id="c3" value="1.5 Cabins">1.5 Cabins</option>
+			<option id="c4" value="2 Cabins">2 Cabins</option>
+			<option id="c5" value="2.5 Cabins">2.5 Cabins</option>
+			<option id="c6" value="3 Cabins">3 Cabins</option>
+			<option id="c7" value="more than 3 Cabins">more than 3 Cabins</option>
+			</select></br>
+			<label>No. of Travelers:</label>
+			<select class="w90" name="AdultsNumber">
+			<option value="Adoults">Adoults</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value=">10">>10</option>
+			</select>
+			<img width="10" height="10" alt="Required" src="image/required.gif">
+			<select class="w90" name="ChildrenNumber">
+			<option value="Children">Children</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			</select>
+			<select class="w90" type="text" name="Babies">
+			<option value="Babies">Babies</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			</select>
+			<label>Your Budget:</label>
+			<input id="budget" class="txt" name="Budget"></br>
+			<label>Pre/post Yangtze cruise destinations:</label>
+			<table style="float:left">
+			<tr><td>
+			<input type="checkbox" value="Beijing" name="destination">
+			<span class="des">Beijing (the capital city)</span></td><td>
+			<input type="checkbox" value="Shanghai" name="destination">
+			<span class="des">Shanghai (the biggest city of china)</span></td></tr>
+
+			<tr><td><input type="checkbox" value="Xian" name="destination">
+			<span class="des">Xian (the ancient heart of China)</span></td><td>
+			<input type="checkbox" value="Guilin" name="destination">
+			<span class="des">Guilin (Li River cruise,Yangshuo)</span></td></tr>
+
+			<tr><td><input type="checkbox" value="Chengdu" name="destination">
+			<span class="des">Chengdu (the homotown of Panda)</span></td><td>
+			<input type="checkbox" value="Tibet" name="destination">
+			<span class="des">Tibet (the World's dream)</span></td></tr>
+
+			<tr><td><input type="checkbox" value="Hong Kong" name="destination">
+			<span class="des">Hong Kong (the shopping paradise)</span></td></tr></table>
 		
+			<label>Additonal Comment or Qusetions:</label>
+			<textarea class="ptxt" rows="5" cols="" name="Comments"></textarea>
+		</fieldset>
+			<a class="button" href="javascript:Submitform()">
+					<img id="sbt1" border="0" onmouseout="mymouseout1()" onmouseover="mymouseover1()" name="sbt1" src="http://www.yangtze-river-cruises.com/forms/submit1.gif">
+					</a>
+	</form>
+</div>
+</div>
 		<div class="row-bot">
 			<h3>
 				Century Other Cruises
@@ -405,14 +602,24 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 	<?php /*  Call merged included template "chunk/footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '26021502477dbb78669-37926010');
+<<<<<<< HEAD
 content_502dfe3a7d9878_35132400($_smarty_tpl);
+=======
+content_502deb81c00b28_44909822($_smarty_tpl);
+>>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/footer.tpl" */?>
 </div><!-- END OF .wrap -->
 </body>
 
+<<<<<<< HEAD
 </html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:18:02
          compiled from "./templates\chunk\header.tpl" */ ?>
 <?php if ($_valid && !is_callable('content_502dfe3a7ca534_08431415')) {function content_502dfe3a7ca534_08431415($_smarty_tpl) {?><div class="headtop clearfix">
+=======
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 06:58:09
+         compiled from "./templates\chunk\header.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_502deb81bf1230_33379593')) {function content_502deb81bf1230_33379593($_smarty_tpl) {?><div class="headtop clearfix">
+>>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
 	<div class="ht-left">
 		<a href="#">Home</a> |
 		<a href="#">Customize a Tour</a>|
@@ -479,9 +686,15 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 		</span>
 	</span>
 
+<<<<<<< HEAD
 </div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:18:02
          compiled from "./templates\chunk\footer.tpl" */ ?>
 <?php if ($_valid && !is_callable('content_502dfe3a7d9878_35132400')) {function content_502dfe3a7d9878_35132400($_smarty_tpl) {?><div class="footer">
+=======
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 06:58:09
+         compiled from "./templates\chunk\footer.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_502deb81c00b28_44909822')) {function content_502deb81c00b28_44909822($_smarty_tpl) {?><div class="footer">
+>>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
 	<div class="footnav clearfix">
 		<dl>
 			<dt>Yangtze Cruise</dt>
