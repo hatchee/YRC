@@ -140,15 +140,22 @@ left:0;
 .pricezone .nextMon {
 	margin: 20px auto;
 	cursor: pointer;
-	width: 34px;
-	height: 16px;
+	width: 38px;
+	height: 21px;
 	display: block;
+	background-image: url("/image/updown.png");	
 }
 .pricezone .prevMon{
-	background: url("/image/prevMon.png") no-repeat;	
+	background-position: 0 0; 
+}
+.pricezone .prevMon:hover{
+	background-position: 0 -42px; 
 }
 .pricezone .nextMon {
-	background: url("/image/nextMon.png") no-repeat;
+	background-position: 0 -21px; 
+}
+.pricezone .nextMon:hover{
+	background-position: 0 -63px; 
 }
 .pricezone .ds{
 	background: #ff9501;	
@@ -158,8 +165,6 @@ left:0;
 	background: #4093e3;
 	color: #fff;
 }
-
-
 .shipdetail{
 	width: 958px;
 	float: left;
@@ -186,8 +191,7 @@ left:0;
 	background: url("../image/enquiry-small2.gif") no-repeat;
 }
 .row-top a.enquiry:hover{
-	
-	background: url("../image/enquiry-small2.gif") no-repeat center -28px;
+	background: url("/image/enquiry-small2.gif") no-repeat center -28px;
 }
 .row-top li{
 	background: url("../image/submenu.png") repeat-x scroll 0 0 transparent;
@@ -271,7 +275,8 @@ left:0;
 	margin: 0 0 10px;
 }
 .box h3{
-	font-size: 16px;
+	color: #333;
+	font-size: 14px;
 }
 .review-con{
 	background:#fff;
@@ -280,8 +285,7 @@ left:0;
 	padding: 5px;
 }
 .author{
-	background: url("/image/navdown.png") no-repeat 30px 0 transparent
-
+	background: url("/image/reviewdown.png") no-repeat 14px -4px transparent
 }
 .author img{
 	margin: 10px 10px 0 0;

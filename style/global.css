@@ -11,11 +11,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	display: block;
 }
 ol {
-	list-style-position: inside;
-	list-style:none;
+	list-style: inside disc;
 }
-ul {
+ul li{
 	list-style: none;
+}
+li{
+	list-style: inside disc;
 }
 blockquote, q {
 	quotes: none;
@@ -234,9 +236,6 @@ img {
 	padding: 0 0 1px 0;
 	background: #fff;
 }
-.guide .conbody{
-	padding: 10px;
-} 
 .confoot{
 	background: url("/image/confoot.png") repeat-x scroll -232px 0 transparent;
 	height:15px;
@@ -317,3 +316,4 @@ img {
 .btn{
 	text-align: center;
 }
+

@@ -12,6 +12,7 @@
   div{
     width:200px;
     min-height:500px;
+    float: left;
     background:#dddddd;
   }
   div a{
@@ -33,11 +34,15 @@
 {block name=body}
 <body>
 <div>
-<h3>List01</h3>
+<h3>onecol</h3>
 <a href="index.php?url=calendar.html">calendar</a>
-<a href="index.php?url=route.html">route</a>
 <a href="index.php?url=ship.html">ship</a>
-<a href="index.php?url=guide.html">guide</a>
+</div>
+
+<div>
+  <h3>twocol</h3>
+  <a href="index.php?url=route.html">route</a>
+  <a href="index.php?url=guide.html">guide</a>
 </div>
 </body>
 {/block}

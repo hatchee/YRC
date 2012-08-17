@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 07:19:41
+=======
 <?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 03:29:34
+>>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
          compiled from "./templates\sitemap.html" */ ?>
 <?php /*%%SmartyHeaderCode:180994fb21d9f9c7298-51486397%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e0a61de2174d23930dce13203a51659198b56215' => 
     array (
       0 => './templates\\sitemap.html',
+<<<<<<< HEAD
+      1 => 1345187980,
+=======
       1 => 1345174146,
+>>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
       2 => 'file',
     ),
     '577cb3b5f2047bc4eeb0585f5d7acabd05cd2fcd' => 
@@ -45,6 +53,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   div{
     width:200px;
     min-height:500px;
+    float: left;
     background:#dddddd;
   }
   div a{
@@ -67,11 +76,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	
 <body>
 <div>
-<h3>List01</h3>
+<h3>onecol</h3>
 <a href="index.php?url=calendar.html">calendar</a>
-<a href="index.php?url=route.html">route</a>
 <a href="index.php?url=ship.html">ship</a>
-<a href="index.php?url=guide.html">guide</a>
+</div>
+
+<div>
+  <h3>twocol</h3>
+  <a href="index.php?url=route.html">route</a>
+  <a href="index.php?url=guide.html">guide</a>
 </div>
 </body>
 

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 01:19:15
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 07:51:16
          compiled from "./templates\guide.html" */ ?>
 <?php /*%%SmartyHeaderCode:31222502c9baeb52948-01944212%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e88e6244b79e683dc3d8c7266918f486533af4d0' => 
     array (
       0 => './templates\\guide.html',
-      1 => 1345111618,
+      1 => 1345189875,
       2 => 'file',
     ),
     '577cb3b5f2047bc4eeb0585f5d7acabd05cd2fcd' => 
@@ -20,6 +20,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     array (
       0 => './templates\\chunk\\header.tpl',
       1 => 1345098361,
+      2 => 'file',
+    ),
+    '63acee4ce960f598ebfbd39981b7e9c6a05134b8' => 
+    array (
+      0 => './templates\\chunk\\sidebar-guide.tpl',
+      1 => 1345189742,
       2 => 'file',
     ),
     'd04f62d5ea29f5a4ffc2ac5ebd832681b3488bc7' => 
@@ -46,7 +52,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	<script src="script/jquery-1.7.1.min.js" type="text/javascript"></script>
 	<script src="script/global.js" type="text/javascript"></script>
 	
-<link rel="stylesheet" type="text/css" href="style/route.css">
+<link rel="stylesheet" type="text/css" href="style/twocol.css">
+<link rel="stylesheet" type="text/css" href="style/guide.css">
 
 </head>
 	
@@ -56,87 +63,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	<?php /*  Call merged included template "chunk/header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '31222502c9baeb52948-01944212');
-content_502d9c13cfcb19_14513855($_smarty_tpl);
+content_502df7f4c6e773_39697557($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/header.tpl" */?>
 	
 	<div class="mainbody clearfix">
 		
-
-		<div class="sidebar">
-			<div class="sidebox">
-				<div class="conhead"></div>
-				<div class="conbody">
-					<h2>China Yangtze Tours</h2>
-					<p>
-						<a href="">Top 10 China Yangtze Tour Packages</a>
-						<a href="">China Cruises & Tours</a>
-					</p>
-
-					<dl class="besttour">
-
-						<dt>By Starting Cities</dt>
-						<dd>
-							<h3>From Beijing</h3>
-							<span>Top 10 Best China Tour -from Beijing to shanghai</span>
-						</dd>
-						<dd>
-							<h3>From Beijing</h3>
-							<span>Top 10 Best China Tour -from Beijing to shanghai</span>
-						</dd>
-
-						<dt>By Starting Cities</dt>
-						<dd>Chongqing & around Tours</dd>
-						<dd>Chengdu Panda Tours</dd>
-
-						<dd>My Wishlist</dd>
-						<dd>Customize a Tour</dd>
-					</dl>
-				</div> <!-- END OF .conbody -->
-				<div class="confoot"></div>
-			</div> <!-- END OF .sidebox -->
-
-			<div class="sidebox">
-				<div class="conhead"></div>
-				<div class="conbody">
-					<h2>Recent Inquiries</h2>
-					<div class="Recent-Inquiry">
-						<ul>
-							<li style="display: list-item;">
-								On <em>Aug/06/2012</em>
-								<span class="name">Aja...</span> <em>from</em>
-								<span class="title">new Zealand</span>
-								<br>					
-								<span class="title">
-									<a href="http://www.yangtze-river-cruises.com/cruise-from-beijing-xian/beijing-xian-yangtze-cruise.html#inquiry">Inquiry:Yangtze River Cruises Book...</a>
-								</span>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="confoot"></div>
-			</div>
-
-			<div class="sidebox">
-				<div class="conhead"></div>
-				<div class="conbody">
-					<h2>Reviews from Our Travelers</h2>
-					<ul>
-						<li>
-							<div class="review-con">
-								<p>
-									Our group of four went on the Century Diamond Cruise Ship in last...
-								</p>
-							</div>
-							<div class="author">
-								<img src="http://placehold.it/50x50/ff0000">By Urs Martin
-							</div>
-						</li>
-					</ul>
-					
-				</div>
-				<div class="confoot"></div>
-			</div>
-		</div> 
+	<?php /*  Call merged included template "chunk/sidebar-guide.tpl" */
+$_tpl_stack[] = $_smarty_tpl;
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/sidebar-guide.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '31222502c9baeb52948-01944212');
+content_502df7f4c89992_99096059($_smarty_tpl);
+$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/sidebar-guide.tpl" */?>
+		
 
 		<div class="article guide clearfix">
 			<div class="conhead"></div>
@@ -169,7 +106,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 							<td><img src="http://placehold.it/310x250"><br>fdjsfljdslfkjdf</td>
 						</tr>
 					</table>
-					<div class="pagenav">
+					<div class="pagenav clearfix">
 						<a class="previous" href="#">Prev</a>
 						<a class="next">Next</a>
 						<span>It's the end</span>
@@ -181,7 +118,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 					<ul>
 						<li>
 							<img src="http://placehold.it/110x80">
-							<h3><a href="">1.Three Gorges Dam on Yangtze River</a></h3>
+							<h3><i>1.</i><a href="">Three Gorges Dam on Yangtze River</a></h3>
 							<p>
 								Take a week trip to sample China's vibrancy and ancient China's vibrancy and ancient noted destina two most noted noted destina two most noted destinations China's vibra noted destina two most noted destinations China's vibrancy
 							</p>
@@ -189,7 +126,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 
 						<li>
 							<img src="http://placehold.it/110x80">
-							<h3><a href="">1.Three Gorges Dam on Yangtze River</a></h3>
+							<h3><i>2.</i><a href="">Three Gorges Dam on Yangtze River</a></h3>
 							<p>
 								Take a week trip to sample China's vibrancy and ancient China's vibrancy and ancient noted destina two most noted noted destina two most noted destinations China's vibra noted destina two most noted destinations China's vibrancy
 							</p>
@@ -197,12 +134,6 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 
 					</ul>
 				</div>
-
-
-
-
-
-
 
 			</div><!-- EDN OF .conbody -->
 			<div class="confoot"></div>
@@ -213,14 +144,14 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 	<?php /*  Call merged included template "chunk/footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '31222502c9baeb52948-01944212');
-content_502d9c13d13336_53769742($_smarty_tpl);
+content_502df7f4c96e24_36733469($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/footer.tpl" */?>
 </div>	<!-- EDN OF .mainwrap -->
 </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 01:19:15
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 07:51:16
          compiled from "./templates\chunk\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502d9c13cfcb19_14513855')) {function content_502d9c13cfcb19_14513855($_smarty_tpl) {?><div class="headtop clearfix">
+<?php if ($_valid && !is_callable('content_502df7f4c6e773_39697557')) {function content_502df7f4c6e773_39697557($_smarty_tpl) {?><div class="headtop clearfix">
 	<div class="ht-left">
 		<a href="#">Home</a> |
 		<a href="#">Customize a Tour</a>|
@@ -287,9 +218,102 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 		</span>
 	</span>
 
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 01:19:15
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 07:51:16
+         compiled from "./templates\chunk\sidebar-guide.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_502df7f4c89992_99096059')) {function content_502df7f4c89992_99096059($_smarty_tpl) {?><div class="sidebar">
+	<div class="sidebox">
+		<div class="conhead"></div>
+		<div class="conbody">
+			<h2>Yangtze Cruise Guide</h2>
+			<p>
+				<a href="">How to get there?</a> <br>
+				<a href="">Yangtze Cruise Routes</a> <br>
+				<a href="">Upstream or Downstream?</a> 
+			</p>
+
+			<dl>
+				<dt>Yangtze Cruise Reviews</dt>
+				<dd>
+					<a href="#">from our travelers</a>
+				</dd>
+				<dd>
+					<a href="#">from the authorities</a>
+				</dd>
+				<dd>
+					<a href="#">Reasons for a Yangtze cruise</a>
+				</dd>
+				<dt>Yangtze Cruise Onboard</dt>
+				<dd>
+					<a href="#">service</a>
+				</dd>
+				<dd>
+					<a href="#">dining</a>
+				</dd>
+				<dd>
+					<a href="#">accommodation</a>
+				</dd>
+				<dd>
+					<a href="#">nightlife</a>
+				</dd>
+				<dd>
+					<a href="#">Captain's Party</a>
+				</dd>
+				<dd>
+					<a href="#">cultural activities</a>
+				</dd>
+				<dt>Shore Excursion Sites</dt>
+				<dd>
+					<a href="#">Fengdu</a>
+				</dd>
+				<dd>
+					<a href="#">Shibaozhai</a>
+				</dd>
+				<dd>
+					<a href="#">Lesser Three Gorges</a>
+				</dd>
+				<dd>
+					<a href="#">Shennong Three Gorges</a>
+				</dd>
+				<dd>
+					<a href="#">The Three Gorges</a>
+				</dd>
+				<dd>
+					<a href="#">The Three Gorges Dam</a>
+				</dd>
+				<dd>
+					<a href="#">Huangshan</a>
+				</dd>
+				<dt>Ports of Call</dt>
+				<dd>
+					<a href="#">Chongqing</a>
+				</dd>
+				<dd>
+					<a href="#">Yichang</a>
+				</dd>
+				<dd>
+					<a href="#">Shanghai</a>
+				</dd>
+				<dd>
+					<a href="#">Wuhan</a>
+				</dd>
+				<dt>Yangtze Facts</dt>
+				<dd>
+					<a href="#">Overview</a>
+				</dd>
+				<dd>
+					<a href="#">Maps</a>
+				</dd>
+				<dd>
+					<a href="#">Pictures</a>
+				</dd>
+			</dl>
+		</div> <!-- END OF .conbody -->
+		<div class="confoot"></div>
+	</div> <!-- END OF .sidebox -->
+
+</div> <!-- END OF .sidebar --><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 07:51:16
          compiled from "./templates\chunk\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502d9c13d13336_53769742')) {function content_502d9c13d13336_53769742($_smarty_tpl) {?><div class="footer">
+<?php if ($_valid && !is_callable('content_502df7f4c96e24_36733469')) {function content_502df7f4c96e24_36733469($_smarty_tpl) {?><div class="footer">
 	<div class="footnav clearfix">
 		<dl>
 			<dt>Yangtze Cruise</dt>
