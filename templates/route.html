@@ -1,6 +1,7 @@
 {extends file="layout.html"}
 {block name=title}扬子江2.0{/block}
 {block name=head}
+<link rel="stylesheet" type="text/css" href="style/twocol.css">
 <link rel="stylesheet" type="text/css" href="style/route.css">
 {/block}
 {block name=body}
@@ -34,123 +35,37 @@ $(function(){
 
 <div class="wrap">
 	{include file="chunk/header.tpl"}
-	
 	<div class="mainbody clearfix">
-		
-
-		<div class="sidebar">
-			<div class="sidebox">
-				<div class="conhead"></div>
-				<div class="conbody">
-					<h2>China Yangtze Tours</h2>
-					<p>
-						<a href="">Top 10 China Yangtze Tour Packages</a>
-						<a href="">China Cruises & Tours</a>
-					</p>
-
-					<dl class="besttour">
-
-						<dt>By Starting Cities</dt>
-						<dd>
-							<h3>From Beijing</h3>
-							<span>Top 10 Best China Tour -from Beijing to shanghai</span>
-						</dd>
-						<dd>
-							<h3>From Beijing</h3>
-							<span>Top 10 Best China Tour -from Beijing to shanghai</span>
-						</dd>
-
-						<dt>By Starting Cities</dt>
-						<dd>Chongqing & around Tours</dd>
-						<dd>Chengdu Panda Tours</dd>
-
-						<dd>My Wishlist</dd>
-						<dd>Customize a Tour</dd>
-					</dl>
-				</div> <!-- END OF .conbody -->
-				<div class="confoot"></div>
-			</div> <!-- END OF .sidebox -->
-
-			<div class="sidebox">
-				<div class="conhead"></div>
-				<div class="conbody">
-					<h2>Recent Inquiries</h2>
-					<div class="Recent-Inquiry">
-						<ul>
-							<li style="display: list-item;">
-								On <em>Aug/06/2012</em>
-								<span class="name">Aja...</span> <em>from</em>
-								<span class="title">new Zealand</span>
-								<br>					
-								<span class="title">
-									<a href="http://www.yangtze-river-cruises.com/cruise-from-beijing-xian/beijing-xian-yangtze-cruise.html#inquiry">Inquiry:Yangtze River Cruises Book...</a>
-								</span>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="confoot"></div>
-			</div>
-
-			<div class="sidebox">
-				<div class="conhead"></div>
-				<div class="conbody">
-					<h2>Reviews from Our Travelers</h2>
-					<ul>
-						<li>
-							<div class="review-con">
-								<p>
-									Our group of four went on the Century Diamond Cruise Ship in last...
-								</p>
-							</div>
-							<div class="author">
-								<img src="http://placehold.it/50x50/ff0000">By Urs Martin
-							</div>
-						</li>
-					</ul>
-					
-				</div>
-				<div class="confoot"></div>
-			</div>
-
-
-
-
-
-		</div> 
-
-
-
+	{include file="chunk/sidebar-route.tpl"}
 		<div class="article clearfix">
 			<div class="conhead"></div>
 			<div class="conbody clearfix">
-				<h1 class="toptitle">8 Days Beijing Yangtze Cruise Tour</h1>
-				<div class="share">
-					<img src="/image/social.jpg">
-				</div>
-			<div class="content">
-				<div class="overview">
-					<img src="http://placehold.it/320x200">
+				<h1>8 Days Beijing Yangtze Cruise Tour</h1>
+				<p class="destination">
+					Beijing - Xian - Chongqing - Yangtze  Cruise - Yichang
+				</p>
+				<div class="overview clearfix">
+					<img src="http://placehold.it/270x180">
 					<h3>Overview:</h3>
+					<dl>
+						<dt>Tour Code:</dt>
+						<dd>YRC-BJ-03</dd>
+						<dt>Departure Date:</dt>
+						<dd>You Choose!</dd>
+						<dt>Service:</dt>
+						<dd>private tour guide/driver &amp; private car/van</dd>
+					</dl>
+					<h4>Trip overview:</h4>
 					<p>
-						Beijing, Xian, Shanghai, Yangtze River 
-						Cruise Shanghai, Beijing, Xian, 
-						Shanghai, Yangtze River Cruise, 
-						Beijing, Xian, Shanghai, Yangtze 
-						River Cruise, 
+						Walk the Great Wall of China and stare down Terra cotta soldiers in Xian. To get close to the iconic Giant Panda and cruise through the Three Gorges along the Yangtze. This itinerary introduces a fascinating route from North to South of China.
+					</p>
+					<p class="socialbar">
+						social zone
 					</p>
 				</div>
-				<div class="visit clearfix">
-					<h3>You’ll visit: </h3>
-					<img src="http://placehold.it/170x100">
-					<p>
-					
-						Beijing, Xian, Shanghai, Yangtze River Cruise Shanghai,
-						Beijing, Xian, Shanghai, Yangtze River Cruise, 
-					</p>
-				</div>
+				
+				<h2>Itinerary Details - day by day</h2>	
 				<div class="route">
-					<h2>Itinerary Details - day by day</h2>	
 					<ul>
 						<li>
 							<span class='day'>Day 1</span>
@@ -160,11 +75,15 @@ $(function(){
 							</p>
 						</li>
 
-						
-						
+						<li>
+							<span class='day'>Day 1</span>
+							<h3>Bangkok to Chiang Mai >></h3>
+							<p>
+								First stop this morning is Bangkok’s increble RoyalPalace..........................
+							</p>
+						</li>
 					</ul>
 				</div>
-			</div>
 
 			<div class="aside">
 				<dl class="tips">
@@ -189,8 +108,6 @@ $(function(){
 			</div>
 			<div class="confoot"></div>
 		</div><!-- END OF .article -->
-
-		
 	</div><!-- END OF .mainbody -->
 	{include file="chunk/footer.tpl"}
 </div>	<!-- EDN OF .mainwrap -->

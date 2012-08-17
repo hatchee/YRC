@@ -1,113 +1,58 @@
 /*内容页面*/
-.sidebar{
-	background:url("/image/ragged-top.png") repeat-x scroll -232px 0px transparent;
-	width: 200px;
-	min-height: 400px;
-	float: left;
-	border-radius: 5px 5px 0 0;
+.sidebar p{
+	background: #fef9ea;
+	padding: 10px;
 }
-.aside{
-	float: right;
-	margin: 7px 7px 0 0;
-	min-height: 300px;
-	width: 138px;
+.sidebar dl{
+	margin: 0 0 10px 0;
+	background: #fef9ea;
 }
-.content{
-	background: url("/image/content-line.jpg") repeat-y scroll right center transparent;
-	float: left;
-	min-height: 500px;
-	padding: 5px 10px 5px 7px;
-	width: 606px;
-}
-
-
-/*左侧sidebar*/
-.sidebox .conbody{
-	padding: 7px;
-}
-p.oneimg{
-	text-align: center;
-}
-.twoimg{
-	text-align: center;
-	width: 620px;
-	margin: 0 auto 10px;
-}
-.twoimg td{
-	background: #dadada;
-	border-bottom: 10px solid #fff;
-	text-align: center;
-}
-.twoimg td:first-child{
-	border-right: 10px solid #fff;
-}
-.besttour dt{
+.sidebar dt{
 	font-size: 14px;
 	font-weight: bold;
 	color: #333;
-	padding: 10px;
+	padding:10px 10px 0 10px;
 }
-.besttour dd{
+.sidebar dd{
 	padding: 10px 10px 5px;
-	background: #fef9ea;
 }
-.besttour dd.last{
-	border-bottom: 3px solid #4891dc;
-}
-.besttour dd h3{
-	color: #ff7400;
+.sidebar dd h4{
+	color: #333;
 	background: url(/image/arrow-rt.png) no-repeat right center;
 }
-.besttour dd span{
-	color: #333;
+.sidebar dd a{
+	color: #a0a0a0;
 }
 
 /*右侧article*/
-.article{
-	width: 770px;
-	float: right;
-	background: #f1f1f1;
-	background:url("/image/ragged-top.png") repeat-x scroll -232px 0px transparent;
-	border-radius: 5px;
-}
+
 .toptitle{
 	margin: 0;
 	padding: 10px;
 }
-.share{
-	width: 770px;	
-	min-height: 28px;
-	float: left;
-}
-.share img{
-	float: right;
-}
-/*中间content*/
-.overview{
-	position: relative;
-	width: 578px;
-	overflow: hidden;
-}
 .overview img{
 	float: left;
-	margin: 0 10px 8px 0;
+	margin: 0 10px 0 0;
+}
+.overview dl{
+	width: 440px;
+	float: left;
+}
+.overview dt{
+	float: left;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-weight: 700;
+	margin: 0 0 5px;
+	width: 110px;
+}
+.overview dd{
+	margin: 0 0 5px;
+	padding-left: 110px;
 }
 
-.visit{
-	background: #fff;
-	margin: 0px -3px 10px -7px;
-}
-.visit h3{
-	background: #535353;
-	color: #fff;
-	padding: 4px 5px;
-}
-.visit img{
-	float: right;
-	margin: 0 5px 5px;
-}
-.visit p{
-	padding: 0 0 0 5px;
+.route{
+	width: 582px;
+	float: left;
 }
 
 .route li{
@@ -115,17 +60,13 @@ p.oneimg{
 	padding: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
 /*右侧aside*/
+.aside{
+	float: right;
+	min-height: 300px;
+	width: 138px;
+}
+
 .tips{
 	background: #ededed;
 	border: 1px solid #c2c2c2;
@@ -181,25 +122,3 @@ p.oneimg{
 
 
 
-/*guide*/
-.keepread h2{
-	background: url(/image/keepread.jpg) repeat-x;
-	padding: 19px 0 9px;
-	margin: 0 0 1px;
-}
-.keepread ul{
-	border-top: 1px dashed #ddd;
-}
-
-.keepread li{
-	border-bottom: 1px dashed #ddd;
-	padding: 10px 0 0 0;
-}
-.keepread li p{
-	margin: 0 0 9px 20px;
-}
-
-.keepread li img{
-	float: right;
-	margin: 0 0 0 10px;
-}

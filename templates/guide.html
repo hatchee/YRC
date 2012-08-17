@@ -1,7 +1,8 @@
 {extends file="layout.html"}
 {block name=title}扬子江2.0{/block}
 {block name=head}
-<link rel="stylesheet" type="text/css" href="style/route.css">
+<link rel="stylesheet" type="text/css" href="style/twocol.css">
+<link rel="stylesheet" type="text/css" href="style/guide.css">
 {/block}
 {block name=body}
 <body>
@@ -11,82 +12,8 @@
 	
 	<div class="mainbody clearfix">
 		
-
-		<div class="sidebar">
-			<div class="sidebox">
-				<div class="conhead"></div>
-				<div class="conbody">
-					<h2>China Yangtze Tours</h2>
-					<p>
-						<a href="">Top 10 China Yangtze Tour Packages</a>
-						<a href="">China Cruises & Tours</a>
-					</p>
-
-					<dl class="besttour">
-
-						<dt>By Starting Cities</dt>
-						<dd>
-							<h3>From Beijing</h3>
-							<span>Top 10 Best China Tour -from Beijing to shanghai</span>
-						</dd>
-						<dd>
-							<h3>From Beijing</h3>
-							<span>Top 10 Best China Tour -from Beijing to shanghai</span>
-						</dd>
-
-						<dt>By Starting Cities</dt>
-						<dd>Chongqing & around Tours</dd>
-						<dd>Chengdu Panda Tours</dd>
-
-						<dd>My Wishlist</dd>
-						<dd>Customize a Tour</dd>
-					</dl>
-				</div> <!-- END OF .conbody -->
-				<div class="confoot"></div>
-			</div> <!-- END OF .sidebox -->
-
-			<div class="sidebox">
-				<div class="conhead"></div>
-				<div class="conbody">
-					<h2>Recent Inquiries</h2>
-					<div class="Recent-Inquiry">
-						<ul>
-							<li style="display: list-item;">
-								On <em>Aug/06/2012</em>
-								<span class="name">Aja...</span> <em>from</em>
-								<span class="title">new Zealand</span>
-								<br>					
-								<span class="title">
-									<a href="http://www.yangtze-river-cruises.com/cruise-from-beijing-xian/beijing-xian-yangtze-cruise.html#inquiry">Inquiry:Yangtze River Cruises Book...</a>
-								</span>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="confoot"></div>
-			</div>
-
-			<div class="sidebox">
-				<div class="conhead"></div>
-				<div class="conbody">
-					<h2>Reviews from Our Travelers</h2>
-					<ul>
-						<li>
-							<div class="review-con">
-								<p>
-									Our group of four went on the Century Diamond Cruise Ship in last...
-								</p>
-							</div>
-							<div class="author">
-								<img src="http://placehold.it/50x50/ff0000">By Urs Martin
-							</div>
-						</li>
-					</ul>
-					
-				</div>
-				<div class="confoot"></div>
-			</div>
-		</div> 
+	{include file="chunk/sidebar-guide.tpl"}
+		
 
 		<div class="article guide clearfix">
 			<div class="conhead"></div>
@@ -119,7 +46,7 @@
 							<td><img src="http://placehold.it/310x250"><br>fdjsfljdslfkjdf</td>
 						</tr>
 					</table>
-					<div class="pagenav">
+					<div class="pagenav clearfix">
 						<a class="previous" href="#">Prev</a>
 						<a class="next">Next</a>
 						<span>It's the end</span>
@@ -131,7 +58,7 @@
 					<ul>
 						<li>
 							<img src="http://placehold.it/110x80">
-							<h3><a href="">1.Three Gorges Dam on Yangtze River</a></h3>
+							<h3><i>1.</i><a href="">Three Gorges Dam on Yangtze River</a></h3>
 							<p>
 								Take a week trip to sample China's vibrancy and ancient China's vibrancy and ancient noted destina two most noted noted destina two most noted destinations China's vibra noted destina two most noted destinations China's vibrancy
 							</p>
@@ -139,7 +66,7 @@
 
 						<li>
 							<img src="http://placehold.it/110x80">
-							<h3><a href="">1.Three Gorges Dam on Yangtze River</a></h3>
+							<h3><i>2.</i><a href="">Three Gorges Dam on Yangtze River</a></h3>
 							<p>
 								Take a week trip to sample China's vibrancy and ancient China's vibrancy and ancient noted destina two most noted noted destina two most noted destinations China's vibra noted destina two most noted destinations China's vibrancy
 							</p>
@@ -147,12 +74,6 @@
 
 					</ul>
 				</div>
-
-
-
-
-
-
 
 			</div><!-- EDN OF .conbody -->
 			<div class="confoot"></div>

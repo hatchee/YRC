@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-15 09:47:41
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 02:22:15
          compiled from "./templates\calendar.html" */ ?>
 <?php /*%%SmartyHeaderCode:321995020c049c32825-85511503%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -19,7 +19,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd360287b5561fbd7b01fa73e1a1771ff0fcfdad9' => 
     array (
       0 => './templates\\chunk\\header.tpl',
-      1 => 1345022761,
+      1 => 1345098361,
       2 => 'file',
     ),
     'd04f62d5ea29f5a4ffc2ac5ebd832681b3488bc7' => 
@@ -57,7 +57,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php /*  Call merged included template "chunk/header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '321995020c049c32825-85511503');
-content_502b703d0d26a8_15654664($_smarty_tpl);
+content_502daad7b77d39_97233385($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/header.tpl" */?>
 
 
@@ -166,14 +166,14 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 	<?php /*  Call merged included template "chunk/footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '321995020c049c32825-85511503');
-content_502b703d0e7c97_61444850($_smarty_tpl);
+content_502daad7b82620_29390152($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/footer.tpl" */?>
 </div><!-- END OF .wrap -->
 </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-15 09:47:41
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 02:22:15
          compiled from "./templates\chunk\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502b703d0d26a8_15654664')) {function content_502b703d0d26a8_15654664($_smarty_tpl) {?><div class="headtop clearfix">
+<?php if ($_valid && !is_callable('content_502daad7b77d39_97233385')) {function content_502daad7b77d39_97233385($_smarty_tpl) {?><div class="headtop clearfix">
 	<div class="ht-left">
 		<a href="#">Home</a> |
 		<a href="#">Customize a Tour</a>|
@@ -183,9 +183,12 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 		Specialized in Yangtze Cruise since 1999 !
 	</div> 
 	<div class="ht-right">
-		Call us: <b>86-23-89009012 </b>
-		<br>
-		Email us: <b>info@yangtze-river-cruises.com </b>
+		<p>
+			<span class="icon-call"></span> <b>86-23-89009012 </b>
+		</p>
+		<p>
+			<span class="icon-email"></span> <b>info@yangtze-river-cruises.com </b>
+		</p>
 	</div> 
 </div>
 
@@ -237,9 +240,9 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 		</span>
 	</span>
 
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-15 09:47:41
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 02:22:15
          compiled from "./templates\chunk\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502b703d0e7c97_61444850')) {function content_502b703d0e7c97_61444850($_smarty_tpl) {?><div class="footer">
+<?php if ($_valid && !is_callable('content_502daad7b82620_29390152')) {function content_502daad7b82620_29390152($_smarty_tpl) {?><div class="footer">
 	<div class="footnav clearfix">
 		<dl>
 			<dt>Yangtze Cruise</dt>

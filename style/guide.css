@@ -1,0 +1,64 @@
+/*guide*/
+.keepread{
+	margin: 30px 0 0 0;
+}
+.keepread h2{
+	background: url(/image/keepread.jpg) repeat-x;
+	padding: 19px 0 9px;
+	margin: 0 0 1px;
+}
+.keepread ul{
+	border-top: 1px dashed #ddd;
+}
+.keepread li{
+	border-bottom: 1px dashed #ddd;
+	padding: 10px 0 0 0;
+}
+.keepread li p{
+	margin: 0 0 9px 32px;
+}
+.keepread li img{
+	float: right;
+	margin: 0 0 0 10px;
+}
+.keepread h3 i{
+	font-size: 22px;
+	margin: 0 10px 0 0;
+}
+
+p.oneimg{
+	text-align: center;
+}
+.twoimg{
+	text-align: center;
+	width: 620px;
+	margin: 0 auto 10px;
+}
+.twoimg td{
+	background: #dadada;
+	border-bottom: 10px solid #fff;
+	text-align: center;
+}
+.twoimg td:first-child{
+	border-right: 10px solid #fff;
+}
+
+
+.pagenav a,
+.pagenav span{
+	display: block;
+	margin: 0 10px;
+}
+.pagenav a i{
+	color: #FF7400;
+	font-weight: bold;
+}
+.pagenav .previous{
+	float: left;
+}
+.pagenav .next{
+	float: right;
+}
+.pagenav span{
+	float: right;
+}
