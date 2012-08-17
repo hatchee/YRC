@@ -479,3 +479,6 @@ left:0;
 	margin-left:350px;
 	padding-top:20px;
 }
+.dateinfo{
+	display:none;
+}

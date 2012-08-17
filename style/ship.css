@@ -116,6 +116,7 @@ left:0;
 }
 .pricezone td a{
 	text-decoration: none;
+	cursor:pointer;
 }
 .pricezone td span{
 	color: #fff;
