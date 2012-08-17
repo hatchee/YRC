@@ -1,4 +1,16 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:03:06
+=======
+<<<<<<< HEAD
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:18:02
+=======
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 06:58:09
+>>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
+>>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
+=======
 <?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 09:38:27
+>>>>>>> c17c6b7e53d96e621298eb85105319434224c925
          compiled from "./templates\ship.html" */ ?>
 <?php /*%%SmartyHeaderCode:5046502e09f058a937-56130513%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +19,19 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e3c23d3b11f6cb2c7482ad49318984015aaa780b' => 
     array (
       0 => './templates\\ship.html',
+<<<<<<< HEAD
+<<<<<<< HEAD
+      1 => 1345187716,
+=======
+<<<<<<< HEAD
+      1 => 1345191480,
+=======
+      1 => 1345186660,
+>>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
+>>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
+=======
       1 => 1345196299,
+>>>>>>> c17c6b7e53d96e621298eb85105319434224c925
       2 => 'file',
     ),
     '577cb3b5f2047bc4eeb0585f5d7acabd05cd2fcd' => 
@@ -56,8 +80,21 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <?php /*  Call merged included template "chunk/header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
+<<<<<<< HEAD
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '26021502477dbb78669-37926010');
+<<<<<<< HEAD
+content_502dfaba5d7bd7_54508035($_smarty_tpl);
+=======
+<<<<<<< HEAD
+content_502dfe3a7ca534_08431415($_smarty_tpl);
+=======
+content_502deb81bf1230_33379593($_smarty_tpl);
+>>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
+>>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
+=======
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '5046502e09f058a937-56130513');
 content_502e1113544cd2_69294035($_smarty_tpl);
+>>>>>>> c17c6b7e53d96e621298eb85105319434224c925
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/header.tpl" */?>
 
 	<div class="mainbody ship clearfix">
@@ -753,15 +790,46 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 
 	<?php /*  Call merged included template "chunk/footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
+<<<<<<< HEAD
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '26021502477dbb78669-37926010');
+<<<<<<< HEAD
+content_502dfaba5e6d52_72179671($_smarty_tpl);
+=======
+<<<<<<< HEAD
+content_502dfe3a7d9878_35132400($_smarty_tpl);
+=======
+content_502deb81c00b28_44909822($_smarty_tpl);
+>>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
+>>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
+=======
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '5046502e09f058a937-56130513');
 content_502e1113558162_62972355($_smarty_tpl);
+>>>>>>> c17c6b7e53d96e621298eb85105319434224c925
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/footer.tpl" */?>
 </div><!-- END OF .wrap -->
 </body>
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:03:06
+         compiled from "./templates\chunk\header.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_502dfaba5d7bd7_54508035')) {function content_502dfaba5d7bd7_54508035($_smarty_tpl) {?><div class="headtop clearfix">
+=======
+<<<<<<< HEAD
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:18:02
+         compiled from "./templates\chunk\header.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_502dfe3a7ca534_08431415')) {function content_502dfe3a7ca534_08431415($_smarty_tpl) {?><div class="headtop clearfix">
+=======
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 06:58:09
+         compiled from "./templates\chunk\header.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_502deb81bf1230_33379593')) {function content_502deb81bf1230_33379593($_smarty_tpl) {?><div class="headtop clearfix">
+>>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
+>>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
+=======
 </html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 09:38:27
          compiled from "./templates\chunk\header.tpl" */ ?>
 <?php if ($_valid && !is_callable('content_502e1113544cd2_69294035')) {function content_502e1113544cd2_69294035($_smarty_tpl) {?><div class="headtop clearfix">
+>>>>>>> c17c6b7e53d96e621298eb85105319434224c925
 	<div class="ht-left">
 		<a href="#">Home</a> |
 		<a href="#">Customize a Tour</a>|
@@ -828,9 +896,27 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 		</span>
 	</span>
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:03:06
+         compiled from "./templates\chunk\footer.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_502dfaba5e6d52_72179671')) {function content_502dfaba5e6d52_72179671($_smarty_tpl) {?><div class="footer">
+=======
+<<<<<<< HEAD
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:18:02
+         compiled from "./templates\chunk\footer.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_502dfe3a7d9878_35132400')) {function content_502dfe3a7d9878_35132400($_smarty_tpl) {?><div class="footer">
+=======
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 06:58:09
+         compiled from "./templates\chunk\footer.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_502deb81c00b28_44909822')) {function content_502deb81c00b28_44909822($_smarty_tpl) {?><div class="footer">
+>>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
+>>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
+=======
 </div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 09:38:27
          compiled from "./templates\chunk\footer.tpl" */ ?>
 <?php if ($_valid && !is_callable('content_502e1113558162_62972355')) {function content_502e1113558162_62972355($_smarty_tpl) {?><div class="footer">
+>>>>>>> c17c6b7e53d96e621298eb85105319434224c925
 	<div class="footnav clearfix">
 		<dl>
 			<dt>Yangtze Cruise</dt>

@@ -32,7 +32,11 @@ $(function(){
 	  $(".cruiseform").css({"left":getPosLeft,"top":getPosTop+mytop});
 	 });
 
-	$('.enquiry a').click(function(){
+	$('.enquiry').click(function(e){
+		e.preventDefault();
+		var price=$('.price b').text();
+		var str='<h3 class="">Price: '+price+' per person</h3>';
+		$(".formrightinfo").html(str);
 		$('.dateinfo').show();
 		$(".cruiseform").fadeIn("fast");
 		 var docheight = $(document).height();
@@ -45,6 +49,30 @@ $(function(){
 		$(".cruiseform").hide();
 		$("#greybackground").remove();
 	});
+	
+	$(".booknow").live("click",function(){
+		var boat=$("#boatname").val();
+		var date=$("#shipcal").val();
+		var arrdate=date.split('-');
+		var dnow=$(this).children("span").text();
+		var t=new Date(Date.UTC(arrdate[0],arrdate[1]-1,dnow));
+		var sd=$(this).children('.rday').val();
+		var t = parseInt((t.getTime())/1000)+sd*3600*24;
+		var data=new Date(parseInt(t)*1000);
+		var ed=data.getFullYear()+"-"+(data.getMonth()+1)+"-"+data.getDate();
+		var montharray=new Array("","Jan","Feb", "Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec"); 
+		var arrdateend=ed.split('-');
+		var price=$(this).children("i").text();
+		var route=$(this).children(".route").val();
+		var ms=parseInt(arrdate[1],10);
+		var me=parseInt(arrdateend[1],10);
+		var str='<ul><li><h3>Your Booking Summary</h3></li><li><strong>Cruise ship:</strong> '+boat+'</li><li><strong>Price:</strong> '+price+' per person</li><li><strong>Cruise date:</strong> '+montharray[ms]+'.'+dnow+'.'+arrdate[0]+' - '+montharray[me]+'.'+arrdateend[2]+'.'+arrdateend[0]+'</li><li><strong>Itinerary:</strong> '+route+'</li></ul>';
+		$(".formrightinfo").html(str);
+		$(".cruiseform").fadeIn("fast");
+		 var docheight = $(document).height();
+		 $("body").append("<div id='greybackground'></div>");
+		 $("#greybackground").css({"opacity":"0.5","height":docheight});
+	});	
 
 })
 })(jQuery);
