@@ -317,3 +317,15 @@ img {
 	text-align: center;
 }
 
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+img.fr{
+	margin: 0 0 0 10px;
+}
+img.fl{
+	margin: 0 10px 0 0;
+}

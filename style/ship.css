@@ -30,36 +30,34 @@ left:0;
 	display: none;
 	color: #5F5F5F;
 }
-.shiptop .enquiry{
+.shiptop .enp{
 	line-height: 14px;
 	color: #5f5f5f;
 	width: 360px;
 	padding: 0 0 58px 0;
 	border-bottom: 1px dashed #ddd;
 }
-.shiptop .enquiry a{
+.shiptop .enp a{
 	display: block;
 	width: 159px;
+	cursor: pointer;
 	height: 36px;
 	background: url(../image/enquirynew.gif) no-repeat 0 0;
 	float: left;
 	margin: 0 10px 0 0;
 }
-.shiptop .enquiry a:hover{
+.shiptop .enp a:hover{
 	background: url(/image/enquirynew.gif) no-repeat 0 -36px;
 }
 .shiptop .small{
 	font-size: 11px;
 }
 
-
-
 .shiprt{
 	width: 560px;
 	min-height: 400px;
 	margin: 0 0 0 10px;
 	float: right;
-
 }
 .shopprice{
 	border: 1px solid #8cc9fc;
@@ -220,6 +218,9 @@ left:0;
 	margin: 15px;
 }
 
+.unit h3{
+	margin: 0 0 15px 0;
+}
 .unit table{
 	width: 680px;
 }
@@ -227,6 +228,12 @@ left:0;
 	border-bottom: 1px solid #ddd;
 	border-top: 1px solid #ddd;
 	vertical-align: middle;
+}
+
+.unit.onboard img{
+	float: right;
+	margin: 10px 10px 10px 20px;
+	clear: both;
 }
 
 

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 07:51:16
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 09:36:36
          compiled from "./templates\guide.html" */ ?>
-<?php /*%%SmartyHeaderCode:31222502c9baeb52948-01944212%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:11971502e10a4c0b9d1-62000458%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -35,15 +35,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '31222502c9baeb52948-01944212',
+  'nocache_hash' => '11971502e10a4c0b9d1-62000458',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_502c9baebf9f72_51519246',
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_502e10a4cd35a6_76365079',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_502c9baebf9f72_51519246')) {function content_502c9baebf9f72_51519246($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if ($_valid && !is_callable('content_502e10a4cd35a6_76365079')) {function content_502e10a4cd35a6_76365079($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>扬子江2.0</title>
@@ -62,16 +62,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <div class="wrap">
 	<?php /*  Call merged included template "chunk/header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '31222502c9baeb52948-01944212');
-content_502df7f4c6e773_39697557($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '11971502e10a4c0b9d1-62000458');
+content_502e10a4ca33f7_77951919($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/header.tpl" */?>
 	
 	<div class="mainbody clearfix">
 		
 	<?php /*  Call merged included template "chunk/sidebar-guide.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/sidebar-guide.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '31222502c9baeb52948-01944212');
-content_502df7f4c89992_99096059($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/sidebar-guide.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '11971502e10a4c0b9d1-62000458');
+content_502e10a4cbd133_98040737($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/sidebar-guide.tpl" */?>
 		
 
@@ -143,15 +143,15 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/sideb
 	</div><!-- END OF .mainbody -->
 	<?php /*  Call merged included template "chunk/footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '31222502c9baeb52948-01944212');
-content_502df7f4c96e24_36733469($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '11971502e10a4c0b9d1-62000458');
+content_502e10a4cc8bc3_28794718($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/footer.tpl" */?>
 </div>	<!-- EDN OF .mainwrap -->
 </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 07:51:16
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 09:36:36
          compiled from "./templates\chunk\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502df7f4c6e773_39697557')) {function content_502df7f4c6e773_39697557($_smarty_tpl) {?><div class="headtop clearfix">
+<?php if ($_valid && !is_callable('content_502e10a4ca33f7_77951919')) {function content_502e10a4ca33f7_77951919($_smarty_tpl) {?><div class="headtop clearfix">
 	<div class="ht-left">
 		<a href="#">Home</a> |
 		<a href="#">Customize a Tour</a>|
@@ -218,9 +218,9 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 		</span>
 	</span>
 
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 07:51:16
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 09:36:36
          compiled from "./templates\chunk\sidebar-guide.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502df7f4c89992_99096059')) {function content_502df7f4c89992_99096059($_smarty_tpl) {?><div class="sidebar">
+<?php if ($_valid && !is_callable('content_502e10a4cbd133_98040737')) {function content_502e10a4cbd133_98040737($_smarty_tpl) {?><div class="sidebar">
 	<div class="sidebox">
 		<div class="conhead"></div>
 		<div class="conbody">
@@ -311,9 +311,9 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 		<div class="confoot"></div>
 	</div> <!-- END OF .sidebox -->
 
-</div> <!-- END OF .sidebar --><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 07:51:16
+</div> <!-- END OF .sidebar --><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 09:36:36
          compiled from "./templates\chunk\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502df7f4c96e24_36733469')) {function content_502df7f4c96e24_36733469($_smarty_tpl) {?><div class="footer">
+<?php if ($_valid && !is_callable('content_502e10a4cc8bc3_28794718')) {function content_502e10a4cc8bc3_28794718($_smarty_tpl) {?><div class="footer">
 	<div class="footnav clearfix">
 		<dl>
 			<dt>Yangtze Cruise</dt>
