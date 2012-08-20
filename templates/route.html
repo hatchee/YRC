@@ -37,7 +37,7 @@ $(function(){
 	{include file="chunk/header.tpl"}
 	<div class="mainbody clearfix">
 	{include file="chunk/sidebar-route.tpl"}
-		<div class="article clearfix">
+		<div class="article routewapper clearfix">
 			<div class="conhead"></div>
 			<div class="conbody clearfix">
 				<h1>8 Days Beijing Yangtze Cruise Tour</h1>
@@ -45,44 +45,66 @@ $(function(){
 					Beijing - Xian - Chongqing - Yangtze  Cruise - Yichang
 				</p>
 				<div class="overview clearfix">
-					<img src="http://placehold.it/270x180">
-					<h3>Overview:</h3>
+					<img class="themeimg" src="http://placehold.it/270x180">
+					<img class="thememap" src="http://placehold.it/100x100">
 					<dl>
 						<dt>Tour Code:</dt>
 						<dd>YRC-BJ-03</dd>
-						<dt>Departure Date:</dt>
+						<dt>Departure:</dt>
 						<dd>You Choose!</dd>
 						<dt>Service:</dt>
 						<dd>private tour guide/driver &amp; private car/van</dd>
+						<dt class="pf">Price from:</dt>
+						<dd class="pfr">
+							<b class="pr">$888</b>
+							<span class="why">
+								<img src="image/icon-why.png"> <i style="display: none;">explain to the price</i>
+							</span>
+						</dd>
+						<dd class="enp">
+							<a class="enquiry" href=""></a>
+						</dd>	
+						
 					</dl>
+
+					<h2>Trip Info & Details</h2>	
+				</div>
+				<div class="to">
 					<h4>Trip overview:</h4>
 					<p>
 						Walk the Great Wall of China and stare down Terra cotta soldiers in Xian. To get close to the iconic Giant Panda and cruise through the Three Gorges along the Yangtze. This itinerary introduces a fascinating route from North to South of China.
 					</p>
-					<p class="socialbar">
-						social zone
-					</p>
-				</div>
-				
-				<h2>Itinerary Details - day by day</h2>	
+				</div>	
 				<div class="route">
-					<ul>
-						<li>
-							<span class='day'>Day 1</span>
-							<h3>Bangkok to Chiang Mai >></h3>
-							<p>
-								First stop this morning is Bangkok’s increble RoyalPalace..........................
+							
+					<div class="route_day">
+						<div class="ht1">
+							<h3>Sample Itinerary Overview</h3>
+							<h4 class="daytitle" id="tvdaytitle">Day 1 Guilin Arrival ( L )</h4>
+						</div>
+						<div class="cont">
+							<p> <strong>Welcome to Guilin, the city with the most beautiful landscape under the earth!</strong> 
+								Our local tour guide and driver will meet and escort you to your hotel in Guilin from the airport. Rest of the day is free for you to explore!
 							</p>
-						</li>
+						</div>
+						<img width="120" height="96" src="assets/images/china-yangtze-cruise/li-river185.gif" alt="Beautiful Guilin Landscape" title="Beautiful Guilin Landscape" class="fleft">
+					</div>
+					<div class="route_day">
+						<div class="ht2">
+							<h4 class="daytitle">Day 2 Guilin Li River Cruise &amp; Yangshuo Town (B, L)</h4>
+						</div>
+						<div class="cont">
+							<p>
+								After breakfast today, you’ll be driven to <strong>Zhujiang Pier</strong>
+								(40-minute drive) to start your boat cruise down the picturesque Li River, which is the highlight of any visit to Guilin, until you get to <strong>Yangshuo County</strong>
+								. Along the river, you’ll be inspired by breathtaking views of peaks and pinnacles, crystal-clear water and picturesque pastoral views of rice paddies and water buffaloes. Visitors feel they have stepped into a traditional Chinese painting. After checking into your hotel in Yangshuo, free to explore the beautiful town and its famous
+								<strong>West Street</strong>
+								.
+							</p>
+						</div>
+						<img width="120" height="96" src="assets/images/china-yangtze-cruise/cycling-yangshuo185.gif" alt="Cycling around the Paradise Yangshuo Town" title="Cycling around the Paradise Yangshuo Town" class="fleft">
+					</div>
 
-						<li>
-							<span class='day'>Day 1</span>
-							<h3>Bangkok to Chiang Mai >></h3>
-							<p>
-								First stop this morning is Bangkok’s increble RoyalPalace..........................
-							</p>
-						</li>
-					</ul>
 				</div>
 
 			<div class="aside">
@@ -97,10 +119,9 @@ $(function(){
 						<a href="">What's not included?</a>
 					</dd>
 					<dd>
-						<a class="btn" href="">Get a Quote</a>
+						<a class="btn" href=""></a>
 					</dd>
 					<dd>
-						Chat with expert online<br>
 						Call us: 86-028-82956496
 					</dd>
 				</dl>

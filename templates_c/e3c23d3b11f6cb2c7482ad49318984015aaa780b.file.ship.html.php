@@ -1,37 +1,13 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:03:06
-=======
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:18:02
-=======
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 06:58:09
->>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
->>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
-=======
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 09:38:27
->>>>>>> c17c6b7e53d96e621298eb85105319434224c925
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-20 07:58:44
          compiled from "./templates\ship.html" */ ?>
-<?php /*%%SmartyHeaderCode:5046502e09f058a937-56130513%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:28447503193de809635-33966692%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e3c23d3b11f6cb2c7482ad49318984015aaa780b' => 
     array (
       0 => './templates\\ship.html',
-<<<<<<< HEAD
-<<<<<<< HEAD
-      1 => 1345187716,
-=======
-<<<<<<< HEAD
-      1 => 1345191480,
-=======
-      1 => 1345186660,
->>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
->>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
-=======
-      1 => 1345196299,
->>>>>>> c17c6b7e53d96e621298eb85105319434224c925
+      1 => 1345434380,
       2 => 'file',
     ),
     '577cb3b5f2047bc4eeb0585f5d7acabd05cd2fcd' => 
@@ -43,7 +19,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd360287b5561fbd7b01fa73e1a1771ff0fcfdad9' => 
     array (
       0 => './templates\\chunk\\header.tpl',
-      1 => 1345098361,
+      1 => 1345449180,
       2 => 'file',
     ),
     'd04f62d5ea29f5a4ffc2ac5ebd832681b3488bc7' => 
@@ -53,15 +29,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '5046502e09f058a937-56130513',
+  'nocache_hash' => '28447503193de809635-33966692',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_502e09f064edd7_19426217',
+  'unifunc' => 'content_503193de969ff9_67169837',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_502e09f064edd7_19426217')) {function content_502e09f064edd7_19426217($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if ($_valid && !is_callable('content_503193de969ff9_67169837')) {function content_503193de969ff9_67169837($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>YRC ship page</title>
@@ -80,21 +56,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <?php /*  Call merged included template "chunk/header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
-<<<<<<< HEAD
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '26021502477dbb78669-37926010');
-<<<<<<< HEAD
-content_502dfaba5d7bd7_54508035($_smarty_tpl);
-=======
-<<<<<<< HEAD
-content_502dfe3a7ca534_08431415($_smarty_tpl);
-=======
-content_502deb81bf1230_33379593($_smarty_tpl);
->>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
->>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
-=======
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '5046502e09f058a937-56130513');
-content_502e1113544cd2_69294035($_smarty_tpl);
->>>>>>> c17c6b7e53d96e621298eb85105319434224c925
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '28447503193de809635-33966692');
+content_5031ee3469b584_77858721($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/header.tpl" */?>
 
 	<div class="mainbody ship clearfix">
@@ -304,6 +267,18 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 
 					<div class="unit onboard">
 						<h3>Life onborad</h3>
+
+						<div class="box clearfix">
+							<div class="inbox">
+								<h4>Entertainment Prograsms</h4>
+								<p>Entertainments on board include <strong>Chinese culture and history lectures</strong>,<strong> fashion shows</strong> or <strong>cabaret shows</strong> performed by cruise staff, and Captain’s party. You will not only learn Chinese painting, Chinese mahjong and Taichi Quan, but also have a fun time with other customers on board, making new friends and sharing your happy travel time with each other.</p>
+								<p>Entertainments on board include <strong>Chinese culture and history lectures</strong>,<strong> fashion shows</strong> or <strong>cabaret shows</strong> performed by cruise staff, and Captain’s party. You will not only learn Chinese painting, Chinese mahjong and Taichi Quan, but also have a fun time with other customers on board, making new friends and sharing your happy travel time with each other.</p>
+							</div>
+							<img src="http://placehold.it/230x170">
+						</div>
+
+
+
 						<h4>Cuisine</h4>
 						<p>
 							Cuisine on Victoria Cruises is specially designed for Western customers, with both western buffet and Chinese cuisine experiences. Breakfast, lunch and dinner are all <strong>western and Chinese buffets</strong>
@@ -507,6 +482,45 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 
 					<div class="unit priceguide">
 						<h3>Price Guide</h3>
+
+						<h4> What's included? </h4>
+						<ol>
+							<li>
+								Entrance fees: The land excursions listed in the itinerary.
+							</li>
+							<li>
+								Meals: The daily meals on the ship.
+							</li>
+							<li>
+								Room: Overnight accommodation for morning departure (except Victoria Cruises from   Chongqing to Shanghai). A berth in the cabin as specified in the itinerary.
+							</li>
+							<li>
+								Service Charges & Government Taxes
+							</li>
+						</ol>
+
+						<h4>What's not included? </h4>
+						<ol>
+							<li>
+								Transfers: Between airport/hotel and cruise terminal in each city.
+							</li>
+							<li>
+								ersonal Expenses: Expenses of a purely personal nature such as laundry, drinks, faxes, telephone calls, optional activities, sightseeing or meals which are not included in the itinerary.
+							</li>
+							<li>
+								Single Room Supplement Applies if you want to stay in one cabin (usually two berth) on your own.
+							</li>
+							<li>Gratuities, Tips to Guides.</li>
+						</ol>
+
+						<h4>Ship Tips</h4>
+						<p>
+							Almost all the 4 to 5-star ships require a compulsory ship tip which is required to be paid when checking in at the reception counter; it is the regulation of the ship companies which passengers are supposed to follow. The tip amount differs from different cruise lines and will be specified in our confirmation letter, please kindly note this so that inconvenience can be avoided.
+						</p>
+						<p>
+							Note: Century Cruise line pre-charges the tips, so the tips is actually included in your Century Cruise cost, there is no need to pay again on board.
+						</p>
+
 					</div><!-- end of .unit .priceguide -->
 				</div>
 
@@ -589,13 +603,6 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 			<div class="formrightinfo">
 				<h3 class="">Price: [*shipprice*] per person</h3>
 			</div>
-			<ul>
-				<li><h3>Your Booking Summary</h3></li>
-				<li><strong>Cruise ship:</strong> Century Diamond</li>
-				<li><strong>Price:</strong> $3621 - $425 per person</li>
-				<li><strong>Cruise date:</strong> Aug.8.2012 - Aug.12.2012</li>
-				<li><strong>Itinerary:</strong> Chongqing - Yichang</li>
-			</ul>
 			<h3>Book with us:</h3>
 			<ul>
 				<li>Absolutly no hidden fees;</li>
@@ -790,46 +797,15 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 
 	<?php /*  Call merged included template "chunk/footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
-<<<<<<< HEAD
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '26021502477dbb78669-37926010');
-<<<<<<< HEAD
-content_502dfaba5e6d52_72179671($_smarty_tpl);
-=======
-<<<<<<< HEAD
-content_502dfe3a7d9878_35132400($_smarty_tpl);
-=======
-content_502deb81c00b28_44909822($_smarty_tpl);
->>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
->>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
-=======
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '5046502e09f058a937-56130513');
-content_502e1113558162_62972355($_smarty_tpl);
->>>>>>> c17c6b7e53d96e621298eb85105319434224c925
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '28447503193de809635-33966692');
+content_5031ee346a61c3_09469506($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/footer.tpl" */?>
 </div><!-- END OF .wrap -->
 </body>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:03:06
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-20 07:58:44
          compiled from "./templates\chunk\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502dfaba5d7bd7_54508035')) {function content_502dfaba5d7bd7_54508035($_smarty_tpl) {?><div class="headtop clearfix">
-=======
-<<<<<<< HEAD
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:18:02
-         compiled from "./templates\chunk\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502dfe3a7ca534_08431415')) {function content_502dfe3a7ca534_08431415($_smarty_tpl) {?><div class="headtop clearfix">
-=======
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 06:58:09
-         compiled from "./templates\chunk\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502deb81bf1230_33379593')) {function content_502deb81bf1230_33379593($_smarty_tpl) {?><div class="headtop clearfix">
->>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
->>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
-=======
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 09:38:27
-         compiled from "./templates\chunk\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502e1113544cd2_69294035')) {function content_502e1113544cd2_69294035($_smarty_tpl) {?><div class="headtop clearfix">
->>>>>>> c17c6b7e53d96e621298eb85105319434224c925
+<?php if ($_valid && !is_callable('content_5031ee3469b584_77858721')) {function content_5031ee3469b584_77858721($_smarty_tpl) {?><div class="headtop clearfix">
 	<div class="ht-left">
 		<a href="#">Home</a> |
 		<a href="#">Customize a Tour</a>|
@@ -895,28 +871,9 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 			<span class="B_currentCrumb">Victoria Jenna Cruise</span>
 		</span>
 	</span>
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:03:06
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-20 07:58:44
          compiled from "./templates\chunk\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502dfaba5e6d52_72179671')) {function content_502dfaba5e6d52_72179671($_smarty_tpl) {?><div class="footer">
-=======
-<<<<<<< HEAD
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:18:02
-         compiled from "./templates\chunk\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502dfe3a7d9878_35132400')) {function content_502dfe3a7d9878_35132400($_smarty_tpl) {?><div class="footer">
-=======
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 06:58:09
-         compiled from "./templates\chunk\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502deb81c00b28_44909822')) {function content_502deb81c00b28_44909822($_smarty_tpl) {?><div class="footer">
->>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
->>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
-=======
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 09:38:27
-         compiled from "./templates\chunk\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502e1113558162_62972355')) {function content_502e1113558162_62972355($_smarty_tpl) {?><div class="footer">
->>>>>>> c17c6b7e53d96e621298eb85105319434224c925
+<?php if ($_valid && !is_callable('content_5031ee346a61c3_09469506')) {function content_5031ee346a61c3_09469506($_smarty_tpl) {?><div class="footer">
 	<div class="footnav clearfix">
 		<dl>
 			<dt>Yangtze Cruise</dt>

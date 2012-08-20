@@ -1,28 +1,63 @@
+
+
 /*内容页面*/
+
+
 .sidebar p{
-	background: #fef9ea;
+	background: url(/image/sidebar-bg.png) repeat-y;
 	padding: 10px;
+	margin: 0 0 5px 0;
+}
+.sidebar p a{
+	font-size: 14px;
+	color:#333; 
+	line-height: 20px;
 }
 .sidebar dl{
 	margin: 0 0 10px 0;
-	background: #fef9ea;
+	padding: 10px;
+	background: url(/image/sidebar-bg.png) repeat-y;
+}
+.sidebar .stcity a{
+	color: #a0a0a0;	
+	display: block;
+}
+.sidebar .around a{
+	display: block;
+	background: url(/image/arrow-rt.png) no-repeat right center;
+	
 }
 .sidebar dt{
 	font-size: 14px;
 	font-weight: bold;
+	margin: 0 0 8px 0;
 	color: #333;
-	padding:10px 10px 0 10px;
-}
-.sidebar dd{
-	padding: 10px 10px 5px;
 }
 .sidebar dd h4{
 	color: #333;
+	margin: 5px 0 0 0;
 	background: url(/image/arrow-rt.png) no-repeat right center;
 }
-.sidebar dd a{
-	color: #a0a0a0;
+
+dl.wishlist a{
+	color: #004B93;
+	background-image: url(/image/icon-wishlist.png);
+	background-repeat: no-repeat;
+	padding: 0 0 0 20px;
+	display: block;
+	height: 20px;
+	line-height: 20px;
 }
+a.wish{
+	background-position: 0 0;
+}
+a.cust{
+	background-position: 0 -24px; 
+}
+dl.wishlist a:hover{
+	color: #046bce;
+}
+
 
 /*右侧article*/
 
@@ -30,34 +65,164 @@
 	margin: 0;
 	padding: 10px;
 }
-.overview img{
+ .routewapper .overview {
+ 	background: url("/image/routelist-bg.png") repeat-x scroll center bottom #FFFFFF;
+	margin: 10px 0 20px -10px;
+	padding: 0 10px 0 10px;
+	width: 730px;
+ }
+
+.overview .themeimg{
 	float: left;
 	margin: 0 10px 0 0;
 }
+.overview .thememap{
+	margin: 0 0 0 10px;
+	float: right;
+}
 .overview dl{
-	width: 440px;
+	width: 330px;
 	float: left;
+	margin-left: 10px;
 }
 .overview dt{
 	float: left;
-	font-family: Georgia,"Times New Roman",Times,serif;
-	font-weight: 700;
 	margin: 0 0 5px;
-	width: 110px;
+	width: 80px;
+	font-weight: bold;
 }
 .overview dd{
 	margin: 0 0 5px;
-	padding-left: 110px;
+	float: left;
+	clear: right;
+	width: 250px; 
+}
+.overview .pr{
+	font-size: 14px;
+	color: #ff7400;
+}
+.overview .pf, .overview .pfr{
+	margin: 30px 0 0 0;
+}
+.overview .enp{
+	margin: 5px 0 0 0;
+}
+.overview .enp a {
+  background: url("../image/enquirynew.gif") no-repeat scroll 0 0 transparent;
+  cursor: pointer;
+  display: block;
+  float: left;
+  height: 36px;
+  margin: 0 10px 0 0;
+  width: 159px;
 }
 
+
+.overview h2{
+	display: block;
+	border:1px solid #61adda;
+	border-radius: 5px 5px 0 0;
+	border-bottom: 1px solid #fff;
+	float: left;
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+	margin: 30px 0 0 0;
+	padding: 0 10px 0 30px;
+	background: url(/image/icon-blue.png) no-repeat 10px center #fff;
+	clear: both;
+}
+.destination{
+	margin: 0 0 4px 0;
+}
 .route{
 	width: 582px;
 	float: left;
 }
 
-.route li{
-	background: url(/image/route-bg.png) repeat-x left top;
-	padding: 10px;
+.route_day {
+	background:url("/image/route-bg.png") repeat-x scroll left bottom #FFFFFF;
+	border: 1px solid #E8F5FF;
+	margin: 0 0 10px 0;
+	overflow: hidden;
+}
+
+.route_day .ht2 {
+	padding: 10px 10px 5px;
+}
+
+.route_day .cont {
+	float: left;
+	padding: 0 10px 10px;
+	width: 430px;
+}
+
+
+
+
+
+/*Quick book or enquiry*/
+.formcbook {
+	overflow: hidden;
+	width: 540px;
+}
+
+.formcbook .headertit {
+	background: url("../img/form_c_book_h.gif") no-repeat scroll 0 0 transparent;
+	height: 48px;
+	line-height: 300px;
+	overflow: hidden;
+}
+
+.formcbook .cont {
+	-moz-border-bottom-colors: none;
+	-moz-border-image: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background-color: #F3F9FC;
+	border-color: -moz-use-text-color #CBE6F3 #CBE6F3;
+	border-style: none solid solid;
+	border-width: medium 1px 1px;
+	padding: 10px 0 0;
+}
+
+.formtb {
+  border: medium none;
+  border-collapse: collapse;
+}
+
+.btn_submit {
+  background-image: url("../img/btn_submit.gif");
+  background-repeat: no-repeat;
+  border: 0 none;
+  cursor: pointer;
+  display: block;
+  height: 27px;
+  line-height: 200px;
+  overflow: hidden;
+  text-indent: -100em;
+  width: 100px;
+}
+
+.formtb td {
+  padding: 0 0 5px;
+}
+.formtb th {
+  font-weight: 100;
+  text-align: right;
+  vertical-align: top;
+  width: 150px;
+}
+input.w50, input.w150, input.w200, input.w300, select.w50, select.w150, select.w200 select.w90 {
+  background-color: #FFFFFF;
+  border: 1px solid #7F9DB9;
+  overflow: hidden;
+  padding: 2px;
+}
+
+.w300 {
+  width: 300px;
 }
 
 /*右侧aside*/
@@ -68,14 +233,13 @@
 }
 
 .tips{
-	background: #ededed;
-	border: 1px solid #c2c2c2;
+	background:url("/image/route-bg.png") repeat-x scroll left bottom #FFFFFF;
+	border: 1px solid #E8F5FF;
 }
 .tips dt{
 	font-size: 14px;
 	font-weight: bold;
 	background: #fff;
-	border-bottom: 1px solid #c2c2c2;
 	padding: 10px 2px 7px;
 }
 .tips dt i{
@@ -100,23 +264,13 @@
 	color: #333;
 	font-size: 15px;
 }
-.btn{
-	background: url(/image/btn.png) repeat-x left center;
-	padding: 5px ;
-	color: #fff;
-	text-decoration: none;
-	border: 1px solid #fea242;
-	border-radius: 5px;
-	font-weight: bold;
-}
-.btn:hover{
-	text-decoration: none;
-	
-}
 
 .tips dd .btn{
-	margin: 10px 25px 0;
-	display: block;
+  background: url("../image/enquiry-small2.gif") no-repeat scroll 0 0 transparent;
+  display: block;
+  height: 28px;
+  width: 93px;
+  margin: 0 auto;
 }
 
 

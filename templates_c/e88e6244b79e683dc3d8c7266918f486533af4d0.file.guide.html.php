@@ -1,13 +1,13 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 09:36:36
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-20 08:49:53
          compiled from "./templates\guide.html" */ ?>
-<?php /*%%SmartyHeaderCode:11971502e10a4c0b9d1-62000458%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:150255031b495125a56-91673697%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e88e6244b79e683dc3d8c7266918f486533af4d0' => 
     array (
       0 => './templates\\guide.html',
-      1 => 1345189875,
+      1 => 1345450664,
       2 => 'file',
     ),
     '577cb3b5f2047bc4eeb0585f5d7acabd05cd2fcd' => 
@@ -19,13 +19,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd360287b5561fbd7b01fa73e1a1771ff0fcfdad9' => 
     array (
       0 => './templates\\chunk\\header.tpl',
-      1 => 1345098361,
+      1 => 1345449180,
       2 => 'file',
     ),
     '63acee4ce960f598ebfbd39981b7e9c6a05134b8' => 
     array (
       0 => './templates\\chunk\\sidebar-guide.tpl',
-      1 => 1345189742,
+      1 => 1345449798,
       2 => 'file',
     ),
     'd04f62d5ea29f5a4ffc2ac5ebd832681b3488bc7' => 
@@ -35,15 +35,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '11971502e10a4c0b9d1-62000458',
+  'nocache_hash' => '150255031b495125a56-91673697',
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_502e10a4cd35a6_76365079',
+  'unifunc' => 'content_5031b495200685_14121742',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_502e10a4cd35a6_76365079')) {function content_502e10a4cd35a6_76365079($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if ($_valid && !is_callable('content_5031b495200685_14121742')) {function content_5031b495200685_14121742($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>扬子江2.0</title>
@@ -62,19 +62,18 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <div class="wrap">
 	<?php /*  Call merged included template "chunk/header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '11971502e10a4c0b9d1-62000458');
-content_502e10a4ca33f7_77951919($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '150255031b495125a56-91673697');
+content_5031fa31ee7cd0_25649335($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/header.tpl" */?>
 	
 	<div class="mainbody clearfix">
 		
 	<?php /*  Call merged included template "chunk/sidebar-guide.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/sidebar-guide.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '11971502e10a4c0b9d1-62000458');
-content_502e10a4cbd133_98040737($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/sidebar-guide.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '150255031b495125a56-91673697');
+content_5031fa31eff108_56474184($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/sidebar-guide.tpl" */?>
 		
-
 		<div class="article guide clearfix">
 			<div class="conhead"></div>
 			<div class="conbody clearfix">
@@ -143,15 +142,15 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/sideb
 	</div><!-- END OF .mainbody -->
 	<?php /*  Call merged included template "chunk/footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '11971502e10a4c0b9d1-62000458');
-content_502e10a4cc8bc3_28794718($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '150255031b495125a56-91673697');
+content_5031fa31f10a76_89806916($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/footer.tpl" */?>
 </div>	<!-- EDN OF .mainwrap -->
 </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 09:36:36
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-20 08:49:53
          compiled from "./templates\chunk\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502e10a4ca33f7_77951919')) {function content_502e10a4ca33f7_77951919($_smarty_tpl) {?><div class="headtop clearfix">
+<?php if ($_valid && !is_callable('content_5031fa31ee7cd0_25649335')) {function content_5031fa31ee7cd0_25649335($_smarty_tpl) {?><div class="headtop clearfix">
 	<div class="ht-left">
 		<a href="#">Home</a> |
 		<a href="#">Customize a Tour</a>|
@@ -217,13 +216,12 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 			<span class="B_currentCrumb">Victoria Jenna Cruise</span>
 		</span>
 	</span>
-
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 09:36:36
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-20 08:49:53
          compiled from "./templates\chunk\sidebar-guide.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502e10a4cbd133_98040737')) {function content_502e10a4cbd133_98040737($_smarty_tpl) {?><div class="sidebar">
+<?php if ($_valid && !is_callable('content_5031fa31eff108_56474184')) {function content_5031fa31eff108_56474184($_smarty_tpl) {?><div class="sidebar">
 	<div class="sidebox">
 		<div class="conhead"></div>
-		<div class="conbody">
+		<div class="conbody guidesd">
 			<h2>Yangtze Cruise Guide</h2>
 			<p>
 				<a href="">How to get there?</a> <br>
@@ -311,9 +309,74 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 		<div class="confoot"></div>
 	</div> <!-- END OF .sidebox -->
 
-</div> <!-- END OF .sidebar --><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 09:36:36
+
+	<div class="sidebox">
+		<div class="conhead"></div>
+		<div class="conbody guidesd">
+			<h2>Yangtze Cruise FAQs</h2>
+			
+		</div> <!-- END OF .conbody -->
+		<div class="confoot"></div>
+	</div> <!-- END OF .sidebox -->
+
+	<div class="sidebox">
+		<div class="conhead"></div>
+		<div class="conbody hotdeals">
+			<h2>Hot Yangtze Criuse Deals</h2>
+
+			<ul>
+				<li>
+					<h4><a href="">Victoria Cruise</a><img class="star" src="/image/5star.gif" width="80"></h4>
+					<p><a href=""><img src="/image/ship1.jpg"></a></p>
+					<p>We came back just as the preara were being.</p>
+					<p>
+						<span>from only <b>$408</b></span><br>
+						<a class="detail" href="">>>veiw details</a>
+					</p>
+				</li>
+
+				<li>
+					<h4><a href="">Victoria Cruise</a><img class="star" src="/image/5star.gif" width="80"></h4>
+					<p><a href=""><img src="/image/ship2.jpg"></a></p>
+					<p>We came back just as the preara were being.</p>
+					<p>
+						<span>from only <b>$408</b></span><br>
+						<a class="detail" href="">>>veiw details</a>
+					</p>
+				</li>
+
+				<li>
+					<h4><a href="">Victoria Cruise</a><img class="star" src="/image/5star.gif" width="80"></h4>
+					<p><a href=""><img src="/image/ship3.jpg"></a></p>
+					<p>We came back just as the preara were being.</p>
+					<p>
+						<span>from only <b>$408</b></span><br>
+						<a class="detail" href="">>>veiw details</a>
+					</p>
+				</li>
+
+				<li>
+					<h4><a href="">Victoria Cruise</a><img class="star" src="/image/5star.gif" width="80"></h4>
+					<p><a href=""><img src="/image/ship4.jpg"></a></p>
+					<p>We came back just as the preara were being.</p>
+					<p>
+						<span>from only <b>$408</b></span><br>
+						<a class="detail" href="">>>veiw details</a>
+					</p>
+				</li>
+			</ul>
+
+			
+		</div> <!-- END OF .conbody -->
+		<div class="confoot"></div>
+	</div> <!-- END OF .sidebox -->
+
+
+
+
+</div> <!-- END OF .sidebar --><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-20 08:49:53
          compiled from "./templates\chunk\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502e10a4cc8bc3_28794718')) {function content_502e10a4cc8bc3_28794718($_smarty_tpl) {?><div class="footer">
+<?php if ($_valid && !is_callable('content_5031fa31f10a76_89806916')) {function content_5031fa31f10a76_89806916($_smarty_tpl) {?><div class="footer">
 	<div class="footnav clearfix">
 		<dl>
 			<dt>Yangtze Cruise</dt>

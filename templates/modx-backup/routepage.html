@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		{{header}} <script type="text/javascript" src="js/mootools-1.2.4-core.js"></script>
+		<script type="text/javascript" src="js/mootools-1.2.4.4-more.js"></script>
+		<script type="text/javascript" src="js/calendar-eightysix-v1.1.js"></script>
+		<script type="text/javascript" src="js/jsfun.js"></script>
+		<link href="js/calendar.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript">
+			window.addEvent('domready', function() {
+				var calendarXIa = new CalendarEightysix('starttime', {
+					'format' : '%Y-%m-%d',
+					'disallowUserInput' : true,
+					'minDate' : 'today',
+					'alignX' : 'left',
+					'alignY' : 'bottom'
+				});
+				var calendarXIb = new CalendarEightysix('endtime', {
+					'format' : '%Y-%m-%d',
+					'disallowUserInput' : true,
+					'minDate' : 'tomorrow',
+					'alignX' : 'left',
+					'alignY' : 'bottom'
+				});
+				calendarXIa.addEvent('change', function(date) {
+					date = date.clone().increment();
+					calendarXIb.options.minDate = date;
+					if(calendarXIb.getDate().diff(date) >= 1)
+						calendarXIb.setDate(date);
+					else
+						calendarXIb.render();
+				});
+			});
+
+		</script>
+	</head>
+	<body>
+{{onlineservice}}
+		{{live_chat}}
+		<div id="headertxt">
+			[*topseo*]
+		</div>
+		<div id="warp">
+			<div id="header">
+				<a id="logo" href="/" title="Home"></a>
+				<div id="hright">
+					<ul style="list-style:none">
+						<li class="tel">
+							+86-23-89009012
+						</li>
+						<li class="email">
+							info@yangtze-river-cruises.com
+						</li>
+					</ul>
+					<div style="clear:both"></div>
+					<p>
+						{{headernav}}
+					</p>
+					{{search}}
+				</div>
+			</div>
+			<div id="menu">
+				<ul>
+					<li>
+						<a class="home" href="/">Home</a>
+					</li>
+					<li>
+						<a class="menucurr" href="[~48~]">China Yangtze Tours</a>
+					</li>
+					<li>
+						<a href="[~49~]">Ships</a>
+					</li>
+					<li>
+						<a class="menucalendar" href="[~1315~]">Calendar 2012</a>
+					</li>
+					<li>
+						<a  href="[~1098~]">Cruise Guide</a>
+					</li>
+					<li>
+						<a  href="[~1061~]">Onboard</a>
+					</li>
+					<li>
+						<a href="[~733~]">About Us</a>
+					</li>
+				</ul>
+				<div class="new"></div>
+			</div>
+			<div id="mainbody">
+				<div id="column_2of3" class="fright dashedy">
+					<div id="maincon">
+						<p class="currentPath">
+							You are here: [[Breadcrumbs]]
+						</p>
+						<h1>[*h1title*]</h1>
+						{{addthistags}}
+						<div class="route_header mt15">
+							<div class="info">
+								<dl>
+									<dt>
+										Tour Code:
+									</dt>
+									<dd>
+										[*tourcode*]
+									</dd>
+									<dt>
+										Duration:
+									</dt>
+									<dd>
+										[*duration*]
+									</dd>
+									<dt>
+										Departure Date:
+									</dt>
+									<dd>
+										[*departure*]
+									</dd>
+									<dt>
+										Service:
+									</dt>
+									<dd>
+										[*service*]
+									</dd>
+									<dt>
+										Destinations:
+									</dt>
+									<dd>
+										[*destinations*]
+									</dd>
+									<dt>
+										Features:
+									</dt>
+									<dd>
+										[*features*]
+									</dd>
+								</dl>
+							</div>
+							<div class="inquiry">
+								[[stools? &w=`price` &price=`[*price*]` &pricet=`[*pricetype*]`]]
+								<p align="right">
+									<a href="[~[*id*]~]#inquiry" class="btn_inquirynow">Inquiry Now</a>
+								</p>
+							</div>
+						</div>
+						<div class="route_day">
+							<div class="ht1">
+								<h3>Sample Itinerary Overview</h3>
+								[*daytitle*]
+							</div>
+							<div class="cont">
+								[*#content*]
+							</div>
+							[[stools? &w=`getimg` &id=`[*picids*]`]]
+						</div>
+						[[Ditto? &parents=`[*id*]` &sortBy=`menuindex` &sortDir=`ASC` &tpl=`itinerarylist` &noResults=` `]]
+						[[stools? &w=`optlist` &id=`[*optids*]`]]
+						{{cruisesform}}
+					</div>
+				</div>
+				<div id="column_1of3" class="fleft">
+					<div id="leftnav">
+						<img src="img/contactus.jpg" alt="Why Choose Yangtze-river-cruises.com" usemap="#Map" class="mb5" width="180" border="0" height="187">
+						<map name="Map" id="Map">
+							<area shape="rect" coords="2,7,176,187" href="about-us/why-choose-us.html">
+						</map>
+						{{tourleftnav}}
+						{{best-seller}}
+
+						{{left-nav-cale}}
+						{{finecruise}}
+					</div>
+				</div>
+				{{contact-tc}}
+			</div>
+			<div id="footer">
+				{{pagefooter}}
+			</div>
+		</div>
+	</body>
+</html>

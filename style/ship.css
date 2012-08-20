@@ -202,6 +202,7 @@ left:0;
 	border: 1px solid #9FBFE3;
 	border-bottom: none;
 	font-size: 15px;
+    font-family: "Trebuchet MS", Arial, Georgia,"Times New Roman",Times,serif;
 	border-radius: 5px 5px 0 0;
 	padding: 0 8px;
 	display: block;
@@ -239,8 +240,17 @@ left:0;
 
 .unit.onboard img{
 	float: right;
-	margin: 10px 10px 10px 20px;
-	clear: both;
+	margin: 0 10px 10px 20px;
+}
+.onboard .box{
+	margin: 10px 0;
+}
+.onboard .box h4{
+	margin: 0 0 10px 0;
+}
+.onboard .box .inbox{
+	width: 420px;
+	float: left;
 }
 
 
@@ -275,7 +285,22 @@ left:0;
 	padding: 0 10px;
 	background: url(/image/caption-bg.png) repeat-x;
 }
+.priceguide ol{
+	margin: 10px 0;
+}
+.priceguide ol li{
+	background: url("/image/li-disc.gif") no-repeat scroll left 7px transparent;
+	list-style: none outside none;
+	padding: 0 0 0 10px;
+}
+.priceguide h4{
+	margin: 0 0 8px 0;
+}
 
+
+
+
+/*右侧*/
 .col-rt{
 	width: 223px;
 	padding: 10px ;

@@ -35,7 +35,6 @@ input{
 }
 body {
 	background: url(/image/body-bg.jpg) no-repeat center top #c4ddf1;
-    /*font: 16px/130% Arial,Helvetica,sans-serif;*/
     font: 12px/20px Arial,Helvetica,sans-serif;
     margin: 0;
 }
@@ -61,7 +60,7 @@ h3{
 h4{
 	font-size: 14px;
 	line-height: 1;
-	color: #333333;
+	margin: 0 0 5px 0;
 }
 h5{
 	font-size: 12px;
@@ -70,7 +69,7 @@ h5{
 
 
 p{
-	margin: 0 0 16px;
+	margin: 0 0 14px;
 }
 a {
     /*color: #1E8BC9;*/
@@ -78,7 +77,11 @@ a {
     text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    /*color: #013261;*/
+    color: #046bce;
+
+
 }
 img {
     border: medium none;
@@ -99,7 +102,7 @@ img {
 }
 .headtop{
 	width: 980px;
-	height: 52px;
+	height: 67px;
 	margin: 0 auto;
 }
 .headtop div{
@@ -112,7 +115,7 @@ img {
 	line-height: 31px;
 }
 .ht-left{
-	margin: 27px 0 0;
+	margin: 42px 0 0;
 	color: #fff;
 }
 .ht-left a{
@@ -133,7 +136,7 @@ img {
 	text-align: right;
 	color: #fff;
 	font-family: "Trebuchet MS",Arial,Georgia,"Times New Roman",Times,serif;
-	margin: 6px 0 0;
+	margin: 21px 0 0;
 }
 .ht-right p{
 	margin: 0;
@@ -328,4 +331,9 @@ img.fr{
 }
 img.fl{
 	margin: 0 10px 0 0;
+}
+
+
+.sidebar h2{
+	color: #333;
 }
