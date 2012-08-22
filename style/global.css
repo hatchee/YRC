@@ -243,6 +243,11 @@ img {
 	padding: 0 0 1px 0;
 	background: #fff;
 }
+.conbodyone{
+	padding: 10px ;
+	background: #fff;
+}
+
 .sidebar .blue .conbody{
 	background: url("/image/content-bg2.png") repeat-y scroll 0 -12px #fff;
 	padding: 0 7px 7px;
@@ -384,4 +389,39 @@ img.fl{
 
 .sidebar h2{
 	color: #333;
+}
+
+
+h3.bgtitle{
+	padding: 11px 0;
+	margin: 0 0 5px 0;
+}
+h3.bgtitle span{
+	background: #4091df;
+	position: relative;
+	line-height: 30px;
+	color: #fff;
+	padding: 8px;
+	border-radius: 3px;
+}
+h3.bgtitle img{
+	position: absolute;
+	right: 10px;
+	bottom: -8px;
+}
+.sbox{
+	background: #f4f9fe;
+	width: 200px;
+	padding: 5px;
+	border: 1px solid #a7b4c4;
+	border-radius: 3px;
+	float: left;
+	margin: 14px;
+	-webkit-box-shadow: #ccc 0px 0px 5px; 
+	-moz-box-shadow: #ccc 0px 0px 5px; 
+	box-shadow: #ccc 0px 0px 5px; 
+}
+.sbox h4{
+	color: #333;
+	margin: 6px 0 10px;
 }
