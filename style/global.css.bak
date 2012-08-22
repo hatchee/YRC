@@ -1,0 +1,381 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub,  tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol {
+	list-style: inside disc;
+}
+ul li{
+	list-style: none;
+}
+li{
+	list-style: inside disc;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+input{
+	vertical-align: middle;
+}
+body {
+	background: url(/image/body-bg.jpg) no-repeat center top #c4ddf1;
+    /*font: 16px/130% Arial,Helvetica,sans-serif;*/
+    font: 12px/20px Arial,Helvetica,sans-serif;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Trebuchet MS", Arial, Georgia,"Times New Roman",Times,serif;
+    color: #004B93;
+}
+h1{
+	font-size: 22px;
+	margin: 0 0 10px;
+	line-height: 1;
+}
+h2{
+	font-size: 19px;
+	margin: 0 0 8px;
+	line-height: 1;
+}
+h3{
+	font-size: 15px;
+	margin: 0 0 5px;
+	line-height: 1;
+}
+h4{
+	font-size: 14px;
+	line-height: 1;
+	color: #333333;
+}
+h5{
+	font-size: 12px;
+	line-height: 1;
+}
+
+
+p{
+	margin: 0 0 16px;
+}
+a {
+    /*color: #1E8BC9;*/
+    color: #004B93;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+img {
+    border: medium none;
+}
+
+.clearfix:after {
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    content: '';
+    display: block;
+}
+
+
+/*the customize styles*/
+.wrap{
+	background: url(/image/footer.jpg) no-repeat center bottom;
+}
+.headtop{
+	width: 980px;
+	height: 52px;
+	margin: 0 auto;
+}
+.headtop div{
+	width: 325px;
+	float: left;
+}
+.headtop .ht-mid{
+	background: url(/image/headtopbg.png) no-repeat top center;
+	color: #fff;
+	line-height: 31px;
+}
+.ht-left{
+	margin: 27px 0 0;
+	color: #fff;
+}
+.ht-left a{
+	margin: 0 10px;
+	color: #fff;
+	font-weight: bold;
+	font-family: "Trebuchet MS",Arial,Georgia,"Times New Roman",Times,serif;
+}
+.ht-mid{
+	text-align: center;
+}
+.ht-mid a{
+	color: #fff;
+	line-height: 36px;
+	padding: 0 5px;
+}
+.ht-right{
+	text-align: right;
+	color: #fff;
+	font-family: "Trebuchet MS",Arial,Georgia,"Times New Roman",Times,serif;
+	margin: 6px 0 0;
+}
+.ht-right p{
+	margin: 0;
+}
+.ht-right b{
+	font-size: 14px;
+}
+.icon-call{
+	padding: 3px 10px;	
+	background: url(/image/icon-contact.png) no-repeat 0 -25px;
+}
+.icon-email{
+	padding: 0px 13px;	
+	background: url(/image/icon-contact.png) no-repeat 0 0;
+}
+
+.header{
+	width: 980px;
+	height: 258px;
+	margin: 0 auto;
+	background: url(/image/banner.jpg) no-repeat center center #fff;
+	/*background: url(http://placehold.it/972x250) no-repeat center center #fff;*/
+}
+.searchbox
+{
+	width:240px;
+	padding:10px;
+	border:1px solid #ccc;
+	float:right;
+	margin-right:40px;
+	margin-top:15px;
+	font-size:12px;
+	background:#CCC;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+	z-index:500;
+}
+.searchbox h3
+{
+	color:#FFF;
+	padding-bottom:8px;
+}
+.res
+{
+	padding:10px 0px 35px;
+	border-bottom:1px #fff dashed;
+	clear: both;
+}
+.restitle
+{
+	float:right;
+}
+.buttonsear
+{
+	float:right;
+	color:#fff;
+	font-size:13px;
+}
+.calhref
+{
+	float:right;
+	text-decoration: underline;
+	color:#FFF;
+}
+.tabcal
+{
+	list-style:none;
+	padding:10px 0px 0px 10px;
+
+}
+.tabcal li
+{
+	float:left;
+	padding:5px;
+}
+
+#logo{
+	background: url(/image/logo.png) no-repeat 0 0;
+	display: block;
+	float: left;
+	width: 194px;
+	height: 89px;
+	margin:-1px 0 0;
+}
+#hright {
+	float: right;
+}
+.menu {
+	width: 980px;
+	height: 41px;
+	margin: 0 auto;
+    overflow: hidden;
+    border-radius: 0 0 5px 5px;
+    /*background: url("/image/nav-bg.png") no-repeat scroll right 0 transparent;*/
+	background: #2171ae;    
+}
+.menu ul{
+}
+.menu li{
+    list-style: none;
+    display: block;
+    float: left;
+    line-height: 41px;
+}
+
+.navleft{
+	float: left;
+}
+.navleft a {
+	color: #FFFFFF;
+	display: block;
+	text-decoration: none;
+	float: left;
+	padding: 0 20px;
+    font-family: "Trebuchet MS", Arial, Georgia,"Times New Roman",Times,serif;
+    font-weight: bold;
+	font-size: 13px;	
+	line-height: 41px;
+    background: url("/image/navdown.png") no-repeat right 19px ;
+}
+.navleft li.active a{
+}
+.navleft li a:hover{
+    /*background: url("/image/nav-bg.png") no-repeat scroll -1px -41px transparent;*/
+}
+
+.navright{
+	float: right;
+	padding-left: 35px;
+	height: 37px;
+	margin: 2px;
+	background: url("/image/navrt-bg.png") no-repeat left center #135590;
+}
+.navright a{
+	color: #f1f1f1;
+	display: block;
+	text-decoration: none;
+	float: left;
+	padding: 0 10px;
+    font-family: Arial, Georgia,"Times New Roman",Times,serif;
+	font-size: 11px;	
+	line-height: 37px;
+}
+
+.conhead{
+	background: url("/image/conhead.png") repeat-x scroll -232px 0 transparent;
+	height:15px;
+}
+.conbody{
+	padding: 0 0 1px 0;
+	background: #fff;
+}
+.confoot{
+	background: url("/image/confoot.png") repeat-x scroll -232px 0 transparent;
+	height:15px;
+}
+
+.mainbody{
+	width: 980px;
+	margin: 0 auto;
+}
+.breadcrum{
+	padding: 12px 0;
+	margin: 0 auto;
+	width: 980px;
+}
+.footer{
+	width: 960px;
+	padding: 10px;
+	min-height: 300px;
+	margin: 20px auto 0;
+
+}
+.footnav dl{
+	display:block; 
+	float: left;
+	width: 220px;
+}
+.footnav dt{
+	margin: 5px 0 3px;
+	color: #004B93;
+	font-weight: bold;
+	font-size: 14px;
+}
+.footnav dd{
+	line-height: 16px;
+}
+.footnav dd a{
+	color: #000000;
+}
+.footnav dd a:hover{
+	color: #004b93;
+	text-decoration: none;
+}
+.footnav .lastdl{
+	float: right;	
+	padding: 0 0 0 70px;
+	border-left: 1px dashed #434343;
+	width: auto;
+}
+.lastdl dt{
+	color: #010101;
+}
+.social {
+	margin: 20px 0 50px;
+	color: #451a00;
+	font-weight: bold;
+	font-size: 14px;
+}
+.social a{
+	margin: 0 10px;
+}
+.footinfo{
+	font-size: 11px;	
+}
+.footinfo p{
+	margin: 0 0 8px;
+}
+.footlogo{
+	display: block;
+	float: left;
+	margin: -14px 10px 0 0;
+}
+
+/**********公共组件**********/
+.share{
+
+}
+
+.btn{
+	text-align: center;
+}
+
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+img.fr{
+	margin: 0 0 0 10px;
+}
+img.fl{
+	margin: 0 10px 0 0;
+}

@@ -58,7 +58,7 @@ $(function(){
 		var stime=year+'-'+month+'-'+day;
 		flex=$('.calflex').val();
 		route=$('.calroute').val();
-		alert(stime+','+flex+','+route);
+		alert(stime,flex,route);
 	});
 
 });

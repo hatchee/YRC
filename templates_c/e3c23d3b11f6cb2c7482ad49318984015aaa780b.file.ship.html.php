@@ -1,67 +1,43 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:03:06
-=======
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:18:02
-=======
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 06:58:09
->>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
->>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
-=======
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 09:38:27
->>>>>>> c17c6b7e53d96e621298eb85105319434224c925
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-22 03:01:31
          compiled from "./templates\ship.html" */ ?>
-<?php /*%%SmartyHeaderCode:5046502e09f058a937-56130513%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3148050343bcce79367-75147391%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e3c23d3b11f6cb2c7482ad49318984015aaa780b' => 
     array (
       0 => './templates\\ship.html',
-<<<<<<< HEAD
-<<<<<<< HEAD
-      1 => 1345187716,
-=======
-<<<<<<< HEAD
-      1 => 1345191480,
-=======
-      1 => 1345186660,
->>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
->>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
-=======
-      1 => 1345196299,
->>>>>>> c17c6b7e53d96e621298eb85105319434224c925
+      1 => 1345597641,
       2 => 'file',
     ),
     '577cb3b5f2047bc4eeb0585f5d7acabd05cd2fcd' => 
     array (
       0 => './templates\\layout.html',
-      1 => 1344324379,
+      1 => 1345597641,
       2 => 'file',
     ),
     'd360287b5561fbd7b01fa73e1a1771ff0fcfdad9' => 
     array (
       0 => './templates\\chunk\\header.tpl',
-      1 => 1345098361,
+      1 => 1345604455,
       2 => 'file',
     ),
     'd04f62d5ea29f5a4ffc2ac5ebd832681b3488bc7' => 
     array (
       0 => './templates\\chunk\\footer.tpl',
-      1 => 1345013085,
+      1 => 1345597641,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '5046502e09f058a937-56130513',
+  'nocache_hash' => '3148050343bcce79367-75147391',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_502e09f064edd7_19426217',
+  'unifunc' => 'content_50343bcd04c8e2_36435770',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_502e09f064edd7_19426217')) {function content_502e09f064edd7_19426217($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if ($_valid && !is_callable('content_50343bcd04c8e2_36435770')) {function content_50343bcd04c8e2_36435770($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>YRC ship page</title>
@@ -80,21 +56,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <?php /*  Call merged included template "chunk/header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
-<<<<<<< HEAD
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '26021502477dbb78669-37926010');
-<<<<<<< HEAD
-content_502dfaba5d7bd7_54508035($_smarty_tpl);
-=======
-<<<<<<< HEAD
-content_502dfe3a7ca534_08431415($_smarty_tpl);
-=======
-content_502deb81bf1230_33379593($_smarty_tpl);
->>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
->>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
-=======
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '5046502e09f058a937-56130513');
-content_502e1113544cd2_69294035($_smarty_tpl);
->>>>>>> c17c6b7e53d96e621298eb85105319434224c925
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '3148050343bcce79367-75147391');
+content_50344b8bbc3142_01196527($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/header.tpl" */?>
 
 	<div class="mainbody ship clearfix">
@@ -589,13 +552,6 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 			<div class="formrightinfo">
 				<h3 class="">Price: [*shipprice*] per person</h3>
 			</div>
-			<ul>
-				<li><h3>Your Booking Summary</h3></li>
-				<li><strong>Cruise ship:</strong> Century Diamond</li>
-				<li><strong>Price:</strong> $3621 - $425 per person</li>
-				<li><strong>Cruise date:</strong> Aug.8.2012 - Aug.12.2012</li>
-				<li><strong>Itinerary:</strong> Chongqing - Yichang</li>
-			</ul>
 			<h3>Book with us:</h3>
 			<ul>
 				<li>Absolutly no hidden fees;</li>
@@ -790,46 +746,15 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 
 	<?php /*  Call merged included template "chunk/footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
-<<<<<<< HEAD
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '26021502477dbb78669-37926010');
-<<<<<<< HEAD
-content_502dfaba5e6d52_72179671($_smarty_tpl);
-=======
-<<<<<<< HEAD
-content_502dfe3a7d9878_35132400($_smarty_tpl);
-=======
-content_502deb81c00b28_44909822($_smarty_tpl);
->>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
->>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
-=======
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '5046502e09f058a937-56130513');
-content_502e1113558162_62972355($_smarty_tpl);
->>>>>>> c17c6b7e53d96e621298eb85105319434224c925
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '3148050343bcce79367-75147391');
+content_50344b8bbd82b6_55462938($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/footer.tpl" */?>
 </div><!-- END OF .wrap -->
 </body>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:03:06
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-22 03:01:31
          compiled from "./templates\chunk\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502dfaba5d7bd7_54508035')) {function content_502dfaba5d7bd7_54508035($_smarty_tpl) {?><div class="headtop clearfix">
-=======
-<<<<<<< HEAD
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:18:02
-         compiled from "./templates\chunk\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502dfe3a7ca534_08431415')) {function content_502dfe3a7ca534_08431415($_smarty_tpl) {?><div class="headtop clearfix">
-=======
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 06:58:09
-         compiled from "./templates\chunk\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502deb81bf1230_33379593')) {function content_502deb81bf1230_33379593($_smarty_tpl) {?><div class="headtop clearfix">
->>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
->>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
-=======
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 09:38:27
-         compiled from "./templates\chunk\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502e1113544cd2_69294035')) {function content_502e1113544cd2_69294035($_smarty_tpl) {?><div class="headtop clearfix">
->>>>>>> c17c6b7e53d96e621298eb85105319434224c925
+<?php if ($_valid && !is_callable('content_50344b8bbc3142_01196527')) {function content_50344b8bbc3142_01196527($_smarty_tpl) {?><div class="headtop clearfix">
 	<div class="ht-left">
 		<a href="#">Home</a> |
 		<a href="#">Customize a Tour</a>|
@@ -850,6 +775,52 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 
  <div class="header">
  	<a id="logo" href="/" title="Home"></a>
+	<div class="searchbox">
+	<h3>Find your Yangtze Cruise</h3>
+	<form action="search-result.html" method="get">
+	<select name="day" class="calday shipsearch">
+	<option value="">-- day</option>
+	<option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option>
+	<option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option>
+	<option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option>
+	<option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option>
+	<option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option>
+	<option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option>
+	<option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option>
+	<option value="29">29</option><option value="30">30</option><option value="31">31</option><option value="32">32</option>
+	</select>
+	<select name="month" class="calmonth shipsearch">
+	<option value="">-- month</option>
+	<option value="1">Jan.</option><option value="2">Feb.</option><option value="3">Mar.</option><option value="4">Apr.</option>
+	<option value="5">May</option><option value="6">June.</option><option value="7">July.</option><option value="8">Aug.</option>
+	<option value="9">Sept.</option><option value="10">Oct.</option><option value="11">Nov.</option><option value="12">Dec.</option>
+	</select>
+	<select name="year" style="margin-bottom:8px;" class="calyear shipsearch"><option value="">-- year</option><option value="2012">2012</option><option value="2013">2013</option></select>
+	
+	<select name="flex" style="width:240px;margin-bottom:8px;" class="calflex shipsearch"><option value="1">Flexible within +/- 1 day</option><option value="3">Flexible within +/- 3 days</option><option value="7">Flexible within +/- 1 week</option></select>
+	
+	<select name="route" style="font-size:11px;line-height:15px; width:240px" class="calroute shipsearch">
+	<option style="font-size:11px;line-height:15px" value="">Choose your preferred cruise route</option>
+	<option style="font-size:11px;line-height:15px" value="">Any Ship Route</option>
+	<option style="font-size:11px;line-height:15px" value="5">3Days Yichang→Chongqing</option>
+	<option style="font-size:11px;line-height:15px" value="6">3Days Chongqing→Yichang</option>
+	<option></option>
+	<option style="font-size:11px;line-height:15px" value="1">4Days Chongqing→Yichang</option>
+	<option style="font-size:11px;line-height:15px" value="2">5Days Yichang→Chongqing</option>
+	<option></option>
+	<option style="font-size:11px;line-height:15px" value="3">8Days Chongqing→Shanghai</option>
+	<option style="font-size:11px;line-height:15px" value="4">9Days Shanghai→Chongqing</option>
+	</select>
+	<div class="res">
+		<p class="restitle"></p>
+		<input class="buttonsear" type="submit" value="Show Cruises" name="get">
+	</div>
+	<ul class="tabcal">
+		
+	</ul>
+	<a class="calhref" href="newcalendar.html#!20131">Latest Calendar 2013 !</a>
+	</form>
+	</div>
  </div>
  <div class="menu clearfix">
 	<ul class="navleft">
@@ -896,27 +867,9 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 		</span>
 	</span>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:03:06
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-22 03:01:31
          compiled from "./templates\chunk\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502dfaba5e6d52_72179671')) {function content_502dfaba5e6d52_72179671($_smarty_tpl) {?><div class="footer">
-=======
-<<<<<<< HEAD
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 08:18:02
-         compiled from "./templates\chunk\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502dfe3a7d9878_35132400')) {function content_502dfe3a7d9878_35132400($_smarty_tpl) {?><div class="footer">
-=======
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 06:58:09
-         compiled from "./templates\chunk\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502deb81c00b28_44909822')) {function content_502deb81c00b28_44909822($_smarty_tpl) {?><div class="footer">
->>>>>>> 09122d6260d8b030468a4be8a6d25603dc5724c1
->>>>>>> 477424f1967026431ee3d703b592da97cf4046a9
-=======
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-17 09:38:27
-         compiled from "./templates\chunk\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_502e1113558162_62972355')) {function content_502e1113558162_62972355($_smarty_tpl) {?><div class="footer">
->>>>>>> c17c6b7e53d96e621298eb85105319434224c925
+<?php if ($_valid && !is_callable('content_50344b8bbd82b6_55462938')) {function content_50344b8bbd82b6_55462938($_smarty_tpl) {?><div class="footer">
 	<div class="footnav clearfix">
 		<dl>
 			<dt>Yangtze Cruise</dt>
