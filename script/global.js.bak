@@ -56,9 +56,14 @@ $(function(){
 			year=date.getFullYear();
 		}
 		var stime=year+'-'+month+'-'+day;
+		var timenow=date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate();
+		if(stime<timenow)
+		{
+			stime=timenow;
+		}
 		flex=$('.calflex').val();
 		route=$('.calroute').val();
-		alert(stime,flex,route);
+		alert(stime+','+timenow);
 	});
 
 });
