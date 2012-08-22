@@ -53,7 +53,7 @@ h2{
 	line-height: 1;
 }
 h3{
-	font-size: 15px;
+	font-size: 17px;
 	margin: 0 0 5px;
 	line-height: 1;
 }
@@ -79,7 +79,8 @@ a {
 a:hover {
     text-decoration: none;
     /*color: #013261;*/
-    color: #046bce;
+    /*color: #046bce;*/
+    color: #333;
 
 
 }
@@ -202,8 +203,7 @@ img {
 	float: left;
 	padding: 0 20px;
     font-family: "Trebuchet MS", Arial, Georgia,"Times New Roman",Times,serif;
-    font-weight: bold;
-	font-size: 13px;	
+	font-size: 17px;	
 	line-height: 41px;
     background: url("/image/navdown.png") no-repeat right 19px ;
 }
@@ -235,13 +235,42 @@ img {
 	background: url("/image/conhead.png") repeat-x scroll -232px 0 transparent;
 	height:15px;
 }
+.blue .conhead{
+	height: 54px;
+	background: url("/image/conhead-blue.png") repeat-x scroll 0 0 transparent;
+}
 .conbody{
 	padding: 0 0 1px 0;
 	background: #fff;
 }
+.sidebar .blue .conbody{
+	background: url("/image/content-bg2.png") repeat-y scroll 0 -12px #fff;
+	padding: 0 7px 7px;
+}
+.sidebar .blue dl{
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #eeddb9;
+	margin: 0;
+}
+
+.sidebar .blue p{
+	border-bottom: 1px solid #eeddb9;
+	margin: 0;
+}
+
+.sidebar .conhead h2{
+	color: #FFFFFF;
+	line-height: 45px;
+	text-indent: 16px;
+}
+
+
 .confoot{
 	background: url("/image/confoot.png") repeat-x scroll -232px 0 transparent;
 	height:15px;
+}
+.blue .confoot{
+	background: url("/image/confoot-blue.png") repeat-x scroll 0 0 transparent;
 }
 
 .mainbody{
@@ -318,6 +347,25 @@ img {
 
 .btn{
 	text-align: center;
+}
+
+a.enquiry-s{
+	background: url("/image/enquiry-small2.gif") no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 28px;
+	width: 93px;	
+}
+a.enquiry-s:hover{
+	background: url("/image/enquiry-small2.gif") no-repeat scroll 0 -28px transparent;
+}
+a.enquiry{
+	background: url("/image/enquirynew.gif") no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 36px;
+	width: 159px;
+}
+a.enquiry:hover{
+	background: url("/image/enquirynew.gif") no-repeat scroll 0 -36px transparent;
 }
 
 .fl{

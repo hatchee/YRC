@@ -3,6 +3,7 @@
 {block name=head}
 <link rel="stylesheet" type="text/css" href="style/ship.css">
 <script type="text/javascript" src="script/ship.js"></script>
+<script src="http://releases.flowplayer.org/js/flowplayer-3.2.11.min.js"></script>
 {/block}
 {block name=body}
 <body>
@@ -477,7 +478,31 @@
 				<div class="col-rt">
 					<div class="box">
 						<h3>Featured Video</h3>
-						<img src="http://placehold.it/213x123">		
+						<img src="http://placehold.it/213x123">	
+
+
+						<!-- <object id="video" width="213" height="200" border="0" classid="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA">
+							<param name="ShowDisplay" value="0">						
+							<param name="ShowControls" value="1">						
+							<param name="AutoStart" value="0">						
+							<param name="AutoRewind" value="0">						
+							<param name="PlayCount" value="0">						
+							<param name="Appearance" value="0">						
+							<param name="BorderStyle" value="0">						
+							<param name="MovieWindowHeight" value="240">						
+							<param name="MovieWindowWidth" value="320">						
+							<param name="FileName" value="/yzj.avi">						
+							<embed width="213" height="200" border="0" showdisplay="0" showcontrols="1" autostart="1" autorewind="0" playcount="0" moviewindowheight="240" moviewindowwidth="213" filename="yzj.avi" src="/image/yzj.avi"></embed>
+						</object> -->
+
+						<a href="http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-700.flv" class="player" style="display:block;width:213px;height:200px;margin:10px auto"id="player"></a>
+						<!-- this script block will install Flowplayer inside previous A tag -->						
+						<script>
+							flowplayer("player", "/image/yzj3.swf");
+						</script>
+
+
+
 						<p>See for yourself what Yangtze-River is all about!</p>
 					</div>
 					<div class="box">
@@ -503,6 +528,15 @@
 							<li>Ding and Cuisine</li>
 							<li>Ding and Cuisine</li>
 							<li>Ding and Cuisine</li>
+						</ul>
+					</div>
+					<div class="box whybook">
+						<h3>Why Book with Us</h3>
+						<ul>
+							<li>Organize Yangtze cruise since 1999!</li>
+							<li>Never sneaky fees; </li>
+							<li>Best price guaranteed;</li>
+							<li>Located in Chongqing, service better; </li>
 						</ul>
 					</div>
 				</div>

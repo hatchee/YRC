@@ -1,0 +1,44 @@
+{extends file="layout.html"}
+{block name=title}扬子江2.0{/block}
+{block name=head}
+<link rel="stylesheet" type="text/css" href="style/twocol.css">
+<link rel="stylesheet" type="text/css" href="style/route.css">
+<link rel="stylesheet" type="text/css" href="style/top10.css">
+{/block}
+{block name=body}
+<body>
+
+<div class="wrap">
+	{include file="chunk/header.tpl"}
+	<div class="mainbody clearfix">
+	{include file="chunk/sidebar-route.tpl"}
+		<div class="article top10 clearfix">
+			<div class="conhead"></div>
+			<div class="conbody clearfix">
+				<h1>Top 10 China Tours with Yangtze Cruise</h1>
+				<p>
+					The top 10 China tours including Yangtze River cruise offered below are our customers' enduring favorite itineraries, and the combinations of most popular destinations and attractions in China, including, Beijing (Capital of China), Xi'an (Terracotta Warriors), Shanghai, Hong Kong, Guilin (Li River), Yangtze River, Tibet, Chengdu (Home to Pandas), Mt.Huangshan, Yunnan, etc. 
+				</p>
+				<div class="one clearfix">
+					<h2>9 Days Beijing Xian & Yangtze Cruise Tour</h2>
+					<p>Beijing / Xian / Chongqing / Yangtze Cruise / Yichang </p>
+					<img class="fl" src="http://placehold.it/220x150">
+					<div class="rtdiv">
+						<p>Take a week trip to sample China's vibrancy and ancientry in the two most noted destinations.</p>
+						<p class="price">Price from <i>$2,200</i></p>
+						<p>
+							<a class="enquiry fr" href=""></a>
+							<a class="addwish" href="">Add to my wishlist</a>
+						</p>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="confoot"></div>
+		</div><!-- END OF .article -->
+	</div><!-- END OF .mainbody -->
+	{include file="chunk/footer.tpl"}
+</div>	<!-- EDN OF .mainwrap -->
+</body>
+{/block}

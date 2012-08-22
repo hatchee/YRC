@@ -2,16 +2,28 @@
 
 /*内容页面*/
 
-
-.sidebar p{
+.sidebar hr {
+  border-color: #ffffff -moz-use-text-color #EEDDB9;
+  border-style: solid none;
+  border-width: 1px medium;
+  display: block;
+  height: 0;
+}
+.sidebar .sp{
 	background: url(/image/sidebar-bg.png) repeat-y;
 	padding: 10px;
 	margin: 0 0 5px 0;
 }
-.sidebar p a{
-	font-size: 14px;
+.sidebar .sp a{
+	font-size: 13px;
 	color:#333; 
-	line-height: 20px;
+	display: block;
+	float: left;	
+	clear: both;
+	margin: 0 0 5px 0px;
+}
+.sidebar .sp img{
+	margin: 0 0 0 5px;
 }
 .sidebar dl{
 	margin: 0 0 10px 0;
@@ -81,7 +93,7 @@ dl.wishlist a:hover{
 	float: right;
 }
 .overview dl{
-	width: 330px;
+	width: 430px;
 	float: left;
 	margin-left: 10px;
 }
@@ -95,7 +107,7 @@ dl.wishlist a:hover{
 	margin: 0 0 5px;
 	float: left;
 	clear: right;
-	width: 250px; 
+	width: 350px; 
 }
 .overview .pr{
 	font-size: 14px;
@@ -116,7 +128,10 @@ dl.wishlist a:hover{
   margin: 0 10px 0 0;
   width: 159px;
 }
-
+.pfr .enquiry{
+	float: right;
+	margin: -10px 0 0 0;
+}
 
 .overview h2{
 	display: block;
@@ -141,10 +156,17 @@ dl.wishlist a:hover{
 }
 
 .route_day {
-	background:url("/image/route-bg.png") repeat-x scroll left bottom #FFFFFF;
-	border: 1px solid #E8F5FF;
+	background:url("/image/route-bg.png") repeat-x scroll left top #FFFFFF;
+	/*border: 1px solid #E8F5FF;*/
+	border-width: 1px ;
+	border-style: solid;
 	margin: 0 0 10px 0;
 	overflow: hidden;
+	border-color: #E8F5FF #dfddd7 #aaa9a5 #E8F5FF;
+	-webkit-box-shadow: #ddd  0px 0px 1px 0px;
+	-moz-box-shadow: #ddd  0px 0px 1px 0px;
+	box-shadow: #ddd  0px 0px 1px 0px;
+
 }
 
 .route_day .ht2 {
@@ -233,14 +255,23 @@ input.w50, input.w150, input.w200, input.w300, select.w50, select.w150, select.w
 }
 
 .tips{
-	background:url("/image/route-bg.png") repeat-x scroll left bottom #FFFFFF;
-	border: 1px solid #E8F5FF;
+	background:url("/image/route-bg.png") repeat-x scroll left top #FFFFFF;
+
+	border-width: 1px;
+	border-style: solid;
+	border-color: #E8F5FF #dfddd7 #aaa9a5 #E8F5FF;
+	-webkit-box-shadow: #ddd  0px 0px 1px 0px;
+	-moz-box-shadow: #ddd  0px 0px 1px 0px;
+	box-shadow: #ddd  0px 0px 1px 0px;
+
+
 }
 .tips dt{
-	font-size: 14px;
-	font-weight: bold;
-	background: #fff;
+	font-size: 12px;
 	padding: 10px 2px 7px;
+}
+.tips dt span{
+	font-size: 10px;
 }
 .tips dt i{
 	color: #FF7400; 

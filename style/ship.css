@@ -316,6 +316,10 @@ left:0;
 	color: #333;
 	font-size: 14px;
 }
+.box.whybook li{
+	background: url(/image/icon-v.png) no-repeat left center;
+	padding-left: 17px;
+}
 .review-con{
 	background:#fff;
 	border-radius: 5px;
@@ -450,6 +454,18 @@ left:0;
 	list-style:none;
 	font-size:12px;
 	line-height:20px;
+	background: url("../image/selected.png") no-repeat transparent;
+	padding-left:25px;
+}
+.formrightinfo ul li
+{
+	background:none;
+	padding-left:0px;
+}
+.formrightinfo
+{
+	border-bottom:1px dashed #FFF;
+	padding-bottom:8px;
 }
 .cruiseform fieldset
 {
@@ -464,11 +480,12 @@ left:0;
 }
 .cruiseform fieldset legend {
     border-bottom: 1px dashed #DDDDDD;
-    color: #7E0122;
+    color: #004B93;
     font-weight: bold;
     padding: 5px 0;
     width: 500px;
 }
+
 .cruiseform label {
     clear: left;
     display: block;

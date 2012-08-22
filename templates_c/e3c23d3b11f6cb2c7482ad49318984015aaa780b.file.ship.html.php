@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-08-20 07:58:44
+<?php /* Smarty version Smarty-3.1.8, created on 2012-08-21 03:43:45
          compiled from "./templates\ship.html" */ ?>
 <?php /*%%SmartyHeaderCode:28447503193de809635-33966692%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e3c23d3b11f6cb2c7482ad49318984015aaa780b' => 
     array (
       0 => './templates\\ship.html',
-      1 => 1345434380,
+      1 => 1345519759,
       2 => 'file',
     ),
     '577cb3b5f2047bc4eeb0585f5d7acabd05cd2fcd' => 
@@ -48,6 +48,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	
 <link rel="stylesheet" type="text/css" href="style/ship.css">
 <script type="text/javascript" src="script/ship.js"></script>
+<script src="http://releases.flowplayer.org/js/flowplayer-3.2.11.min.js"></script>
 
 </head>
 	
@@ -57,7 +58,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php /*  Call merged included template "chunk/header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '28447503193de809635-33966692');
-content_5031ee3469b584_77858721($_smarty_tpl);
+content_503303f1100f92_55288759($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/header.tpl" */?>
 
 	<div class="mainbody ship clearfix">
@@ -527,7 +528,31 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 				<div class="col-rt">
 					<div class="box">
 						<h3>Featured Video</h3>
-						<img src="http://placehold.it/213x123">		
+						<img src="http://placehold.it/213x123">	
+
+
+						<!-- <object id="video" width="213" height="200" border="0" classid="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA">
+							<param name="ShowDisplay" value="0">						
+							<param name="ShowControls" value="1">						
+							<param name="AutoStart" value="0">						
+							<param name="AutoRewind" value="0">						
+							<param name="PlayCount" value="0">						
+							<param name="Appearance" value="0">						
+							<param name="BorderStyle" value="0">						
+							<param name="MovieWindowHeight" value="240">						
+							<param name="MovieWindowWidth" value="320">						
+							<param name="FileName" value="/yzj.avi">						
+							<embed width="213" height="200" border="0" showdisplay="0" showcontrols="1" autostart="1" autorewind="0" playcount="0" moviewindowheight="240" moviewindowwidth="213" filename="yzj.avi" src="/image/yzj.avi"></embed>
+						</object> -->
+
+						<a href="http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-700.flv" class="player" style="display:block;width:213px;height:200px;margin:10px auto"id="player"></a>
+						<!-- this script block will install Flowplayer inside previous A tag -->						
+						<script>
+							flowplayer("player", "/image/yzj3.swf");
+						</script>
+
+
+
 						<p>See for yourself what Yangtze-River is all about!</p>
 					</div>
 					<div class="box">
@@ -553,6 +578,15 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 							<li>Ding and Cuisine</li>
 							<li>Ding and Cuisine</li>
 							<li>Ding and Cuisine</li>
+						</ul>
+					</div>
+					<div class="box whybook">
+						<h3>Why Book with Us</h3>
+						<ul>
+							<li>Organize Yangtze cruise since 1999!</li>
+							<li>Never sneaky fees; </li>
+							<li>Best price guaranteed;</li>
+							<li>Located in Chongqing, service better; </li>
 						</ul>
 					</div>
 				</div>
@@ -798,14 +832,14 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/heade
 	<?php /*  Call merged included template "chunk/footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("chunk/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '28447503193de809635-33966692');
-content_5031ee346a61c3_09469506($_smarty_tpl);
+content_503303f110f828_07207567($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/footer.tpl" */?>
 </div><!-- END OF .wrap -->
 </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-20 07:58:44
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-21 03:43:45
          compiled from "./templates\chunk\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5031ee3469b584_77858721')) {function content_5031ee3469b584_77858721($_smarty_tpl) {?><div class="headtop clearfix">
+<?php if ($_valid && !is_callable('content_503303f1100f92_55288759')) {function content_503303f1100f92_55288759($_smarty_tpl) {?><div class="headtop clearfix">
 	<div class="ht-left">
 		<a href="#">Home</a> |
 		<a href="#">Customize a Tour</a>|
@@ -871,9 +905,9 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "chunk/foote
 			<span class="B_currentCrumb">Victoria Jenna Cruise</span>
 		</span>
 	</span>
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-20 07:58:44
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-08-21 03:43:45
          compiled from "./templates\chunk\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5031ee346a61c3_09469506')) {function content_5031ee346a61c3_09469506($_smarty_tpl) {?><div class="footer">
+<?php if ($_valid && !is_callable('content_503303f110f828_07207567')) {function content_503303f110f828_07207567($_smarty_tpl) {?><div class="footer">
 	<div class="footnav clearfix">
 		<dl>
 			<dt>Yangtze Cruise</dt>

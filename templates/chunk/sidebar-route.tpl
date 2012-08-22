@@ -1,11 +1,12 @@
 <div class="sidebar">
-	<div class="sidebox">
-		<div class="conhead"></div>
-		<div class="conbody">
+	<div class="sidebox blue">
+		<div class="conhead">
 			<h2>China Yangtze Tours</h2>
-			<p>
-				<a href="">How to China Yangzte Tour?</a><br>
-				<a href="">China Cruises & Tours</a>
+		</div>
+		<div class="conbody">
+			<p class="sp clearfix">
+				<a href="">How to China Yangzte  <br>Tour? <img src="/image/hot.gif"></a>
+				<a href="">China Cruises & Tours <img src="/image/hot.gif"></a> 
 			</p>
 
 			<dl  class="stcity">
