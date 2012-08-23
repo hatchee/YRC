@@ -157,59 +157,102 @@ img {
 	background: url(/image/banner.jpg) no-repeat center center #fff;
 	/*background: url(http://placehold.it/972x250) no-repeat center center #fff;*/
 }
+/**YRC游船搜索*****/
 .searchbox
 {
 	width:240px;
 	padding:10px;
-	border:1px solid #ccc;
 	float:right;
 	margin-right:40px;
 	margin-top:15px;
 	font-size:12px;
-	background:#CCC;
-	filter:alpha(opacity=60);
-	opacity:0.6;
+	background:#000000;
+	filter:alpha(opacity=70);
+	background:rgba(0,0,0,0.4);
+	*background:#000000;
 	z-index:500;
 }
 .searchbox h3
 {
 	color:#FFF;
 	padding-bottom:8px;
+	position:relative;
+}
+.searchbox select
+{
+	position:relative;
+}
+.calday{
+	position:relative;
+}
+.calmonth{
+	position:relative;
+}
+.calyear{
+	position:relative;
 }
 .res
 {
 	padding:10px 0px 35px;
 	border-bottom:1px #fff dashed;
 	clear: both;
+	position:relative;
 }
 .restitle
 {
-	float:right;
+	float:left;
+	color:#FFF;
+	position:relative;
 }
 .buttonsear
 {
 	float:right;
 	color:#fff;
 	font-size:13px;
+	background:url(../image/searchsub.png) no-repeat 0 0;
+	height:27px;
+	border:none;
+	position:relative;
+	cursor:pointer;
 }
 .calhref
 {
 	float:right;
 	text-decoration: underline;
 	color:#FFF;
+	position:relative;
+}
+.calhref:hover{
+	text-decoration: none;
+	color:#FFF;
+	position:relative;
 }
 .tabcal
 {
 	list-style:none;
 	padding:10px 0px 0px 10px;
+	position:relative;
 
 }
 .tabcal li
 {
 	float:left;
 	padding:5px;
+	background:url(../image/cal.png) no-repeat 0 4px;
+	width:36px;
+	position:relative;
 }
-
+.tabcal .now
+{
+	background:url(../image/calnow.png) no-repeat 0 4px;
+}
+.loading
+{
+	background:url(../image/loading.gif) no-repeat 100px 100px #ccc;
+	position:absolute;
+	display:none;
+}
+/*******游船搜索结束******/
 #logo{
 	background: url(/image/logo.png) no-repeat 0 0;
 	display: block;

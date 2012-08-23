@@ -20,6 +20,7 @@
  <div class="header">
  	<a id="logo" href="/" title="Home"></a>
 	<div class="searchbox">
+	<div class="loading"></div>
 	<h3>Find your Yangtze Cruise</h3>
 	<form action="search-result.html" method="get">
 	<select name="day" class="calday shipsearch">

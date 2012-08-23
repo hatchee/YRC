@@ -19,7 +19,7 @@
 
  <div class="header">
  	<a id="logo" href="/" title="Home"></a>
-	<div class="searchbox">
+	<div class="searchbox loading">
 	<h3>Find your Yangtze Cruise</h3>
 	<form action="search-result.html" method="get">
 	<select name="day" class="calday shipsearch">
@@ -52,7 +52,7 @@
 	<option style="font-size:11px;line-height:15px" value="1">4Days Chongqing→Yichang</option>
 	<option style="font-size:11px;line-height:15px" value="2">5Days Yichang→Chongqing</option>
 	<option></option>
-	<option style="font-size:11px;line-height:15px" value="3">8Days Chongqing→Shanghai</option>
+	<option style="font-size:11px;line-height:15px" value="3">7Days Chongqing→Shanghai</option>
 	<option style="font-size:11px;line-height:15px" value="4">9Days Shanghai→Chongqing</option>
 	</select>
 	<div class="res">

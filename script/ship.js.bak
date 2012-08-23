@@ -35,14 +35,13 @@ $(function(){
 	$('.enquiry').click(function(e){
 		e.preventDefault();
 		var price=$('.price b').text();
-		alert(price);
-		/*var str='<h3 class="">Price: '+price+' per person</h3>';
+		var str='<h3 class="">Price: '+price+' per person</h3>';
 		$(".formrightinfo").html(str);
 		$('.dateinfo').show();
 		$(".cruiseform").fadeIn("fast");
 		 var docheight = $(document).height();
 		 $("body").append("<div id='greybackground'></div>");
-		 $("#greybackground").css({"opacity":"0.5","height":docheight});*/
+		 $("#greybackground").css({"opacity":"0.5","height":docheight});
 
 	});
 
@@ -74,6 +73,33 @@ $(function(){
 		 $("body").append("<div id='greybackground'></div>");
 		 $("#greybackground").css({"opacity":"0.5","height":docheight});
 	});	
+
+	/***船期翻页****/
+	$('.prevMon').live("click",function(){
+		var boat=$('#boatname').val();
+		var date=$('#shipcal').val();
+		getcalendar(boat,date,'up');
+	});
+	$('.nextMon').live("click",function(){
+		var boat=$('#boatname').val();
+		var date=$('#shipcal').val();
+		getcalendar(boat,date,'next');
+	});
+	autoScroll ( '.Recent-Inquiry ul', 1500, 3000 );
+	$('.nextyear').live("click",function(){
+		var boat=$('#boatname').val();
+		var date=$('.nextyear').text();
+		var d=new Date();
+		if(date==d.getFullYear())
+		{
+			date+='-'+(d.getMonth()+1)+'-1';
+		}
+		else
+		{
+			date+="-1-1";
+		}
+		getcalendar(boat,date,'nextyear');
+	});
 
 })
 })(jQuery);

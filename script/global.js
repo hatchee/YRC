@@ -1,14 +1,18 @@
 (function(){
 	function searchresult(time,flex,route)
-	{
+	{   var width=$('.searchbox').width()+20;
+		var height=$('.searchbox').height()+20;
+		$('.loading').css({'width':width,'height':height,'z-index':100});
+		$('.loading').show();
 		$.ajax({
-			url: '',
+			url: 'assets/snippets/boatcalendar/searchship.php',
 			type: "POST",
 			data: {
-				btime: time, route:route
+				stime: time,flex:flex, route:route
 			},
 			success:function(result){
-				
+				$('.restitle').text(result);
+				$('.loading').hide();
 			}
 		});
 	}
@@ -29,11 +33,18 @@ $(function(){
 	var strli='';
 	for(var i=month;i<=s;i++)
 	{
-		strli +='<li><a href="'+href[i]+'">'+arrmonth[i]+'</a></li>';
+		if(i==month)
+		{
+			strli +='<li class="now"><a href="'+href[i]+'">'+arrmonth[i]+'</a></li>';
+		}
+		else
+		{
+			strli +='<li><a href="'+href[i]+'">'+arrmonth[i]+'</a></li>';
+		}
 	}
 	$('.tabcal').html(strli);
 
-	//及时返回搜索结果
+	//鍙婃椂杩斿洖鎼滅储缁撴灉
 	var day;
 	var month;
 	var year;
@@ -61,8 +72,10 @@ $(function(){
 		{
 			stime=timenow;
 		}
+		$('.calstime').val(stime);
 		flex=$('.calflex').val();
 		route=$('.calroute').val();
+		searchresult(stime,flex,route);
 	});
 
 });
