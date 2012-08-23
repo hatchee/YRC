@@ -171,8 +171,8 @@ img {
 	margin-top:15px;
 	font-size:12px;
 	background:#000000;
-	filter:alpha(opacity=70);
-	background:rgba(0,0,0,0.4);
+	filter:alpha(opacity=80);
+	background:rgba(0,0,0,0.6);
 	*background:#000000;
 	z-index:500;
 }
@@ -198,7 +198,7 @@ img {
 .res
 {
 	padding:10px 0px 35px;
-	border-bottom:1px #fff dashed;
+	border-bottom:1px #aaa dashed;
 	clear: both;
 	position:relative;
 }
