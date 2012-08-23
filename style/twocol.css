@@ -10,17 +10,71 @@
 .sidebar a{
 	color: #333;
 }
-.sidebar a:hover{
-	color: #004B93;
-}
+
 
 .sidebox{
 	margin: 0 0 5px 0;
 }
-
 .sidebox .conbody{
 	padding: 7px;
 }
+
+.blue .conhead{
+	height: 54px;
+	background: url("/image/conhead-blue.png") repeat-x scroll 0 0 transparent;
+}
+.sidebar .conhead h2{
+	color: #FFFFFF;
+	line-height: 45px;
+	text-indent: 16px;
+}
+
+.sidebar .blue .conbody{
+	background: url("/image/content-bg2.png") repeat-y scroll 0 -12px #fff;
+	padding: 0 7px 7px;
+}
+.sidebar .blue p.sp{
+	margin: 0;
+}
+.sidebar .sp{
+	background: url(/image/sidebar-bg.png) repeat-y;
+	padding: 10px;
+	margin: 0 0 5px 0;
+}
+.sidebar .sp a{
+	font-size: 13px;
+	color:#333; 
+	display: block;
+	float: left;	
+	clear: both;
+	margin: 0 0 5px 0px;
+}
+.sidebar .sp a:hover{
+	/*color: #004B93;*/
+}
+.sidebar .sp img{
+	margin: 0 0 0 5px;
+}
+
+.sidebar .blue dl{
+	background: url("/image/dt-bg.png") repeat-x left top;
+	padding: 5px 0 5px;
+	margin: 0;
+}
+.blue dt{
+	font-size: 14px;
+	padding: 3px 0;
+	font-weight: bold;	
+}
+.blue dd{
+	padding: 0 7px;
+}
+.blue .confoot{
+	background: url("/image/confoot-blue.png") repeat-x scroll 0 0 transparent;
+}
+
+
+
 
 /* *************right article************* */
 .article{
@@ -29,6 +83,9 @@
 	float: right;
 }
 .article .conbody{
-	padding: 10px;
+	padding: 20px;
 }
 
+.mainbody .sidebar a:hover{
+	color: #004B93;
+}

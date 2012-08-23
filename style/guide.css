@@ -8,18 +8,14 @@
 	color:#333; 
 	line-height: 20px;
 }
-.guidesd dt{
-	font-size: 14px;
-	padding: 3px 0;
-	font-weight: bold;	
-}
+
 .guidesd dd a{
-	background: url(/image/li-disc2.gif) no-repeat 10px center;
-	padding: 0 0 0 21px;
+	background: url(/image/li-disc2.gif) no-repeat 3px center;
+	padding: 0 0 0 14px;
 	color: #333;
 } 
 .guidesd dd a:hover{
-	background: url(/image/li-disc2.gif) no-repeat 10px center;
+	background: url(/image/li-disc2.gif) no-repeat 3px center;
 	color: #004B93;	
 }
 .hotdeals li{

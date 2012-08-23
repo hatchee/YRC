@@ -1,3 +1,7 @@
+.fclear{
+	clear: both;
+}
+
 .features
 {
 	color:#336699; 
@@ -103,7 +107,7 @@
 	list-style:url(../img/li_c.gif);
 }
 #Hongkongbg{
-	background:#F2F9FF url(../img/hongkong.gif) right top no-repeat;
+	background:#F2F9FF url("/image/hongkong-bg.jpg") right top no-repeat;
 	padding:0px 100px 0 15px;
 	margin-bottom:10px;
 	min-height:343px;
@@ -118,7 +122,7 @@
 }
 #Hongkongbg ul.u_list li
 {
-	list-style:url(../img/li_c.gif);
+	list-style: inside url(../img/li_c.gif);
 }
 
 #best_sellers
@@ -153,7 +157,7 @@
 #maincon .cruise_show .cruise_show_right
 {
 	float:right;
-	width:330px;
+	width:510px;
 	padding:5px 0px 10px 10px;;
 }
 
@@ -164,7 +168,88 @@
 }
 #maincon .cruise_show .cruise_show_right ul li
 {
-		list-style:url(../img/li_c.gif);
+		list-style: inside url(../img/li_c.gif);
 		padding-left:0px;
 		line-height:20px;
+}
+
+
+#made1 {
+  float: left;
+  font-size: 13px;
+  margin-left: 20px;
+  width: 430px;
+}
+#made_button {
+  float: right;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+
+
+a.to_inquiry {
+  background-image: url("../img/enquiry.gif");
+  background-repeat: no-repeat;
+  display: block;
+  height: 24px;
+  line-height: 500px;
+  margin-right: 5px;
+  overflow: hidden;
+  width: 80px;
+}
+
+
+a.tailormade {
+    background-image: url("../img/tailormade.png");
+    background-repeat: no-repeat;
+    display: block;
+    height: 33px;
+    line-height: 500px;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 179px;
+}
+a.tailormade:hover {
+    background-position: 0 -33px;
+}
+a.tailormade2 {
+    background-image: url("../img/tailor_made.png");
+    background-repeat: no-repeat;
+    display: block;
+    height: 45px;
+    line-height: 500px;
+    overflow: hidden;
+    width: 161px;
+}
+a.tailormade2:hover {
+    background-position: 0 -45px;
+}
+a.to_inquiry {
+    background-image: url("../img/enquiry.gif");
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 24px;
+    line-height: 500px;
+    margin-right: 5px;
+    overflow: hidden;
+    width: 80px;
+}
+a.to_inquiry:hover {
+    background-position: 0 -24px;
+}
+a.to_details {
+    background-image: url("../img/details.gif");
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 24px;
+    line-height: 500px;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 52px;
+}
+a.to_details:hover {
+    background-position: 0 -24px;
 }

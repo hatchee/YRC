@@ -1,0 +1,744 @@
+
+.tc-info {
+}
+.tc-info img {
+    margin: 10px 0 40px;
+}
+.tc-info-con {
+    float: right;
+    width: 378px;
+}
+.tc-info h1 {
+    margin: 5px 0;
+    padding: 0;
+}
+.tc-info h3 {
+    margin: 10px 0 6px;
+}
+.tc-ul h4 {
+    background: url("/imagesnew/nav-dot.png") no-repeat scroll left center transparent;
+    line-height: 12px;
+    padding-left: 18px;
+}
+.tc-ul li {
+    display: block;
+    float: left;
+    width: 40%;
+}
+.tc-ul li.first {
+    border-right: 1px dashed #DDDDDD;
+    margin-right: 30px;
+    padding-right: 30px;
+}
+.tc-cotact {
+    margin-top: 20px;
+    width: 360px;
+}
+.tc-email {
+    height: 30px;
+    text-align: right;
+}
+.tc-email span {
+    background: none repeat scroll 0 0 #8F1105;
+    border-radius: 4px 4px 4px 4px;
+    float: right;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 8px;
+    position: relative;
+}
+.tc-email a {
+    background: url("/imagesnew/email-icon-white.png") no-repeat scroll right center transparent;
+    color: #DEDEDE;
+    display: block;
+    padding-right: 20px;
+}
+.tc-email a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.tc-info-con2 {
+    float: left;
+    width: 430px;
+}
+.tc-img {
+    float: right;
+    height: 200px;
+    width: 180px;
+}
+.tc-talk {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+.tc-talk img {
+    margin: 0;
+}
+.tc-faq h3, h4 {
+    color: #434343;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.tc-faq ol {
+    list-style: decimal inside none;
+    margin-bottom: 10px;
+}
+.tc-faq-head {
+    margin-top: 5px;
+}
+.tc-faq-head p {
+    float: left;
+    width: 70%;
+}
+.tc-faq-head span {
+    background: none repeat scroll 0 0 #8F1105;
+    border-radius: 4px 4px 4px 4px;
+    float: right;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 6px;
+    padding: 0 8px;
+}
+.tc-faq-head span a {
+    background: url("/imagesnew/email-icon-white.png") no-repeat scroll right center transparent;
+    color: #DEDEDE;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.tc-faq-head span a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.tc-ul {
+    margin-top: 15px;
+}
+.accordion li {
+    background: url("/imagesnew/grid.png") repeat-x scroll 0 0 transparent;
+    border: 1px dotted #CCCCCC;
+    display: block;
+    margin-bottom: 5px;
+}
+.accordion li.oddli {
+    background: url("/imagesnew/grid.png") repeat-x scroll 0 0 transparent;
+}
+.accordion-content.odd {
+    background: url("/imagesnew/grid.png") repeat-x scroll 0 0 transparent;
+}
+.accordion li h6 {
+    background: url("/imagesnew/ask-icon.png") no-repeat scroll 2px center transparent;
+    color: #434343;
+    cursor: pointer;
+    font-weight: normal;
+    height: 30px;
+    line-height: 28px;
+    text-indent: 25px;
+    width: 100%;
+}
+.accordion li p {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 1px dashed #CCCCCC;
+    line-height: 20px;
+    padding: 8px;
+    width: 664px;
+}
+ul.pagenum {
+    float: right;
+    margin-bottom: 10px;
+}
+ul.pagenum li {
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    margin: 0 1px;
+    text-align: center;
+    width: 18px;
+}
+ul.pagenum li:hover, ul.pagenum li.activedcss {
+    background: none repeat scroll 0 0 #922811;
+    border: 1px solid #922811;
+    color: #FFFFFF;
+}
+ul.letter-page {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+}
+ul.letter-page li {
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    margin: 0 1px;
+    text-align: center;
+    width: 18px;
+}
+ul.letter-page li:hover, ul.letter-page li.activedcss {
+    background: none repeat scroll 0 0 #922811;
+    border: 1px solid #922811;
+    color: #FFFFFF;
+}
+.custom-say {
+    margin-top: 60px;
+}
+div.slideshow {
+    height: 340px;
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+    width: 682px;
+}
+div.slideshow a.control-previous, div.slideshow a.control-next {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
+    display: block;
+    height: 320px;
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+    width: 100px;
+    z-index: 2;
+}
+div.slideshow div.images {
+    display: none;
+    height: 320px;
+    margin-left: -865px;
+    width: 10000px;
+    z-index: 1;
+}
+div.slideshow div.images div.image, div.slideshow div.images div.spacer {
+    float: left;
+    height: 350px;
+    margin: 0 1px;
+    position: relative;
+    width: 480px;
+}
+div.slideshow ul.indicator {
+    float: right;
+    margin: 8px 0 0;
+}
+div.slideshow a.control-previous {
+    left: 0;
+}
+div.slideshow a.control-next {
+    right: 0;
+}
+div.slideshow a.control-previous:hover, div.slideshow a.control-next:hover {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+}
+div.slideshow a.control-previous span {
+    background: url("http://static.audleytravel.com/images/2011/components/component-slideshow-left.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 32px;
+    margin: 159px auto;
+    width: 30px;
+}
+div.slideshow a.control-next span {
+    background: url("http://static.audleytravel.com/images/2011/components/component-slideshow-right.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 32px;
+    margin: 159px auto;
+    width: 30px;
+}
+div.slideshow div.images div.image div.caption {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    color: white;
+    left: 0;
+    line-height: 16px;
+    padding: 8px 0;
+    position: absolute;
+    text-indent: 20px;
+    width: 480px;
+}
+div.slideshow ul.indicator li {
+    background: none repeat scroll 0 0 #AAAAAA;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 8px;
+    margin: 1px 5px;
+    width: 12px;
+}
+div.slideshow ul.indicator li.active {
+    background: none repeat scroll 0 0 #666666;
+    border: 1px solid black;
+    margin: 0 4px;
+}
+div.slideshow ul.indicator li:hover {
+    background: none repeat scroll 0 0 #666666;
+}
+div.slideshow div.images div.image, div.slideshow div.images div.spacer {
+    float: left;
+    height: 320px;
+    margin: 0 1px;
+    position: relative;
+    width: 480px;
+}
+div.slideshow div.images div.image img {
+    height: 320px;
+    width: 480px;
+}
+.letter-content {
+    background: url("/imagesnew/dialog.png") no-repeat scroll -6px -6px transparent;
+    margin: 20px 0;
+    padding: 10px 0 0 70px;
+    width: 580px;
+}
+.letter-content p {
+    margin: 10px 0;
+}
+.aboutus-side-foot {
+    background: url("/imagesnew/sidebar-flower-down.png") no-repeat scroll center top transparent;
+    margin-top: 60px;
+    padding-top: 45px;
+    text-align: center;
+}
+.aboutus-side-foot h3 {
+    color: #434343;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: normal;
+    letter-spacing: normal;
+}
+.abuout-side-img {
+    background: url("/imagesnew/sidebar-flower-up.png") no-repeat scroll center bottom transparent;
+    margin-top: 5px;
+    padding-bottom: 45px;
+    position: relative;
+}
+.abuout-side-img img {
+    float: left;
+    margin: 10px 18px 10px 30px;
+}
+.abuout-side-img p {
+    font-size: 12px;
+    margin-left: 22px;
+    margin-right: 14px;
+    text-align: left;
+}
+.contact-header {
+    border: 1px solid #DDDFE6;
+    height: 330px;
+    margin: -8px 0 20px;
+    padding: 1px;
+    position: relative;
+    width: 676px;
+}
+.contact-header img {
+    height: 329px;
+    width: 676px;
+}
+.contact-header span {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+    bottom: 1px;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 22px;
+    min-height: 25px;
+    padding: 5px 0;
+    position: absolute;
+    right: 1px;
+    text-indent: 20px;
+    width: 676px;
+}
+.contact-body {
+    margin-top: 40px;
+}
+.contact-form {
+    margin-top: 30px;
+}
+.contact-form h3 {
+    border-bottom: 1px solid #DDDDDD;
+    color: #434343;
+    padding-bottom: 3px;
+    text-align: left;
+}
+.contact-form p {
+    margin-left: 35px;
+}
+.contact-form .inset-title {
+    color: #434343;
+    font-size: 14px;
+    font-weight: bold;
+}
+.contact-form .last-btn {
+    margin-left: 290px;
+}
+.contact-form textarea {
+    height: 100px;
+    width: 340px;
+}
+.contact-form ul li {
+    margin-bottom: 12px;
+    padding-left: 35px;
+}
+.contact-form label {
+    display: block;
+    float: left;
+    margin-right: 5px;
+    text-align: right;
+    width: 135px;
+}
+.contact-form select {
+    width: 100px;
+}
+.contact-form .contact-icon {
+    padding-left: 35px;
+}
+.contact-form .contact-phone {
+    background: url("/imagesnew/call-contact.png") no-repeat scroll left center transparent;
+}
+.contact-form .contact-email {
+    background: url("/imagesnew/email-contact.png") no-repeat scroll left center transparent;
+}
+.contact-form2 {
+    margin-top: 20px;
+}
+.visit-us h2 {
+    background: url("/imagesnew/person-contact.png") no-repeat scroll left center transparent;
+    padding: 0 0 0 30px;
+}
+.visitus-head {
+    margin: 0 0 16px 30px;
+}
+.visit-title {
+    margin-bottom: 20px;
+}
+.visit-title2 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+.visit-us .visitus-head img {
+    float: left;
+    margin-right: 28px;
+}
+.office-location {
+    margin-left: 30px;
+}
+.section {
+    margin-top: 40px;
+}
+.section ul {
+    margin-top: 5px;
+    padding: 20px 0 0 30px;
+}
+.section ul li {
+    background: url("/image/nav-dot.png") no-repeat scroll left center transparent;
+    height: 20px;
+    line-height: 22px;
+    padding-left: 15px;
+}
+.section ul li a {
+    color: #434343;
+}
+.section ul li a:hover {
+    color: #888888;
+    text-decoration: none;
+}
+.aboutus-foot {
+    background: url("/image/aboutus/flower.png") no-repeat scroll right center transparent;
+    height: 355px;
+    margin: 40px 0 10px;
+}
+.aboutus-foot p {
+    text-align: center;
+}
+.aboutus-foot .btn-enquiry {
+    margin: 20px 85px 0 0;
+}
+.aboutus-foot span {
+    float: left;
+    font-weight: bold;
+    margin: 30px 0 30px 125px;
+}
+.block-container {
+    margin: 0;
+    width: 690px;
+}
+.block-container .short-pannel {
+    float: left;
+    width: 270px;
+}
+.block-container .long-pannel {
+    float: left;
+    width: 420px;
+}
+.block-container img {
+    display: inline;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.block-container img:hover {
+    opacity: 0.8;
+}
+.block-container p {
+    padding: 0 10px;
+}
+.block-container h2 {
+    margin: 10px 0 10px 10px;
+    width: 95%;
+}
+.block-container strong {
+    color: #670E14;
+    display: block;
+    font-size: 15px;
+    padding: 10px 0 5px;
+}
+ul.wedo-nav {
+    background: url("/imagesnew/aboutus/bg_nav.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 110px;
+    list-style: none outside none;
+    margin-top: 20px;
+    position: relative;
+    width: 679px;
+    z-index: 40;
+}
+.wedo-nav li {
+    background: url("/imagesnew/aboutus/bg-nav-li.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    width: 225px;
+}
+.wedo-nav li:hover, .wedo-nav .active {
+    background: url("/imagesnew/aboutus/bg_active_wide.png") no-repeat scroll center 104px transparent;
+    color: #ECECEC;
+    height: 116px;
+}
+.wedo-unit h2 {
+    color: #FFFFFF;
+    margin-top: 15px;
+    text-indent: 20px;
+}
+.wrap-js h3 {
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 14px;
+    margin: 0 0 10px;
+    padding: 5px 0;
+}
+.wrap-js strong {
+    color: #222222;
+    display: block;
+    padding: 10px 0 0;
+}
+.wedo-unit p {
+    margin: 10px 0;
+}
+.wedo-left p {
+    color: #FFFFFF;
+}
+.wedo-bg {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 20px 10px 1px 20px;
+}
+.wedo-bg2 {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.wedo-left {
+    clear: left;
+    float: left;
+    height: 380px;
+    min-height: 100px;
+    padding: 10px;
+    position: relative;
+    width: 280px;
+}
+.wedo-left-tibet {
+    background: url("/imagesnew/aboutus/wedo-bg-tibet.png") no-repeat scroll 0 0 transparent;
+}
+.wedo-left-tibetchina {
+    background: url("/imagesnew/aboutus/wedo-bg-tibetchina.jpg") no-repeat scroll 0 0 transparent;
+}
+.wedo-left-nepal {
+    background: url("/imagesnew/aboutus/wedo-bg-nepal.jpg") no-repeat scroll 0 0 transparent;
+}
+.wedo-left-tibetchina p {
+    color: #222222;
+}
+.wedo-right {
+    background: none repeat scroll 0 0 #ECECEC;
+    float: left;
+    height: 400px;
+    width: 382px;
+}
+.wedo-title {
+    background: url("/imagesnew/aboutus/bg_left_side_heading.png") repeat scroll 0 0 transparent;
+    display: block;
+    height: 56px;
+    left: -10px;
+    line-height: 40px;
+    position: relative;
+    text-indent: 20px;
+    top: 0;
+    width: 300px;
+}
+.wedo-left2 {
+    clear: left;
+    float: left;
+    margin-right: 10px;
+    margin-top: 20px;
+    min-height: 100px;
+}
+.wedo-reco {
+    float: left;
+    margin-top: 20px;
+}
+.wedo-reco a.reco-title {
+    font-weight: normal;
+}
+.wedo-reco .reco-img {
+    height: 130px;
+}
+.wedo-reco .side-reco {
+    display: inline;
+    float: left;
+    margin: 0 10px 10px;
+}
+.h1-below {
+    display: block;
+    margin: 0 0 20px;
+}
+.flow-img {
+    margin-top: 17px;
+}
+.responsible h3 {
+    color: #434343;
+}
+.responsible ul {
+    margin-bottom: 10px;
+}
+.responsible ul li {
+    list-style: disc inside none;
+    padding: 5px 0 5px 20px;
+}
+.block-container a {
+    display: block;
+    float: left;
+    position: relative;
+}
+.block-container p a {
+    display: inline;
+    float: none;
+    position: static;
+}
+.zoom {
+    background: url("/imagesnew/aboutus/zoom-more.gif") no-repeat scroll 0 0 transparent;
+    bottom: 15px;
+    display: block;
+    height: 17px;
+    position: absolute;
+    right: 15px;
+    width: 57px;
+}
+.team-hr {
+    border-left: medium none;
+    border-top: 1px dashed #CCCCCC;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+.block-container p a.tc-name {
+    color: #670E14;
+    display: block;
+    float: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 0 10px;
+    text-decoration: none;
+    width: 240px;
+}
+a.tc-name:hover {
+    text-shadow: 1px 1px 1px #CCCCCC;
+}
+.block-container p a.more-details {
+    display: block;
+    float: right;
+    margin-top: 27px;
+}
+.vehicle {
+    margin: 20px 0;
+}
+.vehicle p {
+    float: left;
+    width: 260px;
+}
+.vehicle img {
+    float: right;
+    margin-top: 30px;
+}
+.tour-guides img {
+    margin: 15px 15px 10px;
+}
+.travelstyle ul {
+    border-bottom: 1px dotted #DDDDDD;
+}
+.travelstyle ul li {
+    border-top: 1px dotted #DDDDDD;
+    display: block;
+    min-height: 130px;
+    padding: 10px 0;
+}
+.travelstyle img {
+    border: 1px solid #DDDDDD;
+    float: left;
+    margin: 3px 25px 3px 0;
+    padding: 1px;
+}
+.travelstyle p {
+    margin-bottom: 0;
+}
+.company-profile img {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    clear: right;
+    float: right;
+    margin: 10px 0 0 30px;
+    padding: 1px;
+}
+.ourservice img {
+    margin: 15px 15px 10px;
+}
+.ourservice ul {
+    float: left;
+    margin: 20px 30px;
+    min-height: 100px;
+    width: 160px;
+}
+.ourservice ul li {
+    line-height: 22px;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+.ourservice ul li.li-title {
+    color: #222222;
+    font-weight: bold;
+    line-height: 26px;
+    list-style-type: none;
+}
+.ourcustomers img {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    float: right;
+    margin: 15px 0 10px 45px;
+    padding: 1px;
+}
+.ourcustomers a {
+    display: block;
+    margin-top: 30px;
+}
+.ourcustomers p {
+}
+.tibetred {
+    color: #7E0122;
+}

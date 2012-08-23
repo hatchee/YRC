@@ -64,22 +64,7 @@ span.price{
   display: block;
   height: 0;
 }
-.sidebar .sp{
-	background: url(/image/sidebar-bg.png) repeat-y;
-	padding: 10px;
-	margin: 0 0 5px 0;
-}
-.sidebar .sp a{
-	font-size: 13px;
-	color:#333; 
-	display: block;
-	float: left;	
-	clear: both;
-	margin: 0 0 5px 0px;
-}
-.sidebar .sp img{
-	margin: 0 0 0 5px;
-}
+
 
 .sidebar .stcity a{
 	color: #a0a0a0;	
@@ -90,12 +75,12 @@ span.price{
 	background: url(/image/arrow-rt.png) no-repeat right center;
 	
 }
-.sidebar dt{
+/*.sidebar dt{
 	font-size: 14px;
 	font-weight: bold;
 	margin: 0 0 8px 0;
 	color: #333;
-}
+}*/
 .sidebar dd h4{
 	color: #333;
 	margin: 5px 0 0 0;
@@ -132,7 +117,7 @@ dl.wishlist a:hover{
  	background: url("/image/routelist-bg.png") repeat-x scroll center bottom #FFFFFF;
 	margin: 10px 0 20px -10px;
 	padding: 0 10px 0 10px;
-	width: 730px;
+	width: 710px;
  }
 
 .overview .themeimg{
@@ -144,7 +129,7 @@ dl.wishlist a:hover{
 	float: right;
 }
 .overview dl{
-	width: 430px;
+	width: 410px;
 	float: left;
 	margin-left: 10px;
 }
@@ -158,7 +143,7 @@ dl.wishlist a:hover{
 	margin: 0 0 5px;
 	float: left;
 	clear: right;
-	width: 350px; 
+	width: 330px; 
 }
 .overview .pr{
 	font-size: 14px;
@@ -202,7 +187,7 @@ dl.wishlist a:hover{
 	margin: 0 0 4px 0;
 }
 .route{
-	width: 582px;
+	width: 562px;
 	float: left;
 }
 
@@ -227,7 +212,7 @@ dl.wishlist a:hover{
 .route_day .cont {
 	float: left;
 	padding: 0 10px 10px;
-	width: 430px;
+	width: 410px;
 }
 
 
