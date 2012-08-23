@@ -213,11 +213,15 @@ img {
 	float:right;
 	color:#fff;
 	font-size:13px;
-	background:url(../image/searchsub.png) no-repeat 0 0;
+	background:url(../image/searchsub.png) no-repeat scroll 0 0 transparent;
 	height:27px;
 	border:none;
 	position:relative;
 	cursor:pointer;
+	width:92px;
+}
+.buttonsear:hover{
+	background:url(../image/searchsub.png) no-repeat scroll 0 -27 transparent;
 }
 .calhref
 {
@@ -252,11 +256,12 @@ img {
 }
 .loading
 {
-	background:url(../image/loading.gif) no-repeat 100px 100px #ccc;
+	background:url(../image/loading.gif) no-repeat 100px 100px;
 	position:absolute;
 	display:none;
 	margin-left:-10px;
 	margin-top:-10px;
+	background-color:none;
 }
 /*******游船搜索结束******/
 #logo{

@@ -61,10 +61,13 @@ $(function() {
 	$('.enquiry').click(function(e){
 		e.preventDefault();
 		var price=$('.price b').text();
+		var boat=$("#boatname").val();
 		var str='<h3 class="">Price: '+price+' per person</h3>';
 		$(".formrightinfo").html(str);
 		$('.dateinfo').show();
 		$(".cruiseform").fadeIn("fast");
+		var hideform='<input type="hidden" id="Boatname" class="txt" value="'+boat+'" name="boatname">';
+		$(".hideninfo").html(hideform);
 		 var docheight = $(document).height();
 		 $("body").append("<div id='greybackground'></div>");
 		 $("#greybackground").css({"opacity":"0.5","height":docheight});
@@ -95,6 +98,7 @@ $(function() {
 		var hideform='<input type="hidden" id="Boatname" class="txt" value="'+boat+'" name="boatname"><input type="hidden" name="Price" value="'+price+'"><input type="hidden" id="route" class="txt" name="Route" value="'+route+'"><input type="hidden" id="date" class="txt" name="Date" value="'+montharray[ms]+'.'+dnow+'.'+arrdate[0]+' - '+montharray[me]+'.'+arrdateend[2]+'.'+arrdateend[0]+'">';
 		var str='<ul><li><h3>Your Booking Summary</h3></li><li><strong>Cruise ship:</strong> '+boat+'</li><li><strong>Price:</strong> '+price+' per person</li><li><strong>Cruise date:</strong> '+montharray[ms]+'.'+dnow+'.'+arrdate[0]+' - '+montharray[me]+'.'+arrdateend[2]+'.'+arrdateend[0]+'</li><li><strong>Itinerary:</strong> '+route+'</li></ul>';
 		$(".formrightinfo").html(str);
+		$(".hideninfo").html(hideform);
 		$(".cruiseform").fadeIn("fast");
 		 var docheight = $(document).height();
 		 $("body").append("<div id='greybackground'></div>");
