@@ -1,13 +1,21 @@
 .one{
-	width: 680px;
+	width: 678px;
 	padding: 15px;
 	background: #f4f9fe;
+	border: 1px solid #A7B4C4;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0px 0px 3px #A7B4C4;
+	margin: 0 0 15px 0;
 }
 
 .one h2{
 	color: #333;
 }
-
+.one .bottom-pra{
+	clear: both;
+	float: left;
+	margin: 10px 0 0;
+}
 .rtdiv{
 	width: 440px;
 	float: right;

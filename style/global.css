@@ -302,8 +302,9 @@ img {
 	text-decoration: none;
 	float: left;
 	padding: 0 20px;
-    font-family: "Trebuchet MS", Arial, Georgia,"Times New Roman",Times,serif;
-	font-size: 17px;	
+    font-family: Arial, Georgia,"Times New Roman",Times,serif;
+	font-size: 13.8px;	
+	font-weight: bold;
 	line-height: 41px;
     background: url("/image/navdown.png") no-repeat right 19px ;
 }

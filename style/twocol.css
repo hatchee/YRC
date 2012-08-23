@@ -31,14 +31,14 @@
 
 .sidebar .blue .conbody{
 	background: url("/image/content-bg2.png") repeat-y scroll 0 -12px #fff;
-	padding: 0 7px 7px;
+	padding: 0 14px;
 }
 .sidebar .blue p.sp{
 	margin: 0;
 }
 .sidebar .sp{
 	background: url(/image/sidebar-bg.png) repeat-y;
-	padding: 10px;
+	padding: 10px 0;
 	margin: 0 0 5px 0;
 }
 .sidebar .sp a{
@@ -58,7 +58,7 @@
 
 .sidebar .blue dl{
 	background: url("/image/dt-bg.png") repeat-x left top;
-	padding: 5px 0 5px;
+	padding: 10px 0;
 	margin: 0;
 }
 .blue dt{
@@ -66,8 +66,14 @@
 	padding: 3px 0;
 	font-weight: bold;	
 }
-.blue dd{
-	padding: 0 7px;
+.stcity dd{
+	padding: 5px 0;
+}
+.stcity dd:hover{
+	/*outline: 1px dashed #ddd;*/
+}
+.around dd{
+	padding: 3px 0;
 }
 .blue .confoot{
 	background: url("/image/confoot-blue.png") repeat-x scroll 0 0 transparent;
