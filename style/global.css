@@ -476,8 +476,15 @@ h3.bgtitle span{
 	position: relative;
 	line-height: 30px;
 	color: #fff;
-	padding: 8px;
+	padding: 5px 8px;
 	border-radius: 3px;
+}
+.top10 h3.bgtitle span{
+	background: url("/image/top-num.png") no-repeat scroll left center #4091DF;
+	display: block;
+	text-indent: 43px;
+	width: 60px;
+	padding: 0 8px;
 }
 h3.bgtitle img{
 	position: absolute;

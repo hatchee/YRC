@@ -20,7 +20,7 @@
 	margin: 3px 0 0 3px;
 }
 .p1{
-	width: 420px;
+	width: 410px;
 	float: left;
 }
 .tourlist{
@@ -28,7 +28,7 @@
 }
 .tourlist li{
 	float: left;
-	margin: 8px 66px 8px 8px;
+	margin: 8px 55px 8px 8px;
 }
 .tourlist li img{
 	float: left;
@@ -115,8 +115,8 @@ dl.wishlist a:hover{
 }
  .routewapper .overview {
  	background: url("/image/routelist-bg.png") repeat-x scroll center bottom #FFFFFF;
-	margin: 10px 0 20px -10px;
-	padding: 0 10px 0 10px;
+	margin: 10px 0 20px -20px;
+	padding: 0 20px;
 	width: 710px;
  }
 
@@ -196,7 +196,7 @@ dl.wishlist a:hover{
 	/*border: 1px solid #E8F5FF;*/
 	border-width: 1px ;
 	border-style: solid;
-	margin: 0 0 10px 0;
+	margin: 0 0 20px 0;
 	overflow: hidden;
 	border-color: #E8F5FF #dfddd7 #aaa9a5 #E8F5FF;
 	-webkit-box-shadow: #ddd  0px 0px 1px 0px;
