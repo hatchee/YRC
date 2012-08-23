@@ -1,9 +1,10 @@
 <div class="sidebar">
-	<div class="sidebox">
-		<div class="conhead"></div>
-		<div class="conbody guidesd">
+	<div class="sidebox blue">
+		<div class="conhead">
 			<h2>Yangtze Cruise Guide</h2>
-			<p>
+		</div>
+		<div class="conbody guidesd">
+			<p class="sp clearfix">
 				<a href="">How to get there?</a> <br>
 				<a href="">Yangtze Cruise Routes</a> <br>
 				<a href="">Upstream or Downstream?</a> 
@@ -20,6 +21,8 @@
 				<dd>
 					<a href="#">Reasons for a Yangtze cruise</a>
 				</dd>
+			</dl>
+			<dl>
 				<dt>Yangtze Cruise Onboard</dt>
 				<dd>
 					<a href="#">service</a>
@@ -39,6 +42,8 @@
 				<dd>
 					<a href="#">cultural activities</a>
 				</dd>
+			</dl>
+			<dl>
 				<dt>Shore Excursion Sites</dt>
 				<dd>
 					<a href="#">Fengdu</a>
@@ -61,6 +66,8 @@
 				<dd>
 					<a href="#">Huangshan</a>
 				</dd>
+			</dl>
+			<dl>
 				<dt>Ports of Call</dt>
 				<dd>
 					<a href="#">Chongqing</a>
@@ -74,6 +81,8 @@
 				<dd>
 					<a href="#">Wuhan</a>
 				</dd>
+			</dl>
+			<dl>
 				<dt>Yangtze Facts</dt>
 				<dd>
 					<a href="#">Overview</a>
