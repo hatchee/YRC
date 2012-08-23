@@ -85,6 +85,12 @@ left:0;
 	color:#004b93;
 	font-size: 18px;
 }
+.mask
+{
+	background: url("../image/wait.gif") no-repeat scroll 250px 170px;
+    position: absolute;
+	display:none;
+}
 #shipcalendar{
 	float: left;
 	clear: both;

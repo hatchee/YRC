@@ -1,9 +1,35 @@
-;(function(){
+;(function() {
+
+	function getcalendar(boat,cal,action)
+		{
+			var width=$('#shipcalendar').width();
+			var height=$('#shipcalendar').height();
+			$('.mask').css({'width':width,'height':height,'z-index':100});
+			$('.mask').show();
+			$.ajax({
+				type:'POST',
+				url :'/assets/snippets/boatcalendar/shipcalendarajax.php',
+				data:{
+					boat:boat,date:cal,ac:action
+				},
+				success:function(result){
+					$('#shipcalendar').html(result);
+					$('.mask').hide();
+				}
+			
+			});
+		}
+		function autoScroll( target ,slidetime, timeout )
+		{
+			setInterval( function(){
+			$( target+' li:first' ).slideUp( slidetime,function(){
+			$( this ).appendTo( target ).show();
+			});
+			}, timeout);
+		} 
 
 
-
-
-$(function(){
+$(function() {
 	
 	// 价格解释 
 	$('.why').hover(function(){
@@ -13,8 +39,8 @@ $(function(){
 	})
 
 	// 选项卡切换
-	$(".row-top li").each(function(index){
-		$(this).click(function(){
+	$(".row-top li").each(function(index) {
+		$(this).click(function() {
 			$(this).addClass('active').siblings().removeClass('active');
 			$('.col-lt .unit').hide();
 			$('.col-lt .unit').eq(index).slideDown();
