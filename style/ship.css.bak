@@ -409,7 +409,7 @@ left:0;
 	left: 278.5px;
 	top: 55px;
 	width: 880px;
-	height: 600px;
+	height: 500px;
 	border-radius: 6px 6px 6px 6px;
 	background: none repeat scroll 0 0 #FFFFFF;
 	overflow-y:scroll;

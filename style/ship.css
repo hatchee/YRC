@@ -87,7 +87,7 @@ left:0;
 }
 .mask
 {
-	background: url("../image/wait.gif") no-repeat scroll 250px 170px;
+	background: url("../image/loading.gif") no-repeat scroll 250px 170px;
     position: absolute;
 	display:none;
 }
