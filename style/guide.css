@@ -1,4 +1,66 @@
 /*guide*/
+.guidesd p,
+.guidesd dl ,
+.guidesd dt{
+	background: url(/image/sidebar-bg.png) repeat-y;
+}
+
+.guidesd p{
+	padding: 6px;
+}
+.guidesd p a{
+	font-size: 14px;
+	color:#333; 
+	line-height: 20px;
+}
+.guidesd dt{
+	border-top:  8px solid #fff;
+	font-size: 14px;
+	padding: 3px 0;
+	font-weight: bold;	
+}
+.guidesd dd a{
+	background: url(/image/li-disc2.gif) no-repeat 10px center;
+	padding: 0 0 0 21px;
+	color: #333;
+} 
+.guidesd a:hover{
+	background: url(/image/li-disc2.gif) no-repeat 10px center;
+	color: #004B93;	
+}
+.hotdeals li{
+	border-bottom: 1px solid #DDDDDD;
+	margin: 7px 0;
+	padding: 10px 4px 25px;
+}
+.hotdeals li:hover{
+	border-bottom: 1px solid #fff;
+	background:#F3FAFF;
+	outline: 1px dashed #ddd;
+}
+.hotdeals p{
+	margin: 4px 0;
+}
+.hotdeals span{
+	color: #ff7400;
+	font-size: 13px;
+}
+.hotdeals span b{
+	font-size: 14px;
+	font-weight: bold;
+}
+img.star{
+	float: right;
+}
+a.detail{
+	float: right;
+	color: #004B93;
+}
+a.detail:hover{
+	color: #046bce;
+}
+
+
 .keepread{
 	margin: 30px 0 0 0;
 }

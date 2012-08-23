@@ -1,4 +1,4 @@
-;(function(){
+;(function() {
 
 	function getcalendar(boat,cal,action)
 		{
@@ -24,7 +24,7 @@
 		} 
 
 
-$(function(){
+$(function() {
 	
 	// 价格解释 
 	$('.why').hover(function(){
@@ -34,8 +34,8 @@ $(function(){
 	})
 
 	// 选项卡切换
-	$(".row-top li").each(function(index){
-		$(this).click(function(){
+	$(".row-top li").each(function(index) {
+		$(this).click(function() {
 			$(this).addClass('active').siblings().removeClass('active');
 			$('.col-lt .unit').hide();
 			$('.col-lt .unit').eq(index).slideDown();

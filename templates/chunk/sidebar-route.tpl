@@ -1,14 +1,15 @@
 <div class="sidebar">
-	<div class="sidebox">
-		<div class="conhead"></div>
-		<div class="conbody">
+	<div class="sidebox blue">
+		<div class="conhead">
 			<h2>China Yangtze Tours</h2>
-			<p>
-				<a href="">Top 10 China Yangtze Tour Packages</a>
-				<a href="">China Cruises & Tours</a>
+		</div>
+		<div class="conbody">
+			<p class="sp clearfix">
+				<a href="">How to China Yangzte  <br>Tour? <img src="/image/hot.gif"></a>
+				<a href="">China Cruises & Tours <img src="/image/hot.gif"></a> 
 			</p>
 
-			<dl>
+			<dl  class="stcity">
 				<dt>By Starting Cities</dt>
 				<dd>
 					<h4>From Beijing</h4>
@@ -19,12 +20,16 @@
 					<a href="#">Top 10 Best China Tour -from Beijing to shanghai</a>
 				</dd>
 			</dl>
-			<dl>
+			<dl class="around">
 				<dt>By Starting Cities</dt>
-				<dd>Chongqing & around Tours</dd>
-				<dd>Chengdu Panda Tours</dd>
-				<dd>My Wishlist</dd>
-				<dd>Customize a Tour</dd>
+				<dd><a href="">Chongqing & around Tours</a></dd>
+				<dd><a href="">Chengdu Panda Tours</a></dd>
+				<dd><a href="">Shanghai & around Tours</a></dd>
+				<dd><a href="">Beijing & around Tours</a></dd>
+			</dl>
+			<dl class="wishlist">
+				<dd><a class="wish" href="">My Wishlist</a></dd>
+				<dd><a class="cust" href="">Customize a Tour</a></dd>
 			</dl>
 		</div>
 		<!-- END OF .conbody -->

@@ -1,0 +1,30 @@
+.one{
+	width: 700px;
+	padding: 15px;
+	background: #f4f9fe;
+}
+
+.one h2{
+	color: #333;
+}
+
+.rtdiv{
+	width: 460px;
+	float: right;
+}
+
+.price{
+	color: #FF7400;
+}
+.price i{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.addwish{
+	float: right;
+	clear: both;
+	display: block;
+	background: url("/image/icon-wishlist.png") no-repeat left 4px;
+	padding: 0 0 0 18px;
+}
