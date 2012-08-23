@@ -75,6 +75,8 @@ $(function() {
 	});
 
 	$(".exit_ico").click(function(){
+		$(".dateinfo").html('');
+		$(".hideninfo").html('');
 		$(".cruiseform").hide();
 		$("#greybackground").remove();
 	});
