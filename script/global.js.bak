@@ -2,7 +2,7 @@
 	function searchresult(time,flex,route)
 	{   var width=$('.searchbox').width()+20;
 		var height=$('.searchbox').height()+20;
-		$('.loading').css({'width':width,'height':height});
+		$('.loading').css({'width':width,'height':height,'z-index':100});
 		$('.loading').show();
 		$.ajax({
 			url: 'assets/snippets/boatcalendar/searchship.php',
@@ -35,11 +35,11 @@ $(function(){
 	{
 		if(i==month)
 		{
-			strli +='<li class="now"><a href="'+href[i]+'">'+arrmonth[i]+'</a></li>';
+			strli +='<li class="now"><a href="[~1454~]'+href[i]+'">'+arrmonth[i]+'</a></li>';
 		}
 		else
 		{
-			strli +='<li><a href="'+href[i]+'">'+arrmonth[i]+'</a></li>';
+			strli +='<li><a href="[~1454~]'+href[i]+'">'+arrmonth[i]+'</a></li>';
 		}
 	}
 	$('.tabcal').html(strli);
