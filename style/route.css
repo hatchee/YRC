@@ -1,6 +1,61 @@
+/*chinacruise页面*/
+.tourzone{
+	border:1px solid #ddd;
+	box-shadow: 1px 1px 2px #ddd;
+	padding: 10px;
+}
+.tourzone h4{
+	color: #000;
+	font-size: 15px;
+	margin: 20px 0 10px;
+}
+.picture{
+	float: right;
+	width: 267px;
+}
+.picture li{
+	float: left;
+	width: 85xp;
+	height: 65px;
+	margin: 3px 0 0 3px;
+}
+.p1{
+	width: 420px;
+	float: left;
+}
+.tourlist{
+	float: left;
+}
+.tourlist li{
+	float: left;
+	margin: 8px 66px 8px 8px;
+}
+.tourlist li img{
+	float: left;
+	margin: 0 10px 0 0;
+}
+.tourlist h5{
+	color: #333;
+	font-family: arial;
+	font-weight: normal;
+}
+span.price{
+	color: #FF7400;
+}
+.price i{
+	font-weight: bold;
+	font-size: 15px;
+}
+.wprice {
+	float: right;
+	width: 180px;
+}
+.wprice .price{
+	margin: 9px 0 0 77px;
+	display: block;
+}
 
-
-/*内容页面*/
+/*route内容页面*/
 
 .sidebar hr {
   border-color: #ffffff -moz-use-text-color #EEDDB9;
@@ -25,11 +80,7 @@
 .sidebar .sp img{
 	margin: 0 0 0 5px;
 }
-.sidebar dl{
-	margin: 0 0 10px 0;
-	padding: 10px;
-	background: url(/image/sidebar-bg.png) repeat-y;
-}
+
 .sidebar .stcity a{
 	color: #a0a0a0;	
 	display: block;
