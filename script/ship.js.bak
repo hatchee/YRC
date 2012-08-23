@@ -1,9 +1,35 @@
-;(function(){
+;(function() {
+
+	function getcalendar(boat,cal,action)
+		{
+			var width=$('#shipcalendar').width();
+			var height=$('#shipcalendar').height();
+			$('.mask').css({'width':width,'height':height,'z-index':100});
+			$('.mask').show();
+			$.ajax({
+				type:'POST',
+				url :'/assets/snippets/boatcalendar/shipcalendarajax.php',
+				data:{
+					boat:boat,date:cal,ac:action
+				},
+				success:function(result){
+					$('#shipcalendar').html(result);
+					$('.mask').hide();
+				}
+			
+			});
+		}
+		function autoScroll( target ,slidetime, timeout )
+		{
+			setInterval( function(){
+			$( target+' li:first' ).slideUp( slidetime,function(){
+			$( this ).appendTo( target ).show();
+			});
+			}, timeout);
+		} 
 
 
-
-
-$(function(){
+$(function() {
 	
 	// 价格解释 
 	$('.why').hover(function(){
@@ -13,8 +39,8 @@ $(function(){
 	})
 
 	// 选项卡切换
-	$(".row-top li").each(function(index){
-		$(this).click(function(){
+	$(".row-top li").each(function(index) {
+		$(this).click(function() {
 			$(this).addClass('active').siblings().removeClass('active');
 			$('.col-lt .unit').hide();
 			$('.col-lt .unit').eq(index).slideDown();
@@ -35,14 +61,13 @@ $(function(){
 	$('.enquiry').click(function(e){
 		e.preventDefault();
 		var price=$('.price b').text();
-		alert(price);
-		/*var str='<h3 class="">Price: '+price+' per person</h3>';
+		var str='<h3 class="">Price: '+price+' per person</h3>';
 		$(".formrightinfo").html(str);
 		$('.dateinfo').show();
 		$(".cruiseform").fadeIn("fast");
 		 var docheight = $(document).height();
 		 $("body").append("<div id='greybackground'></div>");
-		 $("#greybackground").css({"opacity":"0.5","height":docheight});*/
+		 $("#greybackground").css({"opacity":"0.5","height":docheight});
 
 	});
 
@@ -74,6 +99,33 @@ $(function(){
 		 $("body").append("<div id='greybackground'></div>");
 		 $("#greybackground").css({"opacity":"0.5","height":docheight});
 	});	
+
+	/***船期翻页****/
+	$('.prevMon').live("click",function(){
+		var boat=$('#boatname').val();
+		var date=$('#shipcal').val();
+		getcalendar(boat,date,'up');
+	});
+	$('.nextMon').live("click",function(){
+		var boat=$('#boatname').val();
+		var date=$('#shipcal').val();
+		getcalendar(boat,date,'next');
+	});
+	autoScroll ( '.Recent-Inquiry ul', 1500, 3000 );
+	$('.nextyear').live("click",function(){
+		var boat=$('#boatname').val();
+		var date=$('.nextyear').text();
+		var d=new Date();
+		if(date==d.getFullYear())
+		{
+			date+='-'+(d.getMonth()+1)+'-1';
+		}
+		else
+		{
+			date+="-1-1";
+		}
+		getcalendar(boat,date,'nextyear');
+	});
 
 })
 })(jQuery);

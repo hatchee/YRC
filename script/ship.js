@@ -1,6 +1,32 @@
 ;(function() {
 
-
+	function getcalendar(boat,cal,action)
+		{
+			var width=$('#shipcalendar').width();
+			var height=$('#shipcalendar').height();
+			$('.mask').css({'width':width,'height':height,'z-index':100});
+			$('.mask').show();
+			$.ajax({
+				type:'POST',
+				url :'/assets/snippets/boatcalendar/shipcalendarajax.php',
+				data:{
+					boat:boat,date:cal,ac:action
+				},
+				success:function(result){
+					$('#shipcalendar').html(result);
+					$('.mask').hide();
+				}
+			
+			});
+		}
+		function autoScroll( target ,slidetime, timeout )
+		{
+			setInterval( function(){
+			$( target+' li:first' ).slideUp( slidetime,function(){
+			$( this ).appendTo( target ).show();
+			});
+			}, timeout);
+		} 
 
 
 $(function() {
@@ -66,6 +92,7 @@ $(function() {
 		var route=$(this).children(".route").val();
 		var ms=parseInt(arrdate[1],10);
 		var me=parseInt(arrdateend[1],10);
+		var hideform='<input type="hidden" id="Boatname" class="txt" value="'+boat+'" name="boatname"><input type="hidden" name="Price" value="'+price+'"><input type="hidden" id="route" class="txt" name="Route" value="'+route+'"><input type="hidden" id="date" class="txt" name="Date" value="'+montharray[ms]+'.'+dnow+'.'+arrdate[0]+' - '+montharray[me]+'.'+arrdateend[2]+'.'+arrdateend[0]+'">';
 		var str='<ul><li><h3>Your Booking Summary</h3></li><li><strong>Cruise ship:</strong> '+boat+'</li><li><strong>Price:</strong> '+price+' per person</li><li><strong>Cruise date:</strong> '+montharray[ms]+'.'+dnow+'.'+arrdate[0]+' - '+montharray[me]+'.'+arrdateend[2]+'.'+arrdateend[0]+'</li><li><strong>Itinerary:</strong> '+route+'</li></ul>';
 		$(".formrightinfo").html(str);
 		$(".cruiseform").fadeIn("fast");
@@ -73,6 +100,33 @@ $(function() {
 		 $("body").append("<div id='greybackground'></div>");
 		 $("#greybackground").css({"opacity":"0.5","height":docheight});
 	});	
+
+	/***船期翻页****/
+	$('.prevMon').live("click",function(){
+		var boat=$('#boatname').val();
+		var date=$('#shipcal').val();
+		getcalendar(boat,date,'up');
+	});
+	$('.nextMon').live("click",function(){
+		var boat=$('#boatname').val();
+		var date=$('#shipcal').val();
+		getcalendar(boat,date,'next');
+	});
+	autoScroll ( '.Recent-Inquiry ul', 1500, 3000 );
+	$('.nextyear').live("click",function(){
+		var boat=$('#boatname').val();
+		var date=$('.nextyear').text();
+		var d=new Date();
+		if(date==d.getFullYear())
+		{
+			date+='-'+(d.getMonth()+1)+'-1';
+		}
+		else
+		{
+			date+="-1-1";
+		}
+		getcalendar(boat,date,'nextyear');
+	});
 
 })
 })(jQuery);
