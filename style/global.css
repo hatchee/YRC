@@ -342,7 +342,7 @@ img {
 	background: #fff;
 }
 .conbodyone{
-	padding: 10px ;
+	padding: 20px ;
 	background: #fff;
 }
 
@@ -449,6 +449,97 @@ a.enquiry:hover{
 	background: url("/image/enquirynew.gif") no-repeat scroll 0 -36px transparent;
 }
 
+
+/*TODO*/
+.btn{
+	background-image: url("/image/btn-sp.png");
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	display: block;
+}
+.e-L{
+	width: 159px; 
+	height: 36px;
+	background-position: -1px 0;
+}
+.e-L:hover{
+	background-position: -1px -37px;
+}
+.e-M{
+	background-position: 0 -146px; 
+	width: 93px; 
+	height: 28px;
+}
+.e-M:hover{
+	background-position: -94px -146px;
+}
+.e-S{
+	background-position: -304px -75px; 
+	width: 53px; 
+	height: 19px;
+}
+.e-S:hover{
+	background-position: -304px -96px;
+}
+
+.s-L{
+	background-position: -163px 0; 
+	width: 185px; 
+	height: 31px;
+}
+.s-L{
+	background-position: -163px -38px;
+}
+.s-M{
+	background-position: -230px -75px; 
+	width: 72px; 
+	height: 22px;
+}
+.s-M:hover{
+	background-position: -230px -98px;
+}
+
+.v-M{
+	background-position: 0 -75px; 
+	width: 114px; 
+	height: 33px;
+}
+.v-M:hover{
+	background-position:  0 -111px;
+}
+
+.q-M{
+	background-position: -115px -75px; 
+	width: 114px; 
+	height: 33px;
+}
+.q-M:hover{
+	background-position: -115px -111px;
+}
+
+.sc-M{
+	background-position: -189px -145px; 
+	width: 93px; 
+	height: 28px;
+}
+.sc-M:hover{
+	background-position: -283px -145px;
+}
+
+
+
+a img:hover{
+	opacity: 0.8;
+}
+
+
+
+
+.hrdash{
+	height: 0;
+	border-top: 1px dashed #ddd;
+}	
+
 .fl{
 	float: left;
 }
@@ -464,7 +555,7 @@ img.fl{
 
 
 .sidebar h2{
-	color: #333;
+	color: #000;
 }
 
 
@@ -491,20 +582,4 @@ h3.bgtitle img{
 	position: absolute;
 	right: 10px;
 	bottom: -10px;
-}
-.sbox{
-	background: #f4f9fe;
-	width: 200px;
-	padding: 5px;
-	border: 1px solid #a7b4c4;
-	border-radius: 3px;
-	float: left;
-	margin: 14px;
-	-webkit-box-shadow: 1px 1px 2px #A7B4C4; 
-	-moz-box-shadow: 1px 1px 2px #A7B4C4; 
-	box-shadow: 1px 1px 2px #A7B4C4; 
-}
-.sbox h4{
-	color: #333;
-	margin: 6px 0 10px;
 }

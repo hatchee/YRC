@@ -1,0 +1,140 @@
+.secLeft{
+	float: left;
+	width: 690px;
+	min-height: 300px;
+}
+.secRight{
+	float: right;
+	width: 215px;
+	min-height: 300px;
+}
+
+.hotdeal{
+	border-bottom: 1px solid #fff;
+	margin: 25px 0 20px 0;
+}
+.hotdeal dt{
+	border-bottom: 4px solid #37a3f6;
+}
+.hotdeal dt h3{
+	display: block;
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	text-align: center;
+	border-radius: 5px 5px 0 0;
+	background: #37a3f6;
+	float: left;
+	margin: 0;
+}
+.hotdeal dt span{
+	font-size: 11px;
+	float: right;
+	display: block;
+	margin: 10px 0 0 0;
+}
+.hotdeal dd{
+	width: 140px;	
+	/*background: #ccc;*/
+	float: left;
+	margin: 15px 5px 0 7px;
+	padding: 9px;
+	outline: 1px solid #fff;
+	border: 1px solid #fff;
+}
+.hotdeal dd:hover{
+	background: #e0f1fe;
+	outline: 1px solid #f1f9fe;
+	border: 1px solid #d6edff;
+}
+.hotdeal h4{
+	color: #333;
+}
+.hotdeal dd p{
+	margin: 3px 0;
+	color: #333;
+}
+.price{
+	color: #FF7400
+}
+.price i{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.tabone{
+	background: url("/image/flower.png") no-repeat left top;
+	padding: 6px 10px;
+	border: 1px solid #32a1f5;
+}
+.tabone h3{
+	margin: 0 0 1px 0;
+}
+
+.secRight .box{
+	margin: 0 0 20px 0;
+	padding: 10px;
+	border: 1px solid #e7d9b7;
+	background: url("/image/flo-lt.png") no-repeat left top #fffbf2;
+}
+.secRight .box h3{
+	color: #000;
+}
+.secRight .flower-lt{
+	background: url("/image/flo-lt.png") no-repeat left top #fffbf2;
+}
+.secRight .flower-rt{
+	background: url("/image/flo-rb.png") no-repeat right bottom #fffbf2;
+}
+.tabone .fp{
+	color: #434343;
+}
+
+.box  ol{
+	margin: 14px 0;
+}
+.tabone table{
+	width: 668px;
+}
+
+
+
+.tabone th{
+	text-align: left;
+	padding: 5px;
+	font-size: 14px; 
+}
+.tabone td{
+	background: #fff;
+	vertical-align: middle;
+	padding: 5px;
+	color: #333;
+}
+
+
+.tabone td.leftd{
+	vertical-align: top;
+	background: #fff;
+}
+.eventr td{
+	background: #f2f9fe;
+}
+
+
+.departure{
+	margin: 0 -9px 0 -2px;
+}
+.departure li{
+	width: 33px;
+	height: 35px;
+	border: 1px solid #ebdcb9;
+	float: left;
+	border-radius: 4px;
+	text-align: center;
+	padding: 5px;
+	margin: 0 6px 4px 0;
+}
+.departure li.expire a{
+	color: #c5c3c1;
+}

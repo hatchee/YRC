@@ -11,10 +11,25 @@
 .one h2{
 	color: #333;
 }
+.one p{
+	margin: 0 0 10px 0;
+}
+.one p.price,
+.one p.ew{
+	display: inline;
+}
+.one p.vw{
+	color: #333;
+	margin: 0 0 20px 0;
+}
 .one .bottom-pra{
 	clear: both;
 	float: left;
 	margin: 10px 0 0;
+	font-size: 10px;
+}
+.one a img{
+	border-radius: 4px;
 }
 .rtdiv{
 	width: 440px;

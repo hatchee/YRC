@@ -1,9 +1,7 @@
 {extends file="layout.html"}
 {block name=title}YRC ship page{/block}
 {block name=head}
-<link rel="stylesheet" type="text/css" href="style/guide.css">
-<script type="text/javascript" src="script/ship.js"></script>
-<script src="http://releases.flowplayer.org/js/flowplayer-3.2.11.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style/travelguide.css">
 {/block}
 {block name=body}
 <body>
@@ -26,7 +24,23 @@
 
 
 
-		<h3 class="bgtitle"><span>Most Important Info<img src="/image/bgtitle.png"></span></h3>
+		<h3 class="bgtitle">
+			<span>Most Important Info<img src="/image/bgtitle.png"></span>
+
+			<div class="control">
+				<ul class="controlli">
+					<li class="prev"></li>
+					<li class="next"></li>
+				</ul>
+				<ul class="pageli">
+					<li></li>
+					<li></li>
+					<li class="current"></li>
+					<li></li>
+				</ul>
+				
+			</div>
+		</h3>
 		<div class="sboxwrap clearfix">
 			<div class="sbox">
 				<h4>How to get there?</h4>

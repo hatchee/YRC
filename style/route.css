@@ -1,8 +1,11 @@
 /*chinacruise页面*/
 .tourzone{
-	border:1px solid #ddd;
-	box-shadow: 1px 1px 2px #ddd;
 	padding: 10px;
+	background: none repeat scroll 0 0 #F4F9FE;
+	border: 1px solid #A7B4C4;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 0 3px #A7B4C4;
+
 }
 .tourzone h4{
 	color: #000;
@@ -11,17 +14,18 @@
 }
 .picture{
 	float: right;
-	width: 267px;
+	width: 259px;
 }
 .picture li{
 	float: left;
 	width: 85xp;
 	height: 65px;
-	margin: 3px 0 0 3px;
+	margin:1px 0 0 1px;
 }
 .p1{
 	width: 410px;
 	float: left;
+	color: #434343;
 }
 .tourlist{
 	float: left;
@@ -33,6 +37,7 @@
 .tourlist li img{
 	float: left;
 	margin: 0 10px 0 0;
+	border-radius: 4px;
 }
 .tourlist h5{
 	color: #333;
@@ -66,25 +71,23 @@ span.price{
 }
 
 
-.sidebar .stcity a{
-	color: #a0a0a0;	
-	display: block;
-}
+
 .sidebar .around a{
 	display: block;
-	background: url(/image/arrow-rt.png) no-repeat right center;
-	
+	background: url(/image/arrow-rt.png) no-repeat right center;	
 }
-/*.sidebar dt{
-	font-size: 14px;
-	font-weight: bold;
-	margin: 0 0 8px 0;
+.sidebar .stcity  dd h4 a{
 	color: #333;
-}*/
-.sidebar dd h4{
-	color: #333;
-	margin: 5px 0 0 0;
+	display: block;
+	margin: 3px 0 3px;
 	background: url(/image/arrow-rt.png) no-repeat right center;
+}
+.sidebar .stcity  dd p{
+	color: #A0A0A0;
+	font-size: 11px;
+	line-height: 13px;
+	margin: 0;
+	width: 158px;
 }
 
 dl.wishlist a{

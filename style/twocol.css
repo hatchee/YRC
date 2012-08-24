@@ -35,6 +35,7 @@
 }
 .sidebar .blue p.sp{
 	margin: 0;
+	padding: 5px;
 }
 .sidebar .sp{
 	background: url(/image/sidebar-bg.png) repeat-y;
@@ -49,6 +50,10 @@
 	clear: both;
 	margin: 0 0 5px 0px;
 }
+/*.sidebar .sp a:hover{
+	background: #eee7ce;
+}
+*/
 .sidebar .sp a:hover{
 	/*color: #004B93;*/
 }
@@ -67,10 +72,13 @@
 	font-weight: bold;	
 }
 .stcity dd{
-	padding: 5px 0;
+	padding: 5px 5px;
+	margin-left: -5px;
+	margin-right: -5px;
 }
 .stcity dd:hover{
 	/*outline: 1px dashed #ddd;*/
+	background: #eee7ce;
 }
 .around dd{
 	padding: 3px 0;
