@@ -528,10 +528,15 @@ a.enquiry:hover{
 
 
 
-a img:hover{
+/*a img:hover{
+	opacity: 0.8;
+}*/
+img.hov{
+	border-radius: 5px;
+}
+img.hov:hover{
 	opacity: 0.8;
 }
-
 
 
 
@@ -553,6 +558,17 @@ img.fl{
 	margin: 0 10px 0 0;
 }
 
+.br3{
+	border-radius: 3px;
+}
+
+.br5{
+	border-radius: 5px;
+}
+
+.br8{
+	border-radius: 8px;
+}
 
 .sidebar h2{
 	color: #000;
