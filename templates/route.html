@@ -1,6 +1,7 @@
 {extends file="layout.html"}
 {block name=title}扬子江2.0{/block}
 {block name=head}
+<script type="text/javascript" src="script/route.js"></script>
 <link rel="stylesheet" type="text/css" href="style/twocol.css">
 <link rel="stylesheet" type="text/css" href="style/route.css">
 {/block}
@@ -86,6 +87,164 @@ $(function(){
 						</div>
 						<img width="120" height="96" src="assets/images/china-yangtze-cruise/li-river185.gif" alt="Beautiful Guilin Landscape" title="Beautiful Guilin Landscape" class="fleft">
 					</div>
+					
+<div class="cruiseform">
+<div class="formwarp">
+<span class="exit_ico"></span>
+	<h2></h2>
+	<form>
+		<input type="hidden" value="FullName, EmailAdress" name="required">
+		<input id="inqtype" type="hidden" value="7" name="inqtype">
+		<script type="text/javascript" language="javascript">
+		document.write("<input name=\"PageTitle\" value=\""+document.title+"\" type=\"hidden\" />");
+		document.write("<input name=\"PageLink\" value=\""+document.href+"\" type=\"hidden\" />");
+		document.write("<input type=\"hidden\" name=\"Ref_Page\" value=\""+document.referrer+"\" />");
+		</script>
+		<input type="hidden" value="159" name="pfid">
+		<input id="subject" type="hidden" value="Inquiry:Yangtze Cruise [*h1title*] Book" name="subject">
+	<div class="self">
+		<div class="self-left">
+			<p> Please tell us more about your travel plans within just a few simple steps. We'll get back to you with a quotation in 0.5~23.5hrs. </p>
+			<fieldset>
+			<legend> Tell us about yourself </legend>
+			<label>Title:</label>
+			<select class="required" name="Title">
+			<option value="mr" selected="selected">Mr.</option>
+			<option value="mrs">Mrs.</option>
+			<option value="ms">Ms.</option>
+			</select>
+			<label>
+			<img src="image/required.gif" alt="Required">
+			Your Full Name:
+			</label>
+			<input class="required" type="text" name="FullName">
+			<label>Nationality:</label>
+			<input type="text" name="Nationality">
+			<label>
+			<img src="image/required.gif" alt="Required">
+			Your Email
+			</label>
+			<input class="required email" type="text" name="EmailAdress">
+			<label>Contact Phone Number:</label>
+			<input type="text" name="phone-num">
+			</fieldset>
+		</div>
+		<div class="self-right">
+			<div class="formrightinfo">
+				<h3 class="">Your Booking Summary</h3>
+				<p><strong>Tour name:</strong> 8 days best of China tour </p>
+				<strong>Assitionals:</strong>
+					<ul class="assition">
+						<li>*3 days tour of Guilin;</li>
+						<li>*3 days tour of Guilin;</li>
+					</ul>
+				<p>Price from <span class="red">$362-$425</span> per person</p>
+			</div>
+			<h3>Book with us:</h3>
+			<ul>
+				<li>Absolutly no hidden fees;</li>
+				<li>Guarantee you the lowest cruise price;</li>
+				<li>One-on-one travel consultant service;</li>
+				<li>Ensure you a worry-free vacation in China;</li>
+			</ul>
+		</div>
+		<div style="clear:both;"></div>
+	</div>
+	<div class="status">
+		<label>Age:</label>
+			<input type="radio" value="<25" name="Age">
+			<span>under 25</span>
+			<input class="rdo" type="radio" value="25-34" name="Age">
+			<span>25-34</span>
+			<input class="rdo" type="radio" value="35-54" name="Age">
+			<span>35-54</span>
+			<input class="rdo" type="radio" value="55-75" name="Age">
+			<span>55-75</span>
+			<input class="rdo" type="radio" value=">75" name="Age">
+			<span>75 above</span>
+			<br>
+			<label>Booking Status:</label>
+			<input type="radio" value="Ready to Book" name="booking">
+			<span>Ready to Book</span>
+			<input class="rdo" type="radio" value="Urgent" name="booking">
+			<span>Urgent</span>
+			<input class="rdo" type="radio" value="Planning" name="booking">
+			<span>Seriously Planning</span>
+			<input class="rdo" type="radio" value="Better Quote" name="booking">
+			<span>Looking for a Better Quote</span>
+		</div>
+		<fieldset>
+			<legend> Tell us more about your cruise </legend>
+			
+				<label>Your travel date:</label>
+				<select name="ddate">
+				<option id="c7" value="">--date</option>
+				<option id="c1" value="1">1</option><option id="c2" value="2">2</option><option id="c3" value="3">3</option>
+				<option id="c4" value="4">4</option><option id="c5" value="5">5</option><option id="c6" value="6">6</option>
+				<option id="c7" value="7">7</option><option id="c5" value="8">8</option><option id="c6" value="9">9</option>
+				<option id="c1" value="10">10</option><option id="c2" value="11">11</option><option id="c3" value="12">12</option>
+				<option id="c4" value="13">13</option><option id="c5" value="14">14</option><option id="c6" value="15">15</option>
+				<option id="c7" value="16">16</option><option id="c5" value="17">17</option><option id="c6" value="18">18</option>
+				<option id="c1" value="19">19</option><option id="c20" value="2">20</option><option id="c3" value="21">21</option>
+				<option id="c4" value="22">22</option><option id="c5" value="23">23</option><option id="c6" value="24">24</option>
+				<option id="c7" value="25">25</option><option id="c5" value="26">26</option><option id="c6" value="27">27</option>
+				<option id="c7" value="28">28</option><option id="c5" value="29">29</option><option id="c6" value="30">30</option>
+				<option id="c7" value="31">31</option>
+				</select>
+				<select name="month">
+					<option value="">--Month</option>
+					<option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option>
+					<option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option>
+					<option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option>
+				</select>
+				<select name="year">
+					<option value="">--Year</option>
+					<option value="2012">2012</option><option value="2013">2013</option>
+				</select></br>
+			<label>Your hotel class:</label>
+			<select class="w200" name="HotelClass">
+				<option selected="selected" value="Luxury Class">Luxury Class</option>
+				<option value="Comfortable Class">Comfortable Class</option>
+				<option value="Economy Class">Economy Class</option>
+			</select></br>
+			<label>No. of Travelers:</label>
+			<select class="w90" name="AdultsNumber">
+			<option value="Adoults">Adoults</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value=">10">>10</option>
+			</select>
+			<img width="10" height="10" alt="Required" src="image/required.gif">
+			<select class="w90" name="ChildrenNumber">
+			<option value="Children">Children</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			</select>
+			<label>Num og Rooms:</label>
+			<input id="RoomNum" class="w200" type="text" name="RoomNum">
+			<label>Your Budget:</label>
+			<input id="budget" class="txt" name="Budget"></br>
+		
+			<label>Additonal Comment or Qusetions:</label>
+			<textarea class="ptxt" rows="5" cols="" name="Comments"></textarea>
+		</fieldset>
+			<a class="button" href="javascript:Submitform()">
+					<img id="sbt1" border="0" onmouseout="mymouseout1()" onmouseover="mymouseover1()" name="sbt1" src="http://www.yangtze-river-cruises.com/forms/submit1.gif">
+					</a>
+	</form>
+</div>
+</div>
 					<div class="route_day">
 						<div class="ht2">
 							<h4 class="daytitle">Day 2 Guilin Li River Cruise &amp; Yangshuo Town (B, L)</h4>
