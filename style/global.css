@@ -383,6 +383,7 @@ img {
 }
 .footnav dd{
 	line-height: 16px;
+	font-size: 11px;
 }
 .footnav dd a{
 	color: #000000;
@@ -395,7 +396,7 @@ img {
 	float: right;	
 	padding: 0 0 0 70px;
 	border-left: 1px dashed #434343;
-	width: auto;
+	width: 210px;
 }
 .lastdl dt{
 	color: #010101;

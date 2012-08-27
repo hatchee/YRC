@@ -1,16 +1,17 @@
 /*网站两栏布局样式*/
 
 /* *************left sidebar************* */
+
+
+/*sidebar public*/
 .sidebar{
 	width: 220px;
 	min-height: 400px;
 	float: left;
 }
-
 .sidebar a{
 	color: #333;
 }
-
 
 .sidebox{
 	margin: 0 0 5px 0;
@@ -19,7 +20,7 @@
 	padding: 7px;
 }
 
-.blue .conhead{
+.sidebar .blue .conhead{
 	height: 54px;
 	background: url("/image/conhead-blue.png") repeat-x scroll 0 0 transparent;
 }
@@ -28,19 +29,27 @@
 	line-height: 45px;
 	text-indent: 16px;
 }
-
 .sidebar .blue .conbody{
 	background: url("/image/content-bg2.png") repeat-y scroll 0 -12px #fff;
 	padding: 0 14px;
 }
-.sidebar .blue p.sp{
+.sidebar .blue .confoot{
+	background: url("/image/confoot-blue.png") repeat-x scroll 0 0 transparent;
+}
+
+.sidebar .blue dl{
+	background: url("/image/dt-bg.png") repeat-x left top;
+	padding: 10px 0;
 	margin: 0;
-	padding: 5px;
+}
+.sidebar .blue dt{
+	font-size: 14px;
+	padding: 3px 0;
+	font-weight: bold;	
 }
 .sidebar .sp{
-	background: url(/image/sidebar-bg.png) repeat-y;
-	padding: 10px 0;
-	margin: 0 0 5px 0;
+	margin: 0;
+	padding: 5px;
 }
 .sidebar .sp a{
 	font-size: 13px;
@@ -50,41 +59,58 @@
 	clear: both;
 	margin: 0 0 5px 0px;
 }
-
-.sidebar .sp a:hover{
-	/*color: #004B93;*/
-}
 .sidebar .sp img{
 	margin: 0 0 0 5px;
 }
 
-.sidebar .blue dl{
-	background: url("/image/dt-bg.png") repeat-x left top;
-	padding: 10px 0;
-	margin: 0;
-}
-.blue dt{
-	font-size: 14px;
-	padding: 3px 0;
-	font-weight: bold;	
-}
+/*sidebar route*/
 .stcity dd{
 	padding: 5px 5px;
 	margin-left: -5px;
 	margin-right: -5px;
 }
 .stcity dd:hover{
-	/*outline: 1px dashed #ddd;*/
 	background: #eee7ce;
 }
 .around dd{
 	padding: 3px 0;
 }
-.blue .confoot{
-	background: url("/image/confoot-blue.png") repeat-x scroll 0 0 transparent;
+.sidebar .around a{
+	display: block;
+	background: url(/image/arrow-rt.png) no-repeat right center;	
 }
-
-
+.sidebar .stcity  dd h4 a{
+	color: #333;
+	display: block;
+	margin: 3px 0 3px;
+	background: url(/image/arrow-rt.png) no-repeat right center;
+}
+.sidebar .stcity  dd p{
+	color: #A0A0A0;
+	font-size: 11px;
+	line-height: 13px;
+	margin: 0;
+	width: 158px;
+}
+dl.wishlist a{
+	color: #004B93;
+	background-image: url(/image/icon-wishlist.png);
+	background-repeat: no-repeat;
+	padding: 0 0 0 20px;
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	margin: 3px 0 ;
+}
+dl.wishlist .wish{
+	background-position: 0 4px;
+}
+dl.wishlist .cust{
+	background-position: 0 -22px; 
+}
+dl.wishlist a:hover{
+	color: #046bce;
+}
 
 
 /* *************right article************* */

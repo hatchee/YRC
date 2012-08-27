@@ -60,55 +60,16 @@ span.price{
 	display: block;
 }
 
+
+
+
 /*route内容页面*/
 
-.sidebar hr {
-  border-color: #ffffff -moz-use-text-color #EEDDB9;
-  border-style: solid none;
-  border-width: 1px medium;
-  display: block;
-  height: 0;
-}
 
 
 
-.sidebar .around a{
-	display: block;
-	background: url(/image/arrow-rt.png) no-repeat right center;	
-}
-.sidebar .stcity  dd h4 a{
-	color: #333;
-	display: block;
-	margin: 3px 0 3px;
-	background: url(/image/arrow-rt.png) no-repeat right center;
-}
-.sidebar .stcity  dd p{
-	color: #A0A0A0;
-	font-size: 11px;
-	line-height: 13px;
-	margin: 0;
-	width: 158px;
-}
 
-dl.wishlist a{
-	color: #004B93;
-	background-image: url(/image/icon-wishlist.png);
-	background-repeat: no-repeat;
-	padding: 0 0 0 20px;
-	display: block;
-	height: 20px;
-	line-height: 20px;
-	margin: 3px 0 ;
-}
-a.wish{
-	background-position: 0 4px;
-}
-a.cust{
-	background-position: 0 -22px; 
-}
-dl.wishlist a:hover{
-	color: #046bce;
-}
+
 
 
 /*右侧article*/
