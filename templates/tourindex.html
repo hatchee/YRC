@@ -1,0 +1,75 @@
+{extends file="layout.html"}
+{block name=title}扬子江2.0{/block}
+{block name=head}
+<link rel="stylesheet" type="text/css" href="style/twocol.css">
+<link rel="stylesheet" type="text/css" href="style/tourindex.css">
+{/block}
+{block name=body}
+<body>
+
+<div class="wrap">
+	{include file="chunk/header.tpl"}
+	<div class="mainbody clearfix">
+	{include file="chunk/sidebar-route.tpl"}
+		<div class="article clearfix">
+			<div class="conhead"></div>
+			<div class="conbody clearfix">
+				<h1>China Yangtze Tour Packages</h1>
+				<p>
+					We have over two decades of worldwide travel experience with cultural trips, walking and trekking tours, wildlife safaris, adventure and beach holidays, overland expeditions, family holidays, honeymoons and tailor-made tours. Perfect for couples, groups of friends or solo travellers, our authentic, affordable adventure tours offer such incredible value you can enjoy the Imaginative Traveller experience again and again!
+				</p>
+
+				<div class="tibox clearfix">
+					<div class="tinum"> [+ditto_iteration:math=`?+1`+]</div>
+					<div class="tidet">
+						<b>Destinations:</b>
+						<p>
+							[+destinations+]
+						</p>
+							<b>Departure: </b>
+							<span>[+departure+]</span>
+						<p><span class="price">Price from<i>$888</i></span></p>
+					</div>
+					<div class="ticon">
+						<h3><a href="[~[+id+]~]">[+h1title+]]</a></h3>
+						<a href="[~[+id+]~]"><img class="hov" src="[+imagemini+]" width="345" height="175"></a>
+						<p>
+							[+features+] 
+						</p>
+						<p>
+							<a class="detail" href="[~[+id+]~]">>>Read details</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="tibox clearfix">
+					<div class="tinum">1</div>
+					<div class="tidet">
+						<b>Destinations:</b>
+						<p>
+							Beijing / Xian / Yangtze Cruise / Shanghai
+						</p>
+							<b>Departure: </b>
+							<span>you choose!</span>
+						<p><span class="price">Price from<i>$888</i></span></p>
+					</div>
+					<div class="ticon">
+						<h3><a href="">13 Days Best of China Tour</a></h3>
+						<a href=""><img class="hov" src="http://placehold.it/345x175"></a>
+						<p>
+							This is one of our most popular itineraries. See Tibetan Buddhism's most revered religious sites and learn about classical Tibetan architecture while soaking in traditional Tibetan culture. Climb up the Potala Palace and get a great view of Lhasa city; witness the Buddhism Scriptures Debate between monks in Sera Monastery; 
+						</p>
+						<p>
+							<a class="detail" href="">>>Read details</a>
+						</p>
+					</div>
+				</div>
+				
+			</div>
+			<div class="confoot"></div>
+		</div><!-- END OF .article -->
+	</div><!-- END OF .mainbody -->
+	{include file="chunk/footer.tpl"}
+</div>	<!-- EDN OF .mainwrap -->
+</body>
+{/block}

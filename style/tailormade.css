@@ -1,0 +1,35 @@
+.tmview {
+	width: 600px;
+	float: left;
+}
+.tmtip {
+	background: #a5d9ff;
+	padding: 8px;
+	width: 180px;
+	float: right;
+	border-radius: 5px;
+}
+
+.container {
+  border: 1px solid #DDDDDD;
+  margin: 15px 0;
+  padding: 5px;
+  border: 1px solid #60c2fd;
+  min-height: 300px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.container h2{
+	background: #ededed;
+	height: 43px;
+	line-height: 43px;
+	margin: -5px -5px 0 -5px; 
+}
+.container h2 .num{
+	background: #2983ba;
+	border: #49b5f8;
+	margin: 0 10px;
+	border-radius: 5px;
+	padding: 5px 10px;
+	color: #fff;
+}

@@ -1,21 +1,48 @@
 (function(){
-	function searchresult(time,flex,route)
-	{   var width=$('.searchbox').width()+20;
-		var height=$('.searchbox').height()+20;
-		$('.loading').css({'width':width,'height':height,'z-index':100});
-		$('.loading').show();
-		$.ajax({
-			url: 'assets/snippets/boatcalendar/searchship.php',
-			type: "POST",
-			data: {
-				stime: time,flex:flex, route:route
-			},
-			success:function(result){
-				$('.restitle').text(result);
-				$('.loading').hide();
-			}
-		});
-	}
+
+function searchresult(time,flex,route){   
+	var width=$('.searchbox').width()+20;
+	var height=$('.searchbox').height()+20;
+	$('.loading').css({'width':width,'height':height,'z-index':100});
+	$('.loading').show();
+	$.ajax({
+		url: 'assets/snippets/boatcalendar/searchship.php',
+		type: "POST",
+		data: {
+			stime: time,flex:flex, route:route
+		},
+		success:function(result){
+			$('.restitle').text(result);
+			$('.loading').hide();
+		}
+	});
+}
+
+
+// travel guide 翻页轮播
+$(function(){
+	var box = 234;
+	$(".wbox").each(function(e){
+		var boxNum = $(this).children(".sbox").length;
+		if (boxNum > 4) {
+			$("h3 .control").eq(e).show();
+			$(this).css({"width" : box*boxNum})
+
+		};
+
+		$('.next').eq(e).click(function(){
+			$(".wbox").eq(e).animate({"margin-left" : -4*box})
+		})
+
+		$('.prev').eq(e).click(function(){
+			$(".wbox").eq(e).animate({"margin-left" : 0})
+		})
+	})
+
+})
+
+
+
 $(function(){
 	var date=new Date();
 	var year=date.getFullYear();
