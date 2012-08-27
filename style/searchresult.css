@@ -1,0 +1,330 @@
+.pad7 {
+    padding: 7px;
+	background:#FFF;
+}
+#mainbody {
+    font-size: 0.75em;
+}
+form, fieldset {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+}
+.searchtable {
+    background-color: #F7F7F7;
+    border: 1px solid #E7E7E7;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.searchtable td {
+    padding: 10px 0;
+}
+.searchresmsg {
+    background: url("../img/searchresmsg.gif") no-repeat scroll 100% 0 transparent;
+    height: 54px;
+    padding: 0 100px 0 10px;
+}
+p {
+    margin-top: 0;
+}
+.searchreslist {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #CCCCCC #FFFFFF #FFFFFF;
+    border-style: dotted solid solid;
+    border-width: 1px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 9px;
+}
+.searchreslist .boatinfo {
+    float: left;
+    width: 550px;
+}
+.searchreslist .boatinfo .theme {
+    float: left;
+    margin-right: 10px;
+}
+.searchreslist .boatinfo .cont {
+    float: left;
+    width: 368px;
+}
+#maincon h4 {
+    font-size: 1em;
+    margin-bottom: 0;
+}
+.searchreslist .boatinfo .cont h4 {
+    font-size: 1.2em !important;
+}
+.searchreslist .boatinfo .cont p {
+    line-height: 18px;
+    margin: 0 0 3px;
+}
+.searchreslist .boatinfo .rating {
+    color: red;
+    font-size: 1.25em;
+}
+.searchreslist .boatinfo .ups {
+    background-color: #0099CC;
+}
+
+.searchreslist .boatinfo .downs {
+    background-color: #FF9900;
+}
+
+.searchreslist .boatinfo .ups, .searchreslist .boatinfo .downs {
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    margin: 0 3px 3px 0;
+    padding: 0 2px;
+    width: 66px;
+}
+.searchreslist .price {
+    float: right;
+    padding: 10px 5px;
+    text-align: center;
+    width: 140px;
+}
+.searchreslist .price .jg {
+    color: red;
+    font-size: 1.33em;
+}
+.btn_bts {
+    background-image: url("../img/btn_bts.gif");
+    background-repeat: no-repeat;
+    display: block;
+    height: 27px;
+    line-height: 300px;
+    overflow: hidden;
+    width: 140px;
+}
+#page {
+    height: 32px;
+}
+#page .fy {
+    float: right;
+    height: 26px;
+    overflow: hidden;
+}
+#page .fy .ditto_previous_link, #page .fy .ditto_previous_off {
+    background-image: url("../img/pageprebtn.png");
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 26px;
+    line-height: 200px;
+    overflow: hidden;
+    width: 26px;
+}
+#page .fy .ditto_currentpage {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #E8E8E8;
+    display: block;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 6px;
+}
+#page .fy .ditto_page {
+    background: url("../img/pagepbtn.png") repeat-x scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 7px;
+}
+#page .fy .ditto_next_link, #page .fy .ditto_next_off {
+    background-image: url("../img/pagenexbtn.png");
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 26px;
+    line-height: 200px;
+    overflow: hidden;
+    width: 26px;
+}
+
+#greybackground {
+    background: none repeat scroll 0 0 #000000;
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.cruiseform{
+	display: block;
+	left: 195px;
+	top: 45px;
+	padding: 10px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 10px solid #AFACA8;
+	position: absolute;
+	width: 870px;
+	z-index: 10000;
+	display:none;
+	
+}
+.formwarp
+{
+	display: block;
+	left: 278.5px;
+	top: 55px;
+	width: 880px;
+	height: 500px;
+	border-radius: 6px 6px 6px 6px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+.exit_ico {
+    background: url("../image/fancybox.png") no-repeat scroll -43px 0 transparent;
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    width: 25px;
+}
+.self-left{
+	float:left;
+	width:520px;
+	pading:5px
+}
+.self-left p
+{
+	font-size:13px;
+}
+.self-right
+{
+	float:right;
+	width:300px;
+	margin-right:15px;
+	border-radius: 4px 4px 4px 4px;
+	background:#FF9934;
+	padding:0 10px 10px;
+}
+.self-right h3
+{
+	font-size:15px;
+	padding:15px 0px 5px 0px;
+	margin:0px;
+}
+.red
+{
+	color:#940D00;
+	font-weight:800;
+}
+.self-right .formrightinfo .assition li
+{
+	padding-left:20px;
+}
+.self-right ul
+{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+.self-right ul li
+{
+	list-style:none;
+	font-size:12px;
+	line-height:20px;
+	background: url("../image/selected.png") no-repeat transparent;
+	padding-left:25px;
+}
+.formrightinfo ul li
+{
+	background:none;
+	padding-left:0px;
+}
+.formrightinfo p
+{
+	margin:0;
+}
+.formrightinfo
+{
+	border-bottom:1px dashed #FFF;
+	padding-bottom:8px;
+}
+.cruiseform fieldset
+{
+	background: url("../image/room-show.png") no-repeat scroll center 16px transparent;
+	border-radius: 5px 5px 5px 5px;
+    padding: 15px 5px 10px 45px;
+	border: 0px groove threedface;
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+	width:100%;
+}
+.cruiseform fieldset legend {
+    border-bottom: 1px dashed #DDDDDD;
+    color: #004B93;
+    font-weight: bold;
+    padding: 5px 0;
+    width: 500px;
+}
+
+.cruiseform label {
+    clear: left;
+    display: block;
+    float: left;
+    line-height: 25px;
+    margin: 5px 0;
+    text-align: right;
+    width: 200px;
+}
+.cruiseform select {
+    height: 25px;
+    margin: 5px 10px;
+}
+.cruiseform input {
+    float: left;
+    height: 20px;
+    margin: 10px 0 10px 15px;
+}
+.cruiseform .status input
+{
+	float:none;
+	margin-left:0px;
+}
+.status{
+		margin-left:46px;
+		width:770px;
+		padding-bottom:15px;
+}
+.status span
+{
+	font-size:13px;
+}
+.status label{
+	padding-right:15px;
+}
+.ptxt {
+    float: left;
+    height: 90px;
+    margin-top: 3px;
+    width: 330px;
+	margin-left:15px;
+}
+.des{
+	font-size:13px;
+	float:left;
+	margin-top:12px;
+	margin-left:5px;
+}
+.button
+{
+	margin-left:350px;
+	padding-top:20px;
+}
+

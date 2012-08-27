@@ -1,0 +1,151 @@
+.pad7 {
+    padding: 7px;
+	background:#FFF;
+}
+#mainbody {
+    font-size: 0.75em;
+}
+form, fieldset {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+}
+.searchtable {
+    background-color: #F7F7F7;
+    border: 1px solid #E7E7E7;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.searchtable td {
+    padding: 10px 0;
+}
+.searchresmsg {
+    background: url("../img/searchresmsg.gif") no-repeat scroll 100% 0 transparent;
+    height: 54px;
+    padding: 0 100px 0 10px;
+}
+p {
+    margin-top: 0;
+}
+.searchreslist {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #CCCCCC #FFFFFF #FFFFFF;
+    border-style: dotted solid solid;
+    border-width: 1px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 9px;
+}
+.searchreslist .boatinfo {
+    float: left;
+    width: 550px;
+}
+.searchreslist .boatinfo .theme {
+    float: left;
+    margin-right: 10px;
+}
+.searchreslist .boatinfo .cont {
+    float: left;
+    width: 368px;
+}
+#maincon h4 {
+    font-size: 1em;
+    margin-bottom: 0;
+}
+.searchreslist .boatinfo .cont h4 {
+    font-size: 1.2em !important;
+}
+.searchreslist .boatinfo .cont p {
+    line-height: 18px;
+    margin: 0 0 3px;
+}
+.searchreslist .boatinfo .rating {
+    color: red;
+    font-size: 1.25em;
+}
+.searchreslist .boatinfo .ups {
+    background-color: #0099CC;
+}
+
+.searchreslist .boatinfo .downs {
+    background-color: #FF9900;
+}
+
+.searchreslist .boatinfo .ups, .searchreslist .boatinfo .downs {
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    margin: 0 3px 3px 0;
+    padding: 0 2px;
+    width: 66px;
+}
+.searchreslist .price {
+    float: right;
+    padding: 10px 5px;
+    text-align: center;
+    width: 140px;
+}
+.searchreslist .price .jg {
+    color: red;
+    font-size: 1.33em;
+}
+.btn_bts {
+    background-image: url("../img/btn_bts.gif");
+    background-repeat: no-repeat;
+    display: block;
+    height: 27px;
+    line-height: 300px;
+    overflow: hidden;
+    width: 140px;
+}
+#page {
+    height: 32px;
+}
+#page .fy {
+    float: right;
+    height: 26px;
+    overflow: hidden;
+}
+#page .fy .ditto_previous_link, #page .fy .ditto_previous_off {
+    background-image: url("../img/pageprebtn.png");
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 26px;
+    line-height: 200px;
+    overflow: hidden;
+    width: 26px;
+}
+#page .fy .ditto_currentpage {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #E8E8E8;
+    display: block;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 6px;
+}
+#page .fy .ditto_page {
+    background: url("../img/pagepbtn.png") repeat-x scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 7px;
+}
+#page .fy .ditto_next_link, #page .fy .ditto_next_off {
+    background-image: url("../img/pagenexbtn.png");
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 26px;
+    line-height: 200px;
+    overflow: hidden;
+    width: 26px;
+}
