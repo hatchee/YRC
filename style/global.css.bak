@@ -185,7 +185,6 @@ img {
 }
 .bar div
 {
-	color:#677276;
 	font-size:15px;
 	line-height:31px;
 	font-weight: 600;
@@ -198,12 +197,13 @@ img {
 }
 .showcalendar{
 	border-radius: 0px 4px 0 0;
-	display:none;
+	color:#677276;
 }
 .showon
 {
 	border-radius: 4px 4px 0 0;
 	background:#323a40;	
+	color:#FFF;
 }
 .searchbox h3
 {
