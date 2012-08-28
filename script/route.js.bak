@@ -6,8 +6,8 @@ if(optobj.getElementsByTagName('input')[0].checked){
 optobj.className="optlistsed";
 inshtml = optobj.getElementsByTagName('h4')[0].getElementsByTagName('span')[0].innerHTML;
 inshtml = '<input value="'+inshtml+'" type="checkbox" checked="checked" onclick="celoptions(\''+optid+'\')" name="AddOptions[]" />'+inshtml;
-if(document.getElementById('optformlist')){
-listteam = document.getElementById('optformlist').getElementsByTagName('li');
+if(document.getElementById('assition')){
+listteam = document.getElementById('assition').getElementsByTagName('li');
 listlong = listteam.length;
 y=document.createElement("li");
 y.title = optid;
@@ -17,19 +17,19 @@ var bfnode = false;
 for(i=listlong-1;i>=0;i--){
 if(parseInt(listteam[i].title)>parseInt(optid)) bfnode = listteam[i];
 }
-if(bfnode) document.getElementById('optformlist').insertBefore(y,bfnode);
-else document.getElementById('optformlist').appendChild(y);
+if(bfnode) document.getElementById('assition').insertBefore(y,bfnode);
+else document.getElementById('assition').appendChild(y);
 }
 }else{
 optobj.className="optlist";
-if(document.getElementById('optformlist')){
-listteam = document.getElementById('optformlist').getElementsByTagName('li');
+if(document.getElementById('assition')){
+listteam = document.getElementById('assition').getElementsByTagName('li');
 listlong = listteam.length;
 var delnode = false;
 for(i=0;i<listlong;i++){
 if(listteam[i].title==optid) delnode = listteam[i];
 }
-if(delnode)document.getElementById('optformlist').removeChild(delnode);
+if(delnode)document.getElementById('assition').removeChild(delnode);
 }
 }
 }
@@ -38,14 +38,14 @@ optobj = document.getElementById('optid'+optid);
 if(optobj.getElementsByTagName('input')[0]){
 optobj.getElementsByTagName('input')[0].checked = false;
 optobj.className="optlist";
-if(document.getElementById('optformlist')){
-listteam = document.getElementById('optformlist').getElementsByTagName('li');
+if(document.getElementById('assition')){
+listteam = document.getElementById('assition').getElementsByTagName('li');
 listlong = listteam.length;
 var delnode = false;
 for(i=0;i<listlong;i++){
 if(listteam[i].title==optid) delnode = listteam[i];
 }
-if(delnode)document.getElementById('optformlist').removeChild(delnode);
+if(delnode)document.getElementById('assition').removeChild(delnode);
 }
 }
 } 
