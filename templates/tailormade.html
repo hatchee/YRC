@@ -3,45 +3,323 @@
 {block name=head}
 <link rel="stylesheet" type="text/css" href="style/onecol.css">
 <link rel="stylesheet" type="text/css" href="style/tailormade.css">
+<script type="text/javascript" src="/script/tailormade.js"></script>
 {/block}
 {block name=body}
 <body>
-<div class="wrap">
+	<div class="wrap">
+		{include file="chunk/header.tpl"}
+		<div class="mainbody clearfix">
+			<div class="clearfix">
+				<div class="tmview">
+					<h1>Customize Your China Tour or Cruise on Your Own</h1>
+					<p>
+						<b>When planning a holiday, not everyone wants the same thing.</b>
+						This is why our travel specialists come into the picture. Let us know where you'd like to go, any tour that you'd like to customize, or you can add your own unique touch and combine two tours. Tailor-made journeys are something we're very good at.
+					</p>
+				</div>
+				<div class="tmtip">
+					<ol>
+						<li>
+							Completing this form will not commit you to either taking a tour or any expenses.
+						</li>
+						<li>
+							It's totally FREE!
+						</li>
+						<li>
+							Our experts will get back to you within 24 hours.
+						</li>
+						<li>
+							Based in Lhasa, you can rely on our knowledge!
+						</li>
+					</ol>
+				</div>
+			</div>
+			<form id="inquiryform">
+				<input id="subject" type="hidden" value="Inquiry: Custom Tibet Tour" name="subject">
+				<input type="hidden" value="FullName, EmailAdress" name="required">
+				<input id="inqtype" type="hidden" value="21" name="Inqtype">
+				<input id="pfid" type="hidden" value="174" name="pfid">
+				<script type="text/javascript">
+					document.write("<input name=\"PageTitle\" value=\"" + document.title + "\" type=\"hidden\" />");
+					document.write("<input name=\"PageLink\" value=\"" + location.href + "\" type=\"hidden\" />");
+					document.write("<input type=\"hidden\" name=\"Ref_Page\" value=\"" + document.referrer + "\" />")
+				</script>
+				<div class="container">
+					<h2><span class="num">1</span> Your Ideal Itinerary &amp; Destinations </h2>
+					<div class="map">
+						<img class="beijing" src="/image/map/beijing.png">
+						<img class="greatwall" src="/image/map/greatwall.png">
+						<img class="lijing" src="/image/map/lijing.png">
+						<img class="liriver" src="/image/map/liriver.png">
+						<img class="minority" src="/image/map/minority.png">
+						<img class="panda" src="/image/map/panda.png">
+						<img class="pingyao" src="/image/map/pingyao.png">
+						<img class="potala" src="/image/map/potala.png">
+						<img class="shanghai" src="/image/map/shanghai.png">
+						<img class="shaolin" src="/image/map/shaolin.png">
+						<img class="terractta" src="/image/map/terractta.png">
+						<img class="yangtze" src="/image/map/yangtze.png">
+					</div>
+					<div class="city">
+						<ul>
+							<li class="lab">
+								<img src="http://placehold.it/100x70">
+								<p>beijing</p>
+								<input type="checkbox"  name="city" value="beijing" >
+							</li>
+						
+							<li>
+								<img src="http://placehold.it/100x70">
+								<p>greatwall</p>
+								<input type="checkbox"  name="city" value="greatwall">
+							</li>
 
-{include file="chunk/header.tpl"}
+							<li>
+								<img src="http://placehold.it/100x70">
+								<p>lijing</p>
+								<input type="checkbox"  name="city" value="lijing">
+							</li>
 
-<div class="mainbody clearfix">
-	<div class="clearfix">
-	<div class="tmview">
-		<h1>Customize Your China Tour or Cruise on Your Own</h1>
-		<p> 
-			<b>When planning a holiday, not everyone wants the same thing.</b>
-			This is why our travel specialists come into the picture. Let us know where you'd like to go, any tour that you'd like to customize, or you can add your own unique touch and combine two tours. Tailor-made journeys are something we're very good at.
-		</p>
-	</div>
-	<div class="tmtip">
-		<ol>
-			<li>Completing this form will not commit you to either taking a tour or any expenses.</li>
-			<li>It's totally FREE!</li>
-			<li>Our experts will get back to you within 24 hours.</li>
-			<li>Based in Lhasa, you can rely on our knowledge!</li>
-		</ol>	
-	</div>
-	</div>
+							<li>
+								<img src="http://placehold.it/100x70">
+								<p>liriver</p>
+								<input type="checkbox"  name="city" value="liriver">
+							</li>
 
-	<div class="container">
-		<h2 class="">
-			<span class="num">1</span>
-			Your Ideal Itinerary &amp; Destinations
-		</h2>
+							<li>
+								<img src="http://placehold.it/100x70">
+								<p>minority</p>
+								<input type="checkbox"  name="city" value="minority">
+							</li>
 
-	</div>
+							<li>
+								<img src="http://placehold.it/100x70">
+								<p>panda</p>
+								<input type="checkbox"  name="city" value="minority">
+							</li>
 
+							<li>
+								<img src="http://placehold.it/100x70">
+								<p>shanghai</p>
+								<input type="checkbox"  name="city" value="minority">
+							</li>
 
+							<li>
+								<img src="http://placehold.it/100x70">
+								<p>shaolin</p>
+								<input type="checkbox"  name="city" value="minority">
+							</li>
 
-</div><!-- END OF .mainbody -->
+							<li>
+								<img src="http://placehold.it/100x70">
+								<p>terractta</p>
+								<input type="checkbox"  name="city" value="minority">
+							</li>
 
-{include file="chunk/footer.tpl"}
-</div><!-- END OF .wrap -->
+							<li>
+								<img src="http://placehold.it/100x70">
+								<p>yangtze</p>
+								<input type="checkbox"  name="city" value="minority">
+							</li>
+
+							<li>
+								<img src="http://placehold.it/100x70">
+								<p>Citysss</p>
+								<input type="checkbox"  name="city" value="minority">
+							</li>
+
+							<li>
+								<img src="http://placehold.it/100x70">
+								<p>Citysss</p>
+								<input type="checkbox"  name="city" value="minority">
+							</li>
+					</ul>
+
+					<p>
+						Others:<input type="text" >
+					</p>
+
+					</div>
+				</div>
+				<div class="container">
+					<h2 class="clearfix"><span class="num">2</span> Your Trip Details <span class="banner-pattern"></span></h2>
+					<table>
+						<tbody>
+							<tr>
+								<td><label>Your Travel Date:</label></td>
+								<td>
+								<select name="TravelDate" type="text" id="StartingDate" style="margin-right: 8px;" class="other-choice">
+									<option value="">-----Choose-----</option>
+									<option value="2012-02"> Feb, 2012</option>
+									<option value="2012-03"> Mar, 2012</option>
+									<option value="2012-04"> Apr, 2012</option>
+									<option value="2012-05"> May, 2012</option>
+									<option value="2012-06"> Jun, 2012</option>
+									<option value="2012-07"> Jul, 2012</option>
+									<option value="2012-08"> Aug, 2012</option>
+									<option value="2012-09"> Sep, 2012</option>
+									<option value="2012-10"> Oct, 2012</option>
+									<option value="2012-11"> Nov, 2012</option>
+									<option value="2012-12"> Dec, 2012</option>
+									<option value="2013-01"> Jan, 2013</option>
+									<option value="2013-02"> Feb, 2013</option>
+									<option value="2013-03"> Mar, 2013</option>
+									<option value="2013-04"> Apr, 2013</option>
+									<option value="2013-05"> May, 2013</option>
+									<option value="2013-06"> Jun, 2013</option>
+									<option value="2013-07"> Jul, 2013</option>
+									<option value="2013-08"> Aug, 2013</option>
+									<option value="2013-09"> Sep, 2013</option>
+									<option value="2013-10"> Oct, 2013</option>
+									<option value="2013-11"> Nov, 2013</option>
+									<option value="2013-12"> Dec, 2013</option>
+									<option value="2014-01"> Jan, 2014</option>
+									<option value="2014-02"> Feb, 2014</option>
+								</select>&nbsp;Date
+								<select name="Date" class="other-choice">
+									<option value="0">Date</option>
+									<option value="01">1st</option>
+									<option value="02">2nd</option>
+									<option value="03">3rd</option>
+									<option value="04">4th</option>
+									<option value="05">5th</option>
+									<option value="06">6th</option>
+									<option value="07">7th</option>
+									<option value="08">8th</option>
+									<option value="09">9th</option>
+									<option value="10">10th</option>
+									<option value="11">11th</option>
+									<option value="12">12th</option>
+									<option value="13">13th</option>
+									<option value="14">14th</option>
+									<option value="15">15th</option>
+									<option value="16">16th</option>
+									<option value="17">17th</option>
+									<option value="18">18th</option>
+									<option value="19">19th</option>
+									<option value="20">20th</option>
+									<option value="21">21st</option>
+									<option value="22">22nd</option>
+									<option value="23">23rd</option>
+									<option value="24">24th</option>
+									<option value="25">25th</option>
+									<option value="26">26th</option>
+									<option value="27">27th</option>
+									<option value="28">28th</option>
+									<option value="29">29th</option>
+									<option value="30">30th</option>
+									<option value="31">31st</option>
+								</select></td>
+							</tr>
+							<tr>
+								<td><label>How long would you like to travel in Tibet?</label></td>
+								<td>
+								<input type="text" name="Days" class="other-choice">
+								</td>
+							</tr>
+							<tr>
+								<td><label>Number of Travelers:</label></td>
+								<td>
+								<select name="AdultsNumber" class="other-choice">
+									<option value="Adults">Adults</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option><option value="9">9</option><option value="&gt;10">&gt;10</option>
+								</select><img src="img/required.gif" alt="Required"> &nbsp;&nbsp;
+								<select name="ChildrenNumber" class="other-choice">
+									<option value="Children">Children</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+								</select>&nbsp;&nbsp;
+								<select name="Babies" class="other-choice">
+									<option value="Babies">Babies</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+								</select></td>
+							</tr>
+							<tr>
+								<td><label>Hotel Class:</label></td>
+								<td>
+								<select name="HotelClass" class="other-choice">
+									<option selected="selected" value="">-----Choose-----</option>
+									<option value="Luxury Class">Luxury Class</option>
+									<option value="Comfortable Class">Comfortable Class</option>
+									<option value="Economy Class">Economy Class</option>
+								</select></td>
+							</tr>
+							<tr>
+								<td><label>Num of Rooms:</label></td>
+								<td>
+								<input type="text" name="RoomNum" class="other-choice">
+								</td>
+							</tr>
+							<tr>
+								<td><label>Budget Per Person:</label></td>
+								<td>
+								<input type="text" name="Budget" class="other-choice">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="container">
+					<h2 class="clearfix"><span class="num">3</span> Your Contact Information <span class="banner-pattern"></span></h2>
+					<table style="margin-left:298px">
+						<tbody>
+							<tr>
+								<td><label><img alt="Required" src="img/required.gif">Title:</label></td>
+								<td>
+								<select name="Title" class="third-block">
+									<option value="mr" selected="selected">Mr.</option>
+									<option value="mrs">Mrs.</option>
+									<option value="ms">Ms.</option>
+								</select></td>
+							</tr>
+							<tr>
+								<td><label><img alt="Required" src="img/required.gif">Your Full Name:</label></td>
+								<td>
+								<input type="text" name="FullName" class="third-block">
+								</td>
+							</tr>
+							<tr>
+								<td><label><img alt="Required" src="img/required.gif">Your E-mail Address:</label></td>
+								<td>
+								<input type="text" name="EmailAdress" class="third-block">
+								</td>
+							</tr>
+							<tr>
+								<td><label>Your Contact Phone:</label></td>
+								<td>
+								<input type="text" name="Mobile" class="third-block">
+								</td>
+							</tr>
+							<tr>
+								<td><label>Your Nationality:</label></td>
+								<td>
+								<input type="text" id="gjword" name="Nationality" class="third-block">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<a id="customsub" href="#" class="inquirysub btn large">Submit</a>
+			</form>
+		</div><!-- END OF .mainbody -->
+		{include file="chunk/footer.tpl"}
+	</div><!-- END OF .wrap -->
 </body>
 {/block}
