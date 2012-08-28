@@ -81,6 +81,7 @@ a:hover {
     /*color: #013261;*/
     /*color: #046bce;*/
     color: #333;
+    font-weight: bold;
 
 
 }
@@ -429,7 +430,7 @@ img {
 .footnav dl{
 	display:block; 
 	float: left;
-	width: 220px;
+	width: 175px;
 }
 .footnav dt{
 	margin: 5px 0 3px;
@@ -450,7 +451,7 @@ img {
 }
 .footnav .lastdl{
 	float: right;	
-	padding: 0 0 0 70px;
+	padding: 0 0 0 40px;
 	border-left: 1px dashed #434343;
 	width: 210px;
 }

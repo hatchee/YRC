@@ -18,11 +18,14 @@
 .tidet{
 	float: left;
 	width: 220px;
-	margin: 0 40px;
+	margin: 0 26px 0 25px;
 }
 .ticon{
 	float: left;
-	width: 345px;
+	width: 394px;
+}
+.ticon h3{
+	margin: 0 0 15px 0;
 }
 .ticon img{
 	margin: 0 0 10px 0;
@@ -31,3 +34,8 @@
 	float: right;
 }
 
+.pagenate{
+	border-top: 5px solid #d3ebfc;
+	text-align: right;
+	padding: 5px 0;
+}
