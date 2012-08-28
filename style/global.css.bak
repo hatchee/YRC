@@ -173,6 +173,9 @@ img {
 	*background:#323a40;
 	z-index:500;
 	border-radius: 4px 4px 0 0;
+	filter:alpha(opacity=70);
+	background:rgba(0,0,0,0.4);
+	
 }
 .bar
 {
@@ -221,11 +224,11 @@ img {
 	height:115px;
 
 }
-.calendar
+.searcalendar
 {
 	padding:10px;
 	display:none;
-	height:115px;
+	height:125px;
 }
 .calflex
 {
