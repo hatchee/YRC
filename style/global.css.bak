@@ -81,6 +81,7 @@ a:hover {
     /*color: #013261;*/
     /*color: #046bce;*/
     color: #333;
+    font-weight: bold;
 
 
 }
@@ -173,8 +174,7 @@ img {
 	*background:#323a40;
 	z-index:500;
 	border-radius: 4px 4px 0 0;
-	filter:alpha(opacity=70);
-	background:rgba(0,0,0,0.4);
+	
 	
 }
 .bar
@@ -198,6 +198,7 @@ img {
 }
 .showcalendar{
 	border-radius: 0px 4px 0 0;
+	display:none;
 }
 .showon
 {
@@ -430,7 +431,7 @@ img {
 .footnav dl{
 	display:block; 
 	float: left;
-	width: 220px;
+	width: 175px;
 }
 .footnav dt{
 	margin: 5px 0 3px;
@@ -451,7 +452,7 @@ img {
 }
 .footnav .lastdl{
 	float: right;	
-	padding: 0 0 0 70px;
+	padding: 0 0 0 40px;
 	border-left: 1px dashed #434343;
 	width: 210px;
 }
