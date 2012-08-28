@@ -164,17 +164,42 @@ img {
 /**YRC游船搜索*****/
 .searchbox
 {
-	width:240px;
-	padding:10px;
+	width:224px;
 	float:right;
 	margin-right:40px;
-	margin-top:15px;
+	margin-top:35px;
 	font-size:12px;
-	background:#000000;
-	filter:alpha(opacity=70);
-	background:rgba(0,0,0,0.4);
-	*background:#000000;
+	background:#323a40;
+	*background:#323a40;
 	z-index:500;
+	border-radius: 4px 4px 0 0;
+}
+.bar
+{
+	height:30px;
+	border-radius: 4px 4px 0 0;
+	background:#000000;
+}
+.bar div
+{
+	color:#677276;
+	font-size:15px;
+	line-height:31px;
+	font-weight: 600;
+	height:30px;
+	padding-left:10px;
+	padding-right:10px;
+	float:left;
+	width:92px;
+	cursor:pointer;
+}
+.showcalendar{
+	border-radius: 0px 4px 0 0;
+}
+.showon
+{
+	border-radius: 4px 4px 0 0;
+	background:#323a40;	
 }
 .searchbox h3
 {
@@ -186,8 +211,34 @@ img {
 {
 	position:relative;
 }
+.shipsearch
+{
+	font-size:11px;
+}
+.search
+{
+	padding:20px 10px 10px;
+	height:115px;
+
+}
+.calendar
+{
+	padding:10px;
+	display:none;
+	height:115px;
+}
+.calflex
+{
+	width:200px;
+	margin:8px 0px;
+}
+.calroute
+{
+	width:200px;
+}
 .calday{
 	position:relative;
+	font-size:11px;
 }
 .calmonth{
 	position:relative;
@@ -198,7 +249,6 @@ img {
 .res
 {
 	padding:10px 0px 35px;
-	border-bottom:1px #aaa dashed;
 	clear: both;
 	position:relative;
 }
@@ -254,6 +304,10 @@ img {
 {
 	background:url(../image/calnow.png) no-repeat 0 4px;
 }
+.tabcal .old
+{
+	color:#CCC;
+}
 .loading
 {
 	background:url(../image/loading.gif) no-repeat 100px 100px;
@@ -302,8 +356,9 @@ img {
 	text-decoration: none;
 	float: left;
 	padding: 0 20px;
-    font-family: "Trebuchet MS", Arial, Georgia,"Times New Roman",Times,serif;
-	font-size: 17px;	
+    font-family: Arial, Georgia,"Times New Roman",Times,serif;
+	font-size: 13.8px;	
+	font-weight: bold;
 	line-height: 41px;
     background: url("/image/navdown.png") no-repeat right 19px ;
 }
@@ -335,49 +390,23 @@ img {
 	background: url("/image/conhead.png") repeat-x scroll -232px 0 transparent;
 	height:15px;
 }
-.blue .conhead{
-	height: 54px;
-	background: url("/image/conhead-blue.png") repeat-x scroll 0 0 transparent;
-}
+
 .conbody{
 	padding: 0 0 1px 0;
 	background: #fff;
 }
 .conbodyone{
-	padding: 10px ;
+	padding: 20px ;
 	background: #fff;
 }
 
-.sidebar .blue .conbody{
-	background: url("/image/content-bg2.png") repeat-y scroll 0 -12px #fff;
-	padding: 0 7px 7px;
-}
-.sidebar .blue dl{
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #eeddb9;
-	padding: 3px 0 5px;
-	margin: 0;
-}
-
-.sidebar .blue p.sp{
-	margin: 0;
-	border-bottom: 1px solid #eeddb9;
-}
-
-.sidebar .conhead h2{
-	color: #FFFFFF;
-	line-height: 45px;
-	text-indent: 16px;
-}
 
 
 .confoot{
 	background: url("/image/confoot.png") repeat-x scroll -232px 0 transparent;
 	height:15px;
 }
-.blue .confoot{
-	background: url("/image/confoot-blue.png") repeat-x scroll 0 0 transparent;
-}
+
 
 .mainbody{
 	width: 980px;
@@ -408,6 +437,7 @@ img {
 }
 .footnav dd{
 	line-height: 16px;
+	font-size: 11px;
 }
 .footnav dd a{
 	color: #000000;
@@ -420,7 +450,7 @@ img {
 	float: right;	
 	padding: 0 0 0 70px;
 	border-left: 1px dashed #434343;
-	width: auto;
+	width: 210px;
 }
 .lastdl dt{
 	color: #010101;
@@ -474,6 +504,102 @@ a.enquiry:hover{
 	background: url("/image/enquirynew.gif") no-repeat scroll 0 -36px transparent;
 }
 
+
+/*TODO*/
+.btn{
+	background-image: url("/image/btn-sp.png");
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	display: block;
+}
+.e-L{
+	width: 159px; 
+	height: 36px;
+	background-position: -1px 0;
+}
+.e-L:hover{
+	background-position: -1px -37px;
+}
+.e-M{
+	background-position: 0 -146px; 
+	width: 93px; 
+	height: 28px;
+}
+.e-M:hover{
+	background-position: -94px -146px;
+}
+.e-S{
+	background-position: -304px -75px; 
+	width: 53px; 
+	height: 19px;
+}
+.e-S:hover{
+	background-position: -304px -96px;
+}
+
+.s-L{
+	background-position: -163px 0; 
+	width: 185px; 
+	height: 31px;
+}
+.s-L{
+	background-position: -163px -38px;
+}
+.s-M{
+	background-position: -230px -75px; 
+	width: 72px; 
+	height: 22px;
+}
+.s-M:hover{
+	background-position: -230px -98px;
+}
+
+.v-M{
+	background-position: 0 -75px; 
+	width: 114px; 
+	height: 33px;
+}
+.v-M:hover{
+	background-position:  0 -111px;
+}
+
+.q-M{
+	background-position: -115px -75px; 
+	width: 114px; 
+	height: 33px;
+}
+.q-M:hover{
+	background-position: -115px -111px;
+}
+
+.sc-M{
+	background-position: -189px -145px; 
+	width: 93px; 
+	height: 28px;
+}
+.sc-M:hover{
+	background-position: -283px -145px;
+}
+
+
+
+/*a img:hover{
+	opacity: 0.8;
+}*/
+img.hov{
+	border-radius: 5px;
+}
+img.hov:hover{
+	opacity: 0.8;
+}
+
+
+
+.hrdash{
+	height: 0;
+	border-top: 1px dashed #ddd;
+}	
+
 .fl{
 	float: left;
 }
@@ -487,9 +613,20 @@ img.fl{
 	margin: 0 10px 0 0;
 }
 
+.br3{
+	border-radius: 3px;
+}
+
+.br5{
+	border-radius: 5px;
+}
+
+.br8{
+	border-radius: 8px;
+}
 
 .sidebar h2{
-	color: #333;
+	color: #000;
 }
 
 
@@ -502,27 +639,18 @@ h3.bgtitle span{
 	position: relative;
 	line-height: 30px;
 	color: #fff;
-	padding: 8px;
+	padding: 5px 8px;
 	border-radius: 3px;
+}
+.top10 h3.bgtitle span{
+	background: url("/image/top-num.png") no-repeat scroll left center #4091DF;
+	display: block;
+	text-indent: 43px;
+	width: 60px;
+	padding: 0 8px;
 }
 h3.bgtitle img{
 	position: absolute;
 	right: 10px;
-	bottom: -8px;
-}
-.sbox{
-	background: #f4f9fe;
-	width: 200px;
-	padding: 5px;
-	border: 1px solid #a7b4c4;
-	border-radius: 3px;
-	float: left;
-	margin: 14px;
-	-webkit-box-shadow: 1px 1px 2px #A7B4C4; 
-	-moz-box-shadow: 1px 1px 2px #A7B4C4; 
-	box-shadow: 1px 1px 2px #A7B4C4; 
-}
-.sbox h4{
-	color: #333;
-	margin: 6px 0 10px;
+	bottom: -10px;
 }

@@ -1,6 +1,6 @@
 (function(){
 
-	function addoptions(optid,classn) {
+function addoptions(optid,classn) {
 optobj = document.getElementById('optid'+optid);
 if(optobj.getElementsByTagName('input')[0].checked){
 optobj.className="optlistsed";

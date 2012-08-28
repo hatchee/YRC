@@ -165,17 +165,42 @@ img {
 /**YRC游船搜索*****/
 .searchbox
 {
-	width:240px;
-	padding:10px;
+	width:224px;
 	float:right;
 	margin-right:40px;
-	margin-top:15px;
+	margin-top:35px;
 	font-size:12px;
-	background:#000000;
-	filter:alpha(opacity=80);
-	background:rgba(0,0,0,0.6);
-	*background:#000000;
+	background:#323a40;
+	*background:#323a40;
 	z-index:500;
+	border-radius: 4px 4px 0 0;
+}
+.bar
+{
+	height:30px;
+	border-radius: 4px 4px 0 0;
+	background:#000000;
+}
+.bar div
+{
+	color:#677276;
+	font-size:15px;
+	line-height:31px;
+	font-weight: 600;
+	height:30px;
+	padding-left:10px;
+	padding-right:10px;
+	float:left;
+	width:92px;
+	cursor:pointer;
+}
+.showcalendar{
+	border-radius: 0px 4px 0 0;
+}
+.showon
+{
+	border-radius: 4px 4px 0 0;
+	background:#323a40;	
 }
 .searchbox h3
 {
@@ -187,8 +212,34 @@ img {
 {
 	position:relative;
 }
+.shipsearch
+{
+	font-size:11px;
+}
+.search
+{
+	padding:20px 10px 10px;
+	height:115px;
+
+}
+.calendar
+{
+	padding:10px;
+	display:none;
+	height:125px;
+}
+.calflex
+{
+	width:200px;
+	margin:8px 0px;
+}
+.calroute
+{
+	width:200px;
+}
 .calday{
 	position:relative;
+	font-size:11px;
 }
 .calmonth{
 	position:relative;
@@ -199,7 +250,6 @@ img {
 .res
 {
 	padding:10px 0px 35px;
-	border-bottom:1px #aaa dashed;
 	clear: both;
 	position:relative;
 }
@@ -254,6 +304,10 @@ img {
 .tabcal .now
 {
 	background:url(../image/calnow.png) no-repeat 0 4px;
+}
+.tabcal .old
+{
+	color:#CCC;
 }
 .loading
 {

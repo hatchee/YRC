@@ -20,8 +20,8 @@
  <div class="header">
  	<a id="logo" href="/" title="Home"></a>
 	<div class="searchbox">
-	<div class="loading"></div>
-	<h3>Find your Yangtze Cruise</h3>
+	<div class="bar"><div class="showsearch showon">trip search</div><div class="showcalendar">calendar</div></div>
+	<div class="search">
 	<form action="search-result.html" method="get">
 	<select name="day" class="calday shipsearch">
 	<option value="">-- day</option>
@@ -40,11 +40,11 @@
 	<option value="5">May</option><option value="6">June.</option><option value="7">July.</option><option value="8">Aug.</option>
 	<option value="9">Sept.</option><option value="10">Oct.</option><option value="11">Nov.</option><option value="12">Dec.</option>
 	</select>
-	<select name="year" style="margin-bottom:8px;" class="calyear shipsearch"><option value="">-- year</option><option value="2012">2012</option><option value="2013">2013</option></select>
+	<select name="year" class="calyear shipsearch"><option value="">-- year</option><option value="2012">2012</option><option value="2013">2013</option></select>
 	
-	<select name="flex" style="width:240px;margin-bottom:8px;" class="calflex shipsearch"><option value="1">Flexible within +/- 1 day</option><option value="3">Flexible within +/- 3 days</option><option value="7">Flexible within +/- 1 week</option></select>
+	<select name="flex" class="calflex shipsearch"><option value="1">Flexible within +/- 1 day</option><option value="3">Flexible within +/- 3 days</option><option value="7">Flexible within +/- 1 week</option></select>
 	
-	<select name="route" style="font-size:11px;line-height:15px; width:240px" class="calroute shipsearch">
+	<select name="route" class="calroute shipsearch">
 	<option style="font-size:11px;line-height:15px" value="">Choose your preferred cruise route</option>
 	<option style="font-size:11px;line-height:15px" value="">Any Ship Route</option>
 	<option style="font-size:11px;line-height:15px" value="5">3Days Yichang→Chongqing</option>
@@ -60,11 +60,14 @@
 		<p class="restitle"></p>
 		<input class="buttonsear" type="submit" value="Show Cruises" name="get">
 	</div>
+	</form>
+	</div>
+	<div class="calendar">
 	<ul class="tabcal">
-		
+			
 	</ul>
 	<a class="calhref" href="newcalendar.html#!20131">Latest Calendar 2013 !</a>
-	</form>
+	</div>
 	</div>
  </div>
  <div class="menu clearfix">

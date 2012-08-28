@@ -59,11 +59,15 @@ $(function(){
 		s=month+5;
 	}
 	var strli='';
-	for(var i=month;i<=s;i++)
+	for(var i=1;i<=12;i++)
 	{
 		if(i==month)
 		{
 			strli +='<li class="now"><a href="'+href[i]+'">'+arrmonth[i]+'</a></li>';
+		}
+		else if(i<month)
+		{
+			strli +='<li class="old"><s>'+arrmonth[i]+'</s></li>';
 		}
 		else
 		{
@@ -105,6 +109,22 @@ $(function(){
 		route=$('.calroute').val();
 		searchresult(stime,flex,route);
 	});
+
+	//切换选项
+	$('.showsearch').click(function(){
+		$('.search').show();
+		$(this).addClass('showon');
+		$('.calendar').hide();
+		$('.showcalendar').removeClass('showon');
+	});
+	$('.showcalendar').click(function(){
+		$('.calendar').show();
+		$(this).addClass('showon');
+		$('.search').hide();
+		$('.showsearch').removeClass('showon');
+
+	});
+
 
 });
 })(jQuery);
