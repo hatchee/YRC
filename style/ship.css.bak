@@ -87,7 +87,7 @@ left:0;
 }
 .mask
 {
-	background: url("../image/wait.gif") no-repeat scroll 250px 170px;
+	background: url("../image/loading.gif") no-repeat scroll 250px 170px;
     position: absolute;
 	display:none;
 }
@@ -332,8 +332,12 @@ left:0;
 	position: relative;
 	padding: 5px;
 }
+.review-con p{
+	margin: 0 0 0 0;
+}
 .author{
-	background: url("/image/reviewdown.png") no-repeat 14px -4px transparent
+	background: url("/image/reviewdown.png") no-repeat 14px -4px transparent;
+	margin: 0 0 5px 0;
 }
 .author img{
 	margin: 10px 10px 0 0;

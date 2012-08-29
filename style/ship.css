@@ -400,11 +400,12 @@ left:0;
 	top: 45px;
 	padding: 10px;
 	background: none repeat scroll 0 0 #FFFFFF;
-	border: 10px solid #AFACA8;
+	border: 10px solid #D6EAFA;
 	position: absolute;
 	width: 870px;
 	z-index: 10000;
 	display:none;
+	border-radius:5px;
 	
 }
 .formwarp
