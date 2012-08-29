@@ -1,5 +1,14 @@
 (function(){
 
+
+function autoScroll( target ,slidetime, timeout ){
+	setInterval( function(){
+		$( target+' li:first' ).slideUp( slidetime,function(){
+			$( this ).appendTo( target ).show();
+		});
+	}, timeout);
+} 
+
 function searchresult(time,flex,route){   
 	var width=$('.searchbox').width()+20;
 	var height=$('.searchbox').height()+20;
@@ -41,10 +50,26 @@ $(function(){
 
 })
 
-
+//add wish fancybox
+$(' .addwish').fancybox({
+	'width' : '50%',
+	'scrolling': 'auto',
+	'height': '75%',
+	'transitionIn' : 'none',
+	'transitionOut' : 'none',
+	'type' : 'iframe'
+//'onClosed':function(){window.location.href=window.location.href;}
+}); 
 
 
 $(function(){
+
+	// 顶部滚动
+	autoScroll( '.roll-tips', 1000, 2500 );
+
+
+
+
 	var date=new Date();
 	var year=date.getFullYear();
 	var month=date.getMonth()+1;
