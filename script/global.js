@@ -12,7 +12,7 @@ function autoScroll( target ,slidetime, timeout ){
 function searchresult(time,flex,route){   
 	var width=$('.searchbox').width()+20;
 	var height=$('.searchbox').height()+20;
-	$('.loading').css({'width':width,'height':height,'z-index':100});
+	$('.loading').css({'width':width,'height':height,'z-index':500});
 	$('.loading').show();
 	$.ajax({
 		url: 'assets/snippets/boatcalendar/searchship.php',
