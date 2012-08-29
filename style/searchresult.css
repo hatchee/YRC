@@ -239,7 +239,7 @@ p {
 	list-style:none;
 	font-size:12px;
 	line-height:20px;
-	background: url("../image/selected.png") no-repeat transparent;
+	background: url("../image/icon-v.png") no-repeat transparent;
 	padding-left:25px;
 }
 .formrightinfo ul li
