@@ -4,6 +4,7 @@
 <link rel="stylesheet" type="text/css" href="style/onecol.css">
 <link rel="stylesheet" type="text/css" href="style/tailormade.css">
 <script type="text/javascript" src="/script/tailormade.js"></script>
+<script type="text/javascript" src="/script/jquery.validate.min.js"></script>
 {/block}
 {block name=body}
 <body>
@@ -48,96 +49,96 @@
 				<div class="container">
 					<h2><span class="num">1</span> Your Ideal Itinerary &amp; Destinations </h2>
 					<div class="map">
-						<img class="beijing" src="/image/map/beijing.png">
 						<img class="greatwall" src="/image/map/greatwall.png">
-						<img class="lijing" src="/image/map/lijing.png">
-						<img class="liriver" src="/image/map/liriver.png">
-						<img class="minority" src="/image/map/minority.png">
-						<img class="panda" src="/image/map/panda.png">
+						<img class="beijing" src="/image/map/beijing.png">
+						<img class="terractta" src="/image/map/terractta.png">
 						<img class="pingyao" src="/image/map/pingyao.png">
 						<img class="potala" src="/image/map/potala.png">
-						<img class="shanghai" src="/image/map/shanghai.png">
-						<img class="shaolin" src="/image/map/shaolin.png">
-						<img class="terractta" src="/image/map/terractta.png">
+						<img class="panda" src="/image/map/panda.png">
+						<img class="minority" src="/image/map/minority.png">
 						<img class="yangtze" src="/image/map/yangtze.png">
+						<img class="shanghai" src="/image/map/shanghai.png">
+						<img class="lijing" src="/image/map/lijing.png">
+						<img class="liriver" src="/image/map/liriver.png">
+						<img class="hongkong" src="/image/map/hongkong.png">
 					</div>
 					<div class="city">
 						<ul>
 							<li class="lab">
-								<img src="http://placehold.it/100x70">
-								<p>beijing</p>
-								<input type="checkbox"  name="city" value="beijing" >
+								<img src="/image/map/greatwall.jpg">
+								<p>The Great Wall</p>
+								<input type="checkbox"  name="City" value="The Great Wall" >
 							</li>
 						
 							<li>
-								<img src="http://placehold.it/100x70">
-								<p>greatwall</p>
-								<input type="checkbox"  name="city" value="greatwall">
+								<img src="/image/map/beijing.jpg">
+								<p>Beijing</p>
+								<input type="checkbox"  name="City" value="Beijing">
 							</li>
 
 							<li>
-								<img src="http://placehold.it/100x70">
-								<p>lijing</p>
-								<input type="checkbox"  name="city" value="lijing">
+								<img src="/image/map/terractta.jpg">
+								<p>Terractta</p>
+								<input type="checkbox"  name="City" value="Terractta">
 							</li>
 
 							<li>
-								<img src="http://placehold.it/100x70">
-								<p>liriver</p>
-								<input type="checkbox"  name="city" value="liriver">
+								<img src="/image/map/pingyao.jpg">
+								<p>Pingyao</p>
+								<input type="checkbox"  name="City" value="Pingyao">
 							</li>
 
 							<li>
-								<img src="http://placehold.it/100x70">
-								<p>minority</p>
-								<input type="checkbox"  name="city" value="minority">
+								<img src="/image/map/potala.jpg">
+								<p>Potala Palace</p>
+								<input type="checkbox"  name="City" value="Potala Palace">
 							</li>
 
 							<li>
-								<img src="http://placehold.it/100x70">
-								<p>panda</p>
-								<input type="checkbox"  name="city" value="minority">
+								<img src="/image/map/panda.jpg">
+								<p>Panda</p>
+								<input type="checkbox"  name="City" value="Panda">
 							</li>
 
 							<li>
-								<img src="http://placehold.it/100x70">
-								<p>shanghai</p>
-								<input type="checkbox"  name="city" value="minority">
+								<img src="/image/map/minority.jpg">
+								<p>Minority</p>
+								<input type="checkbox"  name="City" value="Minority">
 							</li>
 
 							<li>
-								<img src="http://placehold.it/100x70">
-								<p>shaolin</p>
-								<input type="checkbox"  name="city" value="minority">
+								<img src="/image/map/yangtze.jpg">
+								<p>Yangtze</p>
+								<input type="checkbox"  name="City" value="Yangtze">
 							</li>
 
 							<li>
-								<img src="http://placehold.it/100x70">
-								<p>terractta</p>
-								<input type="checkbox"  name="city" value="minority">
+								<img src="/image/map/shanghai.jpg">
+								<p>Shanghai</p>
+								<input type="checkbox"  name="City" value="Shanghai">
 							</li>
 
 							<li>
-								<img src="http://placehold.it/100x70">
-								<p>yangtze</p>
-								<input type="checkbox"  name="city" value="minority">
+								<img src="/image/map/lijing.jpg">
+								<p>Lijing</p>
+								<input type="checkbox"  name="City" value="Lijing">
 							</li>
 
 							<li>
-								<img src="http://placehold.it/100x70">
-								<p>Citysss</p>
-								<input type="checkbox"  name="city" value="minority">
+								<img src="/image/map/liriver.jpg">
+								<p>Li River</p>
+								<input type="checkbox"  name="City" value="Li River">
 							</li>
 
 							<li>
-								<img src="http://placehold.it/100x70">
-								<p>Citysss</p>
-								<input type="checkbox"  name="city" value="minority">
+								<img src="/image/map/hongkong.jpg">
+								<p>Hongkong</p>
+								<input type="checkbox"  name="City" value="Hongkong">
 							</li>
 					</ul>
 
 					<p>
-						Others:<input type="text" >
+						Others:<input name="City" type="text" >
 					</p>
 
 					</div>
@@ -213,7 +214,7 @@
 								</select></td>
 							</tr>
 							<tr>
-								<td><label>How long would you like to travel in Tibet?</label></td>
+								<td><label>How long would you like to travel?</label></td>
 								<td>
 								<input type="text" name="Days" class="other-choice">
 								</td>
@@ -231,7 +232,7 @@
 									<option value="6">6</option>
 									<option value="7">7</option>
 									<option value="8">8</option><option value="9">9</option><option value="&gt;10">&gt;10</option>
-								</select><img src="img/required.gif" alt="Required"> &nbsp;&nbsp;
+								</select><img src="/image/required.gif" alt="Required"> &nbsp;&nbsp;
 								<select name="ChildrenNumber" class="other-choice">
 									<option value="Children">Children</option>
 									<option value="1">1</option>
@@ -281,7 +282,7 @@
 					<table style="margin-left:298px">
 						<tbody>
 							<tr>
-								<td><label><img alt="Required" src="img/required.gif">Title:</label></td>
+								<td><label><img alt="Required" src="/image/required.gif">Title:</label></td>
 								<td>
 								<select name="Title" class="third-block">
 									<option value="mr" selected="selected">Mr.</option>
@@ -290,13 +291,13 @@
 								</select></td>
 							</tr>
 							<tr>
-								<td><label><img alt="Required" src="img/required.gif">Your Full Name:</label></td>
+								<td><label><img alt="Required" src="/image/required.gif">Your Full Name:</label></td>
 								<td>
 								<input type="text" name="FullName" class="third-block">
 								</td>
 							</tr>
 							<tr>
-								<td><label><img alt="Required" src="img/required.gif">Your E-mail Address:</label></td>
+								<td><label><img alt="Required" src="/image/required.gif">Your E-mail Address:</label></td>
 								<td>
 								<input type="text" name="EmailAdress" class="third-block">
 								</td>
@@ -316,7 +317,9 @@
 						</tbody>
 					</table>
 				</div>
-				<a id="customsub" href="#" class="inquirysub btn large">Submit</a>
+				<p>
+					<a id="customsub" class="btn s-L" href="" >Submit</a>
+				</p>
 			</form>
 		</div><!-- END OF .mainbody -->
 		{include file="chunk/footer.tpl"}

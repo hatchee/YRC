@@ -361,7 +361,7 @@ img {
 	font-size: 13.8px;	
 	font-weight: bold;
 	line-height: 41px;
-    background: url("/image/navdown.png") no-repeat right 19px ;
+    /*background: url("/image/navdown.png") no-repeat right 19px ;*/
 }
 .navleft li.active a{
 }
@@ -543,7 +543,7 @@ a.enquiry:hover{
 	width: 185px; 
 	height: 31px;
 }
-.s-L{
+.s-L:hover{
 	background-position: -163px -38px;
 }
 .s-M{

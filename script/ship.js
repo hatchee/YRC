@@ -19,14 +19,7 @@
 			
 			});
 		}
-		function autoScroll( target ,slidetime, timeout )
-		{
-			setInterval( function(){
-			$( target+' li:first' ).slideUp( slidetime,function(){
-			$( this ).appendTo( target ).show();
-			});
-			}, timeout);
-		} 
+	
 
 
 $(function() {
