@@ -111,7 +111,7 @@ $(function() {
 		var date=$('#shipcal').val();
 		getcalendar(boat,date,'next');
 	});
-	autoScroll ( '.Recent-Inquiry ul', 1500, 3000 );
+
 	$('.nextyear').live("click",function(){
 		var boat=$('#boatname').val();
 		var date=$('.nextyear').text();

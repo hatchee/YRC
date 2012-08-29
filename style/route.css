@@ -321,11 +321,12 @@ input.w50, input.w150, input.w200, input.w300, select.w50, select.w150, select.w
 	top: 45px;
 	padding: 10px;
 	background: none repeat scroll 0 0 #FFFFFF;
-	border: 10px solid #AFACA8;
+	border: 10px solid #D6EAFA;
 	position: absolute;
 	width: 870px;
 	z-index: 10000;
 	display:none;
+	border-radius:5px;
 	
 }
 .formwarp
@@ -394,7 +395,7 @@ input.w50, input.w150, input.w200, input.w300, select.w50, select.w150, select.w
 	list-style:none;
 	font-size:12px;
 	line-height:20px;
-	background: url("../image/selected.png") no-repeat transparent;
+	background: url("../image/icon-v.png") no-repeat transparent;
 	padding-left:25px;
 }
 .formrightinfo ul li

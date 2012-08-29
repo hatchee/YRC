@@ -1,5 +1,14 @@
 (function(){
 
+
+function autoScroll( target ,slidetime, timeout ){
+	setInterval( function(){
+		$( target+' li:first' ).slideUp( slidetime,function(){
+			$( this ).appendTo( target ).show();
+		});
+	}, timeout);
+} 
+
 function searchresult(time,flex,route){   
 	var width=$('.searchbox').width()+20;
 	var height=$('.searchbox').height()+20;
@@ -41,9 +50,26 @@ $(function(){
 
 })
 
+//add wish fancybox
+/*$(' .addwish').fancybox({
+	'width' : '50%',
+	'scrolling': 'auto',
+	'height': '75%',
+	'transitionIn' : 'none',
+	'transitionOut' : 'none',
+	'type' : 'iframe'
+//'onClosed':function(){window.location.href=window.location.href;}
+}); */
 
 
 $(function(){
+
+	// 顶部滚动
+	autoScroll( '.roll-tips', 1000, 2500 );
+	//最新订单
+	autoScroll( '.Recent-Inquiry ul', 1500, 3000 );
+
+
 	var date=new Date();
 	var year=date.getFullYear();
 	var month=date.getMonth()+1;
@@ -58,22 +84,27 @@ $(function(){
 		s=month+5;
 	}
 	var strli='';
+	var departureli='';
 	for(var i=1;i<=12;i++)
 	{
 		if(i==month)
 		{
 			strli +='<li class="now"><a href="'+href[i]+'">'+arrmonth[i]+'</a></li>';
+			departureli +='<li class="expire"><a href="'+href[i]+'"><strong>'+arrmonth[i]+'</strong><br/><span>'+year+'</span></a></li>';
 		}
 		else if(i<month)
 		{
 			strli +='<li class="old"><s>'+arrmonth[i]+'</s></li>';
+			departureli +='<li class="old"><a href="'+href[i]+'"><strong>'+arrmonth[i]+'</strong><br/><span>'+year+'</span></a></li>';
 		}
 		else
 		{
 			strli +='<li><a href="'+href[i]+'">'+arrmonth[i]+'</a></li>';
+			departureli +='<li><a href="'+href[i]+'"><strong>'+arrmonth[i]+'</strong><br/><span>'+year+'</span></a></li>';
 		}
 	}
 	$('.tabcal').html(strli);
+	$('.departure').html(departureli);
 
 	//及时返回搜索结果
 	var day;
@@ -113,11 +144,11 @@ $(function(){
 	$('.showsearch').click(function(){
 		$('.search').show();
 		$(this).addClass('showon');
-		$('.calendar').hide();
+		$('.searcalendar').hide();
 		$('.showcalendar').removeClass('showon');
 	});
 	$('.showcalendar').click(function(){
-		$('.calendar').show();
+		$('.searcalendar').show();
 		$(this).addClass('showon');
 		$('.search').hide();
 		$('.showsearch').removeClass('showon');
