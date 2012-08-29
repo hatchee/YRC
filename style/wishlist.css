@@ -1,0 +1,92 @@
+body {
+	margin:0;
+	padding:0;
+	width:640px;
+	height:480px;
+	overflow:hidden;
+	font:12px Arial, Helvetica, sans-serif;
+}
+h1 {
+	font-size:2em;
+	line-height:25px;
+	margin:0;
+}
+h3 {
+	font-size:1.4em;
+	margin-bottom:5px;
+}
+a {
+	text-decoration:none;
+	color:#2368C7;
+}
+a:hover {
+	text-decoration:underline;
+}
+#header {
+	height:25px;
+	padding:10px;
+	background:#990100;
+}
+#header h1 {
+	color:#FFF;
+	background:url(../img/wishlist-htit.gif) no-repeat;
+	padding-left:34px;
+}
+#listitems {
+	width:640px;
+	height:435px;
+	overflow:auto;
+}
+.list {
+	width:100%;
+	border-bottom:1px solid #d8d8d8;
+	*width:auto;
+}
+.list .cont {
+	padding:10px;
+}
+.list .cont .pic {
+	float:left;
+	width:145px;
+}
+.list .cont .pic img {
+	padding:2px;
+	border:1px solid #d8d8d8;
+	-webkit-box-shadow:0 0 3px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 0 3px rgba(0,0,0,0.2);
+}
+.list .cont .info {
+	float:left;
+	width:360px;
+}
+.list .cont .info strong {
+	font-size:1.1em;
+	color:#000;
+}
+.list .cont .info p {
+	color:#333;
+	margin:0 0 7px;
+}
+.list .cont .price {
+	float:left;
+	width:50px;
+	margin-left:15px;
+	padding:0 0 0 10px;
+	font:1.4em Verdana, Arial, Helvetica, sans-serif;
+}
+.list .bottom {
+	clear:both;
+}
+.bg2 {
+	background-color:#efefef;
+}
+.enquiry {
+	background:url(../img/enquirynow.gif) no-repeat;
+	display:block;
+	width:116px;
+	height:18px;
+	line-height:100px;
+	overflow:hidden;
+	float:right;
+	margin-left:15px;
+}

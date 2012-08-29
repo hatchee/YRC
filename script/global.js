@@ -139,11 +139,11 @@ $(function(){
 	$('.showsearch').click(function(){
 		$('.search').show();
 		$(this).addClass('showon');
-		$('.calendar').hide();
+		$('.searcalendar').hide();
 		$('.showcalendar').removeClass('showon');
 	});
 	$('.showcalendar').click(function(){
-		$('.calendar').show();
+		$('.searcalendar').show();
 		$(this).addClass('showon');
 		$('.search').hide();
 		$('.showsearch').removeClass('showon');

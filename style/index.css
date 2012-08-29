@@ -1,0 +1,64 @@
+/*首页样式*/
+.home{
+	margin-top: 15px ;
+	width: 957px;	
+	padding: 13px;
+}
+
+.row{
+	padding: 5px;
+}
+
+
+.rowtopLeft{
+	border: 1px solid #ddd;
+	width: 656px;
+	padding: 8px;
+	height: 250px;
+	float: left;
+	background: #f0f0f0;
+}
+.rowtopRight{
+	width: 254px;
+	height: 250px;
+	padding: 8px;
+	float: right;
+	border: 1px solid #b8c7da;
+}
+
+.tc-list {
+  background: url("/image/tc-line.png") no-repeat scroll center top transparent;
+  padding: 20px 0 0;
+}
+.tc-list li {
+  float: left;
+}
+.tc-list li a {
+  color: #434343;
+  text-decoration: none;
+}
+.tc-list img {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #DDDDDD;
+  height: 50px;
+  margin: 0 4px;
+  padding: 1px;
+  width: 50px;
+}
+.tc-list span {
+  display: block;
+}
+.roll-tips {
+  font-size: 12px;
+  height: 25px;
+  line-height: 25px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.roll-tips li {
+  height: 25px;
+}
+.roll-tips li span {
+  color: #8E2611;
+  font-weight: bold;
+}

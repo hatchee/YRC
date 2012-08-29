@@ -115,14 +115,12 @@ $(function(){
 		$(this).addClass('showon');
 		$('.calendar').hide();
 		$('.showcalendar').removeClass('showon');
-		$('.showcalendar').css("background",'none');
 	});
 	$('.showcalendar').click(function(){
 		$('.calendar').show();
 		$(this).addClass('showon');
 		$('.search').hide();
 		$('.showsearch').removeClass('showon');
-		$('.showsearch').css("background",'none');
 
 	});
 

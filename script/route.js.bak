@@ -1,7 +1,5 @@
-(function(){
-
-	function addoptions(optid,classn) {
-optobj = document.getElementById('optid'+optid);
+function addoptions(optid,classn) {
+var optobj = document.getElementById('optid'+optid);
 if(optobj.getElementsByTagName('input')[0].checked){
 optobj.className="optlistsed";
 inshtml = optobj.getElementsByTagName('h4')[0].getElementsByTagName('span')[0].innerHTML;
@@ -49,6 +47,8 @@ if(delnode)document.getElementById('assition').removeChild(delnode);
 }
 }
 } 
+
+(function(){
 $(function(){
 	$(window).scroll(function(){
 	  screenwidth = $(window).width();
@@ -61,6 +61,11 @@ $(function(){
 	
 	$('.enquiry').click(function(e){
 		e.preventDefault();
+		var routename=$('.conbody h1').text();
+		var price=$('.pr').text();
+		var tourcode=$('.code').text();
+		var inhtml='<input type="hidden" name="TourName" value="'+routename+'"><input type="hidden" name="TourCode" value="'+tourcode+'"><input type="hidden" name="Tourprice" value="'+price+'">';
+		$('.hideinfo').html(inhtml);
 		$(".cruiseform").fadeIn("fast");
 		var docheight = $(document).height();
 		 $("body").append("<div id='greybackground'></div>");
