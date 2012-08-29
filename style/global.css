@@ -347,12 +347,14 @@ img {
 	background: #2171ae;    
 }
 .menu ul{
+	margin-left: -2px;
 }
 .menu li{
     list-style: none;
     display: block;
     float: left;
     line-height: 41px;
+    background: url("/image/nav-gap.png") no-repeat left center;
 }
 
 .navleft{
@@ -589,6 +591,16 @@ a.enquiry:hover{
 	background-position: -283px -145px;
 }
 
+.ct-M{
+	background-position: -1px -177px; 
+	width: 114px; 
+	height: 33px;
+}
+.ct-M:hover{
+	background-position: -116px -177px; 
+	width: 114px; 
+	height: 33px;
+}
 
 
 /*a img:hover{

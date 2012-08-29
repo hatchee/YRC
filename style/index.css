@@ -66,13 +66,13 @@
   height: 25px;
 }
 .roll-tips li span {
-  color: #8E2611;
+  color: #003970;
   font-weight: bold;
 }
 
 .row{
   border: 1px solid #4da8ee;
-  margin: 12px 0;
+  margin: 35px 0;
   background: url("/image/col-bg.png") repeat-y right center;
 }
 .secLeft{
@@ -151,6 +151,10 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefeff', endColorstr='#e0eefe',GradientType=0 ); /* IE6-9 */
 }
 
+.tourdl em{
+  font-style: normal;
+  text-shadow: 0 0 3px #FFC600;
+}
 .hotul h4{
   text-align: center;
 }
@@ -204,7 +208,7 @@
 }
 
 .longsec{
-  height: 408px;
+  height: 402px;
 }
 .longsec dt{
   margin: 0 0 18px;
@@ -290,6 +294,10 @@
   padding: 5px;
   position: relative;
 }
+.review-con p{
+  margin:0;
+  text-align: left;
+}
 .author {
   background: url("/image/reviewdown-index.png") no-repeat scroll 14px -4px transparent;
   margin: 0 0 5px;
@@ -339,4 +347,7 @@
 .botRow h2{
   text-align: center;
   margin: 0;
+}
+.Recent-Inquiry{
+  height: 160px;
 }
