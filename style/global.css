@@ -662,3 +662,29 @@ h3.bgtitle img{
 	right: 10px;
 	bottom: -10px;
 }
+.sidebar .box
+{
+	border-bottom: 2px solid #FFFFFF;
+    margin: 0 0 10px;
+}
+.box h3
+{
+	color: #333333;
+	font-size:14px;
+}
+.Recent-Inquiry {
+    height: 200px;
+    overflow: hidden;
+}
+.Recent-Inquiry li {
+    list-style-position: inside;
+    list-style-type: disc;
+}
+.sidebar .Recent-Inquiry a {
+    color: #004B93;
+    text-decoration: none;
+}
+.departure .old
+{
+	color:#ccc;
+}

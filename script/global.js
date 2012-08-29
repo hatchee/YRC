@@ -51,7 +51,7 @@ $(function(){
 })
 
 //add wish fancybox
-$(' .addwish').fancybox({
+/*$(' .addwish').fancybox({
 	'width' : '50%',
 	'scrolling': 'auto',
 	'height': '75%',
@@ -59,15 +59,15 @@ $(' .addwish').fancybox({
 	'transitionOut' : 'none',
 	'type' : 'iframe'
 //'onClosed':function(){window.location.href=window.location.href;}
-}); 
+}); */
 
 
 $(function(){
 
 	// 顶部滚动
 	autoScroll( '.roll-tips', 1000, 2500 );
-
-
+	//最新订单
+	autoScroll( '.Recent-Inquiry ul', 1500, 3000 );
 
 
 	var date=new Date();
@@ -84,22 +84,27 @@ $(function(){
 		s=month+5;
 	}
 	var strli='';
+	var departureli='';
 	for(var i=1;i<=12;i++)
 	{
 		if(i==month)
 		{
 			strli +='<li class="now"><a href="'+href[i]+'">'+arrmonth[i]+'</a></li>';
+			departureli +='<li class="expire"><a href="'+href[i]+'"><strong>'+arrmonth[i]+'</strong><br/><span>'+year+'</span></a></li>';
 		}
 		else if(i<month)
 		{
 			strli +='<li class="old"><s>'+arrmonth[i]+'</s></li>';
+			departureli +='<li class="old"><s><strong>'+arrmonth[i]+'</strong><br/><span>'+year+'</span></s></li>';
 		}
 		else
 		{
 			strli +='<li><a href="'+href[i]+'">'+arrmonth[i]+'</a></li>';
+			departureli +='<li><a href="'+href[i]+'"><strong>'+arrmonth[i]+'</strong><br/><span>'+year+'</span></a></li>';
 		}
 	}
 	$('.tabcal').html(strli);
+	$('.departure').html(departureli);
 
 	//及时返回搜索结果
 	var day;
