@@ -20,6 +20,10 @@
 	width: 220px;
 	margin: 0 26px 0 25px;
 }
+.tidet p em{
+	font-style: normal;
+	text-shadow: 0 0 3px #FFC600;
+}
 .ticon{
 	float: left;
 	width: 394px;
