@@ -12,8 +12,8 @@ function autoScroll( target ,slidetime, timeout ){
 function searchresult(time,flex,route){   
 	var width=$('.searchbox').width()+20;
 	var height=$('.searchbox').height()+20;
-	$('.loading').css({'width':width,'height':height,'z-index':500});
-	$('.loading').show();
+	$('.loadingsearch').css({'width':width,'height':height,'z-index':500});
+	$('.loadingsearch').show();
 	$.ajax({
 		url: 'assets/snippets/boatcalendar/searchship.php',
 		type: "POST",
@@ -22,7 +22,7 @@ function searchresult(time,flex,route){
 		},
 		success:function(result){
 			$('.restitle').text(result);
-			$('.loading').hide();
+			$('.loadingsearch').hide();
 		}
 	});
 }
@@ -89,8 +89,8 @@ $(function(){
 	{
 		if(i==month)
 		{
-			strli +='<li class="now"><a href="'+href[i]+'">'+arrmonth[i]+'</a></li>';
-			departureli +='<li class="expire"><a href="'+href[i]+'"><strong>'+arrmonth[i]+'</strong><br/><span>'+year+'</span></a></li>';
+			strli +='<li class="now"><a href="calendar.html#!'+href[i]+'">'+arrmonth[i]+'</a></li>';
+			departureli +='<li class="expire"><a href="calendar.html#!'+href[i]+'"><strong>'+arrmonth[i]+'</strong><br/><span>'+year+'</span></a></li>';
 		}
 		else if(i<month)
 		{
@@ -99,8 +99,8 @@ $(function(){
 		}
 		else
 		{
-			strli +='<li><a href="'+href[i]+'">'+arrmonth[i]+'</a></li>';
-			departureli +='<li><a href="'+href[i]+'"><strong>'+arrmonth[i]+'</strong><br/><span>'+year+'</span></a></li>';
+			strli +='<li><a href="calendar.html#!'+href[i]+'">'+arrmonth[i]+'</a></li>';
+			departureli +='<li><a href="calendar.html#!'+href[i]+'"><strong>'+arrmonth[i]+'</strong><br/><span>'+year+'</span></a></li>';
 		}
 	}
 	$('.tabcal').html(strli);

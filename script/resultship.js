@@ -22,6 +22,7 @@ $(function(){
 		
 		var hideform='<input type="hidden" id="Boatname" class="txt" value="'+boat+'" name="boatname"><input type="hidden" name="Price" value="'+price+'"><input type="hidden" id="date" class="txt" name="Date" value="'+montharray[ms]+'.'+arrdate[2]+'.'+arrdate[0]+'">';
 		var str='<ul><li><h3>Your Booking Summary</h3></li><li><strong>Cruise ship:</strong> '+boat+'</li><li><strong>Price:</strong> '+price+' per person</li><li><strong>Cruise date:</strong> '+montharray[ms]+'.'+arrdate[2]+'.'+arrdate[0]+'</li></ul>';
+		$(".shipname").text(boat);
 		$(".formrightinfo").html(str);
 		$(".hideninfo").html(hideform);
 		$(".cruiseform").fadeIn("fast");
@@ -43,6 +44,7 @@ $(function(){
 		
 		var hideform='<input type="hidden" id="Boatname" class="txt" value="'+boat+'" name="boatname"><input type="hidden" name="Price" value="'+price+'"><input type="hidden" id="date" class="txt" name="Date" value="'+montharray[ms]+'.'+arrdate[2]+'.'+arrdate[0]+'">';
 		var str='<ul><li><h3>Your Booking Summary</h3></li><li><strong>Cruise ship:</strong> '+boat+'</li><li><strong>Price:</strong> '+price+' per person</li><li><strong>Cruise date:</strong> '+montharray[ms]+'.'+arrdate[2]+'.'+arrdate[0]+'</li></ul>';
+		$(".shipname").text(boat);
 		$(".formrightinfo").html(str);
 		$(".hideninfo").html(hideform);
 		$(".cruiseform").fadeIn("fast");
@@ -63,6 +65,7 @@ $(function(){
 		
 		var hideform='<input type="hidden" id="Boatname" class="txt" value="'+boat+'" name="boatname"><input type="hidden" name="Price" value="'+price+'"><input type="hidden" id="date" class="txt" name="Date" value="'+montharray[ms]+'.'+arrdate[2]+'.'+arrdate[0]+'">';
 		var str='<ul><li><h3>Your Booking Summary</h3></li><li><strong>Cruise ship:</strong> '+boat+'</li><li><strong>Price:</strong> '+price+' per person</li><li><strong>Cruise date:</strong> '+montharray[ms]+'.'+arrdate[2]+'.'+arrdate[0]+'</li></ul>';
+		$(".shipname").text(boat);
 		$(".formrightinfo").html(str);
 		$(".hideninfo").html(hideform);
 		$(".cruiseform").fadeIn("fast");
