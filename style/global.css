@@ -750,17 +750,17 @@ h3.bgtitle img{
 	margin:0;
 	padding:0;
 	line-height:20px;
-	width:70%;
+	width:60%;
 	float:left;
 }
 .btn-customize
 {
 	float:right;
-	margin-right:20px;
 	padding:10px;
 	font-size:18px;
 	border-radius:4px;
 	width:198px;
+	margin-right:10px;
 }
 .btn-customize a
 {
@@ -791,17 +791,26 @@ h3.bgtitle img{
     padding: 5px;
     text-decoration: none;
 }
+.author-list li a:hover
+{
+	background:#F0F0F0;
+	border:1px dashed #DDD;
+	color:#222;
+	text-decoration:underline;
+	padding:4px;
+}
 .img-icon {
     border: 1px solid #CCCCCC;
     display: block;
-    height: 60px;
+    height: 61px;
     overflow: hidden;
     padding: 1px;
-    width: 60px;
+    width: 61px;
 }
 .team h4
 {
 	text-align:center;
 	color:#000;
 	font-size:1.5em;
+	margin-top:25px;
 }
