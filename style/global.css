@@ -737,3 +737,80 @@ h3.bgtitle img{
 	display: none;
 	color: #333;
 }
+/*****chenzhao   底部销售团队 2012-08-31*********************/
+.team
+{
+	border-top:dashed 1px #CCC;
+	margin-top:20px;
+	padding-top:20px;
+	margin-bottom:10px;
+}
+.team-intro
+{
+	margin:0;
+	padding:0;
+	line-height:20px;
+	width:60%;
+	float:left;
+}
+.btn-customize
+{
+	float:right;
+	padding:10px;
+	font-size:18px;
+	border-radius:4px;
+	width:198px;
+	margin-right:10px;
+}
+.btn-customize a
+{
+	color:#FFF;
+	background: url("../image/btn-customize.png") repeat-x scroll center bottom transparent;
+	display:block;
+	height:36px;
+}
+.btn-customize a:hover
+{
+	background: url("../image/btn-customize.png") repeat-x scroll center top transparent;
+}
+.author-list {
+    clear: both;
+    text-align: center;
+	padding-top:40px;
+	width:100%;
+}
+.author-list li
+{
+	float:left;
+	width:110px;
+}
+.author-list li a {
+    color: #666666;
+    display: block;
+    float: left;
+    padding: 5px;
+    text-decoration: none;
+}
+.author-list li a:hover
+{
+	background:#F0F0F0;
+	border:1px dashed #DDD;
+	color:#222;
+	text-decoration:underline;
+	padding:4px;
+}
+.img-icon {
+    border: 1px solid #CCCCCC;
+    display: block;
+    height: 61px;
+    overflow: hidden;
+    padding: 1px;
+    width: 61px;
+}
+.team h4
+{
+	text-align:center;
+	color:#000;
+	font-size:1.5em;
+	margin-top:25px;
+}
