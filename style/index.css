@@ -353,3 +353,55 @@ width: 148px;
 .Recent-Inquiry{
   height: 160px;
 }
+
+#homehead{
+  position: relative;
+}
+#homehead #logo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#slides{
+  width: 974px;
+  height: 252px;
+  overflow: hidden;
+  border: 3px solid #fff;
+}
+.slides_container {
+    height:252px;
+}
+.slides_container img {
+    width:974px;
+    height:252px;
+    display:block;
+}
+.pagination{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 120;
+}   
+.pagination li{
+  display: inline;
+}
+.pagination li a{
+  border: 1px solid #87948B;
+  padding: 3px 6px;
+  border-radius: 3px;
+  font-weight: bold;
+  margin: 3px;
+  color: #fff;
+}
+.pagination li.current a{
+  background: #012545;
+}
+
+.searchbox{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  margin: 0;
+}

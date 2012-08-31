@@ -4,6 +4,21 @@
 <link rel="stylesheet" type="text/css" href="style/onecol.css">
 <link rel="stylesheet" type="text/css" href="style/index.css">
 
+<script src="script/slides/slides.jquery.js"></script>
+
+<script>
+    $(function(){
+        $("#slides").slides({
+            play: 4000,
+            pause: 500,
+            slideSpeed: 500,
+            hoverPause: true
+        });
+    });
+</script>
+
+
+
 {/block}
 {block name=body}
 <body>

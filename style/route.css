@@ -156,7 +156,9 @@ span.price{
 	width: 562px;
 	float: left;
 }
-
+.route h3{
+	margin: 0 0 10px 0;
+}
 .route_day {
 	background:url("/image/route-bg.png") repeat-x scroll left top #FFFFFF;
 	/*border: 1px solid #E8F5FF;*/
@@ -181,10 +183,6 @@ span.price{
 	padding: 0 10px 10px;
 	width: 410px;
 }
-
-
-
-
 
 /*Quick book or enquiry*/
 .formcbook {
@@ -255,19 +253,17 @@ input.w50, input.w150, input.w200, input.w300, select.w50, select.w150, select.w
 	float: right;
 	min-height: 300px;
 	width: 138px;
+	margin: 26px 0 0 0;
 }
 
 .tips{
 	background:url("/image/route-bg.png") repeat-x scroll left top #FFFFFF;
-
 	border-width: 1px;
 	border-style: solid;
 	border-color: #E8F5FF #dfddd7 #aaa9a5 #E8F5FF;
 	-webkit-box-shadow: #ddd  0px 0px 1px 0px;
 	-moz-box-shadow: #ddd  0px 0px 1px 0px;
 	box-shadow: #ddd  0px 0px 1px 0px;
-
-
 }
 .tips dt{
 	font-size: 12px;
@@ -279,7 +275,7 @@ input.w50, input.w150, input.w200, input.w300, select.w50, select.w150, select.w
 .tips dt i{
 	color: #FF7400; 
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 10px;
 }
 .tips dt a{
 	color: #fff;	
@@ -327,8 +323,7 @@ input.w50, input.w150, input.w200, input.w300, select.w50, select.w150, select.w
 	width: 870px;
 	z-index: 10000;
 	display:none;
-	border-radius:5px;
-	
+	border-radius:5px;	
 }
 .formwarp
 {
@@ -456,9 +451,9 @@ input.w50, input.w150, input.w200, input.w300, select.w50, select.w150, select.w
 	margin-left:0px;
 }
 .status{
-		margin-left:46px;
-		width:770px;
-		padding-bottom:15px;
+	margin-left:46px;
+	width:770px;
+	padding-bottom:15px;
 }
 .status span
 {
@@ -486,5 +481,27 @@ input.w50, input.w150, input.w200, input.w300, select.w50, select.w150, select.w
 	padding-top:20px;
 }
 
+.optroute .optlist {
+  background-color: #FFFFFF;
+  border: 1px dashed #DDDDDD;
+  margin-top: 10px;
+  overflow: hidden;
+  padding: 10px;
+}
+.optroute .optlistsed {
+  background-color: #D9F2CC;
+  border: 1px solid #B2E599;
+  margin-top: 10px;
+  overflow: hidden;
+  padding: 10px;
+}
 
-
+.optroute .cont {
+	float: left;
+	padding: 0 10px 0 0;
+	width: 410px;
+}
+#data li{
+	list-style: disc outside none;
+	margin: 5px 0 5px 20px;
+}

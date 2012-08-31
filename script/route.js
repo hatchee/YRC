@@ -1,6 +1,4 @@
-(function() {
-
-	function addoptions(optid, classn) {
+function addoptions(optid, classn) {
 		var optobj = document.getElementById('optid' + optid);
 		if(optobj.getElementsByTagName('input')[0].checked) {
 			optobj.className = "optlistsed";
@@ -58,7 +56,35 @@
 		}
 	}
 
+	function requiredboxf(dqobj){
+		dqobj.style.backgroundColor="#ffffff";
+		dqobj.style.borderColor="#7F9DB9";
+	}
+	function requiredboxc(dqobj){
+		if(dqobj.value==""){
+			dqobj.style.backgroundColor="#ffcccc";
+			dqobj.style.borderColor="#ff7a7a";
+		}
+	}	
+
+
+
+(function() {
+
+
+
+
 	$(function() {
+
+		// 价格包含与不包含弹出说明
+		// $("a.priceinclude").fancybox({
+		// 	'hideOnContentClick': true,		
+		// 	'autoDimensions'	: false,
+		// 	'width'         		: 600,
+		// 	'height'        		: 'auto'
+		// });
+
+
 		$(window).scroll(function() {
 			screenwidth = $(window).width();
 			screenheight = $(window).height();
