@@ -18,7 +18,7 @@ form, fieldset {
     width: 100%;
 }
 .searchtable td {
-    padding: 10px 0;
+    padding: 10px;
 }
 .searchresmsg {
     background: url("../img/searchresmsg.gif") no-repeat scroll 100% 0 transparent;
