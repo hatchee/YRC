@@ -142,7 +142,7 @@ $(function(){
 	};
 
 	// the explain prompt
-	$('.explain img').hover(function(){
+	$('.explain').hover(function(){
 		$('.explain .prompt').show();
 	},function(){
 		$('.explain .prompt').hide();

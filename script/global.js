@@ -12,7 +12,7 @@ function autoScroll( target ,slidetime, timeout ){
 function searchresult(time,flex,route){   
 	var width=$('.searchbox').width()+20;
 	var height=$('.searchbox').height()+20;
-	$('.loading').css({'width':width,'height':height,'z-index':500});
+	$('.loading').css({'width':width,'height':height,'z-index':100});
 	$('.loading').show();
 	$.ajax({
 		url: 'assets/snippets/boatcalendar/searchship.php',
@@ -89,8 +89,8 @@ $(function(){
 	{
 		if(i==month)
 		{
-			strli +='<li class="now"><a href="'+href[i]+'">'+arrmonth[i]+'</a></li>';
-			departureli +='<li class="expire"><a href="'+href[i]+'"><strong>'+arrmonth[i]+'</strong><br/><span>'+year+'</span></a></li>';
+			strli +='<li class="now"><a href="http://www.yangtze-river-cruises.com/index.php?id=1454#!'+href[i]+'">'+arrmonth[i]+'</a></li>';
+			departureli +='<li class="expire"><a href="http://www.yangtze-river-cruises.com/index.php?id=1454#!'+href[i]+'"><strong>'+arrmonth[i]+'</strong><br/><span>'+year+'</span></a></li>';
 		}
 		else if(i<month)
 		{
@@ -99,8 +99,8 @@ $(function(){
 		}
 		else
 		{
-			strli +='<li><a href="'+href[i]+'">'+arrmonth[i]+'</a></li>';
-			departureli +='<li><a href="'+href[i]+'"><strong>'+arrmonth[i]+'</strong><br/><span>'+year+'</span></a></li>';
+			strli +='<li><a href="http://www.yangtze-river-cruises.com/index.php?id=1454#!'+href[i]+'">'+arrmonth[i]+'</a></li>';
+			departureli +='<li><a href="http://www.yangtze-river-cruises.com/index.php?id=1454#!'+href[i]+'"><strong>'+arrmonth[i]+'</strong><br/><span>'+year+'</span></a></li>';
 		}
 	}
 	$('.tabcal').html(strli);

@@ -6,7 +6,6 @@
 }
 
 .rowtopLeft{
-  color: #333;
 	border: 1px solid #ddd;
 	width: 656px;
 	padding: 8px;
@@ -90,15 +89,18 @@
   margin-right: -5px;
 }
 .hotul li{
-  width: 138px;
-  padding: 8px;
-  float: left;
-  background: #f7fafe;
-  border: 1px solid #ccc;
-  margin: 0px 5px 3px;
+  background: none repeat scroll 0 0 #F7FAFE;
+border: 1px solid #CCCCCC;
+float: left;
+margin: 0 4px 3px;
+padding: 4px;
+width: 148px;
 }
 .hotul li p{
   text-align: center;
+}
+.hotul li img{
+  border-radius: 5px;
 }
 .hotul li .btn{
   margin: 0 auto;
@@ -111,7 +113,7 @@
 }
 .secRight{
   width: 266px;
-  height: 307px;
+  height: 287px;
   padding: 8px;
   float: right;
 

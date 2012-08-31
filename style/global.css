@@ -80,8 +80,8 @@ a:hover {
     text-decoration: none;
     /*color: #013261;*/
     /*color: #046bce;*/
-    color: #333;
-    font-weight: bold;
+    color: #ff7400;
+    /*font-weight: bold;*/
 
 
 }
@@ -160,8 +160,10 @@ img {
 	height: 258px;
 	margin: 0 auto;
 	background: url(/image/banner.jpg) no-repeat center center #fff;
-	/*background: url(http://placehold.it/972x250) no-repeat center center #fff;*/
+	position: relative;
 }
+
+
 /**YRC游船搜索*****/
 .searchbox
 {
@@ -372,10 +374,12 @@ img {
 	line-height: 41px;
     /*background: url("/image/navdown.png") no-repeat right 19px ;*/
 }
-.navleft li.active a{
-}
 .navleft li a:hover{
+	color: #0D2D46;
     /*background: url("/image/nav-bg.png") no-repeat scroll -1px -41px transparent;*/
+}
+.navleft li.active a{
+	color: #0D2D46;
 }
 
 .navright{
@@ -606,13 +610,15 @@ a.enquiry:hover{
 /*a img:hover{
 	opacity: 0.8;
 }*/
-img.hov{
-	border-radius: 5px;
-}
 img.hov:hover{
 	opacity: 0.8;
 }
-
+img.hov5{
+	border-radius: 5px;
+}
+img.hov5:hover{
+	opacity: 0.8;
+}
 
 
 .hrdash{
@@ -632,6 +638,14 @@ img.fr{
 img.fl{
 	margin: 0 10px 0 0;
 }
+
+.cenalign{
+	text-align: center;
+}
+.cenauto{
+	margin: 0 auto;
+}
+
 
 .br3{
 	border-radius: 3px;

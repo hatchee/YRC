@@ -26,9 +26,9 @@ $(function() {
 	
 	// 价格解释 
 	$('.why').hover(function(){
-		$(this).children('i').show();
+		$(this).children('.explainbox').show();
 	}, function(){
-		$(this).children('i').hide();
+		$(this).children('.explainbox').hide();
 	})
 
 	// 选项卡切换

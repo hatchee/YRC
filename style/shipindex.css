@@ -35,13 +35,13 @@
 	margin: 10px 0 0 0;
 }
 .hotdeal dd{
-	width: 140px;	
-	/*background: #ccc;*/
+	border: 1px solid #FFFFFF;
 	float: left;
 	margin: 15px 5px 0 7px;
-	padding: 9px;
-	outline: 1px solid #fff;
-	border: 1px solid #fff;
+	outline: 1px solid #FFFFFF;
+	padding: 5px;
+	width: 147px;
+
 }
 .hotdeal dd:hover{
 	background: #e0f1fe;
@@ -113,7 +113,9 @@
 	color: #333;
 }
 
-
+.tabone .f11{
+	font-size: 11px;
+}
 .tabone td.leftd{
 	vertical-align: top;
 	background: #fff;

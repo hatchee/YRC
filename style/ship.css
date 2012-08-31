@@ -20,15 +20,38 @@ left:0;
 }
 .shiptop .price{
 	font-size: 16px;
+	color: #FF7400;
+	margin: 32px 0 6px;
 }
 .shiptop .price b{
-	color: #000;
 	font-size: 20px;
 	font-weight: bold;
 }
 .price .why i{
 	display: none;
 	color: #5F5F5F;
+}
+.why{
+	cursor: default;
+	display: inline-block;
+	margin: 0 0 0 20px;
+	position: relative;
+	z-index: 10;
+}
+.explainbox{
+	background: none repeat scroll 0 0 #F8EFDA;
+	border: 1px dotted #DDDDDD;
+	border-radius: 5px 5px 5px 5px;
+	font-size: 11px;
+	height: auto;
+	left: 16px;
+	line-height: 1.3;
+	padding: 5px;
+	position: absolute;
+	top: -1px;
+	width: 300px;
+	display: none;
+	color: #333;
 }
 .shiptop .enp{
 	line-height: 14px;
@@ -125,7 +148,7 @@ left:0;
 .pricezone td span{
 	color: #fff;
 	display: block;
-	width: 70px;
+	/*width: 70px;*/
 	height: 15px;
 	text-align: left;
 	text-decoration: underline;
@@ -134,7 +157,7 @@ left:0;
 	display: block;
 	font-style: normal;
 	font-weight: bold;
-	width: 70px;
+	/*width: 70px;*/
 	color: #fff;
 	height: 15px;
 	text-align: right;
@@ -233,7 +256,7 @@ left:0;
 }
 
 .unit h3{
-	margin: 0 0 15px 0;
+	margin: 5px 0 25px 0;
 }
 .unit table{
 	width: 680px;
@@ -242,6 +265,11 @@ left:0;
 	border-bottom: 1px solid #ddd;
 	border-top: 1px solid #ddd;
 	vertical-align: middle;
+}
+
+.iti.unit td{
+	min-width: 100px;
+	
 }
 
 .unit.onboard img{
@@ -316,11 +344,14 @@ left:0;
 }
 .col-rt .box{
 	border-bottom: 2px solid #fff;
-	margin: 0 0 10px;
+	padding: 15px 0 20px;
 }
 .box h3{
-	color: #333;
-	font-size: 14px;
+	color: #000;
+	font-size: 17px;
+}
+.box p{
+	margin: 5px 0;
 }
 .box.whybook li{
 	background: url(/image/icon-v.png) no-repeat left center;
@@ -387,7 +418,7 @@ left:0;
 	margin:0;
 	color: #fff;
 	padding: 3px 10px;
-	background: url("/image/caption-bg.png") repeat-x;
+	background: url("/image/caption-bg.png") repeat;
 	width: 154px;
 }
 .row-bot ul p img{
@@ -552,4 +583,7 @@ left:0;
 }
 .dateinfo{
 	display:none;
+}
+.practical, .priceguide{
+	 padding: 0 70px 0 0;	
 }
