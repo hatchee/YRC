@@ -4,6 +4,9 @@
 .calendar .conbody{
 	padding: 10px;
 }
+.calendar h1{
+	margin: 20px 0 0 0;
+}
 .tabnav{
 	width: 960px;
 }
@@ -113,7 +116,9 @@
 
 }
 
-
+.tabunit p{
+	margin: 0 0 4px;
+}
 .tabunit table td{
 	padding: 10px;
 	border: 1px dashed #ddd;

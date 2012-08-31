@@ -27,6 +27,12 @@ function searchresult(time,flex,route){
 	});
 }
 
+// 价格解释 
+	$('.why').hover(function(){
+		$(this).children('.explainbox').show();
+	}, function(){
+		$(this).children('.explainbox').hide();
+	})
 
 // travel guide 翻页轮播
 $(function(){
