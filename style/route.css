@@ -370,6 +370,10 @@ input.w50, input.w150, input.w200, input.w300, select.w50, select.w150, select.w
 	background:#FF9934;
 	padding:0 10px 10px;
 }
+.cruiseform .self-right input
+{
+	margin:0px;
+}
 .self-right h3
 {
 	font-size:15px;

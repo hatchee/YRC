@@ -781,8 +781,8 @@ h3.bgtitle img{
 }
 .author-list li
 {
-	margin-left:10px;
 	float:left;
+	width:110px;
 }
 .author-list li a {
     color: #666666;
