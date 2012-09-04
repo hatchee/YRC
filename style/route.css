@@ -111,7 +111,27 @@ span.price{
 	clear: right;
 	width: 330px; 
 }
-.overview .pr{
+.pf, .pr{
+	color: #FF7400;
+	font-size: 14px;
+}
+
+.overview .lastp{
+	float: left;
+	margin: 30px 0 0 10px;
+	width: 410px;
+}
+.lastp .pi{
+	margin: 0 0 0 13px;
+}
+.lastp .btn{
+	float: right;
+	margin: -9px 30px 0 0;
+}
+
+
+
+/*.overview .pr{
 	font-size: 14px;
 	color: #ff7400;
 }
@@ -134,7 +154,7 @@ span.price{
 	float: right;
 	margin: -10px 0 0 0;
 }
-
+*/
 .overview h2{
 	display: block;
 	border:1px solid #61adda;

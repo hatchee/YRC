@@ -160,7 +160,21 @@
 		<div class="confoot"></div>
 	</div> <!-- END OF .sidebox -->
 
-
+	<div class="sidebox">
+		<div class="conhead"></div>
+		<div class="conbody guidesd">
+			<h2>Our Travel Style</h2>
+			<ul class="ts">
+				<li>Private travel consultant;</li>
+				<li>Private tour guides;</li>
+				<li>Private air-conditioned vehicle;</li>
+			</ul>
+			<p>
+				Any of our trips/cruises can be designed around you, designed around your requirements, and never tied to the set itinerary of a group.
+			</p>
+		</div> <!-- END OF .conbody -->
+		<div class="confoot"></div>
+	</div> <!-- END OF .sidebox -->
 
 
 </div> <!-- END OF .sidebar -->

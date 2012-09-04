@@ -77,12 +77,12 @@ function addoptions(optid, classn) {
 	$(function() {
 
 		// 价格包含与不包含弹出说明
-		// $("a.priceinclude").fancybox({
-		// 	'hideOnContentClick': true,		
-		// 	'autoDimensions'	: false,
-		// 	'width'         		: 600,
-		// 	'height'        		: 'auto'
-		// });
+		$("a.priceinclude").fancybox({
+			'hideOnContentClick': true,		
+			'autoDimensions'	: false,
+			'width'         		: 600,
+			'height'        		: 'auto'
+		});
 
 
 		$(window).scroll(function() {

@@ -113,7 +113,7 @@ width: 148px;
 }
 .secRight{
   width: 266px;
-  height: 287px;
+  height: 306px;
   padding: 8px;
   float: right;
 
@@ -348,7 +348,7 @@ width: 148px;
 }
 .botRow h2{
   text-align: center;
-  margin: 0;
+  margin: 20px 0 0 0;
 }
 .Recent-Inquiry{
   height: 160px;

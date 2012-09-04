@@ -37,13 +37,15 @@ $(function(){
 	})
 
 	$(".city li").each(function(index){
-		$(this).mouseover(function(){
+		$(this).hover(function(){
+
 			$(".map img").eq(index).trigger("mouseover");
+		},function(){
+			$(".map img").eq(index).trigger("mouseout");
+			
 		})
 
-		$(this).mouseout(function(){
-			$(".map img").eq(index).trigger("mouseout");
-		})
+		
 	})
 
 	// tailor made map
@@ -55,6 +57,7 @@ $(function(){
 		$(this).css({"width" : wd-10, "left" : left+5, "top":top+5 });
 
 		$(this).mouseover(function(){
+			var wd = $(this).width();
 			$(this).css({"width" : wd,"left" : left, "top":top });
 		});
 		$(this).mouseout(function(){
@@ -63,15 +66,11 @@ $(function(){
 	})
 
 
-$(".container").click(function(){
-	$(this).addClass("active").siblings().removeClass("active");
-})
+	$(".container").click(function(){
+		$(this).addClass("active").siblings().removeClass("active");
+	})
 
-	
-	// $( '#customsub' ).click(function( e ){
-	// 	e.preventDefault();
-	// 	Submitform();
-	// });
+
 	
 });
 })(jQuery);

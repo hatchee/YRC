@@ -2,201 +2,191 @@
 
 /* *************left sidebar************* */
 
-
 /*sidebar public*/
-.sidebar{
+
+.sidebar {
+
 	width: 220px;
 	min-height: 400px;
 	float: left;
 }
-.sidebar a{
-	color: #333;
-}
-.sidebar a.active{
+.sidebar a {
 	color: #004B93;
 }
-
-.sidebox{
+.sidebar a:hover {
+	color: #ff7400;
+	font-weight: bold;
+}
+.sidebar a.active {
+	color: #ff7400;
+	font-weight: bold;
+}
+.sidebox {
 	margin: 0 0 5px 0;
 }
-.sidebox .conbody{
+.sidebox .conbody {
 	padding: 7px;
 }
-
-.sidebar .blue .conhead{
+.sidebar .blue .conhead {
 	height: 54px;
 	background: url("/image/conhead-blue.png") repeat-x scroll 0 0 transparent;
 }
-.sidebar .conhead h2{
+.sidebar .conhead h2 {
 	color: #FFFFFF;
 	line-height: 45px;
 	text-indent: 16px;
 }
-.sidebar .blue .conbody{
+.sidebar .blue .conbody {
 	background: url("/image/content-bg2.png") repeat-y scroll 0 -12px #fff;
 	padding: 0 14px;
 }
-.sidebar .blue .confoot{
+.sidebar .blue .confoot {
 	background: url("/image/confoot-blue.png") repeat-x scroll 0 0 transparent;
 }
-
-.sidebar .blue dl{
+.sidebar .blue dl {
 	background: url("/image/dt-bg.png") repeat-x left top;
 	padding: 10px 0;
 	margin: 0;
 }
-.sidebar .blue dt{
+.sidebar .blue dt {
 	font-size: 14px;
 	padding: 3px 0;
-	font-weight: bold;	
+	font-weight: bold;
 }
-.sidebar .sp{
+.sidebar .sp {
 	margin: 0;
 	padding: 5px;
 }
-.sidebar .sp a{
+.sidebar .sp a {
 	font-size: 13px;
-	color:#333; 
 	display: block;
-	float: left;	
+	float: left;
 	clear: both;
 	margin: 0 0 5px 0px;
 }
-.sidebar .sp a.active{
-	color: #004B93;
-}
-.sidebar .sp img{
+.sidebar .sp img {
+
 	margin: 0 0 0 5px;
 }
-
 /*sidebar route*/
-.stcity dd{
+
+.stcity dd {
 	padding: 5px 5px;
 	margin-left: -5px;
 	margin-right: -5px;
 }
-.stcity dd:hover{
+.stcity dd:hover {
 	background: #eee7ce;
 }
-.around dd{
+.around dd {
 	padding: 3px 0;
 }
-.sidebar .around a{
+.sidebar .around a {
 	display: block;
-	background: url(/image/arrow-rt.png) no-repeat right center;	
+	background: url(/image/arrow-rt.png) no-repeat right center;
 }
-.sidebar .stcity  dd h4 a{
+.sidebar .stcity  dd h4 a {
 	color: #333;
 	display: block;
 	margin: 3px 0 3px;
 	background: url(/image/arrow-rt.png) no-repeat right center;
 }
-.sidebar .stcity  dd p{
+.sidebar .stcity  dd p {
 	color: #A0A0A0;
 	font-size: 11px;
 	line-height: 13px;
 	margin: 0;
 	width: 158px;
 }
-dl.wishlist a{
-	color: #004B93;
+dl.wishlist a {
 	background-image: url(/image/icon-wishlist.png);
 	background-repeat: no-repeat;
 	padding: 0 0 0 20px;
 	display: block;
 	height: 20px;
 	line-height: 20px;
-	margin: 3px 0 ;
+	margin: 3px 0;
 }
-dl.wishlist .wish{
+dl.wishlist .wish {
 	background-position: 0 4px;
 }
-dl.wishlist .cust{
-	background-position: 0 -22px; 
+dl.wishlist .cust {
+	background-position: 0 -22px;
 }
-dl.wishlist a:hover{
-	color: #046bce;
+.ts {
+	margin: 12px 0 8px;
 }
-
-
+.ts li {
+	background: url("/image/icon-v.png") no-repeat scroll left center transparent;
+	height: 22px;
+	line-height: 22px;
+	padding: 0 0 0 18px;
+}
 .review-con {
-  background: none repeat scroll 0 0 #f3f3f3;
-  border: 1px solid #d7d7d7;
-  padding: 5px;
-  position: relative;
+	background: none repeat scroll 0 0 #f3f3f3;
+	border: 1px solid #d7d7d7;
+	padding: 5px;
+	position: relative;
 }
-.review-con p{
-  margin:0;
-  text-align: left;
+.review-con p {
+	margin: 0;
+	text-align: left;
 }
 .author {
-  background: url("/image/reviewdown-index.png") no-repeat scroll 14px -4px transparent;
-  margin: 0 0 5px;
+	background: url("/image/reviewdown-index.png") no-repeat scroll 14px -4px transparent;
+	margin: 0 0 5px;
 }
 .author img {
-  margin: 10px 10px 0 0;
+	margin: 10px 10px 0 0;
 }
-
-.guidesd p{
+.guidesd p {
 	padding: 6px;
 }
-.guidesd p a{
+.guidesd p a {
 	font-size: 14px;
-	color:#333; 
 	line-height: 20px;
 }
-
-.guidesd dd a{
+.guidesd dd a {
 	background: url(/image/li-disc2.gif) no-repeat 3px center;
 	padding: 0 0 0 14px;
-	color: #333;
-} 
-.guidesd dd a:hover{
+}
+.guidesd dd a:hover {
 	background: url(/image/li-disc2.gif) no-repeat 3px center;
-	color: #004B93;	
 }
-a.detail{
+a.detail {
 	float: right;
-	color: #004B93;
 }
-a.detail:hover{
-	color: #046bce;
-}
-.hotdeals li{
+.hotdeals li {
 	border-bottom: 1px solid #DDDDDD;
 	margin: 7px 0;
 	padding: 10px 4px 25px;
 }
-.hotdeals li:hover{
+.hotdeals li:hover {
 	border-bottom: 1px solid #fff;
-	background:#F3FAFF;
+	background: #F3FAFF;
 	outline: 1px dashed #ddd;
 }
-.hotdeals p{
+.hotdeals p {
 	margin: 4px 0;
 }
-.hotdeals span{
+.hotdeals span {
 	color: #ff7400;
 	font-size: 13px;
 }
-.hotdeals span b{
+.hotdeals span b {
 	font-size: 14px;
 	font-weight: bold;
 }
-img.star{
+img.star {
 	float: right;
 }
-
 /* *************right article************* */
-.article{
+
+.article {
 	width: 750px;
 	min-height: 400px;
 	float: right;
 }
-.article .conbody{
+.article .conbody {
 	padding: 10px 20px;
-}
-
-.mainbody .sidebar a:hover{
-	color: #004B93;
 }
