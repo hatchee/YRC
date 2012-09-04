@@ -96,7 +96,7 @@ $(function(){
 		if(i==month)
 		{
 			strli +='<li class="now"><a href="calendar.html#!'+href[i]+'">'+arrmonth[i]+'</a></li>';
-			departureli +='<li class="expire"><a href="calendar.html#!'+href[i]+'"><strong>'+arrmonth[i]+'</strong><br/><span>'+year+'</span></a></li>';
+			departureli +='<li><a href="calendar.html#!'+href[i]+'"><strong>'+arrmonth[i]+'</strong><br/><span>'+year+'</span></a></li>';
 		}
 		else if(i<month)
 		{

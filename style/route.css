@@ -504,6 +504,10 @@ input.w50, input.w150, input.w200, input.w300, select.w50, select.w150, select.w
 	margin-left:350px;
 	padding-top:20px;
 }
+.team 
+{
+	border-top:none;
+}
 
 .optroute .optlist {
   background-color: #FFFFFF;

@@ -256,3 +256,7 @@ a.to_details {
 a.to_details:hover {
     background-position: 0 -24px;
 }
+#maincon .team
+{
+	border-top:none;
+}
