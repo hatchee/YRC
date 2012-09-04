@@ -16,14 +16,14 @@
 					$('#shipcalendar').html(result);
 					$('.mask').hide();
 				}
-			
+
 			});
 		}
-	
+
 
 
 $(function() {
-	
+
 
 
 	// 选项卡切换
@@ -48,10 +48,12 @@ $(function() {
 
 	$('.enquiry').click(function(e){
 		e.preventDefault();
+		var hidedata='<label>Your cruise date:</label><select name="ddate"><option id="c7" value="">--date</option><option id="c1" value="1">1</option><option id="c2" value="2">2</option><option id="c3" value="3">3</option><option id="c4" value="4">4</option><option id="c5" value="5">5</option><option id="c6" value="6">6</option><option id="c7" value="7">7</option><option id="c5" value="8">8</option><option id="c6" value="9">9</option><option id="c1" value="10">10</option><option id="c2" value="11">11</option><option id="c3" value="12">12</option><option id="c4" value="13">13</option><option id="c5" value="14">14</option><option id="c6" value="15">15</option><option id="c7" value="16">16</option><option id="c5" value="17">17</option><option id="c6" value="18">18</option><option id="c1" value="19">19</option><option id="c20" value="2">20</option><option id="c3" value="21">21</option><option id="c4" value="22">22</option><option id="c5" value="23">23</option><option id="c6" value="24">24</option><option id="c7" value="25">25</option><option id="c5" value="26">26</option><option id="c6" value="27">27</option><option id="c7" value="28">28</option><option id="c5" value="29">29</option><option id="c6" value="30">30</option><option id="c7" value="31">31</option></select><select name="month"><option value="">--Month</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select><select name="year"><option value="">--Year</option><option value="2012">2012</option><option value="2013">2013</option></select></br><label>Your preferred cruises intinerary:</label><select name="Route"><option value="Chongqing - Yichang">Chongqing - Yichang (4 days;downstream)</option><option value="Yichang - Chongqing">Yichang - Chongqing (5 days; upstream)</option><option value="Chongqing - Shanghai">Chongqing - Shanghai (7 days; downstream)</option><option value="Shanghai - Chongqing">Shanghai - Chongqing (9 days; upstream)</option><option value="Wanzhou - Yichang">Wanzhou - Yichang (3 days; downstream)</option><option value="Yichang - Wanzhou">Yichang - Wanzhou (3 days; upstream)</option></select>';
 		var price=$('.price b').text();
 		var boat=$("#boatname").val();
 		var str='<h3 class="">Price: '+price+' per person</h3>';
 		$(".formrightinfo").html(str);
+		$('.dateinfo').html(hidedata);
 		$('.dateinfo').show();
 		$(".cruiseform").fadeIn("fast");
 		var hideform='<input type="hidden" id="Boatname" class="txt" value="'+boat+'" name="boatname">';
@@ -63,12 +65,12 @@ $(function() {
 	});
 
 	$(".exit_ico").click(function(){
-		$(".dateinfo").html('');
+		$('.dateinfo').html('');
 		$(".hideninfo").html('');
 		$(".cruiseform").hide();
 		$("#greybackground").remove();
 	});
-	
+
 	$(".booknow").live("click",function(){
 		var boat=$("#boatname").val();
 		var date=$("#shipcal").val();
@@ -79,7 +81,7 @@ $(function() {
 		var t = parseInt((t.getTime())/1000)+sd*3600*24;
 		var data=new Date(parseInt(t)*1000);
 		var ed=data.getFullYear()+"-"+(data.getMonth()+1)+"-"+data.getDate();
-		var montharray=new Array("","Jan","Feb", "Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec"); 
+		var montharray=new Array("","Jan","Feb", "Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec");
 		var arrdateend=ed.split('-');
 		var price=$(this).children("i").text();
 		var route=$(this).children(".route").val();
@@ -93,7 +95,7 @@ $(function() {
 		 var docheight = $(document).height();
 		 $("body").append("<div id='greybackground'></div>");
 		 $("#greybackground").css({"opacity":"0.5","height":docheight});
-	});	
+	});
 
 	/***船期翻页****/
 	$('.prevMon').live("click",function(){

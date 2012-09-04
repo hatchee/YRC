@@ -71,7 +71,7 @@
 	height:94px;
 }
 #Shanghaibg{
-	background:#F2F9FF url(../img/shanghai.gif) right top no-repeat;
+	background:#F2F9FF url("/image/landbg-shanghai.jpg") right top no-repeat;
 	padding:0px 100px 0 15px;
 	margin-bottom:10px;
 	min-height:343px;
@@ -87,9 +87,10 @@
 #Shanghaibg ul.u_list li
 {
 	list-style:url(../img/li_c.gif);
+	margin: 0 0 0 13px;
 }
 #Beijingbg{
-	background:#F2F9FF url(../img/beijing.gif) right top no-repeat;
+	background:#F2F9FF url("/image/landbg-beijing.jpg") right top no-repeat;
 	padding:0px 100px 0 15px;
 	margin-bottom:10px;
 	min-height:343px;
@@ -105,9 +106,10 @@
 #Beijingbg ul.u_list li
 {
 	list-style:url(../img/li_c.gif);
+	margin: 0 0 0 13px;
 }
 #Hongkongbg{
-	background:#F2F9FF url("/image/hongkong-bg.jpg") right top no-repeat;
+	background:#F2F9FF url("/image/landbg-hongkong-bg.jpg") right top no-repeat;
 	padding:0px 100px 0 15px;
 	margin-bottom:10px;
 	min-height:343px;
@@ -123,6 +125,7 @@
 #Hongkongbg ul.u_list li
 {
 	list-style: inside url(../img/li_c.gif);
+	margin: 0 0 0 13px;
 }
 
 #best_sellers
@@ -252,4 +255,8 @@ a.to_details {
 }
 a.to_details:hover {
     background-position: 0 -24px;
+}
+#maincon .team
+{
+	border-top:none;
 }

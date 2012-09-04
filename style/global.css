@@ -815,3 +815,73 @@ h3.bgtitle img{
 	font-size:1.5em;
 	margin-top:25px;
 }
+/******quick-form****2012-09-04*****chenzhao********/
+.quickanswer
+{
+	background:#fef8e2;
+}
+.quickanswer h3
+{
+	color:#000;
+	padding:10px 10px 5px;
+}
+.quickinfo
+{
+	background:url('../image/quick.jpg') no-repeat scroll center bottom transparent;
+	height:126px;
+	padding:0px 10px;
+}
+.quickinfo dt
+{
+	line-height:16px;
+	padding:5px 0px 5px 5px;
+}
+.quickinfo dd
+{
+	width:100px;
+	line-height:15px;
+	padding-left:5px;
+	color:#004B93;
+}
+.quickform
+{
+	padding:0px 10px 5px;
+}
+.quickform label
+{
+	width:200px;
+	display:block;
+	margin-top:5px;
+}
+.quickform input
+{
+	width:195px;
+	border:1px solid #d9af54;
+}
+.quickform select
+{
+	width:195px;
+	border:1px solid #d9af54;
+}
+.quickform textarea
+{
+	width:195px;
+	border:1px solid #d9af54;
+}
+.quickform .tip
+{
+	color:#004B93;
+}
+.quickform .btn 
+{
+	background-image: url("../image/enquiry-small2.gif");
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px;
+	height:28px;
+	margin:10px 0px 10px 50px;
+}
+.mainbody .sidebar .quickform a.btn:hover
+{
+	background-image: url("../image/enquiry-small2.gif") -28px;
+}

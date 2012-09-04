@@ -55,3 +55,7 @@
 	background: url("/image/icon-wishlist.png") no-repeat left 4px;
 	padding: 0 0 0 18px;
 }
+.team
+{
+	border-top:none;
+}
