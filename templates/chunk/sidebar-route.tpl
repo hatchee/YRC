@@ -99,18 +99,33 @@
 			<label class="title">Tour Duration:</label>
 			<select name="duration">
 				<option value="Any Duration">Any Duration</option>
+				<option value="1-7 days">1-7 days</option>
+				<option value="8-14 days">8-14 days</option>
+				<option value="15-21 days">15-21 days</option>
+				<option value="22-28 days">22-28 days</option>
+				<option value="above 29 days">above 29 days</option>
 			</select>
 			<label class="title">How many people in your group ?</label>
 			<select name="people">
+                                <option value="1">1 person</option>
 				<option value="2-5">2-5 persons</option>
+                                <option value="6-9">6-9 persons</option>
+                                <option value=">10">above 10 persons</option>
 			</select>
 			<label class="title">Accommodations:</label>
 			<select name="hoteltype">
 				<option>----Hotel Class----</option>
+                                <option value="Top 5-star Hotel (250+ USD/night/room)">Top 5-star Hotel (250+ USD/night/room)</option>
+                                <option value="Standard 5-star Hotel (150-250 USD/night/room)">Standard 5-star Hotel (150-250 USD/night/room)</option>
+                                <option value="4-star Hotel (80-100 USD/night/room)">4-star Hotel (80-100 USD/night/room)</option>
+                                <option value="3-star Hotel (50-70 USD/night/room)">3-star Hotel (50-70 USD/night/room)</option>
 			</select>
 			<label class="title">Meals:</label>
 			<select name="meal">
 				<option>----Choose meal plan----</option>
+				<option value="Breakfast Only">Breakfast Only </option>
+				<option value="Breakfast + Lunch">Breakfast + Lunch</option>
+                                <option value="Breakfast + Lunch + Dinner">Breakfast + Lunch + Dinner</option>
 			</select>
 			<label class="title">Special requests:<span class="tip">*</span></label>
 			<textarea name="requests" row="7"></textarea>
