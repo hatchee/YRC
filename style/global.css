@@ -104,7 +104,7 @@ img {
 }
 .headtop{
 	width: 980px;
-	height: 67px;
+	height: 90px;
 	margin: 0 auto;
 }
 .headtop div{
@@ -117,14 +117,13 @@ img {
 	line-height: 31px;
 }
 .ht-left{
-	margin: 42px 0 0;
+	margin: 0; 
+	height: 90px;
 	color: #fff;
 }
 .ht-left a{
-	margin: 0 10px;
-	color: #fff;
-	font-weight: bold;
-	font-family: "Trebuchet MS",Arial,Georgia,"Times New Roman",Times,serif;
+	display: block;
+	margin-top: 10px;
 }
 .ht-mid{
 	text-align: center;
@@ -138,7 +137,7 @@ img {
 	text-align: right;
 	color: #fff;
 	font-family: "Trebuchet MS",Arial,Georgia,"Times New Roman",Times,serif;
-	margin: 21px 0 0;
+	margin: 37px 0 0;
 }
 .ht-right p{
 	margin: 0;

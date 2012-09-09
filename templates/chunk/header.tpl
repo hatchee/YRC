@@ -1,8 +1,6 @@
 <div class="headtop clearfix">
 	<div class="ht-left">
-		<a href="#">Home</a> |
-		<a href="#">Customize a Tour</a>|
-		<a href="#">Travel Agent</a>
+		<a class="toplogo" href="/"><img src="image/toplogo.png"></a>
 	</div> 
 	<div class="ht-mid">
 		Specialized in Yangtze Cruise since 1999 !
@@ -18,7 +16,7 @@
 </div>
 
  <div class="header">
- 	<a id="logo" href="/" title="Home"></a>
+ 	<!-- <a id="logo" href="/" title="Home"></a> -->
 	<div class="searchbox">
 	<div class="bar"><div class="showsearch showon">trip search</div><div class="showcalendar">calendar</div></div>
 	<div class="search">
