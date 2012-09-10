@@ -141,3 +141,191 @@
 .departure li.expire a{
 	color: #c5c3c1;
 }
+
+
+/*shipcompany船公司样式*/
+.firmtop{
+	background: url("/image/routelist-bg.png") repeat-x scroll center bottom #FFFFFF;
+	padding: 20px 20px 0 20px;
+}
+.shipfirm{
+	border: none;
+}
+.shipfirm .col-lt{
+	width: 700px;
+	margin: 15px 0 15px 15px;
+}
+.shipfirm .col-rt{
+	background: none;
+	padding: 0;
+	width: 243px;
+}
+.compare{
+	background: #9bd4ff;
+	border: 1px solid #3ca6f6; 
+	padding: 8px;
+}
+.compare table td{
+	background: #fff;
+	color: #535353;
+	text-align: left;
+	padding: 10px;	
+}
+
+.shiptitle{
+	color: #000;
+}
+
+
+
+.firmship li{
+	display: block;
+	font-size: 11px;
+	float: left;
+	background: #ff9501;
+	padding: 8px 3px;
+	margin: 3px 0 0;
+	position: relative;
+}
+.firmship li img{
+	margin-top: 5px;
+	margin-right: 5px;
+}
+.firmship li .info{
+	width: 126px;
+	float: right;
+}
+.firmship li p{
+	margin: 0 0 5px 0;
+}
+.rank{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 38px;
+	height: 39px;
+	display: block;
+	background: url(/image/black-angle.png) no-repeat center center;
+	text-indent: 22px;
+	line-height: 28px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.cal .tawrap{
+	border: 1px solid #90caee;
+	border-radius: 5px 5px 0 0;
+	background: #deefff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #deefff 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#deefff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #deefff 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #deefff 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #deefff 0%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #deefff 0%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#deefff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+	padding: 8px;
+}
+.cal table{
+	width: 
+}
+.cal .tawrap dd{
+	display: block;
+	float: left;
+	cursor: pointer;
+	color: #003970;
+	width: 51px;
+	height: 30px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.cal .tawrap dd.active{
+	background: url(/image/cal-now.png) no-repeat center center;
+	height: 51px;
+	width: 55px;
+	margin-top: -16px;
+	margin-bottom: 10px;
+	line-height: 44px;
+	color: #fff;
+}
+
+.cal table th{
+	background: #f5f5f5;
+	border: 1px solid #dedede;
+	width: 100px;
+	padding: 5px;
+}
+.cal table td{
+	background: #fff;
+	border: 1px solid #dedede;
+	padding: 5px;
+	vertical-align: top;
+}
+.cal table td p{
+	margin: 5px 0;
+}
+
+
+
+
+.remark{
+	color: #003970;
+	text-align: right;
+}
+.iti h4{
+	background: url(/image/anchor.png) no-repeat left center;
+	padding: 3px 0 3px 20px;
+	color: #000;
+}
+.iti .tawrap{
+	border: 1px solid #a3d5fd;
+	background: #c6e6ff;
+	padding: 10px;
+	margin: 10px 0;
+}
+.iti .tawrap .note{
+	margin: 0;
+}
+.iti table{
+	background: #fff;
+	margin: 0 0 10px 0;
+}
+.iti table th,
+.iti table td{
+	border: 1px solid #e7e7e7;
+	padding: 15px;
+}
+.fleet .tawrap{
+	border: 1px solid #a3d5fd;
+	background: #c6e6ff;
+	padding: 10px;
+}
+.fleet table td,
+.fleet table th{
+	padding: 10px;
+	background: #fff;
+}
+.fleet .color td{
+	background: #f2f9fe;
+}
+
+
+
+.life .tawrap{
+
+}
+.life table{
+	width: 700px;
+}
+.life table td{
+	border-top: none;
+	border-bottom: 1px dashed #ddd;
+	padding: 20px 0px;
+}
+.life table h4,
+.life table h5{
+	color: #000;
+}

@@ -1,7 +1,8 @@
 {extends file="layout.html"}
 {block name=title}YRC ship page{/block}
 {block name=head}
-<link rel="stylesheet" type="text/css" href="style/onecol.css">
+<link rel="stylesheet" type="text/css" href="style/ship.css">
+<script type="text/javascript" src="script/ship.js"></script>
 <link rel="stylesheet" type="text/css" href="style/shipindex.css">
 {/block}
 {block name=body}
@@ -11,33 +12,293 @@
 {include file="chunk/header.tpl"}
 
 <div class="mainbody shipindex clearfix">
-	<h1>Yangtze River Cruise Ships</h1>
+	<div class="conbody clearfix">
+	<div class="firmtop clearfix">
+		<h1>Yangtze River Cruise Ships</h1>
+			<p>
+				<img class="fr" src="image/ship1.jpg" width="340"  height="200">
 
-	<div class="">
-		<p>
-			<img class="fr" src="http://placehold.it/340x200">
+				From the super 5-Star Yangtze Explorer Cruise to the budget 4-star President No.3, whether you're looking for a comfortable and luxury Victoria Jenna, being a big fan of the popular Century Diamond or just want to experience the newest President Prime cruise, we can help you book a cruise at the LOWEST price.
 
-			From the super 5-Star Yangtze Explorer Cruise to the budget 4-star President No.3, whether you're looking for a comfortable and luxury Victoria Jenna, being a big fan of the popular Century Diamond or just want to experience the newest President Prime cruise, we can help you book a cruise at the LOWEST price.
+			</p>
 
-		</p>
+			<div class="row-top">
+				<ul> 
+					<li class="active">Cruise Calender</li> 
+					<li>Itinerary</li>
+					<li>Fleet Comparision</li>
+					<li>Life onboard</li>
+				</ul>
+			</div>
+	</div>
 
-		<div class="row-top">
-			<ul> 
-				<li class="active">Cabin </li> 
-				<li>Deckplan</li>
-				<li>Itineraries</li>
-				<li>Life onboard</li>
-				<li>Practical Info</li>
-				<li>Price Guide</li>
-			</ul>
-			<a class="enquiry"></a>
-		</div>
+	<div class="shipfirm shipdetail clearfix">
+		<div class="col-lt">
+			<div class="unit cal">
+				<h3>Three Gorges Dam on Yangtze River</h3>	
+				<p class="remark">
+					Ramark: CQ=Chongqing SH=Shanghai
+				</p>
+				<div class="tawrap">
+					<dl>
+						<dd>Jan</dd>
+						<dd>Feb</dd>
+						<dd>Mar</dd>
+						<dd class="active">Apr</dd>
+						<dd>May</dd>
+						<dd>June</dd>
+						<dd>July</dd>
+						<dd>Aug</dd>
+						<dd>Sept</dd>
+						<dd>Oct</dd>
+						<dd>Nov</dd>
+						<dd>Dec</dd>
+						<dd>2013</dd>
+					</dl>
+					<table>
+						<tr>
+							<th>Sun</th>
+							<th>Mon</th>
+							<th>Tue</th>
+							<th>Wed</th>
+							<th>Thu</th>
+							<th>Fri</th>
+							<th>Sat</th>
+						</tr>
+						<tr>
+							<td>
+								<p class="day">1</p>
+								<p class="shipname">Victoria Sophia</p>
+								<p class="price"><i>$325-$420</i></p>
+							</td>
+						
+							<td class="available">
+								<p class="day">2</p>
+							</td>
+							<td>
+								<p class="day">3</p>
+							</td>
+							<td>
+								<p class="day">4</p>
+							</td>
+							<td>
+								<p class="day">5</p>
+							</td>
+							<td>
+								<p class="day">6</p>
+							</td>
+							<td>
+								<p class="day">7</p>
+							</td>
+						</tr>
+					</table>
 
+				</div>
+
+
+			</div><!-- end of .unit .cal -->
+		
+			<div class="unit iti">
+				<h3>Victoria Cruises Itinerary & Shore Excursions</h3>
+				<p>
+					Make your cruise extra fun with our Yangtze shore excursions, to get a unique insight into the history of the region, the culture of the people and the beauty of the natural landscape.
+
+					Different cruisers may arrange different shore excurions, normally, including: the one day excursion to the Fengdu Ghost City, or Snow Jade Cave; one day to Lesser Three Gorges or Shennong Stream; One day to the Three Gorges Dam.
+				</p>
+				<h4>Victoria Cruises Itinerary & Shore Excursions</h4>
+				<img class="routemap" src="image/route.jpg" width="700">
+				<div class="tawrap">
+					<table>
+						<tr>
+							<th></th>
+							<th>Chongqing-Yichang 4 Days & 3 Nights, Downstream </th>
+							<th>Chongqing-Yichang 4 Days & 3 Nights, Upstream </th>
+						</tr>
+						<tr>
+							<th>Arranged Shore Excursion </th>
+							<td>Fendu Ghost City,Shengnong Stream</td>
+							<td>Fendu Ghost City,Shengnong Stream</td>
+						</tr>
+						<tr>
+							<th>Arranged Shore Excursion </th>
+							<td>Fendu Ghost City,Shengnong Stream</td>
+							<td>Fendu Ghost City,Shengnong Stream</td>
+						</tr>
+						<tr>
+							<th>Cruise Ships</th>
+							<td colspan="2">
+								Victoria Jenna, Victoria Jenna, Victoria Jenna, Victoria Jenna, Victoria Jenna, Victoria Jenna, Victoria Jenna, Victoria Jenna,
+							</td>
+						</tr>
+
+					</table>
+					<p class="note">
+						<b>Please Note:</b><br>
+						• Optinal Shore Excursion depends on the river conditions, like the weather and weather and water level. <br>
+						• Optinal Shore Excursion depends on the river conditions,
+					</p>
+				</div>
+				
+			</div><!-- end of .unit .iti -->
+		
+			<div class="unit fleet">
+				<h3>Compare Viction Cruses</h3>
+				<p>
+					Make your cruise extra fun with our Yangtze shore excursions, to get a unique insight into the history of the region, the culture of the people and the beauty of the natural landscape.
+					<br><br>
+					Different cruisers may arrange different shore excurions, normally, including: the one day excursion to the Fengdu Ghost City, or Snow Jade Cave; one day to Lesser Three Gorges or Shennong Stream; One day to the Three Gorges Dam.
+				</p>
+				<div class="tawrap">
+					<table>
+						<tr>
+							<th>Ships</th>
+							<th>Cabin</th>
+							<th>Dining</th>
+							<th>Features</th>
+							<th>Price</th>
+						</tr>
+						<tr>
+							<td>
+								<span class="shiptitle">jjjjj</span><br>
+								<img src="image/5star.gif" width="60">
+							</td>
+							<td>
+								<li>All with priveat balcony </li>
+								<li>Size of Superior Cabin: 20.87sq.m. /224.64</li>
+							</td>
+							<td>
+								Western & Chinese Buffet at 3 meala a day
+							</td>
+							<td>
+								The MOST lu xury ship of Victoria Cruises
+							</td>
+							<td>
+								<span class="price"> <i>$888-$999</i></span>
+								<a class="btn e-S" href="">Enquiry</a>
+							</td>
+						</tr>
+						<tr class="color">
+							<td><span>jjjjj</span><img src="image/5star.gif" width="60"></td>
+							<td>
+								<li>All with priveat balcony </li>
+								<li>Size of Superior Cabin: 20.87sq.m. /224.64</li>
+							</td>
+							<td>
+								Western & Chinese Buffet at 3 meala a day
+							</td>
+							<td>
+								The MOST lu xury ship of Victoria Cruises
+							</td>
+							<td>
+								<span class="price"> <i>$888-$999</i></span>
+								<a class="btn e-S" href="">Enquiry</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+				
+			</div><!-- end of .unit .fleet -->
+
+			<div class="unit life">
+				<h3>Life on Victoria Cruises</h3>
+				<table>
+					<tr>
+						<td>
+							<h4>Culture CurriculumSM</h4>
+
+							<p>
+								Make your cruise extra fun with our Yangtze shore excursions, to get a unique insight into the history of the region, the culture of the people and the beauty of the natural landscape.
+							</p>
+							<h5>Learn about</h5>
+							<ul>
+								<li>
+									One day to the Three Gorges Dam
+								</li>
+								<li>
+									One day to the Three Gorges Dam Three Gorges Dam
+								</li>
+								<li>
+									One day to the Three Gorges Dam Gorges Dam
+								</li>
+								<li>
+									One day to the Three Gorges Dam Dam
+								</li>
+							</ul>
+						</td>
+						<td>
+							<img src="image/ship1.jpg" width="250" height="160">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>Culture CurriculumSM</h4>
+
+							<p>
+								Make your cruise extra fun with our Yangtze shore excursions, to get a unique insight into the history of the region, the culture of the people and the beauty of the natural landscape.
+							</p>
+							<h5>Learn about</h5>
+							<ul>
+								<li>
+									One day to the Three Gorges Dam
+								</li>
+								<li>
+									One day to the Three Gorges Dam Three Gorges Dam
+								</li>
+								<li>
+									One day to the Three Gorges Dam Gorges Dam
+								</li>
+								<li>
+									One day to the Three Gorges Dam Dam
+								</li>
+							</ul>
+						</td>
+						<td>
+							<img src="image/ship1.jpg" width="250" height="160">
+						</td>
+					</tr>
+				</table>
+				
+			</div><!-- end of .unit .life -->
+		</div><!-- end of .col-lt -->
+
+		<div class="col-rt">
+					
+			<div class="firmship box">
+				<h3>Victoria Cruise Ships</h3>
+				<ul>
+					<li>
+						<h4>
+							Ding and Cuisine
+						</h4>
+						<img class="fl" src="image/ship1.jpg" width="105" height="85">
+						<div class="info">
+							<span>Price: <b>$325-$420</b></span>
+							<p>Sails from Chongqing to Yichang in every Monday, and back in next Sunday. </p>
+						</div>
+						<b class="rank">1</b>
+					</li>
+
+					<li>
+						<h4>
+							Ding and Cuisine
+						</h4>
+						<img class="fl" src="image/ship1.jpg" width="105" height="85">
+						<div class="info">
+							<span>Price: <b>$325-$420</b></span>
+							<p>Sails from Chongqing to Yichang in every Monday, and back in next Sunday. </p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+		</div><!-- end of .col-rt -->
+
+
+	</div>
 
 
 		
-	</div>
-
+</div>
 </div><!-- END OF .mainbody -->
 
 {include file="chunk/footer.tpl"}
