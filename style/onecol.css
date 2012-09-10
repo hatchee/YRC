@@ -3,4 +3,155 @@
 	padding: 20px;
 	width: 940px;
 }
-
+.caldate
+{
+	background:url('../image/calulbg.png') no-repeat scroll -2px -1px transparent;
+	border-left:1px solid #8fcaee;
+	border-right:1px solid #8fcaee;
+	border-bottom:1px solid #8fcaee;
+	margin-left:-15px;
+	padding: 15px 10px 10px;
+	width:943px;
+	margin-top:20px;
+}
+#maincon ul {
+    color: #555555;
+    list-style: disc outside url("../img/list3.gif");
+}
+ul.calenav {
+    list-style: none outside none !important;
+    margin-bottom:10px;
+    padding: 0;
+}
+#maincon li {
+    margin: 0 0 0 10px;
+}
+.calenav .selected {
+    background: url("../image/calli.png") repeat scroll 0 0 transparent;
+}
+.calenav li {
+    cursor: pointer;
+    display: block;
+    float: left;
+    font: 600 1.2em/27px Verdana,Arial,Helvetica,sans-serif;
+    height: 46px;
+    padding: 0;
+    text-align: center;
+    width: 63px;
+	margin-bottom:10px;
+}
+.fclear {
+    clear: both;
+}
+table.ocalendar {
+    border: 1px solid #AACADD;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    width: 941px;
+}
+.ocalendar th, .ocalendar td, .ocalendar tr {
+    border: 1px solid #AACADD;
+}
+.ocalendar th {
+    background: none repeat scroll 0 0 #E3E3E3;
+    font: 1.2em Verdana,Arial,Helvetica,sans-serif;
+    width: 108px;
+}
+.ajaxSearch_highlight, .red {
+    color: red;
+}
+.ocalendar td {
+    padding: 0 3px 15px 2px;
+    vertical-align: top;
+}
+.ocalendar #day {
+    display: block;
+    font: 700 1.5em Verdana,Arial,Helvetica,sans-serif;
+}
+.colerbbb {
+    color: #BBBBBB;
+}
+.ocalendar td p {
+    line-height: 110%;
+    margin: 7px 0;
+}
+.ocalendar td a {
+    font: 0.9em Verdana,Arial,Helvetica,sans-serif;
+}
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.FAQ-footer {
+    float: left;
+    padding: 20px 20px 60px;
+}
+.FAQ-help {
+    border-top: 1px dashed #DDDDDD;
+    margin-top: 10px;
+    padding-top: 25px;
+}
+.FAQ-help p {
+    color: #434343;
+    float: left;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 40px;
+    text-align: left;
+    width: 60%;
+}
+.btn-enquirys {
+    display: block;
+    float: right;
+    margin: 7px 30px 0 0;
+}
+.btn-enquirys a {
+    background: url("../images/btn-big.png") repeat-x scroll center top transparent;
+    border-left: 1px solid #FFAB2F;
+    border-radius: 3px 3px 3px 3px;
+    border-right: 1px solid #FFAB2F;
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    padding: 5px 10px;
+    position: relative;
+}
+.btn-enquirys a span {
+    font-size: 12px;
+}
+.author-list {
+    clear: both;
+    margin: 20px 0 0;
+    text-align: center;
+}
+.author-list li {
+    float: left;
+    list-style: none outside none;
+    margin-right: 18px;
+     width:80px;
+}
+.author-list li a {
+    color: #666666;
+    display: block;
+    float: left;
+    padding: 5px;
+    text-decoration: none;
+}
+.img-icon {
+    border: 1px solid #CCCCCC;
+    display: block;
+    height: 60px;
+    overflow: hidden;
+    padding: 1px;
+    width: 60px;
+}
+.FAQ-footer h4 {
+    color: #444444;
+    font-weight: normal;
+    text-align: center;
+}

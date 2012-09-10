@@ -117,6 +117,6 @@
 </div>
 
 
-<div class="notice">
+<!-- <div class="notice">
 	To make your Yangtze cruise booking and searching much easier and clearer, we're upgrading our website, so there might be some awkward texts, designs, even some broken links. 
-</div>
+</div> -->
