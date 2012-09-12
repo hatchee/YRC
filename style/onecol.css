@@ -155,3 +155,22 @@ table.ocalendar {
     font-weight: normal;
     text-align: center;
 }
+.notfound ul {
+    color: #555555;
+}
+.notfound li {
+    margin: 0 0 0 10px;
+	list-style: none outside url("../img/list3.gif");
+}
+.notfound h3 {
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+#formp h2
+{
+	margin:0px;
+}
+#tasktit
+{
+	margin:0px;
+}

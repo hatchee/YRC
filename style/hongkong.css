@@ -260,3 +260,9 @@ a.to_details:hover {
 {
 	border-top:none;
 }
+
+.price i{
+	color: #FF7400;
+	font-weight: bold;
+	font-size: 15px;
+}

@@ -5,7 +5,7 @@
 	padding: 10px;
 }
 .calendar h1{
-	margin: 20px 0 0 0;
+	margin: 15px 0 0 0;
 }
 .tabnav{
 	width: 960px;
@@ -143,16 +143,18 @@
 
 .tabunit table td p i{
 	color: red;
+	font-size: 11px;
 	font-style: normal;
 }
 .tabunit td.date div{
-	background: url(/image/table-date.png) no-repeat;
-	width: 57px;
+	background: url("/image/table-date.png") no-repeat scroll 0 0 transparent;
+	font-weight: bold;
 	height: 22px;
 	line-height: 12px;
-	font-weight: bold;
 	margin: 0 0 0 26px;
-	padding: 10px;
+	padding: 10px 10px 10px 0;
+	text-align: center;
+	width: 56px;
 }
 .tabunit td.date i{
 	color: #666666;

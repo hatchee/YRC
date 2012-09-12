@@ -78,10 +78,12 @@ function addoptions(optid, classn) {
 
 		// 价格包含与不包含弹出说明
 		$("a.priceinclude").fancybox({
-			'hideOnContentClick': true,		
-			'autoDimensions'	: false,
+			// 'hideOnContentClick': false	
+			'autoDimensions'	: true,
 			'width'         		: 600,
-			'height'        		: 'auto'
+			'height'        		: 'auto',
+	        'transitionIn'        : 'none',
+	        'transitionOut'        : 'none'
 		});
 
 

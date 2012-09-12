@@ -30,6 +30,7 @@ $(function(){
 	// 当hash改变时触发ajax提交
 	$(window).bind("hashchange", function(event){
 
+		// initialize();
 
 		var year_var = window.location.hash.slice(2,6);
 		var month_var = window.location.hash.slice(6);
@@ -51,7 +52,11 @@ $(function(){
 			},
 			success: function( result ){
 				$('.loading').remove();
-				$(".tabunit table").replaceWith(result);
+				$(".tabunit table").replaceWith(result).fadeIn();
+
+			   var x = $(".tabmonth li.active").text();
+			    var y = $(".tabnav li.active").text();
+				$('.calendar h1').text("All Yangtze River Cruises in "+x+y);
 
 				if($(".tabnav li").eq(0).attr("class") == "active" ){
 				    var now = new Date();
@@ -66,26 +71,18 @@ $(function(){
 
 	})
 
-	//TAB fiexd
-	$( window ).unbind( 'scroll' );
-	var t = $( '#can-nav' );
-	var tabunit = $('.tabunit');
-	t_top = t.offset().top;
-	$( window ).bind( 'scroll',function(){
-
-		var s_top = $(this).scrollTop();
-		if( s_top > t_top ){
-			t.css({'position':'fixed','top':0, 'z-index':10,});
-			tabunit.css({'margin-top':'159px'});	
-		}else{
-			t.css({'position':'static'});
-			tabunit.css({'margin-top':'0px'});	
-		}
-	}); 
+	// 
+	$('.tabcal li').each(function(index){
+		$(this).click(function(){
+			$('.tabmonth li').eq(index).addClass('active').siblings().removeClass('active');
+		})
+	})
 
 
 	// 根据hash值来对li进行active操作
 	window.onload = initialize;
+	
+		
 	function initialize(){
 
 		var url = window.location.toString();
@@ -118,7 +115,7 @@ $(function(){
 			var year_var = now.getFullYear();
 			var month_var = now.getMonth() + 1;
 
-			// hash改变 会自动促发hashchange事件
+			// hash改变 会自动触发hashchange事件
 			window.location.hash = "#!"+year_var+month_var; 
 
 			// 改变li当前项样式
@@ -140,6 +137,23 @@ $(function(){
 
 		}
 	};
+
+	//TAB fiexd
+	$( window ).unbind( 'scroll' );
+	var t = $( '#can-nav' );
+	var tabunit = $('.tabunit');
+	t_top = t.offset().top;
+	$( window ).bind( 'scroll',function(){
+
+		var s_top = $(this).scrollTop();
+		if( s_top > t_top ){
+			t.css({'position':'fixed','top':0, 'z-index':10,});
+			tabunit.css({'margin-top':'159px'});	
+		}else{
+			t.css({'position':'static'});
+			tabunit.css({'margin-top':'0px'});	
+		}
+	}); 
 
 	// the explain prompt
 	$('.explain').hover(function(){

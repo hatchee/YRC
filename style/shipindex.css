@@ -183,16 +183,20 @@
 	font-size: 11px;
 	float: left;
 	background: #ff9501;
-	padding: 8px 3px;
+	padding: 8px 10px;
 	margin: 3px 0 0;
 	position: relative;
 }
 .firmship li img{
 	margin-top: 5px;
 	margin-right: 5px;
+	border-radius: 5px;
+}
+.firmship li img:hover{
+	opacity: 0.8;
 }
 .firmship li .info{
-	width: 126px;
+	width: 112px;
 	float: right;
 }
 .firmship li p{
