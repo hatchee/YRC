@@ -1,11 +1,15 @@
 .calendar{
 	background: #fff;
+	padding-bottom: 30px;
 }
 .calendar .conbody{
 	padding: 10px;
 }
 .calendar h1{
 	margin: 15px 0 0 0;
+}
+.calendar .team{
+	border-top:none;
 }
 .tabnav{
 	width: 960px;

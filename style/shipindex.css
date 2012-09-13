@@ -99,8 +99,6 @@
 	width: 668px;
 }
 
-
-
 .tabone th{
 	text-align: left;
 	padding: 5px;
@@ -148,8 +146,12 @@
 	background: url("/image/routelist-bg.png") repeat-x scroll center bottom #FFFFFF;
 	padding: 20px 20px 0 20px;
 }
+.firmtop ol li{
+	padding: 5px 0;
+}
 .shipfirm{
 	border: none;
+	float: none;
 }
 .shipfirm .col-lt{
 	width: 700px;
@@ -332,4 +334,83 @@
 .life table h4,
 .life table h5{
 	color: #000;
+}
+
+#jwvideo_wrapper{
+	float: right;
+	margin-left: 10px;
+}
+
+
+/*Yangtze Cruise Routes Comparsion 页面样式*/
+.secIn{
+	margin: 30px 0;
+}
+.stream-wrap{
+	margin: 50px 0 45px;
+	background: url("/image/vs.png") no-repeat scroll 308px center transparent;
+}
+.stream-wrap h4{
+	color: #000;
+	margin: 0 0 20px 35px;
+}
+.stream-wrap li{
+	list-style: disc;
+	padding: 7px 0 ;
+	margin: 0 0 0 15px;
+}
+.ups,.downs{
+	position: relative;
+	width: 240px;
+	height: 250px;
+	float: left;
+	border: 1px solid #ffffff;
+	border-radius: 2px;
+	padding: 20px;
+	margin: 0 0 0 20px;
+}
+
+.ups{
+	box-shadow: 1px 1px 2px #A7B4C4;
+
+	background: #ebf5ff; /* Old browsers */
+	background: -moz-linear-gradient(left,  #ebf5ff 0%, #fafdff 50%, #ebf5ff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ebf5ff), color-stop(50%,#fafdff), color-stop(100%,#ebf5ff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #ebf5ff 0%,#fafdff 50%,#ebf5ff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #ebf5ff 0%,#fafdff 50%,#ebf5ff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #ebf5ff 0%,#fafdff 50%,#ebf5ff 100%); /* IE10+ */
+	background: linear-gradient(to right,  #ebf5ff 0%,#fafdff 50%,#ebf5ff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf5ff', endColorstr='#ebf5ff',GradientType=1 ); /* IE6-9 */
+
+}
+
+.downs{
+	box-shadow: 1px 1px 2px #A7B4C4;
+
+	background: #feefcb; /* Old browsers */
+	background: -moz-linear-gradient(left,  #feefcb 0%, #fdf6df 50%, #feefcb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#feefcb), color-stop(50%,#fdf6df), color-stop(100%,#feefcb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #feefcb 0%,#fdf6df 50%,#feefcb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #feefcb 0%,#fdf6df 50%,#feefcb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #feefcb 0%,#fdf6df 50%,#feefcb 100%); /* IE10+ */
+	background: linear-gradient(to right,  #feefcb 0%,#fdf6df 50%,#feefcb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feefcb', endColorstr='#feefcb',GradientType=1 ); /* IE6-9 */
+
+	margin: 0 0 0 100px;
+}
+
+
+.stream-bg{
+	display: block;
+	height: 63px;
+	left: -20px;
+	position: absolute;
+	top: -24px;
+	width: 63px;
+}
+.ups .stream-bg{
+	background: url(/image/ups.png) no-repeat;
+}
+.downs .stream-bg{
+	background: url(/image/downs.png) no-repeat;
 }

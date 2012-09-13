@@ -1,24 +1,29 @@
 <div class="headtop clearfix">
+
 	<div class="ht-left">
-		<a href="#">Home</a> |
-		<a href="#">Customize a Tour</a>|
-		<a href="#">Travel Agent</a>
-	</div> 
-	<div class="ht-mid">
-		Specialized in Yangtze Cruise since 1999 !
-	</div> 
+		<a class="toplogo" href="/">
+			<img src="image/toplogo.png"></a>
+	</div>
+
 	<div class="ht-right">
 		<p>
-			<span class="icon-call"></span> <b>86-23-89009012 </b>
+			<span class="icon-call"></span> <b style="font-size: 20px;">86-23-89009012</b>
 		</p>
 		<p>
-			<span class="icon-email"></span> <b>info@yangtze-river-cruises.com </b>
+			<span class="icon-email"></span> <b>info@yangtze-river-cruises.com</b>
 		</p>
-	</div> 
+		<p class="ic">
+			<span class="icon-inquiry"></span>
+			<b><a href="inquiry.html">Yangtze Cruise Inquiry</a></b> 
+			<span class="icon-contact"></span>
+			<b><a href="about-us/contact-us.html">Contact us</a></b> 
+		</p>
+	</div>
+
 </div>
 
  <div class="header" id="homehead">
- 	<a id="logo" href="/" title="Home"></a>
+
  	<div id="slides">
         <div class="slides_container">
             <a href=""><img src="/image/banner/yangtze-cruise-ship2.jpg"></a>
@@ -27,7 +32,7 @@
         </div>
     </div>
 
-    <div class="searchbox">
+   <div class="searchbox">
 	<div class="bar"><div class="showsearch showon">trip search</div><div class="showcalendar">calendar</div></div>
 	<div class="search">
 	<form action="search-result.html" method="get">
@@ -70,7 +75,7 @@
 	</div>
 	</form>
 	</div>
-	<div class="calendar">
+	<div class="searcalendar">
 	<ul class="tabcal">
 			
 	</ul>

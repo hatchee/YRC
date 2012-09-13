@@ -1,0 +1,72 @@
+.mainbody
+{
+	padding:0px;
+	width:980px;
+}
+.sitemap-content
+{
+	width:100%;
+	height:auto;
+}
+.sitemap-content h4
+{
+	margin-left:10px;
+}
+.img
+{
+	width:980px;
+    height: 117px;
+    position: absolute;
+	display:block;
+}
+.sitemap-content div
+{
+	height:1900px;
+}
+.sitemap-content ul
+{
+	margin-left:35px;
+	margin-bottom:20px;
+	color:#555555;
+}
+.sitemap-left
+{
+	background:#e5fbcb;
+	float:left;
+	width:312px;
+	min-height:700px;
+	border-right:15px #bcedba solid;
+	padding-top:150px;
+	padding-bottom:20px;
+}
+.sitemap-left ul li
+{
+	 list-style: disc outside url("../image/sitemap-leftli.png");
+}
+.sitemap-center
+{
+	background:#cdf0dd;
+	float:left;
+	width:312px;
+	min-height:700px;
+	border-right:15px #b5e9e0 solid;
+	padding-top:150px;
+	padding-bottom:20px;
+}
+.sitemap-center ul li
+{
+	 list-style: disc outside url("../image/sitemap-centerli.png");
+}
+.sitemap-right
+{
+	background:#d6f3f6;
+	float:left;
+	width:326px;
+	min-height:700px;
+	padding-top:150px;
+	padding-bottom:20px;
+}
+.sitemap-right ul li
+{
+	 list-style: disc outside url("../image/sitemap-rightli.png");
+}

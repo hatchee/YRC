@@ -331,9 +331,9 @@
   color: #333;
 }
 .review-con {
-
-  background: none repeat scroll 0 0 #f3f3f3;
-  border: 1px solid #d7d7d7;
+  background: none repeat scroll 0 0 #EAF4FF;
+  border: 1px solid #8ABFE7;
+  border-radius: 5px 5px 5px 5px;
   padding: 5px;
   position: relative;
 }
@@ -343,13 +343,16 @@
   text-align: left;
 }
 .author {
-
-  background: url("/image/reviewdown-index.png") no-repeat scroll 14px -4px transparent;
-  margin: 0 0 5px;
+  background: url("/image/reviewdown.png") no-repeat scroll 14px 0 transparent;
+  margin: -1px 0 5px;
+  padding: 7px 0 10px;
+  position: relative;
+  z-index: 100;
 }
 .author img {
-
+  border: 1px solid #DDDDDD;
   margin: 10px 10px 0 0;
+  padding: 1px;
 }
 .zoneReview {
 
@@ -363,14 +366,13 @@
 }
 .ts {
 
-  margin: 20px 0;
+  margin: 0 0 10px;
 }
 .ts li {
-
-  background: url("/image/icon-v.png") no-repeat left center;
-  padding: 0 0 0 18px;
+  background: url("/image/new-sec.png") no-repeat scroll left center transparent;
   height: 22px;
-  line-height: 22px;
+  line-height: 29px;
+  padding: 2px 0 2px 29px;
 }
 .zonewrap h3 {
 

@@ -123,8 +123,9 @@ dl.wishlist .cust {
 	padding: 0 0 0 18px;
 }
 .review-con {
-	background: none repeat scroll 0 0 #f3f3f3;
-	border: 1px solid #d7d7d7;
+	background: none repeat scroll 0 0 #EAF4FF;
+	border: 1px solid #8ABFE7;
+	border-radius: 5px 5px 5px 5px;
 	padding: 5px;
 	position: relative;
 }
@@ -133,8 +134,11 @@ dl.wishlist .cust {
 	text-align: left;
 }
 .author {
-	background: url("/image/reviewdown-index.png") no-repeat scroll 14px -4px transparent;
-	margin: 0 0 5px;
+	background: url("/image/reviewdown.png") no-repeat scroll 14px 0 transparent;
+	margin: -1px 0 5px;
+	padding: 7px 0 10px;
+	position: relative;
+	z-index: 100;
 }
 .author img {
 	margin: 10px 10px 0 0;

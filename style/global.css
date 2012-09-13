@@ -164,30 +164,44 @@ img {
 	padding: 0 5px;
 }
 .ht-right {
-
 	text-align: right;
 	color: #fff;
 	font-family: "Trebuchet MS", Arial, Georgia, "Times New Roman", Times, serif;
-	margin: 31px 0 0;
+	margin: 14px 0 0;
 	float: right;
 }
 .ht-right p {
-
 	margin: 0;
 }
+.ht-right .ic{
+	margin: 10px 0 0;
+}
+.ht-right .ic a{
+	font-size: 11px;
+	color: #fff;
+}
+.ht-right .ic a:hover{
+	color: #004B93;
+}
 .ht-right b {
-
 	font-size: 14px;
 }
 .icon-call {
-
 	padding: 3px 10px;
 	background: url(/image/icon-contact.png) no-repeat 0 -25px;
 }
 .icon-email {
-
 	padding: 0px 13px;
-	background: url(/image/icon-contact.png) no-repeat 0 0;
+	background: url(/image/icon-contact.png) no-repeat 0 2px;
+}
+.icon-inquiry {
+	padding: 0px 13px;
+	background: url(/image/icon-contact.png) no-repeat 6px -54px;
+}
+.icon-contact {
+	padding: 0px 13px;
+	background: url(/image/icon-contact.png) no-repeat 2px -79px;
+	margin-left: 10px;
 }
 .header {
 
@@ -981,7 +995,7 @@ h3.bgtitle img {
 	margin: 10px 0px 10px 50px;
 }
 .sns {
-	float: right;
+	float: left;
 	margin-right: 46px;
 }
 .sns span.stButton {
