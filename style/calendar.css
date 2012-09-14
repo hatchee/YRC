@@ -47,6 +47,7 @@
 .tabmonth{
 	background: url(/image/tabbg.png) repeat-x ;
 	width: 960px;
+	height: 49px;
 }
 .tabmonth li{
 	float: left;	

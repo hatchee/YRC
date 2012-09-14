@@ -48,7 +48,7 @@ $(function(){
 			url: 'assets/snippets/boatcalendar/testcruisescalendar.php',
 			type: "POST",
 			data: {
-				btime: year_var+"-"+month_var,
+				btime: year_var+"-"+month_var
 			},
 			success: function( result ){
 				$('.loading').remove();

@@ -118,6 +118,10 @@ img {
 	content: '';
 	display: block;
 }
+
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
 /*the customize styles*/
 
 .wrap {
@@ -1002,3 +1006,6 @@ h3.bgtitle img {
 	margin: 0px;
 }
 
+.pi{
+	color: #FF7400;
+}

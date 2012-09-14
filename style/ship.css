@@ -154,10 +154,13 @@ left:0;
 
 }
 
-
+.shiplt{
+	float: left;
+	width: 328px;
+}
 
 .shiprt{
-
+	*display: inline;
 	width: 560px;
 
 	min-height: 400px;
@@ -503,6 +506,7 @@ left:0;
 
 
 .col-lt{
+	*display: inline;
 
 	width: 680px;
 
@@ -674,7 +678,7 @@ left:0;
 /*右侧*/
 
 .col-rt{
-
+	*display: inline;
 	width: 223px;
 
 	padding: 10px ;
@@ -777,7 +781,10 @@ left:0;
 	color: #004B93;
 
 }
-
+.row-bot li{
+	display: block;
+	float: left;
+}
 .row-bot ul a{
 
 	margin:10px 18px 0 0 ;
