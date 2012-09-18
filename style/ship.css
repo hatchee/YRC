@@ -183,32 +183,29 @@
 .pricezone .prevMon, .pricezone .nextMon {
 	margin: 20px auto;
 	cursor: pointer;
-	width: 38px;
-	height: 21px;
+	width: 56px;
+	height: 30px;
 	display: block;
-	background-image: url("/image/updown.png");
+	background-image: url("/image/updowns.png");
 }
 .pricezone .nextyear {
 	margin: 20px auto;
 	cursor: pointer;
 	width: 38px;
-	height: 21px;
+	height: 30px;
 	display: block;
 }
 .pricezone .prevMon {
-	background-position: 0 0;
+	background-position: 0 -1px;
 }
 .pricezone .prevMon:hover {
-
-	background-position: 0 -42px;
+	background-position: 0 -71px;
 }
 .pricezone .nextMon {
-
-	background-position: 0 -21px;
+	background-position: 0 -39px;
 }
 .pricezone .nextMon:hover {
-
-	background-position: 0 -63px;
+	background-position: 0 -106px;
 }
 .pricezone .ds {
 
