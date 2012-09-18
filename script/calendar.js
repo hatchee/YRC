@@ -10,7 +10,7 @@ $(function(){
 		$(this).click(function(e){
 			$(this).addClass("active").siblings().removeClass('active');
 
-			var year = $(this).text();
+			var year = $(this).attr("ref");
 			var month = $(".tabmonth li.active").attr("ref");
 			window.location.hash = "#!"+year+month;
 		})
@@ -20,7 +20,7 @@ $(function(){
 		$(this).click(function(e){
 			$(this).addClass("active").siblings().removeClass('active');
 			
-			var year = $(".tabnav li.active").text();
+			var year = $(".tabnav li.active").attr("ref");
 			var month = $(this).attr("ref");
 			window.location.hash = "#!"+year+month;
 		})
@@ -55,7 +55,7 @@ $(function(){
 				$(".tabunit table").replaceWith(result).fadeIn();
 
 			   var x = $(".tabmonth li.active").text();
-			    var y = $(".tabnav li.active").text();
+			    var y = $(".tabnav li.active").attr("ref");
 				$('.calendar h1').text("All Yangtze River Cruises in "+x+y);
 
 				if($(".tabnav li").eq(0).attr("class") == "active" ){
@@ -93,7 +93,7 @@ $(function(){
 				$(".tabnav li").each(function(){
 
 					var year_var = window.location.hash.slice(2,6);
-					if($(this).text() == year_var){
+					if($(this).attr("ref") == year_var){
 						$(this).addClass('active').siblings().removeClass("active");
 					}
 				});
@@ -122,7 +122,7 @@ $(function(){
 			$(".tabnav li").each(function(){
 
 					var year_var = window.location.hash.slice(2,6);
-					if($(this).text() == year_var){
+					if($(this).attr("ref") == year_var){
 						$(this).addClass('active').siblings().removeClass("active");
 					}
 				});
@@ -147,7 +147,7 @@ $(function(){
 
 		var s_top = $(this).scrollTop();
 		if( s_top > t_top ){
-			t.css({'position':'fixed','top':0, 'z-index':10,});
+			t.css({'position':'fixed','top':0, 'z-index':10});
 			tabunit.css({'margin-top':'159px'});	
 		}else{
 			t.css({'position':'static'});
@@ -161,6 +161,30 @@ $(function(){
 	},function(){
 		$('.explain .prompt').hide();
 	})
+
+
+
+	// calendar prompt
+		$(".aim").live("click", function(e){
+			e.preventDefault();
+			if ($(this).siblings(".cons").length) {
+
+				$(this).siblings(".cons").remove();
+
+			} else {
+				$(".cons").remove();
+
+				var l = $(this).attr("href");
+				var d = $(this).siblings(".startime").val();
+				var b = $(this).text();
+				var type = $(this).siblings(".routetype").val();
+				var route = $(this).siblings(".shiproute").val();
+
+				var cons = '<div class="cons"><p>Click to enquire this ship or read its info of cabins, plan decks, and more details. </p><a class="inq" href="inquiry.html?d='+d+'&b='+b+'&type='+type+'&route='+route+'">Inquiry</a><a class="det" href="'+l+'">Details</a></div>'
+
+				$(this).parent("p").append(cons);	
+			};
+		})
 
 
 })

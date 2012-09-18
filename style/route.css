@@ -27,6 +27,9 @@
 	height: 65px;
 	margin: 1px 0 0 1px;
 }
+.picture li a{
+	cursor: url("http://www.i9yu.com/include/highslide/graphics/zoomin.cur"), pointer !important;
+}
 .p1 {
 
 	width: 410px;

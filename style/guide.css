@@ -1,156 +1,144 @@
 /*guide*/
 
-
-
-
-
-.keepread{
+.keepread {
 	margin: 30px 0 0 0;
 }
-.keepread h2{
+.keepread h2 {
 	background: url(/image/keepread.jpg) repeat-x;
 	padding: 19px 0 9px;
 	margin: 0 0 1px;
 }
-.keepread ul{
+.keepread ul {
 	border-top: 1px dashed #ddd;
 }
-.keepread li{
+.keepread li {
 	border-bottom: 1px dashed #ddd;
 	padding: 10px 0 0 0;
 }
-.keepread li p{
+.keepread li p {
 	margin: 0 0 9px 32px;
 }
-.keepread li img{
+.keepread li img {
 	float: right;
 	margin: 0 0 0 10px;
 }
-.keepread h3 i{
+.keepread h3 i {
 	font-size: 22px;
 	margin: 0 10px 0 0;
 }
-
-p.oneimg{
+p.oneimg {
 	text-align: center;
 }
-.twoimg{
+.twoimg {
 	text-align: center;
 	width: 620px;
 	margin: 0 auto 10px;
 }
-.twoimg td{
+.twoimg td {
 	background: #dadada;
 	border-bottom: 10px solid #fff;
 	text-align: center;
 }
-.twoimg td:first-child{
+.twoimg td:first-child {
 	border-right: 10px solid #fff;
 }
-
-
-.pagenav a,
-.pagenav span{
+.pagenav a, .pagenav span {
 	display: block;
 	margin: 0 10px;
 	color: #000;
 	font-size: 15px;
 	font-weight: bold;
 }
-.pagenav a:hover{
+.pagenav a:hover {
 	color: #004B93;
 }
-.pagenav a i{
+.pagenav a i {
 	margin: 0 5px;
 	color: #FF7400;
 	font-weight: bold;
 }
-.pagenav .previous{
+.pagenav .previous {
 	float: left;
 }
-.pagenav .next{
+.pagenav .next {
 	float: right;
 }
-.pagenav span{
+.pagenav span {
 	display: none;
 }
-
-
 .quickask {
-  background: url("../img/ask_bb.png") no-repeat scroll 0 0 transparent;
-  clear: both;
-  height: 265px;
-  padding: 0 10px;
+	background: url("../img/ask_bb.png") no-repeat scroll 0 0 transparent;
+	clear: both;
+	height: 265px;
+	padding: 0 10px;
 }
 .quickask form {
-  background: url("../img/ask_bg.png") repeat-x scroll 0 0 transparent;
-  height: 265px;
-  margin: 0;
-  width: 520px;
+	background: url("../img/ask_bg.png") repeat-x scroll 0 0 transparent;
+	height: 265px;
+	margin: 0;
+	width: 520px;
 }
 .quickask #asktit {
-  background: url("../img/ask_tit.jpg") no-repeat scroll 0 0 transparent;
-  color: #4F7095;
-  margin: 0;
-  padding-top: 50px;
+	background: url("../img/ask_tit.jpg") no-repeat scroll 0 0 transparent;
+	color: #4F7095;
+	margin: 0;
+	padding-top: 50px;
 }
 .quickask label {
-  clear: both;
-  float: left;
-  width: 140px;
+	clear: both;
+	float: left;
+	width: 140px;
 }
 .quickask .txt {
-  float: left;
-  height: 12px;
-  line-height: 12px;
-  margin: 3px 3px 0 0;
-  width: 200px;
+	float: left;
+	height: 12px;
+	line-height: 12px;
+	margin: 3px 3px 0 0;
+	width: 200px;
 }
 .ajaxSearch_highlight, .red {
-  color: red;
-  font-weight: 700;
+	color: red;
+	font-weight: 700;
 }
 .quickask .ptxt {
-  float: left;
-  height: 55px;
-  margin-top: 3px;
-  width: 360px;
+	float: left;
+	height: 55px;
+	margin-top: 3px;
+	width: 360px;
 }
 .quickask a {
-  float: right;
-  margin: 5px 20px 0 0;
+	float: right;
+	margin: 5px 20px 0 0;
 }
-.pagenav{
+.pagenav {
 	padding: 30px 0;
 }
-.conflotaright{
+.conflotaright {
 	float: right;
 	clear: right;
 }
-.fleft{
+.fleft {
 	float: left;
 }
-ul.picapp{
+ul.picapp {
 	display: block;
-float: left;
-width: 707px;
+	float: left;
+	width: 707px;
 }
-.picapp .bl2{
+.picapp .bl2 {
 	margin: 0 55px;
-width: 210px;
+	width: 210px;
 }
-
-.guide .conbody{
-	padding: 20px 50px;
+.guide .conbody {
+	padding: 20px 30px;
 }
-
 .box {
-  margin: 10px 0;
+	margin: 10px 0;
 }
 .box .inbox {
-  float: left;
-  width: 420px;
+	float: left;
+	width: 420px;
 }
 .box .inbox img {
-  margin: 0 10px 10px 20px;
+	margin: 0 10px 10px 20px;
 }

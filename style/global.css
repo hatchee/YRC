@@ -125,13 +125,13 @@ img {
 /*the customize styles*/
 
 .wrap {
-
+	padding: 0 0 130px 0;
 	background: url(/image/footer.jpg) no-repeat center bottom;
 }
 .headtop {
 
 	width: 980px;
-	height: 90px;
+	height: 93px;
 	margin: 0 auto;
 }
 .headtop div {
@@ -335,8 +335,7 @@ img {
 	width: 92px;
 }
 .buttonsear:hover {
-
-	background: url(../image/searchsub.png) no-repeat scroll 0 -27 transparent;
+	background: url(../image/searchsub.png) no-repeat scroll 0 -27px transparent;
 }
 .calhref {
 
@@ -380,7 +379,6 @@ img {
 	display: none;
 	margin-left: -10px;
 	margin-top: -10px;
-	background-color: none;
 }
 /*******游船搜索结束******/
 
@@ -883,6 +881,14 @@ h3.bgtitle img {
 	padding-left: 6px;
 	font-weight: 600;
 }
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+/***** Chrome、Safari *****/
+.btn-customize a {
+	font-size: 13px;
+}
+}
+
+
 .btn-customize a:hover {
 
 	background: url("../image/btn-customize.png") repeat-x scroll center top transparent;
@@ -900,7 +906,6 @@ h3.bgtitle img {
 	width: 110px;
 }
 .author-list li a {
-
 	color: #666666;
 	display: block;
 	float: left;
@@ -908,7 +913,6 @@ h3.bgtitle img {
 	text-decoration: none;
 }
 .author-list li a:hover {
-
 	background: #F0F0F0;
 	border: 1px dashed #DDD;
 	color: #222;
@@ -916,7 +920,6 @@ h3.bgtitle img {
 	padding: 4px;
 }
 .img-icon {
-
 	border: 1px solid #CCCCCC;
 	display: block;
 	height: 61px;
@@ -925,7 +928,6 @@ h3.bgtitle img {
 	width: 61px;
 }
 .team h4 {
-
 	text-align: center;
 	color: #000;
 	font-size: 1.5em;
@@ -938,59 +940,48 @@ h3.bgtitle img {
 	background: #fef8e2;
 }
 .quickanswer h3 {
-
 	color: #000;
 	padding: 10px 10px 5px;
 }
 .quickinfo {
-
 	background: url('../image/quick.jpg') no-repeat scroll center bottom transparent;
 	height: 126px;
 	padding: 0px 10px;
 }
 .quickinfo dt {
-
 	line-height: 16px;
 	padding: 5px 0px 5px 5px;
 }
 .quickinfo dd {
-
 	width: 100px;
 	line-height: 15px;
 	padding-left: 5px;
 	color: #004B93;
 }
 .quickform {
-
 	padding: 0px 10px 5px;
 }
 .quickform label {
-
 	width: 200px;
 	display: block;
 	margin-top: 5px;
 }
 .quickform input {
-
 	width: 195px;
 	border: 1px solid #d9af54;
 }
 .quickform select {
-
 	width: 195px;
 	border: 1px solid #d9af54;
 }
 .quickform textarea {
-
 	width: 195px;
 	border: 1px solid #d9af54;
 }
 .quickform .tip {
-
 	color: #004B93;
 }
 .quickform .btn {
-
 	background-image: url("../image/enquiry-small2.gif");
 	background-repeat: no-repeat;
 	display: block;
@@ -1005,7 +996,6 @@ h3.bgtitle img {
 .sns span.stButton {
 	margin: 0px;
 }
-
 .pi{
 	color: #FF7400;
 }

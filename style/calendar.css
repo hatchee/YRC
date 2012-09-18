@@ -141,11 +141,14 @@
 }
 .tabunit .star{
 	width: 59px;
-	float: right;
-	margin: 4px 0 0 0;
+	/*float: right;*/
+	/*margin: 4px 0 0 0;*/
+	position: absolute;
+	right: 0;
+	top: 5px;
 }
-
-
+.tabunit table td p a{
+}
 .tabunit table td p i{
 	color: red;
 	font-size: 11px;
@@ -165,4 +168,67 @@
 	color: #666666;
 	font-size: 11px;
 	font-style: normal;
+}
+
+.tabunit td p{
+	position: relative;
+}
+.tabunit td p .cons{
+
+	border: 1px solid #CCCCCC;
+	font-size: 11px;
+	left: 10px;
+	line-height: 14px;
+
+	position: absolute;
+	top: 20px;
+	z-index: 5;
+	width: 160px;
+	padding: 3px 4px;
+
+	background: #bfe6fe; /* Old browsers */
+	background: -moz-linear-gradient(top,  #bfe6fe 0%, #eff8ff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bfe6fe), color-stop(100%,#eff8ff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #bfe6fe 0%,#eff8ff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #bfe6fe 0%,#eff8ff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #bfe6fe 0%,#eff8ff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #bfe6fe 0%,#eff8ff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfe6fe', endColorstr='#eff8ff',GradientType=0 ); /* IE6-9 */
+
+}
+
+.cons .inq{
+	background: url("/image/cal-sprite.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	float: left;
+	height: 20px;
+	text-indent: -9999px;
+	width: 72px;
+}
+.cons .inq:hover{
+	background: url("/image/cal-sprite.png") no-repeat scroll 0 -23px transparent;
+}
+.cons .det{
+	background: url("/image/cal-sprite.png") no-repeat scroll -80px 0 transparent;
+	display: block;
+	float: left;
+	height: 19px;
+	margin: 0 0 0 25px;
+	text-indent: -9999px;
+	width: 53px;
+}
+.cons .det:hover{
+	background: url("/image/cal-sprite.png") no-repeat scroll -80px -23px transparent;
+}
+
+.cons .close{
+	width: 8px;
+	height: 8px;
+	display: block;
+	position: absolute;
+	z-index: 6;
+	right: 0px;
+	top: 0px;
+	background: url("/image/close.png") no-repeat scroll 0 0 transparent;
+	cursor: pointer;
 }
